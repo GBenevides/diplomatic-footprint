@@ -1,0 +1,11 @@
+fastjsonschema
+json5
+jsonschema
+topojson
+pandas
+pdfminer
+pyparsing
+PyPDF2
+regex
+streamlit-folium
+streamlit
