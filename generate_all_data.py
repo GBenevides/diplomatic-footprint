@@ -1,10 +1,12 @@
 from csv_from_official_doc import generate_csv
 
 data_path_prefix = "data/Viagens-internacionais-"
-verbose = False
 temer = {"2017": 9, "2018": 8}
 dilma = {"2011": [17], "2012": 15, "2013": 18, "2014": 12, "2015": 16, "2016": 3}
-lula = {}
+lula = {"2006": 16, "2007": 36, "2008": [33]}#, "2009": 0, "2010": 0}
+lula = { "2008": [33]}#, "2009": 0, "2010": 0}
+
+verbose = True
 
 
 def generate_csv_by_year(name, years_visits):
@@ -22,11 +24,11 @@ def generate_csv_by_year(name, years_visits):
             print("Done!")
             print("--------------")
         else:
-            raise Exception(
-                "Inconsistent number of visits! Expected " + str(visits) + " and found " + str(nb_visits) + ".")
+            raise Exception("Expected " + str(visits) + " but found " + str(nb_visits) + " visits.")
 
 
 print("Generating files")
 print("--------------")
-generate_csv_by_year("Dilma", dilma)
-generate_csv_by_year("Temer", temer)
+generate_csv_by_year("Lula", lula)
+# generate_csv_by_year("Dilma", dilma)
+# generate_csv_by_year("Temer", temer)

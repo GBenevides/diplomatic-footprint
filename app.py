@@ -26,8 +26,14 @@ MAP_HEIGHT = 400
 
 TEMER_KEY = "Michel Temer"
 DILMA_KEY = "Dilma Roussef"
+LULA_KEY = "Lula da Silva"
 
 presidents_info = {
+    LULA_KEY: {"short": "Lula", "duration": "2003-2010", "party": "Workers' Party (PT)",
+               "political position": [["Progressivism", "https://en.wikipedia.org/wiki/Progressivism"],
+                                      ["Democratic socialism", "https://en.wikipedia.org/wiki/Democratic_socialism"],
+                                      ["Centre-left", "https://en.wikipedia.org/wiki/Centre-left_politics#_Brazil"],
+                                      ]},
     DILMA_KEY: {"short": "Dilma", "duration": "2011-2016", "party": "Workers' Party (PT)",
                 "political position": [["Progressivism", "https://en.wikipedia.org/wiki/Progressivism"],
                                        ["Democratic socialism", "https://en.wikipedia.org/wiki/Democratic_socialism"],
@@ -36,7 +42,7 @@ presidents_info = {
     TEMER_KEY: {"short": "Michel", "duration": "2016-2018", "party": "Brazilian Democratic Movement (MDB)",
                 "political position": [["Big tent", "https://en.wikipedia.org/wiki/Big_tent#Brazil"],
                                        ["Economic liberalism", "https://en.wikipedia.org/wiki/Economic_liberalism"],
-                                       ["Centre/centre-right", "https://en.wikipedia.org/wiki/Centre-right_politics"]]}
+                                       ["Centre/centre-right", "https://en.wikipedia.org/wiki/Centre-right_politics"]]},
 }
 
 
@@ -87,7 +93,7 @@ def stats_from_pres(df_visits, term):
     visits_per_year = president_groupby_year.size()
     most_visits_year = visits_per_year.idxmax()
     most_visits = visits_per_year.max()
-    return str(president_groupby_year.size().mean()), str(most_visits_year) + " [" + str(most_visits) + "]", str(
+    return "{:.2f}".format(president_groupby_year.size().mean()), str(most_visits_year) + " [" + str(most_visits) + "]", str(
         num_distinct_countries)
 
 
@@ -145,11 +151,12 @@ def main():
                 </style>
                 ''', unsafe_allow_html=True)
 
-    # Load Data - Temer
-    df_visits_temer_2017 = pd.read_csv('data/Temer_official_visits-2017.csv', encoding='unicode_escape')
-    df_visits_temer_2018 = pd.read_csv('data/Temer_official_visits-2018.csv', encoding='unicode_escape')
-    df_visits_temer = pd.concat([df_visits_temer_2017, df_visits_temer_2018])
-    df_visits_temer["president"] = TEMER_KEY
+    # Load Data - Lula
+    df_visits_lula_2006 = pd.read_csv('data/Lula_official_visits-2006.csv', encoding='unicode_escape')
+    df_visits_lula_2007 = pd.read_csv('data/Lula_official_visits-2007.csv', encoding='unicode_escape')
+    df_visits_lula_2008 = pd.read_csv('data/Lula_official_visits-2008.csv', encoding='unicode_escape')
+    df_visits_lula = pd.concat([df_visits_lula_2006, df_visits_lula_2007, df_visits_lula_2008])
+    df_visits_lula["president"] = LULA_KEY
 
     # Load Data - Dilma
     df_dilma11 = pd.read_csv('data/Dilma_official_visits-2011.csv', encoding='unicode_escape')
@@ -161,8 +168,14 @@ def main():
     df_dilma = pd.concat([df_dilma11, df_dilma12, df_dilma13, df_dilma14, df_dilma15, df_dilma16])
     df_dilma["president"] = DILMA_KEY
 
+    # Load Data - Temer
+    df_visits_temer_2017 = pd.read_csv('data/Temer_official_visits-2017.csv', encoding='unicode_escape')
+    df_visits_temer_2018 = pd.read_csv('data/Temer_official_visits-2018.csv', encoding='unicode_escape')
+    df_visits_temer = pd.concat([df_visits_temer_2017, df_visits_temer_2018])
+    df_visits_temer["president"] = TEMER_KEY
+
     # Join Data
-    df_visits = pd.concat([df_visits_temer, df_dilma])
+    df_visits = pd.concat([df_visits_lula, df_dilma, df_visits_temer])
 
     # Display sidebar
     pres = display_president_filter(df_visits)

@@ -10,11 +10,27 @@ import sys
 import PyPDF2
 
 
+def mk_degenerate_cases(year):
+    cases = []
+    if year == "2007":
+        jamaica = blank_visit_entry(year)
+        jamaica["Country"] = "Jamaica"
+        jamaica["City/region"] = "Kingston"
+        jamaica["Overview"] = jamaica_visit_2007_overview
+        jamaica["Period"] = "9 de Agosto"
+        jamaica["Host"] = "Host"
+        cases.append(jamaica)
+    return cases
+
+
 def generate_csv(path, year, csv_prefix, verbose=False, pdfMiner=True, rearrange=True):
     pdf_text = convert_pdf_to_txt_pdfminer(path) if pdfMiner else convert_pdf_to_txt_pypdf2(path)
     raw_visits = visits_from_text(pdf_text, year)
+    if verbose:
+        for entry in raw_visits: print(entry)
     visits = rearrange_state_visits(raw_visits) if rearrange else raw_visits
-
+    degenerate_cases = mk_degenerate_cases(year)
+    visits = visits + degenerate_cases
     nb_visits = len(visits)
     if verbose:
         print("Number of visits", nb_visits)
@@ -58,9 +74,9 @@ def convert_pdf_to_txt_pdfminer(path):
     return text
 
 
-headers = ["Presidência da República", "Casa Civil", "Secretaria Especial de Comunicação Social",
-           "Viagens Internacionais", "Viagens Internacionais do Presidente da República",
-           "Secretaria de Comunicação Social", "Secretaria de Imprensa"]
+unwanted_lines = ["","Presidência da República", "Casa Civil", "Secretaria Especial de Comunicação Social",
+                  "Viagens Internacionais", "Viagens Internacionais do Presidente da República",
+                  "Secretaria de Comunicação Social", "Secretaria de Imprensa", 'Viagens Internacionais do Presidente da República/2008']
 
 
 def same_visit(visit, father_visit):
@@ -92,17 +108,75 @@ def rearrange_state_visits(visits):
     for visit in visits[1:]:
         if visit["Period"] and not same_visit(visit, father_visit):
             if father_visit != {}:
-                rearranged.append(father_visit)
+                append_visits(father_visit, rearranged)
             father_visit = visit
-        else:
+        elif 'Jamaica Broilers Group' not in visit["Overview"]:  # unstructured pdf :(
             father_visit["Overview"] += "\n\n-  [" + visit["City/region"] + "]"
             father_visit["Overview"] += visit["Overview"] + "\n"
-    rearranged.append(father_visit)
+    append_visits(father_visit, rearranged)
     return rearranged
+
+
+def append_visits(father_visit, rearranged_list):
+    country = father_visit["Country"]
+    country_separator = ";"
+    if country_separator in country:  # Generate different visits with exact same content
+        sub_visits = break_up_multiple_countries_visits(father_visit)
+        rearranged_list += sub_visits
+    else:
+        rearranged_list.append(father_visit)
+
+
+def break_up_multiple_countries_visits(father_visit):
+    sub_visits = [father_visit]
+    country = father_visit["Country"]
+    countries = country.split(";")
+    father_visit["Country"] = countries[0]
+    for c in countries[1:]:
+        clone = father_visit.copy()
+        clone["Country"] = c
+        sub_visits.append(clone)
+    return sub_visits
 
 
 def blank_visit_entry(year):
     return {"year": year, "Overview": "", "Host": "Host", "Period": ""}
+
+
+def format_location(loc):
+    prepositions = ["De", "Do", "E", "Da", "Das", "Del"]
+    loc = loc.strip().strip("()")
+    loc = loc.title()
+    for prep in prepositions:
+        prep_spaces = f" {prep} "
+        prep_spaces_lower = f" {prep.lower()} "
+        loc = loc.replace(prep_spaces, prep_spaces_lower)
+    return loc
+
+
+def check_no_prohibitive_locs(line):
+    prohibitive_terms = ["Celac", "Aprobras", "Sica"]
+    prohibitive_lines = ["Ouagadougou / Burkina Faso", "Brazzaville / Congo"]
+    for term in prohibitive_terms:
+        if term in line: return False
+    for term in prohibitive_lines:
+        if line == term: return False
+    return True
+
+
+def brutal_replace_if_any(raw, year):  # pdf too inconsistent
+    replacement = raw
+    replace_lines={
+        'São Salvador (El Salvador) e Havana (Cuba)' : ['Haitielsalvador (Salv Cuba)', '2008'],
+        'Punta Arenas (Chile) Estação Antártica Comandante Ferraz': ['Punta Arenas (Chile)', '2008'],
+        'Punta Arenas (Chile ) Estação Antártica Comandante Ferraz': ['Punta Arenas (Chile)', '2008'],
+        'Oiapoque, Macapá (AP)  e Guiana Francesa' : ['Oiapoque (França)', '2008'],
+        'Oiapoque, Macapá (AP) e Guiana Francesa': ['Oiapoque (França)', '2008']
+
+    }
+    if raw in replace_lines.keys() and replace_lines[raw][1] == year:
+        replacement = replace_lines[raw][0]
+    return replacement
 
 
 def visits_from_text(pdf_text, year):
@@ -110,11 +184,17 @@ def visits_from_text(pdf_text, year):
     month_re = re.compile(
         r"(Janeiro|Fevereiro|Março|Abril|Maio|Junho|Julho|Agosto|Setembro|Outubro|Novembro|Dezembro)\s*$",
         re.IGNORECASE)
-    # location_re = re.compile(r"^([\w\s]+)\s+\(([\w\s]+)\)") # Parenthesis: Lima (Peru)
-    # location_re = re.compile(r"^([\w\s]+)\s+\(([\w\s]+[a-z]+[\w\s]+)\)") # Same, but at least 1 lower case in country
+    month__colon_re = re.compile(
+        r"(Janeiro|Fevereiro|Março|Abril|Maio|Junho|Julho|Agosto|Setembro|Outubro|Novembro|Dezembro):\s*$",
+        re.IGNORECASE)
+    location_re = re.compile(r"^([\w\s]+)\s+\(([\w\s]+)\)")  # Parenthesis: Lima (Peru)
+    location_re = re.compile(r"^([\w\s]+)\s+\(([\w\s]+[a-z]+[\w\s]+)\)")  # Same, but at least 1 lower case in country
     location_re = re.compile(r"^([\w\s]+)\s+\(([\w\s]+[a-z]+[\w\s]+|EUA)\)")  # Same, but accept EUA
+    location_re = re.compile(r"^([A-Z][\w\s]+)\s+\(([\w\s]+[a-z]+[\w\s]+|EUA)\)")  # Same, but first letter is upercase
+    location_re = re.compile(r"^([A-Z][\w\s]+)\s+\(([\w\s]+[a-z]+[\w\s]+|EUA)\)$")  # Same, but ends after ()
+
     location2_re = re.compile(r"^(?!-)\s*([\w\s]+)/([\w\s]+)")  # Slash: Lima/Peru
-    vowel_check = re.compile(r"[aeiouAEIOU]")
+    vowel_check = re.compile(r"[aeiouAEIOU]")  # Matches if there is a vowel
     period_re = re.compile(r"Período:\s+(.+)")
     period_re = re.compile(r"Período:?\s+(.+)")  # ":" optional
 
@@ -122,36 +202,39 @@ def visits_from_text(pdf_text, year):
     updated_re = re.compile(r"^(?!Atualizado).*(?<!\d{2}/\d{2}/\d{4}$)")
 
     state_visits = []
-    current_visit = blank_visit_entry(year)
+    awkward_locs = ['Pequim, Sanya, Boao e Xian (China)', 'VALPARAÍSO  e VIÑA DEL MAR (Chile)',
+                    'GABORONE (Botsuana) e JOHANESBURGO (África do Sul)', 'SANTIAGO (Chile) e BUENOS AIRES (Argentina)',
+                    'Tegucigalpa (HONDURAS) e  Manágua  (NICARÁGUA)', 'Díli (Timor-Leste)',
+                    'São Salvador (El Salvador) e Havana (Cuba)']
+    malformed_periods = {'Período: 15 de setembro de 2008': "15 de setembro" }
     last_is_overview = False
-    awkward_locs = ['Pequim, Sanya, Boao e Xian (China)']
+    current_visit = blank_visit_entry(year)
 
     # Iterate over the lines in the pdf text
     for line in pdf_text.split("\n"):
         line = line.strip()
         # Check if the line matches a header or month, it should be ignored
-        if line in headers:
+        if line in unwanted_lines:
             continue
         # Check if the line matches a period
         period_match = period_re.search(line)
         month_match = month_re.search(line)
-        if period_match and month_match:
-            current_visit["Period"] = period_match.group(1)
+        if period_match and (month_match or line in malformed_periods.keys()):
+            current_visit["Period"] = malformed_periods[line] if line in malformed_periods.keys() else  period_match.group(1)
             continue
         if month_match and not overview_re.search(line):
-            # print("month match", line)
-            # current_month = month_match.group(1)
             continue
         # Check if the line matches a location AND has at least one vowel
-        location_match = location_re.search(line)
-        location_match2 = location2_re.search(line)
-        awkward_match = re.search(r"([\w\s,]*)(\(.*\))", line) if line in awkward_locs else None
+        replaced_line = brutal_replace_if_any(line, year)
+        location_match = location_re.search(replaced_line)
+        location_match2 = location2_re.search(replaced_line)
+        awkward_match = re.search(r"([\w\s,]*)(\(.*\))", replaced_line) if replaced_line in awkward_locs else None
         if location_match or location_match2 or awkward_match:
             loc = location_match2 if location_match2 else location_match if location_match else awkward_match
-            loc_country = loc.group(2).strip().strip("()")
-            loc_region = loc.group(1).strip().strip("()")
-            if re.search(vowel_check, loc_country) and (
-                    len(loc_region.split()) < 5 or awkward_match) and "Celac" not in line:
+            loc_country = format_location(loc.group(2))
+            loc_region = format_location(loc.group(1))
+            if re.search(vowel_check, loc_country) and (len(loc_region.split()) < 5 or awkward_match) \
+                    and check_no_prohibitive_locs(replaced_line):
                 # We found a new visit, let's save the current one and start a new one :)
                 if current_visit != blank_visit_entry(year):
                     state_visits.append(current_visit)
@@ -165,7 +248,7 @@ def visits_from_text(pdf_text, year):
                         city = city_mapping[loc_country]
                         country = country_mapping[loc_region]
                     except KeyError:
-                        raise KeyError("Missing key in line:", line, "Year", year)
+                        raise KeyError("Missing key:", loc_country, loc_region, "Year", year)
                 current_visit["City/region"] = f"{city}"
                 current_visit["Country"] = f"{country}"
                 continue
@@ -178,7 +261,8 @@ def visits_from_text(pdf_text, year):
             last_is_overview = True
             continue
         # Sometimes the line will be the continuation of the line before
-        if last_is_overview and line and line not in headers and updated_re.search(line) and len(line) > 1:
+        if last_is_overview and line and line not in unwanted_lines and updated_re.search(line) and len(
+                line) > 1 and not month__colon_re.search(line):
             # if not current_visit["Overview"].endswith("\n"): current_visit["Overview"] += "\n"
             prefix = " "
             if line.startswith("-") or line[0].isupper():
