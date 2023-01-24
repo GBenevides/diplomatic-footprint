@@ -106,10 +106,10 @@ def same_visit(visit, father_visit):
 
 def skip_prohibitive_visits(visit):  # unstructured pdf :(
     overview = visit["Overview"]
-    if "Partida para San Salvador/El Salvador" in overview:
-        return True
-    if 'Jamaica Broilers Group' in overview:
-        return True
+    prohibitive = ['Partida para San Salvador/El Salvador', 'Jamaica Broilers Group']
+    for p in prohibitive:
+        if any(p in s for s in overview):
+            return True
     return False
 
 
@@ -124,9 +124,12 @@ def rearrange_state_visits(visits):
                 append_visits(father_visit, rearranged)
             father_visit = visit
         else:
-            father_visit["Overview"] += "\n\n-  [" + visit["City/region"] + "]"
-            father_visit["Overview"] += visit["Overview"] + "\n"
+            father_visit["Overview"].append(" - [" + visit["City/region"] + "]")
+            father_visit["Overview"] += (visit["Overview"])
     append_visits(father_visit, rearranged)
+    for v in rearranged:
+        v["Overview"] = "\n".join(v["Overview"])
+        v["Overview"] = v["Overview"].replace("–", "-") # More cleaning...
     return rearranged
 
 
@@ -135,7 +138,7 @@ def append_visits(father_visit, rearranged_list):
     country_separator = ";"
     if country_separator in country:  # Generate different visits with exact same content
         sub_visits = break_up_multiple_countries_visits(father_visit)
-        rearranged_list += sub_visits
+        rearranged_list += sub_visits  # Extend list
     else:
         rearranged_list.append(father_visit)
 
@@ -153,7 +156,7 @@ def break_up_multiple_countries_visits(father_visit):
 
 
 def blank_visit_entry(year):
-    return {"year": year, "Overview": "", "Host": "Host", "Period": "", "Country": ""}
+    return {"year": year, "Overview": [], "Host": "Host", "Period": "", "Country": ""}
 
 
 def format_location(loc):
@@ -190,11 +193,13 @@ def brutal_replace_if_any(raw, year):  # Sadly, pdf too inconsistent
         'Lisboa (Portugal) e Kiev (Ucrânia)': ['Kiev (Ucrânia)', '2009'],
         'Porto Príncipe (Haiti) e São Salvador (El Salvador)': ['Portsalv (HaitSalv)', "2008"],
         'Montevidéu (Uruguai) e Santiago (Chile)': ["Montiago (Uruchil)", "2010"],
-        'Jerusalém (Israel), Belém (Palestina), Ramalá (Cisjordânia) e Amã (Jordânia)': ["Jerberama (Ispalcisjor)", "2010"],
+        'Jerusalém (Israel), Belém (Palestina), Ramalá (Cisjordânia) e Amã (Jordânia)': ["Jerberama (Ispalcisjor)",
+                                                                                         "2010"],
         'Buenos Aires (Argentina) e Montevidéu (Uruguai)': ["Buenvideu (Arguay)", "2010"],
-        'Ilha do Sal (Cabo Verde), Malabo (Guiné Equatorial), Nairóbi (Quênia), Dar es Salaam' : ['Ilhamanadarlujo (Caboguique Tanzamafr)', "2010"],
+        'Ilha do Sal (Cabo Verde), Malabo (Guiné Equatorial), Nairóbi (Quênia), Dar es Salaam': [
+            'Ilhamanadarlujo (Caboguique Tanzamafr)', "2010"],
         'Rivera (Uruguai) e Assunção (Paraguai)': ["Rivasu (Urupara)", "2010"],
-        'Caracas (Venezuela) e Bogotá (Colômbia)' : ["Carabogo (Venelombia)", "2010"]
+        'Caracas (Venezuela) e Bogotá (Colômbia)': ["Carabogo (Venelombia)", "2010"]
     }
     if raw in replace_lines.keys() and replace_lines[raw][1] == year:
         replacement = replace_lines[raw][0]
@@ -243,8 +248,8 @@ def visits_from_text(pdf_text, year):
         period_match = period_re.search(line)
         month_match = month_re.search(line)
         if period_match and (month_match or line in malformed_periods.keys()):
-            current_visit["Period"] = malformed_periods[
-                line] if line in malformed_periods.keys() else period_match.group(1)
+            current_visit["Period"] = malformed_periods[line] \
+                if line in malformed_periods.keys() else period_match.group(1)
             continue
         if month_match and not overview_re.search(line):
             continue
@@ -281,7 +286,8 @@ def visits_from_text(pdf_text, year):
         if overview_match:
             # if not current_visit["Overview"].endswith("\n"): current_visit["Overview"] += "\n"
             #            current_visit["Overview"] += "\n" + overview_match.group(1)
-            current_visit["Overview"] += "\n" + line
+            line = " - " + line.lstrip("-").strip()
+            current_visit["Overview"].append(line)
             last_is_overview = True
             continue
         # Sometimes the line will be the continuation of the line before
@@ -289,10 +295,12 @@ def visits_from_text(pdf_text, year):
                 line) > 1 and not month__colon_re.search(line):
             # if not current_visit["Overview"].endswith("\n"): current_visit["Overview"] += "\n"
             prefix = " "
-            if line.startswith("-") or line[0].isupper():
+            if line.startswith("-"):  # or line[0].isupper():
                 line = line.lstrip("-")
-                prefix = '\n - '
-            current_visit["Overview"] += prefix + line
+                prefix = ' - '
+                current_visit["Overview"].append(prefix + line)
+            else:
+                current_visit["Overview"][-1] += prefix + line
             continue
 
     # We do not forget to append the last visit !

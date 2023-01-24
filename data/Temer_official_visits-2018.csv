@@ -1,95 +1,76 @@
 Country,City/region,Period,Host,Overview,year
-Switzerland,Zurich,"22, 23, 24 e 25 de janeiro",Host,"
-- Partida para Zurique/Suíça
-- Chegada a Zurique/Suíça
-- Discurso na Sessão Plenária do Fórum Econômico Mundial 2018
-- Senhor Ángel Gurria, Secretário-Geral da OCDE
-- Senhor Francesco Starace, CEO do Grupo Enel
-- Senhor João Lourenço, Presidente da Angola
-- Senhor Dave MacLennan, CEO da Cargill
-- Senhor Ben Van Beurden, CEO da Shell Global
-- Senhor José Manuel Durão Barroso, Chairman do Goldman-Sachs
-- Senhor Saad Hariri, Primeiro-Ministro do Líbano
-- Senhor Lakshmi Mittal, CEO da ArcelorMittal
-- Senhor Carlos Brito, Presidente Global da Ambev
-- Stephen Fidler, editor Wall Street Journal
-- Arthur Gregg Sulzberger, Publisher/Editor New York Times
-- Isabelle Kumar, apresentadora Euronews
-- Senhor Andrew Liveris, CEO da Sow Chemical
-- Senhor James Quincey, CEO da Coca-Cola
-- “Brazil the Road Ahead”: jantar oferecido pelo Fórum Econômico Mundial ao Senhor
- - Presidente da República
-- Partida de Zurique com destino a Brasília",2018
-Chile,Viña del Mar,11 de março,Host,"
-- Cerimônia Oficial de Transmissão do Mandato Presidencial para o Presidente-eleito do
- - Chile, Senhor Sebastián Piñera",2018
-Peru,Lima,13 e 14 de abril,Host,"
-- Chegada a Lima
-- Thomas J. Donohue, Presidente da Câmara de Comércio dos Estados Unidos da América
-- Juan Orlando Hernández Alvarado, Presidente da República de Honduras
-- Entrevista à Rede de Televisão CNN en Español
-- Cerimônia de Abertura da VIII Cúpula das Américas
-- Jantar em homenagem aos Chefes de Estado e de Governo da VIII Cúpula das Américas
-- Foto Oficial dos Chefes de Estado e de Governo
-- Sessão Plenária da VIII Cúpula das Américas
-- Discurso do Presidente da República
-- Sebastián Piñera, Presidente do Chile
-- Paul Cook, congressista americano e delegação parlamentar
-- Partida de Lima para Brasília/DF",2018
-Paraguay,Asuncion,18 de junho,Host,"
-- Sessão Plenária dos Presidentes dos Estados Partes do Mercosul, Estados Associados e
- - Convidados Especiais
-- Fotografia Oficial
-- Almoço em Homenagem aos Presidentes dos Estados Partes do Mercosul, Estados
- - Associados e Convidados Especiais, oferecido pelo Senhor Horacio Cartes, Presidente da
- - República do Paraguai",2018
-Cape Verde,Sal,17 e 18 de julho,Host,"
-- Partida de Brasília para Ilha do Sal/Cabo Verde
-- Chegada à Ilha do Sal
-- Reunião bilateral com o Presidente de Cabo Verde
-- Fotografia Oficial
-- Abertura Oficial da Conferência de Chefes de Estado e de Governo da CPLP
-- Jantar oferecido pelo Presidente da República de Cabo Verde aos Chefes de Estado e de
- - Governo da CPLP
-- Entrevista para a RTP África
-- Reunião Restrita de Chefes de Estado e de Governo da CPLP
-- Sessão Plenária da Conferência de Chefes de Estado e de Governo da CPLP
-- Almoço dos Chefes de Estado e de Governo da CPLP
-- Partida da Ilha do Sal com destino a Brasília",2018
-Mexico,Puerto Vallarta,23 e 24 de julho,Host,"
-- Chegada a Puerto Vallarta
-- Entrevista à CNN en Español
-- Encontro bilateral com o Presidente dos Estados Unidos Mexicanos, Enrique Peña Nieto
-- Jantar em homenagem aos Chefes de Estado do Mercosul e da Aliança do Pacífico, oferecido pelo Presidente Enrique Peña Nieto
-- Encontro bilateral com o Presidente da República do Chile, Sebastián Piñera
-- Fotografia oficial dos Chefes de Estado do Mercosul e Aliança do Pacífico
-- Reunião dos Chefes de Estado do Mercosul e da Aliança do Pacífico
-- Partida de Puerto Vallarta para Brasília",2018
-South Africa,Johannesburg,"25, 26 e 27 de julho",Host,"
-- Chegada a Joanesburgo
-- Foto do Presidente da República com o Presidente da República da África do Sul e senhora
-- Jantar em homenagem aos Chefes de Estado e de Governo do Brics
-- Apresentação cultural
+Switzerland,Zurich,"22, 23, 24 e 25 de janeiro",Host," - Partida para Zurique/Suíça
+ - Chegada a Zurique/Suíça
+ - Discurso na Sessão Plenária do Fórum Econômico Mundial 2018
+ - Senhor Ángel Gurria, Secretário-Geral da OCDE
+ - Senhor Francesco Starace, CEO do Grupo Enel
+ - Senhor João Lourenço, Presidente da Angola
+ - Senhor Dave MacLennan, CEO da Cargill
+ - Senhor Ben Van Beurden, CEO da Shell Global
+ - Senhor José Manuel Durão Barroso, Chairman do Goldman-Sachs
+ - Senhor Saad Hariri, Primeiro-Ministro do Líbano
+ - Senhor Lakshmi Mittal, CEO da ArcelorMittal
+ - Senhor Carlos Brito, Presidente Global da Ambev
+ - Stephen Fidler, editor Wall Street Journal
+ - Arthur Gregg Sulzberger, Publisher/Editor New York Times
+ - Isabelle Kumar, apresentadora Euronews
+ - Senhor Andrew Liveris, CEO da Sow Chemical
+ - Senhor James Quincey, CEO da Coca-Cola
+ - “Brazil the Road Ahead”: jantar oferecido pelo Fórum Econômico Mundial ao Senhor Presidente da República
+ - Partida de Zurique com destino a Brasília",2018
+Chile,Viña del Mar,11 de março,Host," - Cerimônia Oficial de Transmissão do Mandato Presidencial para o Presidente-eleito do Chile, Senhor Sebastián Piñera",2018
+Peru,Lima,13 e 14 de abril,Host," - Chegada a Lima
+ - Thomas J. Donohue, Presidente da Câmara de Comércio dos Estados Unidos da América
+ - Juan Orlando Hernández Alvarado, Presidente da República de Honduras
+ - Entrevista à Rede de Televisão CNN en Español
+ - Cerimônia de Abertura da VIII Cúpula das Américas
+ - Jantar em homenagem aos Chefes de Estado e de Governo da VIII Cúpula das Américas
+ - Foto Oficial dos Chefes de Estado e de Governo
+ - Sessão Plenária da VIII Cúpula das Américas
+ - Discurso do Presidente da República
+ - Sebastián Piñera, Presidente do Chile
+ - Paul Cook, congressista americano e delegação parlamentar
+ - Partida de Lima para Brasília/DF",2018
+Paraguay,Asuncion,18 de junho,Host," - Sessão Plenária dos Presidentes dos Estados Partes do Mercosul, Estados Associados e Convidados Especiais
+ - Fotografia Oficial
+ - Almoço em Homenagem aos Presidentes dos Estados Partes do Mercosul, Estados Associados e Convidados Especiais, oferecido pelo Senhor Horacio Cartes, Presidente da República do Paraguai",2018
+Cape Verde,Sal,17 e 18 de julho,Host," - Partida de Brasília para Ilha do Sal/Cabo Verde
+ - Chegada à Ilha do Sal
+ - Reunião bilateral com o Presidente de Cabo Verde
+ - Fotografia Oficial
+ - Abertura Oficial da Conferência de Chefes de Estado e de Governo da CPLP
+ - Jantar oferecido pelo Presidente da República de Cabo Verde aos Chefes de Estado e de Governo da CPLP
+ - Entrevista para a RTP África
+ - Reunião Restrita de Chefes de Estado e de Governo da CPLP
+ - Sessão Plenária da Conferência de Chefes de Estado e de Governo da CPLP
+ - Almoço dos Chefes de Estado e de Governo da CPLP
+ - Partida da Ilha do Sal com destino a Brasília",2018
+Mexico,Puerto Vallarta,23 e 24 de julho,Host," - Chegada a Puerto Vallarta
+ - Entrevista à CNN en Español
+ - Encontro bilateral com o Presidente dos Estados Unidos Mexicanos, Enrique Peña Nieto
+ - Jantar em homenagem aos Chefes de Estado do Mercosul e da Aliança do Pacífico, oferecido pelo Presidente Enrique Peña Nieto
+ - Encontro bilateral com o Presidente da República do Chile, Sebastián Piñera
+ - Fotografia oficial dos Chefes de Estado do Mercosul e Aliança do Pacífico
+ - Reunião dos Chefes de Estado do Mercosul e da Aliança do Pacífico
+ - Partida de Puerto Vallarta para Brasília",2018
+South Africa,Johannesburg,"25, 26 e 27 de julho",Host," - Chegada a Joanesburgo
+ - Foto do Presidente da República com o Presidente da República da África do Sul e senhora
+ - Jantar em homenagem aos Chefes de Estado e de Governo do Brics
+ - Apresentação cultural
  - Encontro bilateral com o Presidente da República Popular da China, Xi Jinping
-- Foto de família dos Chefes de Estado e de Governo do Brics
-- Reunião Plenária Fechada dos Chefes de Estado e de Governo do Brics
-- Reunião Plenária Aberta dos Chefes de Estado e de Governo do Brics, 1ª Sessão
-- Reunião Plenária Aberta dos Chefes de Estado e de Governo do Brics, 2ª Sessão
-- Cerimônia de Assinatura de Atos
-- Cerimônia de impressão das mãos dos Chefes de Estado e de Governo do Brics
-- Visita à Fundação Nelson Mandela
-- Encontro bilateral com o Presidente da República da África do Sul, Cyril Ramaphosa
-- Retiro dos Chefes de Estado e de Governo do Brics
--  Foto  de  família  dos  Chefes  de  Estado  e  de  Governo  do  Brics,  do  Brics  Plus  e  do  Brics
- - Outreach África
--  Reunião  dos  Chefes  de  Estado  e  de  Governo  do  Brics  com  os  países  do  Brics  Outreach
- - África  (Ruanda  –  Presidente  da  União  Africana,  Angola,  Botsuana,  Etiópia,  Gabão,  Lesoto,
- - Madagascar,  Malaui,  Maurício,  Moçambique,  Namíbia,  República  Democrática  do  Congo,
- - Senegal,  Tanzânia,  Togo,  Uganda,  Zâmbia,  Zimbábue)  e  do  Brics  Plus  (Argentina,  Egito,
- - Jamaica e Turquia)
-- Partida de Joanesburgo para Brasília",2018
-Paraguay,Asuncion,15 de agosto,Host,"
-- Chegada a Assunção
-- Cerimônia de Transmissão do Mandato Presidencial
-- Te Deum solene pelo novo Período Constitucional e em Comemoração ao 481º Aniversário da Fundação da Cidade de Assunção
-- Chegada a Brasília/DF",2018
+ - Foto de família dos Chefes de Estado e de Governo do Brics
+ - Reunião Plenária Fechada dos Chefes de Estado e de Governo do Brics
+ - Reunião Plenária Aberta dos Chefes de Estado e de Governo do Brics, 1ª Sessão
+ - Reunião Plenária Aberta dos Chefes de Estado e de Governo do Brics, 2ª Sessão
+ - Cerimônia de Assinatura de Atos
+ - Cerimônia de impressão das mãos dos Chefes de Estado e de Governo do Brics
+ - Visita à Fundação Nelson Mandela
+ - Encontro bilateral com o Presidente da República da África do Sul, Cyril Ramaphosa
+ - Retiro dos Chefes de Estado e de Governo do Brics
+ - Foto  de  família  dos  Chefes  de  Estado  e  de  Governo  do  Brics,  do  Brics  Plus  e  do  Brics Outreach África
+ - Reunião  dos  Chefes  de  Estado  e  de  Governo  do  Brics  com  os  países  do  Brics  Outreach África  (Ruanda  -  Presidente  da  União  Africana,  Angola,  Botsuana,  Etiópia,  Gabão,  Lesoto, Madagascar,  Malaui,  Maurício,  Moçambique,  Namíbia,  República  Democrática  do  Congo, Senegal,  Tanzânia,  Togo,  Uganda,  Zâmbia,  Zimbábue)  e  do  Brics  Plus  (Argentina,  Egito, Jamaica e Turquia)
+ - Partida de Joanesburgo para Brasília",2018
+Paraguay,Asuncion,15 de agosto,Host," - Chegada a Assunção
+ - Cerimônia de Transmissão do Mandato Presidencial
+ - Te Deum solene pelo novo Período Constitucional e em Comemoração ao 481º Aniversário da Fundação da Cidade de Assunção
+ - Chegada a Brasília/DF",2018
