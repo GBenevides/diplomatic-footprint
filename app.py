@@ -29,7 +29,7 @@ DILMA_KEY = "Dilma Roussef"
 LULA_KEY = "Lula da Silva"
 
 presidents_info = {
-    LULA_KEY: {"short": "Lula", "duration": "2003-2010", "party": "Workers' Party (PT)",
+    LULA_KEY: {"short": "Lula", "duration": "2007-2010", "party": "Workers' Party (PT)",
                "political position": [["Progressivism", "https://en.wikipedia.org/wiki/Progressivism"],
                                       ["Democratic socialism", "https://en.wikipedia.org/wiki/Democratic_socialism"],
                                       ["Centre-left", "https://en.wikipedia.org/wiki/Centre-left_politics#_Brazil"],
@@ -97,7 +97,7 @@ def stats_from_pres(df_visits, term):
         num_distinct_countries)
 
 
-def display_president_filter(df_visits):
+def display_presidential_sidebar(df_visits):
     st.sidebar.markdown("### Presidential Term")
     term_selected = st.sidebar.selectbox(
         'Select a Presidential term and click on a country to visualize the details of each state visit.',
@@ -113,6 +113,8 @@ def display_president_filter(df_visits):
     st.sidebar.metric(label="Average Visits per Year", value=visits_per_year)
     st.sidebar.metric(label="Busiest Year [Countries Visited]", value=most_visits_year)
     st.sidebar.metric(label="Total Countries Visited", value=distinct_countries)
+    st.sidebar.markdown("---")
+    st.sidebar.markdown("Author: [{text}]({url})".format(text="Gabriel Benevides", url="https://www.linkedin.com/in/gabriel-benevides/"))
     return term_selected
 
 
@@ -180,7 +182,7 @@ def main():
     df_visits = pd.concat([df_visits_lula, df_dilma, df_visits_temer])
 
     # Display sidebar
-    pres = display_president_filter(df_visits)
+    pres = display_presidential_sidebar(df_visits)
     # exp = st.expander(expanded=False, label="Project Overview")
     st.markdown("###### {abstract}".format(abstract=abstract))
     st.header(f'{pres} ({presidents_info[pres]["duration"]})')

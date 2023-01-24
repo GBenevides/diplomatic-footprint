@@ -78,7 +78,8 @@ unwanted_lines = ["", "Presidência da República", "Casa Civil", "Secretaria Es
                   "Viagens Internacionais", "Viagens Internacionais do Presidente da República",
                   "Secretaria de Comunicação Social", "Secretaria de Imprensa",
                   'Viagens Internacionais do Presidente da República/2008',
-                  '(Tanzânia), Lusaca (Zâmbia), Johannesburgo (África do Sul)']
+                  '(Tanzânia), Lusaca (Zâmbia), Johannesburgo (África do Sul)', 'Johanesburgo (África do Sul) e Luanda (Angola)',
+                  'Luanda / Angola','- Chegada ao Aeroporto de Luanda / Angola']
 
 
 def same_visit(visit, father_visit):
@@ -171,12 +172,9 @@ def format_location(loc):
 
 
 def check_no_prohibitive_locs(line):
-    prohibitive_terms = ["Celac", "Aprobras", "Sica", "Unasul", "Cedeao"]
-    prohibitive_lines = ["Ouagadougou / Burkina Faso", "Brazzaville / Congo"]
+    prohibitive_terms = ["Celac", "Aprobras", "Sica", "Unasul", "Cedeao", "Chegada a Pequim"]
     for term in prohibitive_terms:
         if term in line: return False
-    for term in prohibitive_lines:
-        if line == term: return False
     return True
 
 
@@ -199,7 +197,8 @@ def brutal_replace_if_any(raw, year):  # Sadly, pdf too inconsistent
         'Ilha do Sal (Cabo Verde), Malabo (Guiné Equatorial), Nairóbi (Quênia), Dar es Salaam': [
             'Ilhamanadarlujo (Caboguique Tanzamafr)', "2010"],
         'Rivera (Uruguai) e Assunção (Paraguai)': ["Rivasu (Urupara)", "2010"],
-        'Caracas (Venezuela) e Bogotá (Colômbia)': ["Carabogo (Venelombia)", "2010"]
+        'Caracas (Venezuela) e Bogotá (Colômbia)': ["Carabogo (Venelombia)", "2010"],
+        'Ouagadougou/Burkina Faso e  Brazzaville/Congo (África)':['Ouagabraza (Burcongo)', "2007"]
     }
     if raw in replace_lines.keys() and replace_lines[raw][1] == year:
         replacement = replace_lines[raw][0]
@@ -263,7 +262,7 @@ def visits_from_text(pdf_text, year):
             loc_country = format_location(loc.group(2))
             loc_region = format_location(loc.group(1))
             if re.search(vowel_check, loc_country) and (len(loc_region.split()) < 5 or awkward_match) \
-                    and check_no_prohibitive_locs(replaced_line) and loc_country not in current_visit["Country"]:
+                    and check_no_prohibitive_locs(replaced_line):# and loc_country not in current_visit["Country"]:
                 # We found a new visit, let's save the current one and start a new one :)
                 if current_visit != blank_visit_entry(year):
                     state_visits.append(current_visit)
