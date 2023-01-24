@@ -74,9 +74,11 @@ def convert_pdf_to_txt_pdfminer(path):
     return text
 
 
-unwanted_lines = ["","Presidência da República", "Casa Civil", "Secretaria Especial de Comunicação Social",
+unwanted_lines = ["", "Presidência da República", "Casa Civil", "Secretaria Especial de Comunicação Social",
                   "Viagens Internacionais", "Viagens Internacionais do Presidente da República",
-                  "Secretaria de Comunicação Social", "Secretaria de Imprensa", 'Viagens Internacionais do Presidente da República/2008']
+                  "Secretaria de Comunicação Social", "Secretaria de Imprensa",
+                  'Viagens Internacionais do Presidente da República/2008',
+                  '(Tanzânia), Lusaca (Zâmbia), Johannesburgo (África do Sul)']
 
 
 def same_visit(visit, father_visit):
@@ -89,7 +91,7 @@ def same_visit(visit, father_visit):
     visit_day = min(int(x) for x in re.findall(numbers_patten, visit["Period"]))
     visit_month = visit["Period"].split()[-1].lower()
     visit_month_index = months.index(visit_month)
-    same_country = father_visit["Country"] == visit["Country"]
+    same_country = visit["Country"] in father_visit["Country"]
     if abs(visit_month_index - father_month_index) > 1:  # more than a month apart, no way
         same = False
     elif visit_month_index == father_month_index:
@@ -102,15 +104,26 @@ def same_visit(visit, father_visit):
     return same
 
 
+def skip_prohibitive_visits(visit):  # unstructured pdf :(
+    overview = visit["Overview"]
+    if "Partida para San Salvador/El Salvador" in overview:
+        return True
+    if 'Jamaica Broilers Group' in overview:
+        return True
+    return False
+
+
 def rearrange_state_visits(visits):
     rearranged = []
     father_visit = visits[0]
     for visit in visits[1:]:
+        if skip_prohibitive_visits(visit):
+            continue
         if visit["Period"] and not same_visit(visit, father_visit):
             if father_visit != {}:
                 append_visits(father_visit, rearranged)
             father_visit = visit
-        elif 'Jamaica Broilers Group' not in visit["Overview"]:  # unstructured pdf :(
+        else:
             father_visit["Overview"] += "\n\n-  [" + visit["City/region"] + "]"
             father_visit["Overview"] += visit["Overview"] + "\n"
     append_visits(father_visit, rearranged)
@@ -140,7 +153,7 @@ def break_up_multiple_countries_visits(father_visit):
 
 
 def blank_visit_entry(year):
-    return {"year": year, "Overview": "", "Host": "Host", "Period": ""}
+    return {"year": year, "Overview": "", "Host": "Host", "Period": "", "Country": ""}
 
 
 def format_location(loc):
@@ -155,7 +168,7 @@ def format_location(loc):
 
 
 def check_no_prohibitive_locs(line):
-    prohibitive_terms = ["Celac", "Aprobras", "Sica"]
+    prohibitive_terms = ["Celac", "Aprobras", "Sica", "Unasul", "Cedeao"]
     prohibitive_lines = ["Ouagadougou / Burkina Faso", "Brazzaville / Congo"]
     for term in prohibitive_terms:
         if term in line: return False
@@ -164,15 +177,24 @@ def check_no_prohibitive_locs(line):
     return True
 
 
-def brutal_replace_if_any(raw, year):  # pdf too inconsistent
+def brutal_replace_if_any(raw, year):  # Sadly, pdf too inconsistent
     replacement = raw
-    replace_lines={
-        'São Salvador (El Salvador) e Havana (Cuba)' : ['Haitielsalvador (Salv Cuba)', '2008'],
+    replace_lines = {
+        'São Salvador (El Salvador) e Havana (Cuba)': ['Salvadorcuba (Salv Cuba)', '2008'],
         'Punta Arenas (Chile) Estação Antártica Comandante Ferraz': ['Punta Arenas (Chile)', '2008'],
         'Punta Arenas (Chile ) Estação Antártica Comandante Ferraz': ['Punta Arenas (Chile)', '2008'],
-        'Oiapoque, Macapá (AP)  e Guiana Francesa' : ['Oiapoque (França)', '2008'],
-        'Oiapoque, Macapá (AP) e Guiana Francesa': ['Oiapoque (França)', '2008']
-
+        'Oiapoque, Macapá (AP)  e Guiana Francesa': ['Oiapoque (França)', '2008'],
+        'Oiapoque, Macapá (AP) e Guiana Francesa': ['Oiapoque (França)', '2008'],
+        'Paris (França) e Londres (Inglaterra)': ['Parislondres (France Eng)', '2009'],
+        'San Salvador (El Salvador) e Cidade de Guatemala (Guatemala)': ["Salvadorguate (Salv Guate)", '2009'],
+        'Lisboa (Portugal) e Kiev (Ucrânia)': ['Kiev (Ucrânia)', '2009'],
+        'Porto Príncipe (Haiti) e São Salvador (El Salvador)': ['Portsalv (HaitSalv)', "2008"],
+        'Montevidéu (Uruguai) e Santiago (Chile)': ["Montiago (Uruchil)", "2010"],
+        'Jerusalém (Israel), Belém (Palestina), Ramalá (Cisjordânia) e Amã (Jordânia)': ["Jerberama (Ispalcisjor)", "2010"],
+        'Buenos Aires (Argentina) e Montevidéu (Uruguai)': ["Buenvideu (Arguay)", "2010"],
+        'Ilha do Sal (Cabo Verde), Malabo (Guiné Equatorial), Nairóbi (Quênia), Dar es Salaam' : ['Ilhamanadarlujo (Caboguique Tanzamafr)', "2010"],
+        'Rivera (Uruguai) e Assunção (Paraguai)': ["Rivasu (Urupara)", "2010"],
+        'Caracas (Venezuela) e Bogotá (Colômbia)' : ["Carabogo (Venelombia)", "2010"]
     }
     if raw in replace_lines.keys() and replace_lines[raw][1] == year:
         replacement = replace_lines[raw][0]
@@ -205,8 +227,9 @@ def visits_from_text(pdf_text, year):
     awkward_locs = ['Pequim, Sanya, Boao e Xian (China)', 'VALPARAÍSO  e VIÑA DEL MAR (Chile)',
                     'GABORONE (Botsuana) e JOHANESBURGO (África do Sul)', 'SANTIAGO (Chile) e BUENOS AIRES (Argentina)',
                     'Tegucigalpa (HONDURAS) e  Manágua  (NICARÁGUA)', 'Díli (Timor-Leste)',
-                    'São Salvador (El Salvador) e Havana (Cuba)']
-    malformed_periods = {'Período: 15 de setembro de 2008': "15 de setembro" }
+                    'São Salvador (El Salvador) e Havana (Cuba)',
+                    'Roma e L’Aquila (Itália)']
+    malformed_periods = {'Período: 15 de setembro de 2008': "15 de setembro"}
     last_is_overview = False
     current_visit = blank_visit_entry(year)
 
@@ -220,7 +243,8 @@ def visits_from_text(pdf_text, year):
         period_match = period_re.search(line)
         month_match = month_re.search(line)
         if period_match and (month_match or line in malformed_periods.keys()):
-            current_visit["Period"] = malformed_periods[line] if line in malformed_periods.keys() else  period_match.group(1)
+            current_visit["Period"] = malformed_periods[
+                line] if line in malformed_periods.keys() else period_match.group(1)
             continue
         if month_match and not overview_re.search(line):
             continue
@@ -234,7 +258,7 @@ def visits_from_text(pdf_text, year):
             loc_country = format_location(loc.group(2))
             loc_region = format_location(loc.group(1))
             if re.search(vowel_check, loc_country) and (len(loc_region.split()) < 5 or awkward_match) \
-                    and check_no_prohibitive_locs(replaced_line):
+                    and check_no_prohibitive_locs(replaced_line) and loc_country not in current_visit["Country"]:
                 # We found a new visit, let's save the current one and start a new one :)
                 if current_visit != blank_visit_entry(year):
                     state_visits.append(current_visit)

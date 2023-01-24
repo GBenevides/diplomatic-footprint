@@ -68,7 +68,7 @@ def create_map(data, pres, geo_data):
         line_opacity=1.0,
         legend_name='Number of visits',
         highlight=True,
-        bins=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        #bins=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     ).add_to(m)
 
     colormap = layer.color_scale
@@ -155,7 +155,9 @@ def main():
     df_visits_lula_2006 = pd.read_csv('data/Lula_official_visits-2006.csv', encoding='unicode_escape')
     df_visits_lula_2007 = pd.read_csv('data/Lula_official_visits-2007.csv', encoding='unicode_escape')
     df_visits_lula_2008 = pd.read_csv('data/Lula_official_visits-2008.csv', encoding='unicode_escape')
-    df_visits_lula = pd.concat([df_visits_lula_2006, df_visits_lula_2007, df_visits_lula_2008])
+    df_visits_lula_2009 = pd.read_csv('data/Lula_official_visits-2009.csv', encoding='unicode_escape')
+    df_visits_lula_2010 = pd.read_csv('data/Lula_official_visits-2010.csv', encoding='unicode_escape')
+    df_visits_lula = pd.concat([df_visits_lula_2006, df_visits_lula_2007, df_visits_lula_2008, df_visits_lula_2009, df_visits_lula_2010])
     df_visits_lula["president"] = LULA_KEY
 
     # Load Data - Dilma
