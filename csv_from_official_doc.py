@@ -78,8 +78,9 @@ unwanted_lines = ["", "Presidência da República", "Casa Civil", "Secretaria Es
                   "Viagens Internacionais", "Viagens Internacionais do Presidente da República",
                   "Secretaria de Comunicação Social", "Secretaria de Imprensa",
                   'Viagens Internacionais do Presidente da República/2008',
-                  '(Tanzânia), Lusaca (Zâmbia), Johannesburgo (África do Sul)', 'Johanesburgo (África do Sul) e Luanda (Angola)',
-                  'Luanda / Angola','- Chegada ao Aeroporto de Luanda / Angola']
+                  '(Tanzânia), Lusaca (Zâmbia), Johannesburgo (África do Sul)',
+                  'Johanesburgo (África do Sul) e Luanda (Angola)',
+                  'Luanda / Angola', '- Chegada ao Aeroporto de Luanda / Angola']
 
 
 def same_visit(visit, father_visit):
@@ -130,7 +131,9 @@ def rearrange_state_visits(visits):
     append_visits(father_visit, rearranged)
     for v in rearranged:
         v["Overview"] = "\n".join(v["Overview"])
-        v["Overview"] = v["Overview"].replace("–", "-") # More cleaning...
+        # More cleaning...
+        v["Overview"] = v["Overview"].replace("–", "-")
+        v["Period"] = format_location(v["Period"])
     return rearranged
 
 
@@ -161,7 +164,7 @@ def blank_visit_entry(year):
 
 
 def format_location(loc):
-    prepositions = ["De", "Do", "E", "Da", "Das", "Del"]
+    prepositions = ["De", "Do", "E", "Da", "Das", "Del", "A"]
     loc = loc.strip().strip("()")
     loc = loc.title()
     for prep in prepositions:
@@ -198,10 +201,31 @@ def brutal_replace_if_any(raw, year):  # Sadly, pdf too inconsistent
             'Ilhamanadarlujo (Caboguique Tanzamafr)', "2010"],
         'Rivera (Uruguai) e Assunção (Paraguai)': ["Rivasu (Urupara)", "2010"],
         'Caracas (Venezuela) e Bogotá (Colômbia)': ["Carabogo (Venelombia)", "2010"],
-        'Ouagadougou/Burkina Faso e  Brazzaville/Congo (África)':['Ouagabraza (Burcongo)', "2007"]
+        'Ouagadougou/Burkina Faso e  Brazzaville/Congo (África)': ['Ouagabraza (Burcongo)', "2007"],
+        'NOVA DELHI, AGRA, MUMBAI (Índia)': ['Dehliagramum (Índia)', "2004"],
+        'SANTA CRUZ DE LA SIERRA (Bolívia)': ["Santacsi (Bolívia)", "2004"],
+        'SÃO TOMÉ E PRÍNCIPE': ['Saotome (Saotomeeprincipe)', "2004"],
+        "CIUDAD GUAYANA (Venezuela)": ["Ciudaguyana (Venezuela)", "2005"],
+        "ROMA (Itália)": ["Roma (Italia)", "2005"],
+        "ACRA (Gana)": ["Acra (Gana)","2005"]
     }
     if raw in replace_lines.keys() and replace_lines[raw][1] == year:
         replacement = replace_lines[raw][0]
+    return replacement
+
+
+def rectify_loc(line, current_country):
+    replacement = line
+    replace_lines = {
+        '29 de março': ['Período: 29 de março', 'Venezuela'],
+        '07 de abril': ['Período: 07 de abril', 'Italy'],
+        '10 de abril': ['Período: 10 de abril', 'Cameroon'],
+        '11 de abril': ['Período: 11 de abril', 'Nigeria'],
+        '12 de abril': ['Período: 12 de abril', 'Ghana'],
+        '13 de abril': ['Período: 13 de abril','Senegal']
+    }
+    if line in replace_lines.keys() and current_country == replace_lines[line][1]:
+        replacement = replace_lines[line][0]
     return replacement
 
 
@@ -234,18 +258,24 @@ def visits_from_text(pdf_text, year):
                     'São Salvador (El Salvador) e Havana (Cuba)',
                     'Roma e L’Aquila (Itália)']
     malformed_periods = {'Período: 15 de setembro de 2008': "15 de setembro"}
+    missing_period = "BISSAU (Guiné-Bissau)"
+    correct_missing_period = "Bissau (Guiné Bissau)\nPeríodo: 13 de abril\n"
+    if year =="2005":
+        pdf_text = pdf_text.replace(missing_period, correct_missing_period)
     last_is_overview = False
     current_visit = blank_visit_entry(year)
 
     # Iterate over the lines in the pdf text
     for line in pdf_text.split("\n"):
-        line = line.strip()
+        line = basic_prepare_line(line)
         # Check if the line matches a header or month, it should be ignored
         if line in unwanted_lines:
             continue
         # Check if the line matches a period
-        period_match = period_re.search(line)
         month_match = month_re.search(line)
+        if year == "2005" and month_match:
+            line = rectify_loc(line, current_visit["Country"])
+        period_match = period_re.search(line)
         if period_match and (month_match or line in malformed_periods.keys()):
             current_visit["Period"] = malformed_periods[line] \
                 if line in malformed_periods.keys() else period_match.group(1)
@@ -262,7 +292,7 @@ def visits_from_text(pdf_text, year):
             loc_country = format_location(loc.group(2))
             loc_region = format_location(loc.group(1))
             if re.search(vowel_check, loc_country) and (len(loc_region.split()) < 5 or awkward_match) \
-                    and check_no_prohibitive_locs(replaced_line):# and loc_country not in current_visit["Country"]:
+                    and check_no_prohibitive_locs(replaced_line):  # and loc_country not in current_visit["Country"]:
                 # We found a new visit, let's save the current one and start a new one :)
                 if current_visit != blank_visit_entry(year):
                     state_visits.append(current_visit)
@@ -305,6 +335,10 @@ def visits_from_text(pdf_text, year):
     # We do not forget to append the last visit !
     state_visits.append(current_visit)
     return state_visits
+
+
+def basic_prepare_line(line):
+    return line.strip().rstrip("/ 2005")
 
 
 if __name__ == "__main__":

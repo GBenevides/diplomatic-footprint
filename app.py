@@ -29,7 +29,7 @@ DILMA_KEY = "Dilma Roussef"
 LULA_KEY = "Lula da Silva"
 
 presidents_info = {
-    LULA_KEY: {"short": "Lula", "duration": "2007-2010", "party": "Workers' Party (PT)",
+    LULA_KEY: {"short": "Lula", "duration": "2004-2010", "party": "Workers' Party (PT)",
                "political position": [["Progressivism", "https://en.wikipedia.org/wiki/Progressivism"],
                                       ["Democratic socialism", "https://en.wikipedia.org/wiki/Democratic_socialism"],
                                       ["Centre-left", "https://en.wikipedia.org/wiki/Centre-left_politics#_Brazil"],
@@ -154,12 +154,14 @@ def main():
                 ''', unsafe_allow_html=True)
 
     # Load Data - Lula
+    df_visits_lula_2004 = pd.read_csv('data/Lula_official_visits-2004.csv', encoding='unicode_escape')
+    df_visits_lula_2005 = pd.read_csv('data/Lula_official_visits-2005.csv', encoding='unicode_escape')
     df_visits_lula_2006 = pd.read_csv('data/Lula_official_visits-2006.csv', encoding='unicode_escape')
     df_visits_lula_2007 = pd.read_csv('data/Lula_official_visits-2007.csv', encoding='unicode_escape')
     df_visits_lula_2008 = pd.read_csv('data/Lula_official_visits-2008.csv', encoding='unicode_escape')
     df_visits_lula_2009 = pd.read_csv('data/Lula_official_visits-2009.csv', encoding='unicode_escape')
     df_visits_lula_2010 = pd.read_csv('data/Lula_official_visits-2010.csv', encoding='unicode_escape')
-    df_visits_lula = pd.concat([df_visits_lula_2006, df_visits_lula_2007, df_visits_lula_2008, df_visits_lula_2009, df_visits_lula_2010])
+    df_visits_lula = pd.concat([df_visits_lula_2004,df_visits_lula_2005, df_visits_lula_2006, df_visits_lula_2007, df_visits_lula_2008, df_visits_lula_2009, df_visits_lula_2010])
     df_visits_lula["president"] = LULA_KEY
 
     # Load Data - Dilma
