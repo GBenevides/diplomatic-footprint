@@ -138,7 +138,7 @@ country_mapping = {
     "Venelombia" : "Venezuela;Colombia",
     "Congo":"Congo",
     "Gabão":"Gabon",
-    "República Dominicana":"Dominican Republic",
+    "República Dominicana":"Dominican Rep.",
     "Saotomeeprincipe":"São Tomé and Príncipe",
     "Camarões":"Cameroon",
     "Senegal":"Senegal",
@@ -342,3 +342,6 @@ jamaica_visit_2007_overview = "- Chegada do presidente Luiz Inácio Lula da Silv
                               "- Almoço oferecido pela senhora Portia Simpson Miller, primeira-ministra da Jamaica\n" \
                               "- Audiência ao senhor Bruce Golding, líder da oposição no Parlamento\n" \
                               "- Partida do Presidente da República para a Cidade do Panamá / Panamá\n"
+
+months = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro",
+              "novembro", "dezembro"]

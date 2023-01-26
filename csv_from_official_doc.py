@@ -80,12 +80,11 @@ unwanted_lines = ["", "Presidência da República", "Casa Civil", "Secretaria Es
                   'Viagens Internacionais do Presidente da República/2008',
                   '(Tanzânia), Lusaca (Zâmbia), Johannesburgo (África do Sul)',
                   'Johanesburgo (África do Sul) e Luanda (Angola)',
-                  'Luanda / Angola', '- Chegada ao Aeroporto de Luanda / Angola']
+                  'Luanda / Angola', '- Chegada ao Aeroporto de Luanda / Angola',
+                  'Atualizado em 18/12/2007']
 
 
 def same_visit(visit, father_visit):
-    months = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro",
-              "novembro", "dezembro"]
     numbers_patten = re.compile(r'\d+')
     father_day = max(int(x) for x in re.findall(numbers_patten, father_visit["Period"]))
     father_month = father_visit["Period"].split()[-1].lower()
@@ -130,6 +129,12 @@ def rearrange_state_visits(visits):
             father_visit["Overview"] += (visit["Overview"])
     append_visits(father_visit, rearranged)
     for v in rearranged:
+        """
+        for l in v["Overview"]:
+            encontro = "encontro" in l.lower()
+            bilateral = "bilateral" in l.lower()
+            reuniao = "reuniao" in l.lower()
+        """
         v["Overview"] = "\n".join(v["Overview"])
         # More cleaning...
         v["Overview"] = v["Overview"].replace("–", "-")
@@ -207,7 +212,7 @@ def brutal_replace_if_any(raw, year):  # Sadly, pdf too inconsistent
         'SÃO TOMÉ E PRÍNCIPE': ['Saotome (Saotomeeprincipe)', "2004"],
         "CIUDAD GUAYANA (Venezuela)": ["Ciudaguyana (Venezuela)", "2005"],
         "ROMA (Itália)": ["Roma (Italia)", "2005"],
-        "ACRA (Gana)": ["Acra (Gana)","2005"]
+        "ACRA (Gana)": ["Acra (Gana)", "2005"]
     }
     if raw in replace_lines.keys() and replace_lines[raw][1] == year:
         replacement = replace_lines[raw][0]
@@ -222,11 +227,15 @@ def rectify_loc(line, current_country):
         '10 de abril': ['Período: 10 de abril', 'Cameroon'],
         '11 de abril': ['Período: 11 de abril', 'Nigeria'],
         '12 de abril': ['Período: 12 de abril', 'Ghana'],
-        '13 de abril': ['Período: 13 de abril','Senegal']
+        '13 de abril': ['Período: 13 de abril', 'Senegal']
     }
     if line in replace_lines.keys() and current_country == replace_lines[line][1]:
         replacement = replace_lines[line][0]
     return replacement
+
+
+def last_sanity_check_for_month(line):
+    return any([word for word in line.lower().split() if len(word) >= 4 and word not in months])
 
 
 def visits_from_text(pdf_text, year):
@@ -260,7 +269,7 @@ def visits_from_text(pdf_text, year):
     malformed_periods = {'Período: 15 de setembro de 2008': "15 de setembro"}
     missing_period = "BISSAU (Guiné-Bissau)"
     correct_missing_period = "Bissau (Guiné Bissau)\nPeríodo: 13 de abril\n"
-    if year =="2005":
+    if year == "2005":
         pdf_text = pdf_text.replace(missing_period, correct_missing_period)
     last_is_overview = False
     current_visit = blank_visit_entry(year)
@@ -280,7 +289,7 @@ def visits_from_text(pdf_text, year):
             current_visit["Period"] = malformed_periods[line] \
                 if line in malformed_periods.keys() else period_match.group(1)
             continue
-        if month_match and not overview_re.search(line):
+        if month_match and not overview_re.search(line) and not last_sanity_check_for_month(line):
             continue
         # Check if the line matches a location AND has at least one vowel
         replaced_line = brutal_replace_if_any(line, year)
