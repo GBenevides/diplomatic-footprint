@@ -2,10 +2,12 @@ fastjsonschema
 json5
 jsonschema
 topojson
-pandas
-pdfminer
+pandas~=1.5.0
+pdfminer~=20191125
 pyparsing
-PyPDF2
+PyPDF2~=3.0.1
 regex
 streamlit-folium
-streamlit
+streamlit~=1.17.0
+folium~=0.14.0
+spacy~=3.5.0

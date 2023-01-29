@@ -7,6 +7,7 @@ import csv
 import re
 from app_statics import *
 import sys
+import meeting_info_nlp
 import PyPDF2
 
 
@@ -81,7 +82,7 @@ unwanted_lines = ["", "Presidência da República", "Casa Civil", "Secretaria Es
                   '(Tanzânia), Lusaca (Zâmbia), Johannesburgo (África do Sul)',
                   'Johanesburgo (África do Sul) e Luanda (Angola)',
                   'Luanda / Angola', '- Chegada ao Aeroporto de Luanda / Angola',
-                  'Atualizado em 18/12/2007']
+                  'Atualizado em 18/12/2007', 'Madri']
 
 
 def same_visit(visit, father_visit):
@@ -128,17 +129,37 @@ def rearrange_state_visits(visits):
             father_visit["Overview"].append(" - [" + visit["City/region"] + "]")
             father_visit["Overview"] += (visit["Overview"])
     append_visits(father_visit, rearranged)
+    counter = 0
     for v in rearranged:
+        # Extract meeting info?
         """
         for l in v["Overview"]:
             encontro = "encontro" in l.lower()
             bilateral = "bilateral" in l.lower()
             reuniao = "reuniao" in l.lower()
+            reunião 
         """
+        triggers = ["encontro", "bilateral", "trilateral", "reuniao", "reunião"]
+        negative_triggers = ["cerimônia", "encontro empresarial brasil-Argentina, com a presença"]
+        for point in v["Overview"]:
+            post_treated = brutal_replace_if_any(point.strip(), v["year"])
+            if any(t in post_treated.lower() for t in triggers) and not any(
+                    t in post_treated.lower() for t in negative_triggers):
+                ##print("Line triggered:", post_treated)
+                meeting_if_any = meeting_info_nlp.extract_meeting_if_any(post_treated)
+                ##print("Meeting --> ", meeting_if_any)
+                ##print("------------")
+                if meeting_if_any:
+                    print("Meeting --> ", meeting_if_any)
+                    counter += 1
+                    pass
+
         v["Overview"] = "\n".join(v["Overview"])
         # More cleaning...
         v["Overview"] = v["Overview"].replace("–", "-")
+        # Translate overview now ?
         v["Period"] = format_location(v["Period"])
+    print("Total visits", counter)
     return rearranged
 
 
@@ -169,10 +190,10 @@ def blank_visit_entry(year):
 
 
 def format_location(loc):
-    prepositions = ["De", "Do", "E", "Da", "Das", "Del", "A"]
+    articles = ["De", "Do", "E", "Da", "Das", "Del", "A"]
     loc = loc.strip().strip("()")
     loc = loc.title()
-    for prep in prepositions:
+    for prep in articles:
         prep_spaces = f" {prep} "
         prep_spaces_lower = f" {prep.lower()} "
         loc = loc.replace(prep_spaces, prep_spaces_lower)
@@ -212,7 +233,20 @@ def brutal_replace_if_any(raw, year):  # Sadly, pdf too inconsistent
         'SÃO TOMÉ E PRÍNCIPE': ['Saotome (Saotomeeprincipe)', "2004"],
         "CIUDAD GUAYANA (Venezuela)": ["Ciudaguyana (Venezuela)", "2005"],
         "ROMA (Itália)": ["Roma (Italia)", "2005"],
-        "ACRA (Gana)": ["Acra (Gana)", "2005"]
+        "ACRA (Gana)": ["Acra (Gana)", "2005"],
+        "- Cerimônia de abertura de encontro empresar ial, com a presença do presidente de El Salvador, Elias Antonio Saca": [
+            "", "2008"],
+        "- Reunião com os Presidentes dos países membros do Sistema de Integração Centro- Americana (Sica)": ["",
+                                                                                                              "2008"],
+        "- Reunião com os Presidentes dos países membros do Sistema de Integração Centro- Graduados no Brasil (Aprobras) Salvador, Elias Antonio Saca Americana (Sica)": [
+            "", "2008"],
+        "- Encontro com o presidente de Cote d'Ivoire, Laurent Gbagbo": [
+            "- Encontro com o presidente da Costa do Marfim, Laurent Gbagbo", "2008"],
+        "- Encontro com o Presidente da República italiana, Giorgio Napolitano": [
+            "- Encontro com o Presidente da Italia, Giorgio Napolitano", "2008"],
+        "- Encontro com Sua Santidade o Papa Bento XVI": ["- Encontro com chefe do Vaticano, o Papa Bento XVI", "2008"],
+        "- Encontro com a Presidenta da República Argentina, Cristina Fernández de Kirchner": [
+            "- Encontro com a presidenta da Argentina, Cristina Fernández de Kirchner", "2008"]
     }
     if raw in replace_lines.keys() and replace_lines[raw][1] == year:
         replacement = replace_lines[raw][0]
@@ -276,7 +310,7 @@ def visits_from_text(pdf_text, year):
 
     # Iterate over the lines in the pdf text
     for line in pdf_text.split("\n"):
-        line = basic_prepare_line(line)
+        line = basic_prepare_line(line, year)
         # Check if the line matches a header or month, it should be ignored
         if line in unwanted_lines:
             continue
@@ -324,8 +358,8 @@ def visits_from_text(pdf_text, year):
         if overview_match:
             # if not current_visit["Overview"].endswith("\n"): current_visit["Overview"] += "\n"
             #            current_visit["Overview"] += "\n" + overview_match.group(1)
-            line = " - " + line.lstrip("-").strip()
-            current_visit["Overview"].append(line)
+            line_to_append = " - " + line.lstrip("-").strip()
+            current_visit["Overview"].append(line_to_append)
             last_is_overview = True
             continue
         # Sometimes the line will be the continuation of the line before
@@ -346,8 +380,9 @@ def visits_from_text(pdf_text, year):
     return state_visits
 
 
-def basic_prepare_line(line):
-    return line.strip().rstrip("/ 2005")
+def basic_prepare_line(line, year):
+    prep_line = line.strip().rstrip("/ 2005")
+    return prep_line.replace("Caribe - União Européia", "Caribe-União Européia") if year == "2008" else prep_line
 
 
 if __name__ == "__main__":

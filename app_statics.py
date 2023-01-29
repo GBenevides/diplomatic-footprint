@@ -111,7 +111,7 @@ country_mapping = {
     "Vietnã": "Vietnam",
     "Indonésia":"Indonesia",
     "Burkina Faso" : "Burkina Faso",
-    "Timor-Leste" : "East Timor",
+    "Timor-Leste" : "Timor-Leste",
     "Salvadorcuba" : "El Salvador;Cuba",
     "France Eng" : "France;United Kingdom",
     "Trinidad e Tobago" : "Trinidad and Tobago",
@@ -130,7 +130,7 @@ country_mapping = {
     'Coréia do Sul' : "South Korea",
     "Zâmbia":"Zambia",
     "Haitsalv" : "Haiti;El Salvador",
-    "Uruchil" : "Urugay;Chile",
+    "Uruchil" : "Uruguay;Chile",
     "Ispalcisjor" : "Israel;Palestine;West Bank and Gaza;Jordan",
     "Arguay":"Argentina;Uruguay",
     "Caboguique Tanzamafr": "Cape Verde;Eq. Guinea;Kenya;Tanzania;Zambia;South Africa",
@@ -145,7 +145,9 @@ country_mapping = {
     "Escócia":"United Kingdom",
     "República Portuguesa" : "Portugal",
     "Italia":"Italy",
-    "Guiné Bissau": "Guinea-Bissau"
+    "Guiné Bissau": "Guinea-Bissau",
+    "Comitê Olímpico Internacional" : "International Olympic Committee",
+    "Nações Unidas" : "United Nations"
 }
 
 city_mapping = {
