@@ -9,6 +9,7 @@ from app_statics import *
 import sys
 import meeting_info_nlp
 import PyPDF2
+import json
 
 
 def mk_degenerate_cases(year):
@@ -29,20 +30,24 @@ def generate_csv(path, year, csv_prefix, verbose=False, pdfMiner=True, rearrange
     raw_visits = visits_from_text(pdf_text, year)
     if verbose:
         for entry in raw_visits: print(entry)
-    visits = rearrange_state_visits(raw_visits) if rearrange else raw_visits
+    results = rearrange_state_visits(raw_visits) if rearrange else (raw_visits, 0)
+    visits = results[0]
+    nb_meetings = results[1]
     degenerate_cases = mk_degenerate_cases(year)
     visits = visits + degenerate_cases
     nb_visits = len(visits)
     if verbose:
         print("Number of visits", nb_visits)
 
-    with open('data/' + csv_prefix + "-" + year + '.csv', mode='w') as csv_file:
-        writer = csv.DictWriter(csv_file, fieldnames=data_visit_columns)
-        writer.writeheader()
-        for visit in visits:
-            if verbose: print("Writing to csv: ", visit["City/region"], ",", visit["Country"])
-            writer.writerow(visit)
-    return nb_visits
+    # with open('data/' + csv_prefix + "-" + year + '.csv', mode='w') as csv_file:
+    #     writer = csv.DictWriter(csv_file, fieldnames=data_visit_columns)
+    #     writer.writeheader()
+    #     for visit in visits:
+    #         if verbose: print("Writing to csv: ", visit["City/region"], ",", visit["Country"])
+    #         writer.writerow(visit)
+    with open('data/' + csv_prefix + "-" + year + '.json', 'w') as jsonFile:
+        json.dump(visits, jsonFile, indent=4)
+    return nb_visits, nb_meetings
 
 
 def convert_pdf_to_txt_pypdf2(path):
@@ -160,7 +165,7 @@ def rearrange_state_visits(visits):
         # Translate overview now ?
         v["Period"] = format_location(v["Period"])
     print("Total visits", counter)
-    return rearranged
+    return (rearranged, counter)
 
 
 def append_visits(father_visit, rearranged_list):
