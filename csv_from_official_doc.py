@@ -5,6 +5,8 @@ from pdfminer.pdfpage import PDFPage
 from io import StringIO
 import csv
 import re
+
+import app_statics
 from app_statics import *
 import sys
 import meeting_info_nlp
@@ -135,37 +137,57 @@ def rearrange_state_visits(visits):
             father_visit["Overview"] += (visit["Overview"])
     append_visits(father_visit, rearranged)
     counter = 0
+    previous = None  # avoid double host calculation
     for v in rearranged:
-        # Extract meeting info?
-        """
-        for l in v["Overview"]:
-            encontro = "encontro" in l.lower()
-            bilateral = "bilateral" in l.lower()
-            reuniao = "reuniao" in l.lower()
-            reunião 
-        """
-        triggers = ["encontro", "bilateral", "trilateral", "reuniao", "reunião"]
-        negative_triggers = ["cerimônia", "encontro empresarial brasil-Argentina, com a presença"]
-        for point in v["Overview"]:
-            post_treated = brutal_replace_if_any(point.strip(), v["year"])
-            if any(t in post_treated.lower() for t in triggers) and not any(
-                    t in post_treated.lower() for t in negative_triggers):
-                ##print("Line triggered:", post_treated)
-                meeting_if_any = meeting_info_nlp.extract_meeting_if_any(post_treated)
-                ##print("Meeting --> ", meeting_if_any)
-                ##print("------------")
-                if meeting_if_any:
-                    print("Meeting --> ", meeting_if_any)
-                    counter += 1
-                    pass
+        if previous is None or (v["Period"].lower() != previous["Period"].lower()):
+            # Looking for potential hosts...
+            for point in v["Overview"]:
+                post_treated = brutal_replace_if_any(point.strip(), v["year"])
+                if any(t in post_treated.lower() for t in app_statics.triggers + list(app_statics.posts_mapping.keys())) and not any(
+                        t in post_treated.lower() for t in app_statics.negative_triggers):
+                    # print("Line triggered:", post_treated, "date:", v["Period"])
+                    meeting_if_any = meeting_info_nlp.extract_meeting_if_any(post_treated)
+                    ##print("Meeting --> ", meeting_if_any)
+                    ##print("------------")
+                    if meeting_if_any:
+                        print("Meeting --> ", meeting_if_any, "   ---   ", v["Period"], "   ---   ", point)
+                        v["Host"].append(map_name(meeting_if_any))
+                        counter += 1
+                        pass
+        previous = v
 
         v["Overview"] = "\n".join(v["Overview"])
         # More cleaning...
         v["Overview"] = v["Overview"].replace("–", "-")
         # Translate overview now ?
         v["Period"] = format_location(v["Period"])
-    print("Total visits", counter)
-    return (rearranged, counter)
+    print("Total state visits:", counter)
+    print(app_statics.leaders_mapping)
+    return rearranged, counter
+
+
+def map_name(meeting):
+    try:
+        # name, country, post = entry['Person'], entry['Country'], entry['Post']
+        name = meeting['Person']
+        # CHECK HERE TO SPLIT NAMES!
+        code_name = app_statics.leaders_mapping_codes[name]
+        mapped = app_statics.leaders_mapping[code_name]
+        if mapped:
+            entry_post = app_statics.posts_mapping[meeting['Post']]
+            if entry_post not in mapped['posts']:
+                print("Post problem!!!!!!!!!","In:", name)
+        return mapped
+    except KeyError:
+        print("\n\tMissing in figure dict... Suggestion:")
+        entry_post = app_statics.posts_mapping[meeting['Post']]
+        new_entry = make_person_entry(meeting['Person'], meeting['Country'], entry_post)
+        print('"' + meeting['Person'] + '"', ":", new_entry)
+        raise KeyError("Missing key: " + meeting['Person'], meeting)
+
+
+def make_person_entry(name, country, post):
+    return {"figure": name, "country": country, "posts": [post]}
 
 
 def append_visits(father_visit, rearranged_list):
@@ -191,7 +213,7 @@ def break_up_multiple_countries_visits(father_visit):
 
 
 def blank_visit_entry(year):
-    return {"year": year, "Overview": [], "Host": "Host", "Period": "", "Country": ""}
+    return {"year": year, "Overview": [], "Host": [], "Period": "", "Country": ""}
 
 
 def format_location(loc):
