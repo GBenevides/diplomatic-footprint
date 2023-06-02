@@ -11,20 +11,24 @@
         "year": "2009",
         "Overview": " - Visita ao Projeto Agr\u00edcola Comunal \"El Diluvio\"\n - Reuni\u00e3o privada com o Presidente da Venezuela, Hugo Ch\u00e1vez\n - Reuni\u00e3o ampliada com o Presidente da Venezuela, Hugo Ch\u00e1vez  e comitivas\n - Assinatura de atos\n - Almo\u00e7o oferecido pelo Presidente da Venezuela, Hugo Ch\u00e1vez",
         "Host": [
-            {
-                "figure": "Hugo Chavez",
-                "country": "Venezuela",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Hugo Chavez",
-                "country": "Venezuela",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "Hugo Chavez",
+                    "country": "Venezuela",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Hugo Chavez",
+                    "country": "Venezuela",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "16 de Janeiro",
         "Country": "Venezuela",
@@ -34,20 +38,24 @@
         "year": "2009",
         "Overview": " - [Washington]\n - Chegada a Washington (EUA)\n - [Washington]\n - John Sweeney, presidente da Federa\u00e7\u00e3o Americana de Trabalho - Congresso das Organiza\u00e7\u00f5es Industriais (AFL-CIO)\n - Barack Obama, presidente dos Estados Unidos: encontro ampliado\n - Barack Obama, presidente dos Estados Unidos: encontro privado\n - Declara\u00e7\u00e3o conjunta \u00e0 imprensa\n - Almo\u00e7o oferecido pelo embaixador do Brasil nos Estados Unidos\n - [New York]\n - Chegada a Nova Iorque/EUA\n - Chegada ao The Plaza Hotel\n - [New York]\n - Caf\u00e9 da manh\u00e3 com integrantes da dire\u00e7\u00e3o editorial do Wall Street Journal\n - Abertura do Semin\u00e1rio \u201cBrasil: Parceiro Global em uma Nova Economia; Estrat\u00e9gias S\u00f3lidas para Momentos Desafiadores\u201d\n - Entrevista ao programa \u201cFareed Zakaria GPS\u201d, da rede CNN",
         "Host": [
-            {
-                "figure": "John Sweeney",
-                "country": "--entity",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            },
-            {
-                "figure": "Barack Obama",
-                "country": "United States of America",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "John Sweeney",
+                    "country": "--entity",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Barack Obama",
+                    "country": "United States of America",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "13, 14, 15 e 16 de Mar\u00e7o",
         "Country": "United States of America",
@@ -57,34 +65,42 @@
         "year": "2009",
         "Overview": " - Jantar oferecido pela Presidente do Chile, Michelle Bachelet\n - Encontro com a Presidente do Chile, Michelle Bachelet\n - Encontro com o Primeiro-Ministro da Noruega, Jens Stoltenberg\n - Primeira sess\u00e3o da C\u00fapula de L\u00edderes Progressistas\n - Segunda sess\u00e3o da C\u00fapula de L\u00edderes Progressistas\n - Fotografia oficial\n - Confer\u00eancia de imprensa\n - Almo\u00e7o privado oferecido pela Presidente do Chile, Michelle Bachelet\n - Partida para S\u00e3o Paulo (SP)",
         "Host": [
-            {
-                "figure": "Michelle Bachelet",
-                "country": "Chile",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Michelle Bachelet",
-                "country": "Chile",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Jens Stoltenberg",
-                "country": "Norway",
-                "posts": [
-                    "Prime-minister"
-                ]
-            },
-            {
-                "figure": "Michelle Bachelet",
-                "country": "Chile",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "Michele Bachelet",
+                    "country": "Chile",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Michele Bachelet",
+                    "country": "Chile",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Jens Stoltenberg",
+                    "country": "Norway",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Michele Bachelet",
+                    "country": "Chile",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "27 e 28 de Mar\u00e7o",
         "Country": "Chile",
@@ -102,34 +118,43 @@
         "year": "2009",
         "Overview": " - [Paris]\n - Partida para o Palais de L\u2019Elys\u00e9e\n - Almo\u00e7o de trabalho oferecido pelo Presidente da Fran\u00e7a, Nicolas Sarkozy\n - Confer\u00eancia de imprensa\n - Partida, em trem de alta velocidade, para Londres (Inglaterra)\n - [London]\n - Recep\u00e7\u00e3o oferecida por Sua Majestade, rainha Elizabeth II\n - Partida para a resid\u00eancia do primeiro-ministro do Reino Unido, Gordon Brown\n - Jantar oferecido pelo primeiro-ministro do Reino Unido, Gordon Brown\n - [London]\n - Caf\u00e9-da-manh\u00e3 dos chefes de Estado e de Governo do G-20 Financeiro\n - Foto oficial dos chefes de Estado e de Governo do G-20 Financeiro\n - Primeira sess\u00e3o de trabalho dos chefes de Estado e de Governo  do G-20 Financeiro\n - Almo\u00e7o dos chefes de Estado e de Governo do G-20 Financeiro\n - Segunda sess\u00e3o de trabalho dos chefes de Estado e de Governo do G-20 Financeiro\n - Encontro com o Presidente da China, Hu Jintao\n - Entrevista para o programa Newsnight do canal BBC\n - Jantar privado\n - Visita ao canteiro de obras do Parque Ol\u00edmpico - Londres 201\n - Entrevista coletiva \u00e0 imprensa",
         "Host": [
-            {
-                "figure": "Nicolas Sarkozy",
-                "country": "France",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Queen Elizabeth II",
-                "country": "United Kingdom",
-                "posts": [
-                    "Monarch"
-                ]
-            },
-            {
-                "figure": "Gordon Brown",
-                "country": "United Kingdom",
-                "posts": [
-                    "Prime-minister"
-                ]
-            },
-            {
-                "figure": "Hu Jintao",
-                "country": "China",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "Nicolas Sarkozy",
+                    "country": "France",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Queen Elizabeth II",
+                    "country": "United Kingdom",
+                    "posts": [
+                        "Monarch"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Gordon Brown",
+                    "country": "United Kingdom",
+                    "posts": [
+                        "Prime-minister",
+                        "Cabinet Member"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Hu Jintao",
+                    "country": "China",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "01 de Abril",
         "Country": "France",
@@ -139,34 +164,43 @@
         "year": "2009",
         "Overview": " - [Paris]\n - Partida para o Palais de L\u2019Elys\u00e9e\n - Almo\u00e7o de trabalho oferecido pelo Presidente da Fran\u00e7a, Nicolas Sarkozy\n - Confer\u00eancia de imprensa\n - Partida, em trem de alta velocidade, para Londres (Inglaterra)\n - [London]\n - Recep\u00e7\u00e3o oferecida por Sua Majestade, rainha Elizabeth II\n - Partida para a resid\u00eancia do primeiro-ministro do Reino Unido, Gordon Brown\n - Jantar oferecido pelo primeiro-ministro do Reino Unido, Gordon Brown\n - [London]\n - Caf\u00e9-da-manh\u00e3 dos chefes de Estado e de Governo do G-20 Financeiro\n - Foto oficial dos chefes de Estado e de Governo do G-20 Financeiro\n - Primeira sess\u00e3o de trabalho dos chefes de Estado e de Governo  do G-20 Financeiro\n - Almo\u00e7o dos chefes de Estado e de Governo do G-20 Financeiro\n - Segunda sess\u00e3o de trabalho dos chefes de Estado e de Governo do G-20 Financeiro\n - Encontro com o Presidente da China, Hu Jintao\n - Entrevista para o programa Newsnight do canal BBC\n - Jantar privado\n - Visita ao canteiro de obras do Parque Ol\u00edmpico - Londres 201\n - Entrevista coletiva \u00e0 imprensa",
         "Host": [
-            {
-                "figure": "Nicolas Sarkozy",
-                "country": "France",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Queen Elizabeth II",
-                "country": "United Kingdom",
-                "posts": [
-                    "Monarch"
-                ]
-            },
-            {
-                "figure": "Gordon Brown",
-                "country": "United Kingdom",
-                "posts": [
-                    "Prime-minister"
-                ]
-            },
-            {
-                "figure": "Hu Jintao",
-                "country": "China",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "Nicolas Sarkozy",
+                    "country": "France",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Queen Elizabeth II",
+                    "country": "United Kingdom",
+                    "posts": [
+                        "Monarch"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Gordon Brown",
+                    "country": "United Kingdom",
+                    "posts": [
+                        "Prime-minister",
+                        "Cabinet Member"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Hu Jintao",
+                    "country": "China",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "01 de Abril",
         "Country": "United Kingdom",
@@ -176,13 +210,15 @@
         "year": "2009",
         "Overview": " - Cerim\u00f4nia de abertura da V C\u00fapula das Am\u00e9ricas\n - Apresenta\u00e7\u00e3o cultural\n - Recep\u00e7\u00e3o oferecida pelo Primeiro-Ministro de Trinidad e Tobago, Patrick Manning\n - Encontro de chefes de Estado da Uni\u00e3o de Na\u00e7\u00f5es Sul-Americanas (Unasul), com a participa\u00e7\u00e3o do Presidente dos Estados Unidos, Barack Obama\n - Primeira Sess\u00e3o Plen\u00e1ria Reuni\u00e3o privada dos chefes de Estado e de Governo Fotografia oficial\n - Fotografia oficial\n - Almo\u00e7o de trabalho\n - Segunda Sess\u00e3o Plen\u00e1ria\n - Terceira Sess\u00e3o Plen\u00e1ria\n - Jantar oficial, seguido de apresenta\u00e7\u00e3o cultural",
         "Host": [
-            {
-                "figure": "Patrick Manning",
-                "country": "Trinidad and Tobago",
-                "posts": [
-                    "Prime-minister"
-                ]
-            }
+            [
+                {
+                    "figure": "Patrick Manning",
+                    "country": "Trinidad and Tobago",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ]
         ],
         "Period": "17 a 19 de Abril",
         "Country": "Trinidad and Tobago",
@@ -192,13 +228,15 @@
         "year": "2009",
         "Overview": " - Partida para Buenos Aires (Argentina)\n - Chegada a Buenos Aires (Argentina)\n - Encontro privado dos Presidentes do Brasil e da Argentina\n - Reuni\u00e3o ampliada\n - Assinatura da Declara\u00e7\u00e3o Conjunta\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o oferecido pela Presidente da Argentina, Cristina Kirchner",
         "Host": [
-            {
-                "figure": "Cristina Kirchner",
-                "country": "Argentina",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "Cristina Kirchner",
+                    "country": "Argentina",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "22 e 23 de Abril",
         "Country": "Argentina",
@@ -208,27 +246,33 @@
         "year": "2009",
         "Overview": " - Audi\u00eancia ao Secret\u00e1rio-Geral do Conselho de Coopera\u00e7\u00e3o do Golfo, Abdul Rahman al Attiya\n - Jantar oficial oferecido pelo Rei Abdullah bin Abdul Aziz Al Saud\n - Troca de condecora\u00e7\u00f5es\n - Reuni\u00e3o com o Rei Abdullah bin Abdul Aziz Al Saud\n - Cerim\u00f4nia de assinatura de Atos\n - Caf\u00e9 da manh\u00e3 com lideran\u00e7as econ\u00f4micas sauditas, promovido  pela Autoridade Geral de Investimento da Ar\u00e1bia Saudita\n - Visita ao Centro para a Ci\u00eancia e Tecnologia Rei Abdul Aziz\n - Almo\u00e7o com empres\u00e1rios brasileiros e sauditas, oferecido pelo Conselho de C\u00e2maras de Com\u00e9rcio e Ind\u00fastria de Riade\n - Visita ao Museu Nacional da Ar\u00e1bia Saudita\n - Audi\u00eancia ao Pr\u00edncipe Alwaleed bin Talal\n - Audi\u00eancia ao Pr\u00edncipe Mohammed bin Nawaf bin Abdul Aziz Al-Saud\n - Encontro com a imprensa brasileira\n - Partida para Pequim",
         "Host": [
-            {
-                "figure": "Abdul Rahman al Attiya",
-                "country": "---entity",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            },
-            {
-                "figure": "Rei Abdullah bin Abdul Aziz Al Saud",
-                "country": "Saudi Arabia",
-                "posts": [
-                    "Monarch"
-                ]
-            },
-            {
-                "figure": "Rei Abdullah bin Abdul Aziz Al Saud",
-                "country": "Saudi Arabia",
-                "posts": [
-                    "Monarch"
-                ]
-            }
+            [
+                {
+                    "figure": "Abdul Rahman al Attiya",
+                    "country": "---entity",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Rei Abdullah bin Abdul Aziz Al Saud",
+                    "country": "Saudi Arabia",
+                    "posts": [
+                        "Monarch"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Rei Abdullah bin Abdul Aziz Al Saud",
+                    "country": "Saudi Arabia",
+                    "posts": [
+                        "Monarch"
+                    ]
+                }
+            ]
         ],
         "Period": "16 e 17 de Maio",
         "Country": "Saudi Arabia",
@@ -238,41 +282,51 @@
         "year": "2009",
         "Overview": " - Chegada a Pequim/China\n - Jantar privado oferecido pelo Presidente da China, Hu Jintao\n - Entrevista \u00e0 CCTV 1\n - Cerim\u00f4nia de inaugura\u00e7\u00e3o do Centro de Estudos Brasileiros\n - Cerim\u00f4nia  de  encerramento  do  Semin\u00e1rio  Brasil-China:  Novas  Oportunidades  para  a Parceria Estrat\u00e9gica\n - Almo\u00e7o com empres\u00e1rios brasileiros e chineses\n - Encontro com o Primeiro-Ministro da China, Wen Jiabao\n - Encontro com o Vice-Presidente da China, Xi Jinping\n - Encontro com o Presidente da Confer\u00eancia Consultiva do Povo Chin\u00eas, Jia Qinglin\n - Cerim\u00f4nia oficial de boas-vindas\n - Reuni\u00e3o de trabalho com o Presidente da China, Hu Jintao\n - Assinatura de atos\n - Banquete  em  homenagem  ao  Presidente  da  Rep\u00fablica,  oferecido  pelo  Presidente  da China, Hu Jintao Inspe\u00e7\u00e3o do sat\u00e9lite sino-brasileiro CBERS-3\n - Entrevista a jornais chineses e \u00e0 CCTV\n - Assinatura de atos\n - Partida para Istambul/Turquia",
         "Host": [
-            {
-                "figure": "Hu Jintao",
-                "country": "China",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Wen Jiabao",
-                "country": "China",
-                "posts": [
-                    "Prime-minister"
-                ]
-            },
-            {
-                "figure": "Xi Jinping",
-                "country": "China",
-                "posts": [
-                    "Vice-president"
-                ]
-            },
-            {
-                "figure": "Jia Qinglin",
-                "country": "China",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            },
-            {
-                "figure": "Hu Jintao",
-                "country": "China",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "Hu Jintao",
+                    "country": "China",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Wen Jiabao",
+                    "country": "China",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Xi Jinping",
+                    "country": "China",
+                    "posts": [
+                        "Vice-president"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Jia Qinglin",
+                    "country": "China",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Hu Jintao",
+                    "country": "China",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "18 a 20 de Maio",
         "Country": "China",
@@ -282,41 +336,58 @@
         "year": "2009",
         "Overview": " - Chegada a Istambul\n - Encontro com o Primeiro-Ministro da Turquia, Recep Tayyip  Erdogan\n - Partida final da Copa da Uni\u00e3o das Associa\u00e7\u00f5es Europ\u00e9ias de Futebol (UEFA)\n - Encontro com o Presidente da Ucr\u00e2nia, Viktor Yushchenko\n - Passeio de barco pelo Estreito de B\u00f3sforo\n - Sess\u00e3o de encerramento do Semin\u00e1rio Empresarial Brasil-Turquia\n - Almo\u00e7o  em  homenagem  ao  Presidente  da  Rep\u00fablica,  oferecido  pelo  Conselho  de Rela\u00e7\u00f5es Econ\u00f4micas Internacionais da Turquia\n - Visita \u00e0 Mesquita Azul\n - Visita ao Museu de Santa Sofia\n - Visita ao Pal\u00e1cio Topkapi\n - Jantar privado\n - [Ankara]\n - Cerim\u00f4nia de deposi\u00e7\u00e3o de flores\n - Cerim\u00f4nia oficial de chegada\n - Encontro do Presidente da Rep\u00fablica e da senhora Marisa Let\u00edcia Lula da Silva com o - Presidente da Turquia, Abdullah G\u00fcl, e senhora Hayr\u00fcnissa G\u00fcl\n - Reuni\u00e3o privada o Presidente da Turquia, Abdullah G\u00fcl\n - Reuni\u00e3o ampliada\n - Assinatura de ato e confer\u00eancia de imprensa\n - Reuni\u00e3o privada\n - Almo\u00e7o privado\n - Encontro com o Presidente da Grande Assembl\u00e9ia Nacional da Turquia, K\u00f6ksal Toptan\n - Jantar oficial em homenagem ao Presidente da Rep\u00fablica e \u00e0 senhora Marisa Let\u00edcia Lula  da  Silva,  oferecido  pelo  Presidente  da  Turquia,  Abdullah  G\u00fcl,  e  pela  senhora Hayr\u00fcnissa G\u00fcl",
         "Host": [
-            {
-                "figure": "Recep Tayyip Erdogan",
-                "country": "Turkey",
-                "posts": [
-                    "Prime-minister"
-                ]
-            },
-            {
-                "figure": "Viktor Yushchenko",
-                "country": "Ukraine",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Abdullah G\u00fcl;Hayr\u00fcnissa G\u00fcl",
-                "country": "Turkey",
-                "posts": [
-                    "President;First Spouse"
-                ]
-            },
-            {
-                "figure": "Abdullah G\u00fcl",
-                "country": "Turkey",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "K\u00f6ksal Toptan",
-                "country": "Turkey",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            }
+            [
+                {
+                    "figure": "Recep Tayyip Erdogan",
+                    "country": "Turkey",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Viktor Yushchenko",
+                    "country": "Ukraine",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Abdullah G\u00fcl",
+                    "country": "Turkey",
+                    "posts": [
+                        "President"
+                    ]
+                },
+                {
+                    "figure": "Hayr\u00fcnissa G\u00fcl",
+                    "country": "Turkey",
+                    "posts": [
+                        "First-spouse"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Abdullah G\u00fcl",
+                    "country": "Turkey",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "K\u00f6ksal Toptan",
+                    "country": "Turkey",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ]
         ],
         "Period": "20 e 21 de Maio",
         "Country": "Turkey",
@@ -326,20 +397,24 @@
         "year": "2009",
         "Overview": " - [San Salvador]\n - Posse do presidente eleito de El Salvador, Maur\u00edcio Funes\n - Sauda\u00e7\u00e3o das miss\u00f5es oficiais ao Presidente de El Salvador, Maur\u00edcio Funes, e \u00e0 senhora Vanda Pignato\n - Almo\u00e7o em homenagem aos chefes de Estado e de Governo, vice-presidentes e pr\u00edncipes herdeiros, oferecido pelo Presidente de El Salvador, Maur\u00edcio Funes, e a senhora Vanda Pignato\n - Partida para a Cidade da Guatemala/Guatemala\n - [Guatemala City]\n - Reuni\u00e3o com o prefeito da Cidade da Guatemala, \u00c1lvaro Arz\u00fa\n - Cerim\u00f4nia de entrega das chaves da cidade da Guatemala\n - Visita \u00e0 Escola-Tipo Federa\u00e7\u00e3o n\u00ba\n - Almo\u00e7o com o presidente da Guatemala, \u00c1lvaro Colom\n - Partida para S\u00e3o Jos\u00e9/Costa Rica",
         "Host": [
-            {
-                "figure": "\u00c1lvaro Arz\u00fa",
-                "country": "Guatemala",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            },
-            {
-                "figure": "\u00c1lvaro Colom",
-                "country": "Guatemala",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "\u00c1lvaro Arz\u00fa",
+                    "country": "Guatemala",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "\u00c1lvaro Colom",
+                    "country": "Guatemala",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "01 e 02 de Junho",
         "Country": "El Salvador",
@@ -349,20 +424,24 @@
         "year": "2009",
         "Overview": " - [San Salvador]\n - Posse do presidente eleito de El Salvador, Maur\u00edcio Funes\n - Sauda\u00e7\u00e3o das miss\u00f5es oficiais ao Presidente de El Salvador, Maur\u00edcio Funes, e \u00e0 senhora Vanda Pignato\n - Almo\u00e7o em homenagem aos chefes de Estado e de Governo, vice-presidentes e pr\u00edncipes herdeiros, oferecido pelo Presidente de El Salvador, Maur\u00edcio Funes, e a senhora Vanda Pignato\n - Partida para a Cidade da Guatemala/Guatemala\n - [Guatemala City]\n - Reuni\u00e3o com o prefeito da Cidade da Guatemala, \u00c1lvaro Arz\u00fa\n - Cerim\u00f4nia de entrega das chaves da cidade da Guatemala\n - Visita \u00e0 Escola-Tipo Federa\u00e7\u00e3o n\u00ba\n - Almo\u00e7o com o presidente da Guatemala, \u00c1lvaro Colom\n - Partida para S\u00e3o Jos\u00e9/Costa Rica",
         "Host": [
-            {
-                "figure": "\u00c1lvaro Arz\u00fa",
-                "country": "Guatemala",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            },
-            {
-                "figure": "\u00c1lvaro Colom",
-                "country": "Guatemala",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "\u00c1lvaro Arz\u00fa",
+                    "country": "Guatemala",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "\u00c1lvaro Colom",
+                    "country": "Guatemala",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "01 e 02 de Junho",
         "Country": "Guatemala",
@@ -372,20 +451,24 @@
         "year": "2009",
         "Overview": " - Entrevista \u00e0 rede CNN\n - Cerim\u00f4nia oficial de chegada\n - Reuni\u00e3o com o presidente da Costa Rica, \u00d3scar Arias\n - Cerim\u00f4nia de assinatura de atos\n - Almo\u00e7o oferecido pelo presidente da Costa Rica, \u00d3scar Arias",
         "Host": [
-            {
-                "figure": "Oscar Arias",
-                "country": "Costa Rica",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Oscar Arias",
-                "country": "Costa Rica",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "Oscar Arias",
+                    "country": "Costa Rica",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Oscar Arias",
+                    "country": "Costa Rica",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "03 de Junho",
         "Country": "Costa Rica",
@@ -395,20 +478,24 @@
         "year": "2009",
         "Overview": " - Partida para Genebra/Su\u00ed\u00e7a\n - Chegada \u00e0 Genebra/Su\u00ed\u00e7a\n - Entrevista \u00e0 imprensa esportiva internacional\n - Sess\u00e3o do Conselho de Direitos Humanos\n - Encontro com grupo de sindicalistas\n - Assinatura de declara\u00e7\u00e3o conjunta pelo Presidente da Rep\u00fablica e pelo Diretor-Geral da Organiza\u00e7\u00e3o Internacional do Trabalho (OIT), Juan Somavia\n - Participa\u00e7\u00e3o na 98\u00aa Confer\u00eancia Internacional do Trabalho\n - Almo\u00e7o com o Presidente da Fran\u00e7a, Nicolas Sarkozy\n - Encontro com o Secret\u00e1rio-Geral da Uni\u00e3o Internacional de Telecomunica\u00e7\u00f5es (UIT), Hamadoun Tour\u00e9\n - Cerim\u00f4nia de entrega do pr\u00eamio World Telecommunications and Information Society\n - Entrevista coletiva de imprensa\n - Partida para Ecaterimburgo/R\u00fassia",
         "Host": [
-            {
-                "figure": "Nicolas Sarkozy",
-                "country": "France",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Hamadoun Tour\u00e9",
-                "country": "United Nations",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            }
+            [
+                {
+                    "figure": "Nicolas Sarkozy",
+                    "country": "France",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Hamadoun Tour\u00e9",
+                    "country": "United Nations",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ]
         ],
         "Period": "13, 14 e 15 de Junho",
         "Country": "Switzerland",
@@ -418,20 +505,24 @@
         "year": "2009",
         "Overview": " - Reuni\u00e3o com o Presidente da R\u00fassia, Dmitri Medvedev\n - Reuni\u00e3o reservada da C\u00fapula dos BRICs\n - Foto oficial\n - Reuni\u00e3o plen\u00e1ria da C\u00fapula dos BRICs\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Jantar de trabalho oferecido pelo Presidente da R\u00fassia, Dmitri Medvedev\n - Partida para Astana/Cazaquist\u00e3o\n - Chegada a Astana/Cazaquist\u00e3o",
         "Host": [
-            {
-                "figure": "Dmitri Medvedev",
-                "country": "Russia",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Dmitri Medvedev",
-                "country": "Russia",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "Dmitri Medvedev",
+                    "country": "Russia",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Dmitri Medvedev",
+                    "country": "Russia",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "16 de Junho",
         "Country": "Russia",
@@ -441,20 +532,24 @@
         "year": "2009",
         "Overview": " - Entrevista \u00e0 ERA TV e ao jornal Kaz Pravda\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o Presidente do Cazaquist\u00e3o, Nursultan Nazarbayev\n - Reuni\u00e3o ampliada com o Presidente do Cazaquist\u00e3o, Nursultan  Nazarbayev\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o em homenagem ao Presidente da Rep\u00fablica, oferecido pelo Presidente do Cazaquist\u00e3o, Nursultan Nazarbayev\n - Cerim\u00f4nia de deposi\u00e7\u00e3o floral em homenagem aos Defensores da P\u00e1tria\n - Encontro com o Primeiro-Ministro do Cazaquist\u00e3o, Karim Massimov",
         "Host": [
-            {
-                "figure": "Nursultan Nazarbayev",
-                "country": "Kazakhstan",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Karim Massimov",
-                "country": "Kazakhstan",
-                "posts": [
-                    "Prime-minister"
-                ]
-            }
+            [
+                {
+                    "figure": "Nursultan Nazarbayev",
+                    "country": "Kazakhstan",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Karim Massimov",
+                    "country": "Kazakhstan",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ]
         ],
         "Period": "17 de Junho",
         "Country": "Kazakhstan",
@@ -472,27 +567,33 @@
         "year": "2009",
         "Overview": " - Partida para Paris/Fran\u00e7a\n - Chegada a Paris/Fran\u00e7a\n - Entrevista \u00e0 rede BBC\n - Jantar com o Primeiro-Ministro de Portugal, Jos\u00e9 S\u00f3crates\n - Encontro com a imprensa esportiva\n - Despacho interno\n - Encontro com Jacques Chirac, Ex-Presidente da Fran\u00e7a\n - Reuni\u00e3o de trabalho com o Presidente da Fran\u00e7a, Nicolas Sarkozy\n - Declara\u00e7\u00e3o conjunta \u00e0 imprensa\n - Almo\u00e7o Privado\n - Cerim\u00f4nia de entrega do Pr\u00eamio F\u00e9lix Houphou\u00ebt-Boigny pela Busca da Paz\n - Partida para Roma\n - Chegada a Roma",
         "Host": [
-            {
-                "figure": "Jos\u00e9 S\u00f3crates",
-                "country": "Portugal",
-                "posts": [
-                    "Prime-minister"
-                ]
-            },
-            {
-                "figure": "Jacques Chirac",
-                "country": "France",
-                "posts": [
-                    "Ex-president"
-                ]
-            },
-            {
-                "figure": "Nicolas Sarkozy",
-                "country": "France",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "Jos\u00e9 S\u00f3crates",
+                    "country": "Portugal",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Jacques Chirac",
+                    "country": "France",
+                    "posts": [
+                        "Ex-president"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Nicolas Sarkozy",
+                    "country": "France",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "03 a 07 de Julho",
         "Country": "France",
@@ -502,62 +603,78 @@
         "year": "2009",
         "Overview": " - [Rome]\n - Despachos internos\n - Audi\u00eancia a sindicalistas italianos\n - Entrevista \u00e0 imprensa L\u2019Aquila (It\u00e1lia)\n - Encontro com o Presidente do M\u00e9xico, Felipe Calder\u00f3n\n - Fotografia oficial com l\u00edderes do G-\n - Reuni\u00e3o de l\u00edderes do G-\n - Declara\u00e7\u00e3o dos l\u00edderes do G-5 \u00e0 imprensa\n - Jantar oferecido pelo Presidente do M\u00e9xico, Felipe Calder\u00f3n, aos l\u00edderes do G- L\u2019Aquila (It\u00e1lia)\n - Encontro com a Chanceler da Alemanha, Angela Merkel\n - Encontro com o Presidente dos Estados Unidos, Barack Obama\n - Sess\u00e3o plen\u00e1ria sobre Desenvolvimento com l\u00edderes do G-8, G-5 e Egito\n - Almo\u00e7o  de  trabalho:  \u201cFontes  futuras  de  crescimento  no  per\u00edodo  p\u00f3s-crise\",  com  a presen\u00e7a dos l\u00edderes do G-8, G-5, Egito e representantes da Organiza\u00e7\u00e3o das Na\u00e7\u00f5es Unidas (ONU), Fundo Monet\u00e1rio Internacional (FMI), Banco Mundial, Organiza\u00e7\u00e3o para a  Coopera\u00e7\u00e3o  e  Desenvolvimento  Econ\u00f4mico  (OCDE)  e  Ag\u00eancia  Internacional  de Energia At\u00f4mica (AIEA)\n - Representantes do \"Junior-8\"\n - Reuni\u00e3o sobre Com\u00e9rcio Internacional, com l\u00edderes do G-8, G-5, Austr\u00e1lia, Cor\u00e9ia do Sul, Dinamarca, Indon\u00e9sia e representantes da Organiza\u00e7\u00e3o Mundial do Com\u00e9rcio\n - Reuni\u00e3o:\"Foro de grandes economias\", com l\u00edderes do G-8, G-5, Austr\u00e1lia, Cor\u00e9ia do Sul, Dinamarca, Indon\u00e9sia e representantes da ONU\n - Encontro com o Primeiro-Ministro do Jap\u00e3o, Taro Aso\n - Encontro com o Presidente da It\u00e1lia, Giorgio Napolitano\n - Confer\u00eancia de imprensa\n - Jantar oferecido pelo Presidente da It\u00e1lia, Giorgio Napolitano\n - Encontro com o Primeiro-Ministro da Austr\u00e1lia, Kevin Rudd\n - Encontro com o Primeiro-Ministro da Su\u00e9cia, Fredrik Reinfeldt\n - Sess\u00e3o  plen\u00e1ria  sobre  Seguran\u00e7a  Alimentar  com  l\u00edderes  do  G-8,  G-5,  \u00c1frica  do  Sul, Angola,  Arg\u00e9lia,  Austr\u00e1lia,  Cor\u00e9ia  do  Sul,  Dinamarca,  Egito,  Espanha,  Eti\u00f3pia, Indon\u00e9sia,  L\u00edbia,  Nig\u00e9ria,  Pa\u00edses  Baixos,  Senegal,  Turquia  e  representantes  da Organiza\u00e7\u00e3o  Mundial  do  Com\u00e9rcio  (OMC),  Organiza\u00e7\u00e3o  das  Na\u00e7\u00f5es  Unidas  para Agricultura  e  Alimenta\u00e7\u00e3o  (FAO),  Fundo  Internacional  de  Desenvolvimento  Agr\u00edcola (FIDA) e Programa Mundial de Alimentos (PMA)\n - Fotografia oficial\n - Confer\u00eancia de imprensa",
         "Host": [
-            {
-                "figure": "Felipe Calder\u00f3n",
-                "country": "Mexico",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Angela Merkel",
-                "country": "Germany",
-                "posts": [
-                    "Chancellor"
-                ]
-            },
-            {
-                "figure": "Barack Obama",
-                "country": "United States of America",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Taro Aso",
-                "country": "Japan",
-                "posts": [
-                    "Prime-minister"
-                ]
-            },
-            {
-                "figure": "Giorgio Napolitano",
-                "country": "Italy",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Giorgio Napolitano",
-                "country": "Italy",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Kevin Rudd",
-                "country": "Australia",
-                "posts": [
-                    "Prime-minister"
-                ]
-            },
-            {
-                "figure": "Fredrik Reinfeldt",
-                "country": "Sweden",
-                "posts": [
-                    "Prime-minister"
-                ]
-            }
+            [
+                {
+                    "figure": "Felipe Calder\u00f3n",
+                    "country": "Mexico",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Angela Merkel",
+                    "country": "Germany",
+                    "posts": [
+                        "Chancellor"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Barack Obama",
+                    "country": "United States of America",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Taro Aso",
+                    "country": "Japan",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Giorgio Napolitano",
+                    "country": "Italy",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Giorgio Napolitano",
+                    "country": "Italy",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Kevin Rudd",
+                    "country": "Australia",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Fredrik Reinfeldt",
+                    "country": "Sweden",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ]
         ],
         "Period": "08 a 10 de Julho",
         "Country": "Italy",
@@ -567,20 +684,24 @@
         "year": "2009",
         "Overview": " - XXXVII C\u00fapula do Mercosul\n - Confer\u00eancia de imprensa\n - Almo\u00e7o oferecido aos chefes de Estado pelo Presidente do Paraguai, Fernando Lugo\n - Comunicado conjunto sobre investimentos brasileiros no Paraguai\n - Jantar oferecido pelo Presidente do Paraguai, Fernando Lugo\n - Reuni\u00e3o privada com o Presidente do Paraguai, Fernando Lugo\n - Reuni\u00e3o ampliada\n - Cerim\u00f4nia de assinatura de atos\n - Confer\u00eancia de imprensa",
         "Host": [
-            {
-                "figure": "Fernando Lugo",
-                "country": "Paraguay",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Fernando Lugo",
-                "country": "Paraguay",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "Fernando Lugo",
+                    "country": "Paraguay",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Fernando Lugo",
+                    "country": "Paraguay",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "24 e 25 de Julho",
         "Country": "Paraguay",
@@ -598,13 +719,15 @@
         "year": "2009",
         "Overview": " - Partida para Cochabamba/Bol\u00edvia\n - Chegada a Cochabamba\n - Partida para Chimor\u00e9\n - Chegada a Chimor\u00e9\n - Reuni\u00e3o com o presidente da Bol\u00edvia, Evo Morales\n - Cerim\u00f4nia de assinatura de atos\n - Partida para Cochabamba\n - Chegada a Cochabamba\n - Partida para S\u00e3o Paulo/SP\n - Chegada a S\u00e3o Paulo/SP",
         "Host": [
-            {
-                "figure": "Evo Morales",
-                "country": "Bolivia",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "Evo Morales",
+                    "country": "Bolivia",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "22 de Agosto",
         "Country": "Bolivia",
@@ -622,83 +745,112 @@
         "year": "2009",
         "Overview": " - [New York]\n - Presidente da Exxon Mobile, Rex Tillerson, e Eike Batista\n - Jantar por ocasi\u00e3o da entrega do pr\u00eamio Woodrow Wilson for Public Service\n - Entrevista \u00e0 imprensa esportiva internacional\n - Presidente do Governo da Espanha, Jos\u00e9 Luis Zapatero\n - Presidente da Ucr\u00e2nia. Viktor Yushchenko\n - Presidente do Banco Africano de Desenvolvimento, Donald Kaberuka\n - Almo\u00e7o privado\n - Primeiro-Ministro da Nova Zel\u00e2ndia, John Key\n - Presidente do Banco Interamericano de Desenvolvimento, Luis Alberto Moreno\n - Primeiro-Ministro da Hungria, Gordon Bejnai\n - Jantar oferecido pelo Secret\u00e1rio-Geral das Na\u00e7\u00f5es Unidas, Ban Ki-moon\n - Secret\u00e1rio-Geral das Na\u00e7\u00f5es Unidas, Ban Ki-moon\n - Abertura do debate geral da LXIV Assembl\u00e9ia Geral das Na\u00e7\u00f5es Unidas\n - Almo\u00e7o privado\n - Presidente do Ir\u00e3, Mahmoud Ahmadinejad\n - Jantar privado\n - [Pittsburgh]\n - Entrevista \u00e0 PBS\n - Almo\u00e7o privado\n - Encontro com representantes sindicais\n - Diretor-Executivo do Fundo Monet\u00e1rio Internacional (FMI), Paulo Nogueira Batista\n - Jantar de trabalho dos chefes de Estado e de Governo do G-20 Financeiro\n - Sess\u00e3o de abertura da reuni\u00e3o de chefes de Estado e de Governo do G-20 Financeiro\n - Foto oficial dos chefes de Estado e de Governo do G-20 Financeiro\n - Almo\u00e7o dos chefes de Estado e de Governo do G-20 Financeiro, oferecido pelo Presidente dos Estados Unidos, Barack Obama\n - Segunda sess\u00e3o de trabalho dos chefes de Estado e de Governo do G-20 Financeiro\n - Partida para Isla Margarita/ Venezuela\n - Chegada a Isla Margarita J\u00fanior",
         "Host": [
-            {
-                "figure": "Rex Tillerson;Eike Batista",
-                "country": "---capital",
-                "posts": [
-                    "CEO;CEO"
-                ]
-            },
-            {
-                "figure": "Jos\u00e9 Luis Zapatero",
-                "country": "Spain",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Viktor Yushchenko",
-                "country": "Ukraine",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Donald Kaberuka",
-                "country": "---entity",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            },
-            {
-                "figure": "John Key",
-                "country": "New Zealand",
-                "posts": [
-                    "Prime-minister"
-                ]
-            },
-            {
-                "figure": "Luis Alberto Moreno",
-                "country": "---entity",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            },
-            {
-                "figure": "Gordon Bejnai",
-                "country": "Hungary",
-                "posts": [
-                    "Prime-minister"
-                ]
-            },
-            {
-                "figure": "Ban Ki-moon",
-                "country": "United Nations",
-                "posts": [
-                    "Secretary-general"
-                ]
-            },
-            {
-                "figure": "Ban Ki-moon",
-                "country": "United Nations",
-                "posts": [
-                    "Secretary-general"
-                ]
-            },
-            {
-                "figure": "Mahmoud Ahmadinejad",
-                "country": "Iran",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Paulo Nogueira Batista",
-                "country": "---entity",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            }
+            [
+                {
+                    "figure": "Rex Tillerson",
+                    "country": "---capital",
+                    "posts": [
+                        "CEO"
+                    ]
+                },
+                {
+                    "figure": "Eike Batista",
+                    "country": "---capital",
+                    "posts": [
+                        "CEO"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Jos\u00e9 Luis Zapatero",
+                    "country": "Spain",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Viktor Yushchenko",
+                    "country": "Ukraine",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Donald Kaberuka",
+                    "country": "---entity",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "John Key",
+                    "country": "New Zealand",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Luis Alberto Moreno",
+                    "country": "---entity",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Gordon Bejnai",
+                    "country": "Hungary",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Ban Ki-moon",
+                    "country": "United Nations",
+                    "posts": [
+                        "Secretary-general"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Ban Ki-moon",
+                    "country": "United Nations",
+                    "posts": [
+                        "Secretary-general"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Mahmoud Ahmadinejad",
+                    "country": "Iran",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Paulo Nogueira Batista",
+                    "country": "---entity",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ]
         ],
         "Period": "21 a 25 de Setembro",
         "Country": "United States of America",
@@ -708,13 +860,15 @@
         "year": "2009",
         "Overview": " - Cerim\u00f4nia de assinatura do ato constitutivo do Banco do Sul\n - Almo\u00e7o livre\n - Sess\u00e3o de abertura da II Reuni\u00e3o dos Chefes de Estado e de Governo dos Pa\u00edses da\n - Foto oficial\n - Segunda  sess\u00e3o  de  trabalho  dos  Chefes  de  Estado  e  de  Governo  dos  Pa\u00edses  da Am\u00e9rica do Sul e \u00c1frica Am\u00e9rica do Sul e \u00c1frica\n - Jantar em homenagem aos Chefes de Estado e de Governo da Am\u00e9rica do Sul e \u00c1frica\n - Sess\u00e3o de encerramento da Reuni\u00e3o dos Chefes de Estado e de Governo dos Pa\u00edses da Am\u00e9rica do Sul e \u00c1frica\n - Almo\u00e7o\n - Presidente da Venezuela, Hugo Ch\u00e1vez\n - Cerim\u00f4nia de assinatura de atos",
         "Host": [
-            {
-                "figure": "Hugo Chavez",
-                "country": "Venezuela",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "Hugo Chavez",
+                    "country": "Venezuela",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "26 e 27 de Setembro",
         "Country": "Venezuela",
@@ -724,27 +878,33 @@
         "year": "2009",
         "Overview": " - Partida para Copenhague/Dinamarca\n - Chegada a Copenhague\n - Jantar oferecido pelo Comit\u00ea Ol\u00edmpico Brasileiro\n - [Copenhagen]\n - Entrevista coletiva\n - Encontros bilaterais\n - Encontro com o presidente do Comit\u00ea Ol\u00edmpico Internacional (COI), Jacques Rogge\n - Encontros bilaterais\n - Almo\u00e7o oferecido pela Rainha da Dinamarca, Margarete II\n - Encontros bilaterais\n - Cerim\u00f4nia de abertura da 121\u00aa Sess\u00e3o do Comit\u00ea Ol\u00edmpico Internacional\n - Sess\u00e3o de apresenta\u00e7\u00e3o da Candidatura Rio 2016 ao Comit\u00ea Ol\u00edmpico Internacional\n - Primeiro-Ministro da Dinamarca, Lars Lokke Rasmussen\n - Transmiss\u00e3o da vota\u00e7\u00e3o para a escolha da cidade-sede dos Jogos Ol\u00edmpicos de 2016\n - Transmiss\u00e3o da cerim\u00f4nia de an\u00fancio da cidade-sede dos Jogos Ol\u00edmpicos de 2016\n - Entrevista coletiva a jornalistas brasileiros\n - Entrevista coletiva a radialistas esportivos brasileiros\n - Partida para Bruxelas (B\u00e9lgica)",
         "Host": [
-            {
-                "figure": "Jacques Rogge",
-                "country": "---entity",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            },
-            {
-                "figure": "Margareth II",
-                "country": "Denmark",
-                "posts": [
-                    "Monarch"
-                ]
-            },
-            {
-                "figure": "Lars Lokke Rasmussen",
-                "country": "Denmark",
-                "posts": [
-                    "Prime-minister"
-                ]
-            }
+            [
+                {
+                    "figure": "Jacques Rogge",
+                    "country": "---entity",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Margareth II",
+                    "country": "Denmark",
+                    "posts": [
+                        "Monarch"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Lars Lokke Rasmussen",
+                    "country": "Denmark",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ]
         ],
         "Period": "29 e 30 de Setembro",
         "Country": "Denmark",
@@ -754,41 +914,58 @@
         "year": "2009",
         "Overview": " - Chegada a Bruxelas (B\u00e9lgica)\n - Chegada ao Hotel Sheraton Brussels\n - Almo\u00e7o privado\n - Primeiro-Ministro da B\u00e9lgica, Hermann von Rompuy\n - Cerim\u00f4nia de assinatura de atos\n - Jantar de trabalho oferecido pelo Primeiro-Ministro da B\u00e9lgica, Hermann von Rompuy\n - Massimo D\u2019Alema\n - Encontro  com  o  Presidente  do  Senado  da  B\u00e9lgica,  Armand  de  Decker,  e  com  o Presidente da C\u00e2mara dos Representantes da B\u00e9lgica, Patrick Dewael\n - Encontro com o Rei da B\u00e9lgica, Alberto II\n - Almo\u00e7o oferecido pelo Rei da B\u00e9lgica, Alberto II\n - Audi\u00eancia com CEOs de empresas belgas\n - Sess\u00e3o de encerramento do Semin\u00e1rio Empresarial Brasil e B\u00e9lgica: Novas Fronteiras (COI) de Neg\u00f3cios\n - Partida para Estocolmo (Su\u00e9cia)\n - Chegada a Estocolmo",
         "Host": [
-            {
-                "figure": "Hermann von Rompuy",
-                "country": "Belgium",
-                "posts": [
-                    "Prime-minister"
-                ]
-            },
-            {
-                "figure": "Hermann von Rompuy",
-                "country": "Belgium",
-                "posts": [
-                    "Prime-minister"
-                ]
-            },
-            {
-                "figure": "Armand  de  Decker;Patrick Dewael",
-                "country": "Belgium",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            },
-            {
-                "figure": "Albert II",
-                "country": "Belgium",
-                "posts": [
-                    "Monarch"
-                ]
-            },
-            {
-                "figure": "Albert II",
-                "country": "Belgium",
-                "posts": [
-                    "Monarch"
-                ]
-            }
+            [
+                {
+                    "figure": "Hermann von Rompuy",
+                    "country": "Belgium",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Hermann von Rompuy",
+                    "country": "Belgium",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Armand  de  Decker",
+                    "country": "Belgium",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                },
+                {
+                    "figure": "Patrick Dewael",
+                    "country": "Belgium",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Albert II",
+                    "country": "Belgium",
+                    "posts": [
+                        "Monarch"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Albert II",
+                    "country": "Belgium",
+                    "posts": [
+                        "Monarch"
+                    ]
+                }
+            ]
         ],
         "Period": "03, 04 e 05 de Outubro",
         "Country": "Belgium",
@@ -798,27 +975,47 @@
         "year": "2009",
         "Overview": " - Recebimento das recomenda\u00e7\u00f5es da I Mesa Redonda Brasil-Uni\u00e3o Europeia\n - Reuni\u00e3o Plen\u00e1ria da III C\u00fapula Brasil-Uni\u00e3o Europeia\n - Almo\u00e7o de trabalho\n - Confer\u00eancia de imprensa\n - Foto oficial\n - Encerramento da III C\u00fapula Brasil-Uni\u00e3o Europeia\n - Encontro privado com o Primeiro-Ministro da Su\u00e9cia, Fredrik Reinfeldt\n - Reuni\u00e3o ampliada com o Primeiro-Ministro da Su\u00e9cia, Fredrik Reinfeldt\n - Cerim\u00f4nia de assinatura de atos\n - Recep\u00e7\u00e3o oferecida pela ministra do Com\u00e9rcio Exterior da Su\u00e9cia, Ewa Bj\u00f6rling, na presen\u00e7a do Primeiro-Ministro da Su\u00e9cia, Fredrik Reinfeldt\n - Jantar oferecido pelo Rei da Su\u00e9cia, Carl Gustaf, e pela Rainha Silvia",
         "Host": [
-            {
-                "figure": "Fredrik Reinfeldt",
-                "country": "Sweden",
-                "posts": [
-                    "Prime-minister"
-                ]
-            },
-            {
-                "figure": "Ewa Bj\u00f6rling;Fredrik Reinfeldt",
-                "country": "Sweden",
-                "posts": [
-                    "Cabinet Member;Prime-minister"
-                ]
-            },
-            {
-                "figure": "Carl Gustaf;Silvia",
-                "country": "Sweden",
-                "posts": [
-                    "Monarch;Monarch"
-                ]
-            }
+            [
+                {
+                    "figure": "Fredrik Reinfeldt",
+                    "country": "Sweden",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Ewa Bj\u00f6rling",
+                    "country": "Sweden",
+                    "posts": [
+                        "Cabinet Member"
+                    ]
+                },
+                {
+                    "figure": "Fredrik Reinfeldt",
+                    "country": "Sweden",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Carl Gustaf",
+                    "country": "Sweden",
+                    "posts": [
+                        "Monarch"
+                    ]
+                },
+                {
+                    "figure": "Silvia",
+                    "country": "Sweden",
+                    "posts": [
+                        "Monarch"
+                    ]
+                }
+            ]
         ],
         "Period": "06 de Outubro",
         "Country": "Sweden",
@@ -828,20 +1025,24 @@
         "year": "2009",
         "Overview": " - [Caracas]\n - Cerim\u00f4nia de inaugura\u00e7\u00e3o do Consulado-Geral do Brasil e do escrit\u00f3rio da Caixa Econ\u00f4mica Federal em Caracas\n - Jantar oferecido pelo presidente da Venezuela, Hugo Ch\u00e1vez\n - [El Tigre]\n - Visita ao Projeto Agr\u00e1rio Integral Socialista Jos\u00e9 In\u00e1cio  de Abreu e Lima\n - Reuni\u00e3o com o presidente da Venezuela, Hugo Ch\u00e1vez\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa",
         "Host": [
-            {
-                "figure": "Hugo Chavez",
-                "country": "Venezuela",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Hugo Chavez",
-                "country": "Venezuela",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "Hugo Chavez",
+                    "country": "Venezuela",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Hugo Chavez",
+                    "country": "Venezuela",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "29 e 30 de Outubro",
         "Country": "Venezuela",
@@ -851,27 +1052,34 @@
         "year": "2009",
         "Overview": " - Partida para Londres (Inglaterra)\n - Chegada a Londres\n - Presidente do grupo Arcelor Mittal, Lakshmi Mittal\n - Presidente do grupo Alcoa, Franklin Feder\n - Entrevista ao Financial Times\n - Cerim\u00f4nia de inaugura\u00e7\u00e3o do escrit\u00f3rio do Banco Nacional de Desenvolvimento Econ\u00f4mico e Social (BNDES) em Londres\n - Encontro com o Primeiro-Ministro do Reino Unido, Gordon Brown\n - Caf\u00e9 da manh\u00e3 com editores econ\u00f4micos do Financial Time\n - Abertura do semin\u00e1rio \"Investing in Brazil Summit: Identifying Opportunities in the New Economic Climate\"\n - Apresenta\u00e7\u00e3o do panorama econ\u00f4mico do Brasil pelo Ministro da Fazenda, Guido\n - Painel  sobre  oportunidades  de  investimentos,  com  participa\u00e7\u00e3o  da  Ministra-Chefe  da Casa Civil, Dilma Rousseff, e dos presidentes do Banco Nacional de Desenvolvimento Econ\u00f4mico e Social (BNDES), Luciano Coutinho, e da Vale, Roger Agnelli\n - Painel sobre sistema financeiro, com a participa\u00e7\u00e3o dos presidentes do Banco Central, Henrique Meirelles, do Banco do Brasil, Aldemir Bendine, e do Bradesco, Luiz Carlos Trabuco\n - Encerramento do semin\u00e1rio \"Investing in Brazil Summit: Identifying Opportunities in the Mantega New Economic Climate\"\n - Almo\u00e7o com participantes do semin\u00e1rio\n - L\u00edder do Partido Conservador brit\u00e2nico, David Cameron\n - Encontro com a Rainha Elizabeth II\n - Cerim\u00f4nia de entrega do pr\u00eamio Chatham House Banqueting House, Whitehall\n - Jantar em homenagem ao Presidente da Rep\u00fablica, Luiz In\u00e1cio Lula da Silva",
         "Host": [
-            {
-                "figure": "Franklin Feder",
-                "country": "--capital",
-                "posts": [
-                    "CEO"
-                ]
-            },
-            {
-                "figure": "Gordon Brown",
-                "country": "United Kingdom",
-                "posts": [
-                    "Prime-minister"
-                ]
-            },
-            {
-                "figure": "Queen Elizabeth II",
-                "country": "United Kingdom",
-                "posts": [
-                    "Monarch"
-                ]
-            }
+            [
+                {
+                    "figure": "Franklin Feder",
+                    "country": "---capital",
+                    "posts": [
+                        "CEO"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Gordon Brown",
+                    "country": "United Kingdom",
+                    "posts": [
+                        "Prime-minister",
+                        "Cabinet Member"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Queen Elizabeth II",
+                    "country": "United Kingdom",
+                    "posts": [
+                        "Monarch"
+                    ]
+                }
+            ]
         ],
         "Period": "03, 04 e 05 de Novembro",
         "Country": "United Kingdom",
@@ -881,13 +1089,15 @@
         "year": "2009",
         "Overview": " - Partida para Paris (Fran\u00e7a)\n - Chegada a Paris (Fran\u00e7a)\n - Reuni\u00e3o de trabalho com o presidente da Rep\u00fablica Francesa, Nicolas Sarkozy\n - Declara\u00e7\u00e3o conjunta \u00e0 imprensa\n - Partida para Roma (It\u00e1lia)",
         "Host": [
-            {
-                "figure": "Nicolas Sarkozy",
-                "country": "France",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "Nicolas Sarkozy",
+                    "country": "France",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "13 e 14 de Novembro",
         "Country": "France",
@@ -897,27 +1107,34 @@
         "year": "2009",
         "Overview": " - Entrevista ao jornal alem\u00e3o \u201cDie Zeit\u201d\n - Ex-primeiro-ministro italiano, Massimo D'Alema\n - Reuni\u00e3o sobre o Desenvolvimento da Agricultura na Savana Africana\n - Sess\u00e3o de abertura da C\u00fapula Mundial sobre Seguran\u00e7a Alimentar\n - Encontro com o Presidente da Comiss\u00e3o Europeia, Jos\u00e9 Manuel Dur\u00e3o Barroso\n - Almo\u00e7o oferecido pelo Primeiro-Ministro da It\u00e1lia, Silvio Berlusconi",
         "Host": [
-            {
-                "figure": "Massimo D'Alema",
-                "country": "Italy",
-                "posts": [
-                    "Ex-Prime-minister"
-                ]
-            },
-            {
-                "figure": "Jos\u00e9 Manuel Dur\u00e3o Barroso",
-                "country": "--entity",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            },
-            {
-                "figure": "Silvio Berlusconi",
-                "country": "Italy",
-                "posts": [
-                    "Prime-minister"
-                ]
-            }
+            [
+                {
+                    "figure": "Massimo D'Alema",
+                    "country": "Italy",
+                    "posts": [
+                        "Prime-minister",
+                        "Ex-Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Jos\u00e9 Manuel Dur\u00e3o Barroso",
+                    "country": "European Comission",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Silvio Berlusconi",
+                    "country": "Italy",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ]
         ],
         "Period": "15 e 16 de Novembro",
         "Country": "Italy",
@@ -927,13 +1144,15 @@
         "year": "2009",
         "Overview": " - [Lisbon]\n - Chegada a Lisboa\n - [Estoril]\n - Sess\u00e3o de abertura da XIX Reuni\u00e3o de C\u00fapula Ibero-americana de  Chefes de Estado e de Governo\n - Foto oficial\n - Almo\u00e7o oferecido pelo Primeiro-Ministro de Portugal, Jos\u00e9 S\u00f3crates, aos chefes de Estado e de Governo Ibero-americanos\n - Sess\u00e3o de trabalho reservada dos chefes de Estado e de Governo Ibero-americanos\n - [Lisbon]\n - Jantar oferecido pelo Presidente de Portugal, An\u00edbal Cavaco Silva",
         "Host": [
-            {
-                "figure": "An\u00edbal Cavaco Silva",
-                "country": "Portugal",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "An\u00edbal Cavaco Silva",
+                    "country": "Portugal",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "29 e 30 de Novembro",
         "Country": "Portugal",
@@ -943,27 +1162,33 @@
         "year": "2009",
         "Overview": " - [Lisbon]\n - Partida para Kiev\n - [Kiev]\n - Jantar oferecido pelo presidente da Ucr\u00e2nia, Viktor Yushchenko\n - [Kiev]\n - Cerim\u00f4nia de chegada ao edif\u00edcio do Pal\u00e1cio Gorodetsky\n - Reuni\u00e3o privada com o presidente da Ucr\u00e2nia, Viktor Yushchenko\n - Reuni\u00e3o ampliada entre as comitivas brasileira e ucraniana\n - Cerim\u00f4nia de troca de condecora\u00e7\u00f5es\n - Cerim\u00f4nia de assinatura de atos\n - Entrevista coletiva \u00e0 imprensa\n - Almo\u00e7o oficial oferecido pelo Presidente da Ucr\u00e2nia, Viktor Yushchenko\n - Dep\u00f3sito de flores no monumento em mem\u00f3ria \u00e0s v\u00edtimas do Holodomor (Grande Fome) de 1932-1933\n - Participa\u00e7\u00e3o dos presidentes do Brasil e da Ucr\u00e2nia no F\u00f3rum Empresarial\n - Reuni\u00e3o com a Primeira-Ministra, Yulia Tymoshenko\n - Partida para Berlim\n - Chegada a Berlim",
         "Host": [
-            {
-                "figure": "Viktor Yushchenko",
-                "country": "Ukraine",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Viktor Yushchenko",
-                "country": "Ukraine",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Viktor Yushchenko",
-                "country": "Ukraine",
-                "posts": [
-                    "President"
-                ]
-            }
+            [
+                {
+                    "figure": "Viktor Yushchenko",
+                    "country": "Ukraine",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Viktor Yushchenko",
+                    "country": "Ukraine",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Viktor Yushchenko",
+                    "country": "Ukraine",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
         ],
         "Period": "01 e 02  de Dezembro",
         "Country": "Ukraine",
@@ -973,83 +1198,105 @@
         "year": "2009",
         "Overview": " - Encontro com o Presidente da Alemanha, Horst K\u00f6hler\n - Visita ao Port\u00e3o de Brandemburgo e fotografia oficial\n - Cerim\u00f4nia de deposi\u00e7\u00e3o floral no Monumento em Mem\u00f3ria das V\u00edtimas da Guerra e do Despotismo\n - Encontro privado com a Chanceler da Alemanha, Angela Merkel Chancelaria Federal\n - Cerim\u00f4nia de assinatura de atos\n - Entrevista coletiva de imprensa\n - Almo\u00e7o de trabalho oferecido pela Chanceler da Alemanha, Angela Merkel\n - Audi\u00eancia ao l\u00edder do SPD no Parlamento e ex-Ministro do Exterior da Alemanha, Frank-Walter Steinmeier\n - Audi\u00eancia \u00e0 Presidente da Funda\u00e7\u00e3o Friedrich Ebert, Anke Fuchs\n - Audi\u00eancia ao Presidente da Confedera\u00e7\u00e3o Alem\u00e3 dos Sindicatos, Michael Sommer\n - Jantar oferecido pelo Presidente da Alemanha, Horst K\u00f6hler\n - [Hamburg]\n - Partida, em trem, para Hamburgo\n - Peter L\u00f6scher, Presidente da Siemens\n - Hans-Christoph Atzpodien, Presidente do Conselho de Administra\u00e7\u00e3o da Unidade de Neg\u00f3cios \u201cSistemas Mar\u00edtimos\u201d da ThyssenKrupp AG\n - Semin\u00e1rio Empresarial Brasil-Alemanha\n - Encontro com o governador da cidade-estado de Hamburgo, Ole von Beust\n - Almo\u00e7o oferecido pelo governador da cidade-estado de Hamburgo, Ole von Beust",
         "Host": [
-            {
-                "figure": "Horst K\u00f6hler",
-                "country": "Germany",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Angela Merkel",
-                "country": "Germany",
-                "posts": [
-                    "Chancellor"
-                ]
-            },
-            {
-                "figure": "Angela Merkel",
-                "country": "Germany",
-                "posts": [
-                    "Chancellor"
-                ]
-            },
-            {
-                "figure": "Frank-Walter Steinmeier",
-                "country": "Germany",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            },
-            {
-                "figure": "Anke Fuchs",
-                "country": "--entity",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            },
-            {
-                "figure": "Michael Sommer",
-                "country": "--entity",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            },
-            {
-                "figure": "Horst K\u00f6hler",
-                "country": "Germany",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Peter L\u00f6scher",
-                "country": "---capital",
-                "posts": [
-                    "CEO"
-                ]
-            },
-            {
-                "figure": "Hans-Christoph Atzpodien",
-                "country": "--entity",
-                "posts": [
-                    "CEO"
-                ]
-            },
-            {
-                "figure": "Ole von Beust",
-                "country": "---Hamburgo",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            },
-            {
-                "figure": "Ole von Beust",
-                "country": "---Hamburgo",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            }
+            [
+                {
+                    "figure": "Horst K\u00f6hler",
+                    "country": "Germany",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Angela Merkel",
+                    "country": "Germany",
+                    "posts": [
+                        "Chancellor"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Angela Merkel",
+                    "country": "Germany",
+                    "posts": [
+                        "Chancellor"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Frank-Walter Steinmeier",
+                    "country": "Germany",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Anke Fuchs",
+                    "country": "--entity",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Michael Sommer",
+                    "country": "--entity",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Horst K\u00f6hler",
+                    "country": "Germany",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Peter L\u00f6scher",
+                    "country": "---capital",
+                    "posts": [
+                        "CEO"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Hans-Christoph Atzpodien",
+                    "country": "--entity",
+                    "posts": [
+                        "CEO"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Ole von Beust",
+                    "country": "---Hamburgo",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Ole von Beust",
+                    "country": "---Hamburgo",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ]
         ],
         "Period": "03 de Dezembro",
         "Country": "Germany",
@@ -1067,34 +1314,42 @@
         "year": "2009",
         "Overview": " - Chegada a Lima\n - Solenidade  de  inaugura\u00e7\u00e3o  do  Projeto  de  Coopera\u00e7\u00e3o  para  Implementa\u00e7\u00e3o  do  Liceu Brasileiro-Peruano\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o Presidente do Peru, Alan Garc\u00eda\n - Encontro ampliado\n - Encontro com integrantes do Conselho Empresarial Brasil-Peru\n - Cerim\u00f4nia de assinatura de atos e coletiva de imprensa\n - Almo\u00e7o oferecido pelo Presidente do Peru, Alan Garc\u00eda\n - Cerim\u00f4nia de encerramento do Semin\u00e1rio Empresarial Brasil-Peru\n - Encontro com o Prefeito de Lima, Luis Casta\u00f1eda Lossio\n - Encontro com o l\u00edder do Partido Nacionalista Peruano, Ollanta Humala",
         "Host": [
-            {
-                "figure": "Alan Garc\u00eda",
-                "country": "Peru",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Alan Garc\u00eda",
-                "country": "Peru",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Luis Casta\u00f1eda Lossio",
-                "country": "---Lima",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            },
-            {
-                "figure": "Ollanta Humala",
-                "country": "Peru",
-                "posts": [
-                    "Political/Agency Leader"
-                ]
-            }
+            [
+                {
+                    "figure": "Alan Garc\u00eda",
+                    "country": "Peru",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Alan Garc\u00eda",
+                    "country": "Peru",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Luis Casta\u00f1eda Lossio",
+                    "country": "---Lima",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Ollanta Humala",
+                    "country": "Peru",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ]
         ],
         "Period": "10 e 11 de Dezembro",
         "Country": "Peru",
@@ -1104,48 +1359,60 @@
         "year": "2009",
         "Overview": " - Partida para Copenhague/Dinamarca - Confer\u00eancia das Partes da Conven\u00e7\u00e3o-Quadro das Na\u00e7\u00f5es Unidas sobre Mudan\u00e7a do Clima (COP-15)\n - Caf\u00e9 da manh\u00e3 com a delega\u00e7\u00e3o brasileira\n - Encontro com governadores brasileiros participantes da Confer\u00eancia das Partes da Conven\u00e7\u00e3o-Quadro das Na\u00e7\u00f5es Unidas sobre Mudan\u00e7a do Clima (COP-15)\n - Almo\u00e7o privado\n - Diretora-Geral da Organiza\u00e7\u00e3o das Na\u00e7\u00f5es Unidas para a Educa\u00e7\u00e3o, a Ci\u00eancia e a Cultura (Unesco), Irina Bokova\n - Presidente do Suriname, Ronald Venetiaan\n - Presidente da Autoridade Nacional Palestina, Mahmoud Abbas\n - Sess\u00e3o plen\u00e1ria da Confer\u00eancia das Partes da Conven\u00e7\u00e3o-Quadro das Na\u00e7\u00f5es Unidas sobre Mudan\u00e7a do Clima (COP-15)\n - Presidente da Fran\u00e7a, Nicolas Sarkozy\n - Primeiro-Ministro da Eti\u00f3pia, Meles Zenawi\n - Entrevista conjunta \u00e0 imprensa\n - Jantar oferecido pela Rainha da Dinamarca, Margarete II\n - Sess\u00e3o plen\u00e1ria de debate informal\n - Foto oficial\n - Almo\u00e7o oferecido pelo Primeiro-Ministro da Dinamarca, Lars Lokke Rasmussen\n - Sess\u00e3o plen\u00e1ria de encerramento e ado\u00e7\u00e3o de textos da 15\u00aa Confer\u00eancia das Partes da Conven\u00e7\u00e3o das Na\u00e7\u00f5es Unidas sobre Mudan\u00e7a do Clima (COP-15)",
         "Host": [
-            {
-                "figure": "Ronald Venetiaan",
-                "country": "Suriname",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Mahmoud Abbas",
-                "country": "Palestine",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Nicolas Sarkozy",
-                "country": "France",
-                "posts": [
-                    "President"
-                ]
-            },
-            {
-                "figure": "Meles Zenawi",
-                "country": "Ethiopia",
-                "posts": [
-                    "Prime-minister"
-                ]
-            },
-            {
-                "figure": "Margareth II",
-                "country": "Denmark",
-                "posts": [
-                    "Monarch"
-                ]
-            },
-            {
-                "figure": "Lars Lokke Rasmussen",
-                "country": "Denmark",
-                "posts": [
-                    "Prime-minister"
-                ]
-            }
+            [
+                {
+                    "figure": "Ronald Venetiaan",
+                    "country": "Suriname",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Mahmoud Abbas",
+                    "country": "Palestine",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Nicolas Sarkozy",
+                    "country": "France",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Meles Zenawi",
+                    "country": "Ethiopia",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Margareth II",
+                    "country": "Denmark",
+                    "posts": [
+                        "Monarch"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Lars Lokke Rasmussen",
+                    "country": "Denmark",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ]
         ],
         "Period": "15 a 18 de Dezembro",
         "Country": "Denmark",

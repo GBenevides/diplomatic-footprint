@@ -3,7 +3,7 @@ import re
 
 import app_statics
 
-nlp = spacy.load("en_core_web_sm")
+#nlp = spacy.load("en_core_web_sm")
 nlp = spacy.load("pt_core_news_sm")
 
 # List of strings describing meetings
@@ -30,6 +30,8 @@ def find_last_post(line):
         return 'presidente da assembléia'
     if 'presidente  da  câmara  dos  deputados' in line.lower():
         return 'presidente  da  câmara'
+    if 'ministro das relações exteriores' in line.lower():
+        return 'Ministro'
 
     words = line.lower().split()
     post_detected = []
@@ -105,7 +107,8 @@ def rectify_person_false_negative(candidate):
                ["Decker", "Laurent Gbagbo", "Franco Frattini", "Hu Jintao", "Wen Jiabao", "Hifikepunye Pohamba",
                 "Laurent Gbagbo", "Manmohan Singh",
                 "Armando Guebuza", "Lee Myung-bak", "Yasuo Fukuda", "Ban Ki-moon", "Nong Duch Manh",
-                "Hifikepunye Pohamba", "Laurent Gbagbo", "Recep Tayyip"])
+                "Hifikepunye Pohamba", "Laurent Gbagbo", "Massimo D'Alema", "Recep Tayyip", "Gabriele Galatere di Genola"
+                ,"Auul Pakir Jainulabdeen Abdul Kalam"])
 
 
 # armand de decker
@@ -120,7 +123,7 @@ def findCountryInStatics(line):
 
 def rectify_country_false_negative(candidate):
     return any(f in candidate for f in ["Costa do Marfim", "Assembléia Nacional do Vietnã", "Nações Unidas",
-                                        "Conselho de Cooperação do Golfo", "Comitê Olímpico Internacional", "Siemens"])
+                                        "Conselho de Cooperação do Golfo", "Comitê Olímpico Internacional","Fórum Econômico  Mundial",  "Siemens", "Cooperação Internacional da Fundação Friedrich Ebert"])
 
 
 # Returns true if str IS NOT a bizarre country
@@ -132,12 +135,12 @@ def vet_bizarre_country(candidate):
                                          "armand", "encontro", "saudação", "aprobras", "cerimônia", "senado", "câmara",
                                          "alto nível",
                                          "governo da", "presidente da grande assembléia nacional da turquia", "jantar",
-                                         "almoço"])
+                                         "almoço", "finanças do", "agility",'relações exteriores',"trabalho","américa"])
 
 
 def vet_bizarre_person(candidate):
     suspect = candidate.lower()
-    return len(suspect) > 2 and not any(f in suspect for f in ["dinamarca", "bélgica", "siemens"])
+    return len(suspect) > 2 and not any(f in suspect for f in ["linkspartei","dinamarca", "bélgica", "siemens", "audiência"])
 
 
 """

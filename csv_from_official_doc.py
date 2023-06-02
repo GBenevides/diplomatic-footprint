@@ -5,6 +5,7 @@ from pdfminer.pdfpage import PDFPage
 from io import StringIO
 import csv
 import re
+from collections import OrderedDict
 
 import app_statics
 from app_statics import *
@@ -22,12 +23,12 @@ def mk_degenerate_cases(year):
         jamaica["City/region"] = "Kingston"
         jamaica["Overview"] = jamaica_visit_2007_overview
         jamaica["Period"] = "9 de Agosto"
-        jamaica["Host"] = "Host"
+        jamaica["Host"] = ["Host"]
         cases.append(jamaica)
     return cases
 
 
-def generate_csv(path, year, csv_prefix, verbose=False, pdfMiner=True, rearrange=True):
+def generate_csv(path, year, csv_prefix, verbose=False, pdfMiner=True, rearrange=True, testMode=False):
     pdf_text = convert_pdf_to_txt_pdfminer(path) if pdfMiner else convert_pdf_to_txt_pypdf2(path)
     raw_visits = visits_from_text(pdf_text, year)
     if verbose:
@@ -47,8 +48,9 @@ def generate_csv(path, year, csv_prefix, verbose=False, pdfMiner=True, rearrange
     #     for visit in visits:
     #         if verbose: print("Writing to csv: ", visit["City/region"], ",", visit["Country"])
     #         writer.writerow(visit)
-    with open('data/' + csv_prefix + "-" + year + '.json', 'w') as jsonFile:
-        json.dump(visits, jsonFile, indent=4)
+    if not testMode:
+        with open('data/' + csv_prefix + "-" + year + '.json', 'w') as jsonFile:
+            json.dump(visits, jsonFile, indent=4)
     return nb_visits, nb_meetings
 
 
@@ -138,22 +140,27 @@ def rearrange_state_visits(visits):
     append_visits(father_visit, rearranged)
     counter = 0
     previous = None  # avoid double host calculation
+    all_inconsistent_posts = []
     for v in rearranged:
         if previous is None or (v["Period"].lower() != previous["Period"].lower()):
             # Looking for potential hosts...
-            for point in v["Overview"]:
-                post_treated = brutal_replace_if_any(point.strip(), v["year"])
-                if any(t in post_treated.lower() for t in app_statics.triggers + list(app_statics.posts_mapping.keys())) and not any(
-                        t in post_treated.lower() for t in app_statics.negative_triggers):
+            #enumeratedPoints = enumerate(v["Overview"])
+            for next_point in v["Overview"]:
+                next_point_strip = next_point.strip()
+                post_treated = brutal_replace_if_any(next_point_strip, v["year"])
+                positive_trigger = any(t in post_treated.lower() for t in app_statics.triggers + list(app_statics.posts_mapping.keys()))
+                negative_trigger = any(t in post_treated.lower() for t in app_statics.negative_triggers)
+                if positive_trigger and not negative_trigger:
                     # print("Line triggered:", post_treated, "date:", v["Period"])
                     meeting_if_any = meeting_info_nlp.extract_meeting_if_any(post_treated)
                     ##print("Meeting --> ", meeting_if_any)
                     ##print("------------")
                     if meeting_if_any:
-                        print("Meeting --> ", meeting_if_any, "   ---   ", v["Period"], "   ---   ", point)
-                        v["Host"].append(map_name(meeting_if_any))
+                        mapped_meeting, incoming_inconsistent = map_name(meeting_if_any, v["year"])
+                        print("Meeting --> ", mapped_meeting, "   ---   ", v["Period"], "   ---   ", next_point)
+                        v["Host"].append(mapped_meeting)
+                        all_inconsistent_posts += incoming_inconsistent
                         counter += 1
-                        pass
         previous = v
 
         v["Overview"] = "\n".join(v["Overview"])
@@ -161,28 +168,42 @@ def rearrange_state_visits(visits):
         v["Overview"] = v["Overview"].replace("–", "-")
         # Translate overview now ?
         v["Period"] = format_location(v["Period"])
+    print("Inconsistent posts:\n", list(OrderedDict.fromkeys(all_inconsistent_posts)))
     print("Total state visits:", counter)
-    print(app_statics.leaders_mapping)
+    # print(app_statics.leaders_mapping)
     return rearranged, counter
 
 
-def map_name(meeting):
+def map_name(meeting, year):
     try:
-        # name, country, post = entry['Person'], entry['Country'], entry['Post']
-        name = meeting['Person']
-        # CHECK HERE TO SPLIT NAMES!
-        code_name = app_statics.leaders_mapping_codes[name]
-        mapped = app_statics.leaders_mapping[code_name]
-        if mapped:
-            entry_post = app_statics.posts_mapping[meeting['Post']]
-            if entry_post not in mapped['posts']:
-                print("Post problem!!!!!!!!!","In:", name)
-        return mapped
+        # raw_name, country, post = entry['Person'], entry['Country'], entry['Post']
+        raw_name = meeting['Person']
+        mapped = []
+        inconsistent_posts = []
+        for i, indiv_name in enumerate(raw_name.split(app_statics.separator_char)):
+            code_name = app_statics.leaders_mapping_codes[indiv_name]
+            if code_name is None:
+                continue
+            indiv_mapped = app_statics.leaders_mapping[code_name]
+            posts_split_if_any = meeting['Post'].split(app_statics.separator_char)
+            if i < len(posts_split_if_any):
+                post_pre_split = posts_split_if_any[i]
+                entry_post = app_statics.posts_mapping[post_pre_split] if post_pre_split else app_statics.empty_post
+            else:
+                entry_post = ''
+            if code_name not in app_statics.account_post_inconsistency[year] and entry_post not in indiv_mapped['posts']:
+                print("Inconsistent post in:", code_name, '/', raw_name, '-->', entry_post, ' / ',
+                      indiv_mapped['posts'])
+                inconsistent_posts.append(code_name)
+            mapped.append(indiv_mapped)
+        return mapped, inconsistent_posts
     except KeyError:
+        print("Error in meeting:", meeting)
         print("\n\tMissing in figure dict... Suggestion:")
         entry_post = app_statics.posts_mapping[meeting['Post']]
         new_entry = make_person_entry(meeting['Person'], meeting['Country'], entry_post)
-        print('"' + meeting['Person'] + '"', ":", new_entry)
+        code_key_sugg = meeting["Person"][0:2].upper() + "1"
+        print('"' + code_key_sugg + '"', ":", new_entry, '--->', "'"+new_entry['figure']+"'",":","'"+ code_key_sugg+"'",",")
         raise KeyError("Missing key: " + meeting['Person'], meeting)
 
 
@@ -273,7 +294,8 @@ def brutal_replace_if_any(raw, year):  # Sadly, pdf too inconsistent
             "- Encontro com o Presidente da Italia, Giorgio Napolitano", "2008"],
         "- Encontro com Sua Santidade o Papa Bento XVI": ["- Encontro com chefe do Vaticano, o Papa Bento XVI", "2008"],
         "- Encontro com a Presidenta da República Argentina, Cristina Fernández de Kirchner": [
-            "- Encontro com a presidenta da Argentina, Cristina Fernández de Kirchner", "2008"]
+            "- Encontro com a presidenta da Argentina, Cristina Fernández de Kirchner", "2008"],
+        "- Audiência ao senhor Massimo D'Alema" : ["- Primeiro-ministro da Italia, Massimo D'Alema", "2008"]
     }
     if raw in replace_lines.keys() and replace_lines[raw][1] == year:
         replacement = replace_lines[raw][0]
