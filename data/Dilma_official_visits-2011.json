@@ -1,0 +1,546 @@
+[
+    {
+        "year": "2011",
+        "Overview": " - Chegada a Casa Rosada\n - Reuni\u00e3o privada com a presidenta da Argentina, Cristina Kirchner\n - Encontro com as m\u00e3es e av\u00f3s da Pra\u00e7a de Maio\n - Reuni\u00e3o ampliada\n - Assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o oferecido pela presidenta da Argentina, Cristina Kirchner",
+        "Host": [
+            [
+                {
+                    "figure": "Cristina Kirchner",
+                    "country": "Argentina",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Cristina Kirchner",
+                    "country": "Argentina",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "31 de Janeiro",
+        "Country": "Argentina",
+        "City/region": "Buenos Aires"
+    },
+    {
+        "year": "2011",
+        "Overview": " - Partida para Lisboa\n - Chegada a Lisboa\n - Partida para Coimbra\n - Chegada a Coimbra\n - Visita \u00e0 Universidade de Coimbra\n - Visita ao Museu Nacional Machado de Castro\n - Cerim\u00f4nia  de  concess\u00e3o  do  t\u00edtulo  de  Doutor  Honoris  Causa  ao  ex-presidente  da Rep\u00fablica Luiz In\u00e1cio Lula da Silva",
+        "Host": [],
+        "Period": "28,  29 e 30 de Mar\u00e7o",
+        "Country": "Portugal",
+        "City/region": "Lisbon and Coimbra"
+    },
+    {
+        "year": "2011",
+        "Overview": " - Partida para China\n - Escala em Atenas / Gr\u00e9cia\n - Viagem para Pequim / China,  de Atenas\n - Cerim\u00f4nia de abertura do Di\u00e1logo de Alto N\u00edvel Brasil-China em Ci\u00eancia, Tecnologia e Chegada a Pequim / China\n - Presidente da Huawei, Ren Zhengfei\n - Presidente da Foxconn, Terry Gou\n - Cerim\u00f4nia  de  encerramento  do  \u201cSemin\u00e1rio  Empresarial  Brasil-China:  Para  Al\u00e9m  da Inova\u00e7\u00e3o Complementaridade\"\n - Cerim\u00f4nia de boas-vindas\n - Reuni\u00e3o com o presidente da China, Hu Jintao\n - Cerim\u00f4nia de assinatura de atos\n - Banquete oficial oferecido pelo presidente da China, Hu Jintao\n - Encontro com o presidente da Assembleia Popular Nacional, Wu Bangguo\n - Encontro com o primeiro-ministro da Rep\u00fablica Popular da China, Wen Jiabao\n - Partida para Sanya/China\n - Chegada a Sanya\n - [Sanya]\n - Foto Oficial da 3\u00aa C\u00fapula dos BRICS\n - Reuni\u00e3o privada\n - Reuni\u00e3o ampliada\n - Cerim\u00f4nia de assinatura de atos e declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o oferecido pelo presidente da Rep\u00fablica Popular da China, Hu Jintao\n - Encontro com o presidente da Federa\u00e7\u00e3o Russa, Dmitri Medvedev\n - Encontro com o presidente da Rep\u00fablica da \u00c1frica do Sul,  Jacob Zuma\n - Encontro com o primeiro-ministro da Rep\u00fablica da \u00cdndia, Manmohan Singh\n - Encontro com o primeiro-ministro da Ucr\u00e2nia, Mykola Azarov\n - [Boao]\n - Cerim\u00f4nia de abertura do F\u00f3rum de Boao\n - [Xian]\n - Visita ao Centro de Pesquisa e Desenvolvimento da ZTE Xi'an Xyanyang (China)\n - Partida para Bras\u00edlia",
+        "Host": [
+            [
+                {
+                    "figure": "Ren Zhengfei",
+                    "country": "---capital",
+                    "posts": [
+                        "CEO/Executive"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Terry Gou",
+                    "country": "---capital",
+                    "posts": [
+                        "CEO/Executive"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Hu Jintao",
+                    "country": "China",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Wu Bangguo",
+                    "country": "China",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Wen Jiabao",
+                    "country": "China",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Hu Jintao",
+                    "country": "China",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Dmitri Medvedev",
+                    "country": "Russia",
+                    "posts": [
+                        "President",
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Jacob Zuma",
+                    "country": "South Africa",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Manmohan Singh",
+                    "country": "India",
+                    "posts": "Prime-minister"
+                }
+            ]
+        ],
+        "Period": "08 a 15 de Abril",
+        "Country": "China",
+        "City/region": "Pequim, Sanya, Boao e Xian"
+    },
+    {
+        "year": "2011",
+        "Overview": " - Visita ao Laborat\u00f3rio Tecnol\u00f3gico do Uruguai (Latu)\n - Audi\u00eancia com o presidente do Uruguai, Jos\u00e9 Mujica\n - Assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o oferecido pelo presidente do Uruguai, Jos\u00e9 Mujica",
+        "Host": [
+            [
+                {
+                    "figure": "Jos\u00e9 Mujica",
+                    "country": "Uruguay",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Jos\u00e9 Mujica",
+                    "country": "Uruguay",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "30 de Maio",
+        "Country": "Uruguay",
+        "City/region": "Montevideo"
+    },
+    {
+        "year": "2011",
+        "Overview": " - Chegada a Assun\u00e7\u00e3o\n - Reuni\u00e3o privada com o presidente do Paraguai, Fernando Lugo\n - Reuni\u00e3o ampliada\n - Primeira sess\u00e3o da 41\u00aa C\u00fapula de Presidentes dos Estados Partes do Mercosul e Estados Associados\n - Almo\u00e7o em homenagem aos chefes de Estado do Mercosul e convidados especiais\n - Fotografia oficial",
+        "Host": [
+            [
+                {
+                    "figure": "Fernando Lugo",
+                    "country": "Paraguay",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "28 e 29 de Junho",
+        "Country": "Paraguay",
+        "City/region": "Asuncion"
+    },
+    {
+        "year": "2011",
+        "Overview": " - Partida para Lima/Peru\n - Chegada ao Museu da Inquisi\u00e7\u00e3o\n - Cerim\u00f4nia de posse do presidente do Peru, Ollanta Humala\n - Almo\u00e7o oferecido pelo presidente do Peru, Ollanta Humala\n - Partida para Bras\u00edlia",
+        "Host": [
+            [
+                {
+                    "figure": "Ollanta Humala",
+                    "country": "Peru",
+                    "posts": [
+                        "Political/Agency Leader",
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "28 de Julho",
+        "Country": "Peru",
+        "City/region": "Lima"
+    },
+    {
+        "year": "2011",
+        "Overview": " - Chegada a Nova York\n - Abertura da Reuni\u00e3o de Alto N\u00edvel sobre Doen\u00e7as Cr\u00f4nicas N\u00e3o-Transmiss\u00edveis\n - Col\u00f3quio de Alto N\u00edvel sobre Participa\u00e7\u00e3o Pol\u00edtica de Mulheres\n - Reuni\u00e3o com o presidente dos Estados Unidos, Barack Obama\n - Cerim\u00f4nia de lan\u00e7amento da parceria para governo aberto\n - Encontro com o presidente do M\u00e9xico, Felipe Calder\u00f3n\n - Jantar por ocasi\u00e3o da entrega \u00e0 Presidenta da Rep\u00fablica do Pr\u00eamio por Servi\u00e7o P\u00fablico oferecido pelo Instituto Woodrow Wilson\n - Audi\u00eancia concedida ao secret\u00e1rio-geral das Na\u00e7\u00f5es Unidas, Ban Ki-moon\n - Abertura do Debate Geral da 66\u00aa Assembleia Geral das Na\u00e7\u00f5es Unidas\n - Encontro bilateral com o presidente do Chile, Sebasti\u00e1n Pi\u00f1era\n - Almo\u00e7o privado\n - Encontro bilateral com o primeiro-ministro do Reino Unido, David Cameron\n - Encontro bilateral com o presidente da Fran\u00e7a, Nicolas Sarkozy\n - Encontro bilateral com o presidente do Peru, Ollanta Humala\n - Encontro bilateral com o presidente da Col\u00f4mbia, Juan Manuel Santos\n - Jantar em homenagem \u00e0 Senhora Presidenta da Rep\u00fablica, oferecido pela Representante Permanente do Brasil junto \u00e0 ONU, Embaixadora Maria Lu\u00edza Ribeiro Viotti\n - Reuni\u00e3o de Alto N\u00edvel sobre Seguran\u00e7a Nuclear",
+        "Host": [
+            [
+                {
+                    "figure": "Barack Obama",
+                    "country": "United States of America",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Felipe Calder\u00f3n",
+                    "country": "Mexico",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Ban Ki-moon",
+                    "country": "United Nations",
+                    "posts": [
+                        "Secretary-general"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Sebasti\u00e1n Pi\u00f1era",
+                    "country": "Chile",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "David Cameron",
+                    "country": "United Kingdom",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Nicolas Sarkozy",
+                    "country": "France",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Ollanta Humala",
+                    "country": "Peru",
+                    "posts": [
+                        "Political/Agency Leader",
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Juan Manuel Santos",
+                    "country": "Colombia",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "18, 19, 20, 21 e 22 de Setembro",
+        "Country": "United States of America",
+        "City/region": "New York"
+    },
+    {
+        "year": "2011",
+        "Overview": " - Chegada a Bruxelas / B\u00e9lgica\n - Encontro com o primeiro-ministro da B\u00e9lgica, Yves Leterme\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Jantar oferecido pelo presidente do Conselho Europeu, Herman Van Rompuy, e pelo presidente da Comiss\u00e3o Europeia, Jos\u00e9 Manuel Dur\u00e3o Barroso\n - V C\u00fapula Brasil-Uni\u00e3o Europeia\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Encontro com Sua Majestade o Rei Alberto II\n - Almo\u00e7o em homenagem \u00e0 Senhora Presidenta da Rep\u00fablica, oferecido por Suas Majestades o Rei Alberto II e a Rainha Paola\n - Cerim\u00f4nia de encerramento do F\u00f3rum Empresarial Brasil-Uni\u00e3o Europeia\n - Cerim\u00f4nia de abertura do festival internacional de artes Europalia Brasil 2011\n - Visita \u00e0 exposi\u00e7\u00e3o\n - Partida para S\u00f3fia / Bulg\u00e1ria",
+        "Host": [
+            [
+                {
+                    "figure": "Yves Leterme",
+                    "country": "Belgium",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Herman Van Rompuy",
+                    "country": "European Council",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                },
+                {
+                    "figure": "Jos\u00e9 Manuel Dur\u00e3o Barroso",
+                    "country": "European Commission",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Albert II",
+                    "country": "Belgium",
+                    "posts": [
+                        "Monarch"
+                    ]
+                }
+            ]
+        ],
+        "Period": "02, 03 e 04 de Outubro",
+        "Country": "Belgium",
+        "City/region": "Brussels"
+    },
+    {
+        "year": "2011",
+        "Overview": " - Cerim\u00f4nia oficial de chegada\n - Fotografia oficial\n - Reuni\u00e3o privada com Georgi Parvanov, presidente da Rep\u00fablica da Bulg\u00e1ria\n - Reuni\u00e3o ampliada\n - Cerim\u00f4nia de assinatura de atos\n - Cerim\u00f4nia de condecora\u00e7\u00e3o da Presidenta da Rep\u00fablica\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Reuni\u00e3o privada com Boyko Borissov, primeiro-ministro da Rep\u00fablica da Bulg\u00e1ria\n - Almo\u00e7o em homenagem \u00e0 Presidenta da Rep\u00fablica oferecido por Boyko Borissov, primeiro-ministro da Rep\u00fablica da Bulg\u00e1ria\n - Visita de cortesia \u00e0 Tsetska Tsacheva, presidenta da Assembleia Nacional da Rep\u00fablica da Bulg\u00e1ria\n - Encerramento do f\u00f3rum empresarial Brasil-Bulg\u00e1ria\n - Jantar de Estado em homenagem \u00e0 Presidenta da Rep\u00fablica oferecido por Georgi Parvanov, presidente da Rep\u00fablica da Bulg\u00e1ria\n - [Gorna Oryahovitsa]\n - Visita ao Forte de Tsarevets\n - Almo\u00e7o oficial em homenagem \u00e0 Presidenta da Rep\u00fablica oferecido pelo prefeito de Veliko Tsarnovo, Roumen Rashev\n - Encontro com a comunidade de Gabrovo\n - Visita ao Museu de Hist\u00f3ria Regional\n - Partida para Ancara/Turquia",
+        "Host": [
+            [
+                {
+                    "figure": "Georgi Parvanov",
+                    "country": "Bulgaria",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Boyko Borissov",
+                    "country": "Bulgaria",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ]
+        ],
+        "Period": "05 de Outubro",
+        "Country": "Bulgaria",
+        "City/region": "Sofia"
+    },
+    {
+        "year": "2011",
+        "Overview": " - Visita ao Memorial de Atat\u00fcrk\n - Cerim\u00f4nia de encerramento do Encontro Empresarial Brasil-Turquia\n - Cerim\u00f4nia oficial de chegada\n - Reuni\u00e3o privada com o Presidente da Turquia, Abdullah G\u00fcl\n - Almo\u00e7o oferecido \u00e0 Presidenta da Rep\u00fablica pelo Presidente da Turquia\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Partida para Istambul",
+        "Host": [
+            [
+                {
+                    "figure": "Abdullah G\u00fcl",
+                    "country": "Turkey",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "07 de Outubro",
+        "Country": "Turkey",
+        "City/region": "Ankara"
+    },
+    {
+        "year": "2011",
+        "Overview": " - Chegada a Pret\u00f3ria/\u00c1frica do Sul\n - Encontro com o presidente da \u00c1frica do Sul, Jacob Zuma\n - Reuni\u00e3o ampliada\n - Almo\u00e7o dos chefes de Estado e de Governo do IBAS\n - Reuni\u00e3o plen\u00e1ria\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Encontro com o primeiro-ministro da \u00cdndia, Manmohan Singh\n - Partida para Maputo",
+        "Host": [
+            [
+                {
+                    "figure": "Jacob Zuma",
+                    "country": "South Africa",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Manmohan Singh",
+                    "country": "India",
+                    "posts": "Prime-minister"
+                }
+            ]
+        ],
+        "Period": "17 e 18 de Outubro",
+        "Country": "South Africa",
+        "City/region": "Pretoria"
+    },
+    {
+        "year": "2011",
+        "Overview": " - Cerim\u00f4nia de oferenda floral a Samora Machel\n - Reuni\u00e3o com empres\u00e1rios brasileiros com atividades em Mo\u00e7ambique\n - Almo\u00e7o  oferecido  pelo  governo  mo\u00e7ambicano  aos  chefes  de  Estado  e  autoridades nacionais presentes \u00e0s cerim\u00f4nias em homenagem a Samora Machel\n - Encontro com o presidente de Mo\u00e7ambique, Armando Guebuza\n - Reuni\u00e3o ampliada\n - Partida para Luanda/Angola",
+        "Host": [
+            [
+                {
+                    "figure": "Armando Guebuza",
+                    "country": "Mozambique",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "19 de Outubro",
+        "Country": "Mozambique",
+        "City/region": "Maputo"
+    },
+    {
+        "year": "2011",
+        "Overview": " - Audi\u00eancia concedida a lideran\u00e7as femininas angolanas\n - Deposi\u00e7\u00e3o de oferenda floral no monumento ao primeiro presidente de Angola, Antonio Agostinho Neto\n - Sess\u00e3o solene na Assembleia Nacional\n - Cerim\u00f4nia oficial de chegada\n - Reuni\u00e3o de trabalho com o presidente de Angola, Jos\u00e9 Eduardo dos Santos\n - Almo\u00e7o em homenagem \u00e0 presidenta da Rep\u00fablica, oferecido pelo presidente de Angola, Jos\u00e9 Eduardo dos Santos\n - Cumprimentos oficiais de despedida\n - Partida para Bras\u00edlia",
+        "Host": [
+            [
+                {
+                    "figure": "Jos\u00e9 Eduardo dos Santos",
+                    "country": "Angola",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "20 de Outubro",
+        "Country": "Angola",
+        "City/region": "Luanda"
+    },
+    {
+        "year": "2011",
+        "Overview": " - Chegada a Nice\n - Chegada a Cannes/Fran\u00e7a\n - Primeira-ministra da Austr\u00e1lia, Julia Gillard\n - Diretor-geral da Organiza\u00e7\u00e3o Internacional do Trabalho (OIT) Juan Somav\u00eda\n - Presidente da China, Hu Jintao\n - Reuni\u00e3o com l\u00edderes do BRICS\n - Presidente da Indon\u00e9sia, Susilo Bambang Yudhoyono\n - Primeiro-ministro de Cingapura, Lee Hsien Loong\n - Cerim\u00f4nia oficial de chegada\n - Almo\u00e7o de trabalho\n - Sess\u00e3o de trabalho\n - Fotografia oficial\n - Sess\u00e3o de trabalho\n - Jantar de trabalho\n - Encontro com a primeira-ministra da Alemanha, Angela Merkel\n - Sess\u00e3o de trabalho\n - Almo\u00e7o de trabalho\n - Encontro com o primeiro-ministro da Turquia, Recep Erdogan\n - Partida para Paris / Fran\u00e7a\n - Chegada a Paris\n - [Paris]\n - Diretora-geral da UNESCO, Irina Bokova",
+        "Host": [
+            [
+                {
+                    "figure": "Julia Gillard",
+                    "country": "Australia",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Hu Jintao",
+                    "country": "China",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Susilo Bambang Yudhoyono",
+                    "country": "Indonesia",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Lee Hsien Loong",
+                    "country": "Singapore",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Angela Merkel",
+                    "country": "Germany",
+                    "posts": [
+                        "Chancellor"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Recep Tayyip Erdogan",
+                    "country": "Turkey",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ]
+        ],
+        "Period": "1\u00ba, 02, 03 e 04 de Novembro",
+        "Country": "France",
+        "City/region": "Cannes"
+    },
+    {
+        "year": "2011",
+        "Overview": " - Cerim\u00f4nia oficial de chegada\n - Reuni\u00e3o com o presidente da Rep\u00fablica Bolivariana da Venezuela, Hugo Ch\u00e1vez\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Encontro com o presidente da Bol\u00edvia, Evo Morales\n - Encontro com a presidenta da Argentina, Cristina Fern\u00e1ndez de Kirchner\n - Cerim\u00f4nia de abertura da III C\u00fapula de Chefes de Estado e de Governo da Am\u00e9rica Latina e do Caribe (CALC) e I C\u00fapula da Comunidade de Estados Latino-americanos e Caribenhos (Celac)\n - Primeira sess\u00e3o plen\u00e1ria da III C\u00fapula de Chefes de Estado e de Governo da Am\u00e9rica Latina e do Caribe (CALC) e I C\u00fapula da Comunidade de Estados Latino-americanos e Caribenhos (Celac)\n - Jantar em homenagem aos Chefes de Estado e de Governo da Am\u00e9rica Latina e do Caribe, oferecido pelo presidente da Rep\u00fablica Bolivariana da Venezuela, Hugo Ch\u00e1vez",
+        "Host": [
+            [
+                {
+                    "figure": "Hugo Chavez",
+                    "country": "Venezuela",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Evo Morales",
+                    "country": "Bolivia",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Cristina Kirchner",
+                    "country": "Argentina",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "1\u00ba e 02 de Dezembro",
+        "Country": "Venezuela",
+        "City/region": "Caracas"
+    },
+    {
+        "year": "2011",
+        "Overview": " - Chegada a Buenos Aires\n - Encontro com o presidente de Honduras, Porf\u00edrio Lobo\n - Cumprimentos \u00e0 presidenta da Argentina, Cristina Kirchner",
+        "Host": [
+            [
+                {
+                    "figure": "Porf\u00edrio Lobo",
+                    "country": "Honduras",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "09 e 10 de Dezembro",
+        "Country": "Argentina",
+        "City/region": "Buenos Aires"
+    },
+    {
+        "year": "2011",
+        "Overview": " - Almo\u00e7o oferecido pelo presidente do Uruguai, Jos\u00e9 Mujica, aos chefes de Estado do Mercosul, Estados Associados e convidados especiais da XLII C\u00fapula do Mercosul\n - Reuni\u00e3o dos Presidentes dos Estados Partes do Mercosul\n - Fotografia oficial\n - Assinatura do Tratado de Livre Com\u00e9rcio entre o Mercosul e a Palestina\n - XLII C\u00fapula de Chefes de Estado do Mercosul e Estados Associados",
+        "Host": [],
+        "Period": "20 de Dezembro",
+        "Country": "Uruguay",
+        "City/region": "Montevideo"
+    }
+]

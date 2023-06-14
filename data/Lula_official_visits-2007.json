@@ -16,14 +16,14 @@
                     "figure": "Richard Clark",
                     "country": "---capital",
                     "posts": [
-                        "CEO"
+                        "CEO/Executive"
                     ]
                 },
                 {
                     "figure": "Peter Loescher",
                     "country": "---capital",
                     "posts": [
-                        "CEO"
+                        "CEO/Executive"
                     ]
                 }
             ],
@@ -32,7 +32,7 @@
                     "figure": "Hector Ruiz",
                     "country": "---capital",
                     "posts": [
-                        "CEO"
+                        "CEO/Executive"
                     ]
                 }
             ],
@@ -41,7 +41,7 @@
                     "figure": "Business Person",
                     "country": "---capital",
                     "posts": [
-                        "CEO"
+                        "CEO/Executive"
                     ]
                 }
             ],
@@ -50,14 +50,14 @@
                     "figure": "Business Person",
                     "country": "---capital",
                     "posts": [
-                        "CEO"
+                        "CEO/Executive"
                     ]
                 },
                 {
                     "figure": "Business Person",
                     "country": "---capital",
                     "posts": [
-                        "CEO"
+                        "CEO/Executive"
                     ]
                 }
             ],
@@ -85,7 +85,7 @@
                     "figure": "Business Person",
                     "country": "---capital",
                     "posts": [
-                        "CEO"
+                        "CEO/Executive"
                     ]
                 }
             ],
@@ -103,7 +103,7 @@
                     "figure": "Business Person",
                     "country": "---capital",
                     "posts": [
-                        "CEO"
+                        "CEO/Executive"
                     ]
                 }
             ],
@@ -295,6 +295,15 @@
             ],
             [
                 {
+                    "figure": "L.K. Advani",
+                    "country": "India",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
                     "figure": "Auul Pakir Jainulabdeen Abdul Kalam",
                     "country": "India",
                     "posts": [
@@ -316,7 +325,7 @@
                     "figure": "Business Person",
                     "country": "---capital",
                     "posts": [
-                        "CEO"
+                        "CEO/Executive"
                     ]
                 }
             ],
@@ -325,7 +334,7 @@
                     "figure": "Business Person",
                     "country": "---capital",
                     "posts": [
-                        "CEO"
+                        "CEO/Executive"
                     ]
                 }
             ],
@@ -334,7 +343,7 @@
                     "figure": "Business Person",
                     "country": "---capital",
                     "posts": [
-                        "CEO"
+                        "CEO/Executive"
                     ]
                 }
             ],
@@ -370,7 +379,7 @@
                     "figure": "Business Person",
                     "country": "---capital",
                     "posts": [
-                        "CEO"
+                        "CEO/Executive"
                     ]
                 }
             ],
@@ -379,7 +388,7 @@
                     "figure": "Business Person",
                     "country": "---capital",
                     "posts": [
-                        "CEO"
+                        "CEO/Executive"
                     ]
                 }
             ],
@@ -529,13 +538,6 @@
             ],
             [
                 {
-                    "figure": "Daniel Ortega Saavedra",
-                    "country": "Nicaragua",
-                    "posts": [
-                        "President"
-                    ]
-                },
-                {
                     "figure": "Rosario Murillo",
                     "country": "Nicaragua",
                     "posts": [
@@ -553,13 +555,6 @@
                 }
             ],
             [
-                {
-                    "figure": "Daniel Ortega Saavedra",
-                    "country": "Nicaragua",
-                    "posts": [
-                        "President"
-                    ]
-                },
                 {
                     "figure": "Rosario Murillo",
                     "country": "Nicaragua",
@@ -588,13 +583,6 @@
             ],
             [
                 {
-                    "figure": "Daniel Ortega Saavedra",
-                    "country": "Nicaragua",
-                    "posts": [
-                        "President"
-                    ]
-                },
-                {
                     "figure": "Rosario Murillo",
                     "country": "Nicaragua",
                     "posts": [
@@ -612,13 +600,6 @@
                 }
             ],
             [
-                {
-                    "figure": "Daniel Ortega Saavedra",
-                    "country": "Nicaragua",
-                    "posts": [
-                        "President"
-                    ]
-                },
                 {
                     "figure": "Rosario Murillo",
                     "country": "Nicaragua",

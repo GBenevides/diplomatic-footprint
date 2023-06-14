@@ -17,7 +17,7 @@ def extract_post_country(s):
     pattern = r'(\b\w+\b)(?: da| das| de| do)\s*(.*),?\s*(.*)'
     pattern = r'(\b\w+\b)(?: da| das| de| do)\s+(\b\w+.*\b)'
     match = re.search(pattern, s)
-    if match and "Coréia" not in s and not any(s == string for string in ["África do Sul", "Costa do Marfim"]):
+    if match and "Coréia" not in s and not any(s == string for string in ["África do Sul", "Costa do Marfim", "CoReia do Sul"]):
         # print("Post/country MATCH:", s, "groups:", match.group(1), "/", match.group(2).strip())
         return match.group(2).strip()
     return s
@@ -26,15 +26,24 @@ def extract_post_country(s):
 def find_last_post(line):
     articles = ['a', 'o', 'as', 'os', 'um', 'uns', 'uma', 'umas']
     prepositions = ['de', 'da', 'do', 'em', 'para', 'com', 'por', 'sobre']
+    post_detected = []
+    tricky_post = ""
     if 'presidente da assembléia' in line.lower():
-        return 'presidente da assembléia'
+        tricky_post = 'presidente da assembléia'
     if 'presidente  da  câmara  dos  deputados' in line.lower():
-        return 'presidente  da  câmara'
+        tricky_post = 'presidente  da  câmara'
     if 'ministro das relações exteriores' in line.lower():
-        return 'Ministro'
+        tricky_post = 'Ministro'
+    if 'líder da oposição' in line.lower():
+        tricky_post = 'líder da oposição'
+    if 'sua santidade' in line.lower():
+        tricky_post = 'líder religioso'
+    if 'diretor executivo' in line.lower():
+        tricky_post = 'ceo'
+    if tricky_post:
+        post_detected.append(tricky_post)
 
     words = line.lower().split()
-    post_detected = []
     for word in words:
         if word in list(app_statics.posts_mapping.keys()):  # any(word in posts or word.startswith(p) for p in posts):
             post_detected.append(word)
@@ -104,11 +113,13 @@ def monarchy(candidate):
 
 def rectify_person_false_negative(candidate):
     return any(f in candidate for f in
-               ["Decker", "Laurent Gbagbo", "Franco Frattini", "Hu Jintao", "Wen Jiabao", "Hifikepunye Pohamba",
-                "Laurent Gbagbo", "Manmohan Singh",
-                "Armando Guebuza", "Lee Myung-bak", "Yasuo Fukuda", "Ban Ki-moon", "Nong Duch Manh",
+               ["Decker", "Benjamin Netanyahu","Laurent Gbagbo", "Franco Frattini", "Hu Jintao", "Wen Jiabao", "Hifikepunye Pohamba",
+                "Laurent Gbagbo", "Manmohan Singh", "Recep Erdogan", "José Mujica",
+                "Armando Guebuza", "Lee Myung-bak", "Maurício Funes", "Yasuo Fukuda", "Ban Ki-moon", "Nong Duch Manh",
                 "Hifikepunye Pohamba", "Laurent Gbagbo", "Massimo D'Alema", "Recep Tayyip", "Gabriele Galatere di Genola"
-                ,"Auul Pakir Jainulabdeen Abdul Kalam"])
+                ,"Auul Pakir Jainulabdeen Abdul Kalam", "Pedro Pires", "Obiang Nguema Mbasogo"
+                ,"Armando Guebuza", "Ren Zhengfei", 'Audiência com Sua Santidade o Papa Francisco', 'Durão Barroso',
+                "Emir do Catar  Xeque Tamin bin"])
 
 
 # armand de decker
@@ -133,14 +144,17 @@ def vet_bizarre_country(candidate):
                                         ["recepção", "audiência", "chanceler", "g-5", "brics", "secretário-geral",
                                          "posse", "estado", "estados associados", "mercosul", "conferência", "reunião",
                                          "armand", "encontro", "saudação", "aprobras", "cerimônia", "senado", "câmara",
-                                         "alto nível",
+                                         "alto nível", "sua santidade",
                                          "governo da", "presidente da grande assembléia nacional da turquia", "jantar",
-                                         "almoço", "finanças do", "agility",'relações exteriores',"trabalho","américa"])
+                                         "almoço", "finanças do", "agility",'relações exteriores',"trabalho","américa",
+                                         "indústrias", 'telefônica', "presidenta"])
 
 
 def vet_bizarre_person(candidate):
     suspect = candidate.lower()
-    return len(suspect) > 2 and not any(f in suspect for f in ["linkspartei","dinamarca", "bélgica", "siemens", "audiência"])
+    return len(suspect) > 2 and not any(f in suspect for f in ["suas majestades","dra","presidenta da república",
+                                                               "linkspartei", "dinamarca", "bélgica", "siemens",
+                                                               "audiência", "emir do catar", "presidente de cuba"])
 
 
 """

@@ -28,7 +28,7 @@ def mk_degenerate_cases(year):
     return cases
 
 
-def generate_csv(path, year, csv_prefix, verbose=False, pdfMiner=True, rearrange=True, testMode=False):
+def generate_csv(path, year, csv_prefix, verbose=False, pdfMiner=False, rearrange=True, testMode=False):
     pdf_text = convert_pdf_to_txt_pdfminer(path) if pdfMiner else convert_pdf_to_txt_pypdf2(path)
     raw_visits = visits_from_text(pdf_text, year)
     if verbose:
@@ -91,7 +91,8 @@ unwanted_lines = ["", "Presidência da República", "Casa Civil", "Secretaria Es
                   '(Tanzânia), Lusaca (Zâmbia), Johannesburgo (África do Sul)',
                   'Johanesburgo (África do Sul) e Luanda (Angola)',
                   'Luanda / Angola', '- Chegada ao Aeroporto de Luanda / Angola',
-                  'Atualizado em 18/12/2007', 'Madri']
+                  'Atualizado em 18/12/2007', 'Madri',
+                  'Primeiro Secretário-Geral da Unasul, Néstor Carlos Kirchner']
 
 
 def same_visit(visit, father_visit):
@@ -144,23 +145,24 @@ def rearrange_state_visits(visits):
     for v in rearranged:
         if previous is None or (v["Period"].lower() != previous["Period"].lower()):
             # Looking for potential hosts...
-            #enumeratedPoints = enumerate(v["Overview"])
+            # enumeratedPoints = enumerate(v["Overview"])
+            assert type(v["Overview"]) == list
             for next_point in v["Overview"]:
                 next_point_strip = next_point.strip()
                 post_treated = brutal_replace_if_any(next_point_strip, v["year"])
-                positive_trigger = any(t in post_treated.lower() for t in app_statics.triggers + list(app_statics.posts_mapping.keys()))
+                positive_trigger = any(
+                    t in post_treated.lower() for t in app_statics.triggers + list(app_statics.posts_mapping.keys()))
                 negative_trigger = any(t in post_treated.lower() for t in app_statics.negative_triggers)
                 if positive_trigger and not negative_trigger:
                     # print("Line triggered:", post_treated, "date:", v["Period"])
                     meeting_if_any = meeting_info_nlp.extract_meeting_if_any(post_treated)
-                    ##print("Meeting --> ", meeting_if_any)
-                    ##print("------------")
                     if meeting_if_any:
                         mapped_meeting, incoming_inconsistent = map_name(meeting_if_any, v["year"])
-                        print("Meeting --> ", mapped_meeting, "   ---   ", v["Period"], "   ---   ", next_point)
-                        v["Host"].append(mapped_meeting)
-                        all_inconsistent_posts += incoming_inconsistent
-                        counter += 1
+                        if len(mapped_meeting) > 0:
+                            #print("Meeting --> ", mapped_meeting, "   ---   ", v["Period"], "   ---   ", next_point)
+                            v["Host"].append(mapped_meeting)
+                            all_inconsistent_posts += incoming_inconsistent
+                            counter += 1
         previous = v
 
         v["Overview"] = "\n".join(v["Overview"])
@@ -203,7 +205,8 @@ def map_name(meeting, year):
         entry_post = app_statics.posts_mapping[meeting['Post']]
         new_entry = make_person_entry(meeting['Person'], meeting['Country'], entry_post)
         code_key_sugg = meeting["Person"][0:2].upper() + "1"
-        print('"' + code_key_sugg + '"', ":", new_entry, '--->', "'"+new_entry['figure']+"'",":","'"+ code_key_sugg+"'",",")
+        print('"' + code_key_sugg + '"', ":", new_entry, '--->', "'" + new_entry['figure'] + "'", ":",
+              "'" + code_key_sugg + "'", ",")
         raise KeyError("Missing key: " + meeting['Person'], meeting)
 
 
@@ -227,7 +230,7 @@ def break_up_multiple_countries_visits(father_visit):
     countries = country.split(";")
     father_visit["Country"] = countries[0]
     for c in countries[1:]:
-        clone = father_visit.copy()
+        clone = father_visit.copy()  # Clone content
         clone["Country"] = c
         sub_visits.append(clone)
     return sub_visits
@@ -266,6 +269,8 @@ def brutal_replace_if_any(raw, year):  # Sadly, pdf too inconsistent
         'Paris (França) e Londres (Inglaterra)': ['Parislondres (France Eng)', '2009'],
         'San Salvador (El Salvador) e Cidade de Guatemala (Guatemala)': ["Salvadorguate (Salv Guate)", '2009'],
         'Lisboa (Portugal) e Kiev (Ucrânia)': ['Kiev (Ucrânia)', '2009'],
+        'Reunião com o presidente da Coreia do Sul, Lee Myung-bak' : ['- Reunião com o presidente da Coreia do Sul, '
+                                                                      'Lee Myung-bak', '2010'],
         'Porto Príncipe (Haiti) e São Salvador (El Salvador)': ['Portsalv (HaitSalv)', "2008"],
         'Montevidéu (Uruguai) e Santiago (Chile)': ["Montiago (Uruchil)", "2010"],
         'Jerusalém (Israel), Belém (Palestina), Ramalá (Cisjordânia) e Amã (Jordânia)': ["Jerberama (Ispalcisjor)",
@@ -295,7 +300,7 @@ def brutal_replace_if_any(raw, year):  # Sadly, pdf too inconsistent
         "- Encontro com Sua Santidade o Papa Bento XVI": ["- Encontro com chefe do Vaticano, o Papa Bento XVI", "2008"],
         "- Encontro com a Presidenta da República Argentina, Cristina Fernández de Kirchner": [
             "- Encontro com a presidenta da Argentina, Cristina Fernández de Kirchner", "2008"],
-        "- Audiência ao senhor Massimo D'Alema" : ["- Primeiro-ministro da Italia, Massimo D'Alema", "2008"]
+        "- Audiência ao senhor Massimo D'Alema": ["- Primeiro-ministro da Italia, Massimo D'Alema", "2008"]
     }
     if raw in replace_lines.keys() and replace_lines[raw][1] == year:
         replacement = replace_lines[raw][0]
@@ -356,7 +361,9 @@ def visits_from_text(pdf_text, year):
         pdf_text = pdf_text.replace(missing_period, correct_missing_period)
     last_is_overview = False
     current_visit = blank_visit_entry(year)
-
+    force_overview = ['Encontro com a imprensa','Reunião com o presidente da Coreia do Sul, Lee Myung-bak',
+                      'Presidente da Huawei, Ren Zhengfei','Foto oficial da XIV Cúpula do G-1',
+                      'Sessão de abertura da XIV Cúpula do G-1', 'Partida para Madri', 'Inauguração de estátua em homenagem ao ex-Presidente da Nação Argentina e']
     # Iterate over the lines in the pdf text
     for line in pdf_text.split("\n"):
         line = basic_prepare_line(line, year)
@@ -404,7 +411,7 @@ def visits_from_text(pdf_text, year):
                 continue
         # Check if the line matches an overview , that is, starts with "-"
         overview_match = overview_re.search(line)
-        if overview_match:
+        if overview_match or line in force_overview:
             # if not current_visit["Overview"].endswith("\n"): current_visit["Overview"] += "\n"
             #            current_visit["Overview"] += "\n" + overview_match.group(1)
             line_to_append = " - " + line.lstrip("-").strip()
@@ -416,7 +423,7 @@ def visits_from_text(pdf_text, year):
                 line) > 1 and not month__colon_re.search(line):
             # if not current_visit["Overview"].endswith("\n"): current_visit["Overview"] += "\n"
             prefix = " "
-            if line.startswith("-"):  # or line[0].isupper():
+            if line.startswith("-"):  # or line[0].isupper(), but then how do we know it isn't a name ? :'(
                 line = line.lstrip("-")
                 prefix = ' - '
                 current_visit["Overview"].append(prefix + line)
