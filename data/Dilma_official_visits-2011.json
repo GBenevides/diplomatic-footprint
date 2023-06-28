@@ -294,7 +294,8 @@
                     "figure": "Jos\u00e9 Manuel Dur\u00e3o Barroso",
                     "country": "European Commission",
                     "posts": [
-                        "Political/Agency Leader"
+                        "Political/Agency Leader",
+                        "CEO/Executive"
                     ]
                 }
             ],
@@ -433,6 +434,15 @@
             ],
             [
                 {
+                    "figure": "Juan Somav\u00eda",
+                    "country": "---International Labour Organization",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
                     "figure": "Hu Jintao",
                     "country": "China",
                     "posts": [
@@ -472,7 +482,8 @@
                     "figure": "Recep Tayyip Erdogan",
                     "country": "Turkey",
                     "posts": [
-                        "Prime-minister"
+                        "Prime-minister",
+                        "President"
                     ]
                 }
             ]

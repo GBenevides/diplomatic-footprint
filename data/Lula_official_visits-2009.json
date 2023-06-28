@@ -342,7 +342,8 @@
                     "figure": "Recep Tayyip Erdogan",
                     "country": "Turkey",
                     "posts": [
-                        "Prime-minister"
+                        "Prime-minister",
+                        "President"
                     ]
                 }
             ],
@@ -1012,7 +1013,7 @@
                     ]
                 },
                 {
-                    "figure": "Silvia",
+                    "figure": "Queen Silvia",
                     "country": "Sweden",
                     "posts": [
                         "Monarch"
@@ -1125,7 +1126,8 @@
                     "figure": "Jos\u00e9 Manuel Dur\u00e3o Barroso",
                     "country": "European Commission",
                     "posts": [
-                        "Political/Agency Leader"
+                        "Political/Agency Leader",
+                        "CEO/Executive"
                     ]
                 }
             ],

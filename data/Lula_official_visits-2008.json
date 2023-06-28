@@ -231,7 +231,8 @@
                     "figure": "Donald Tusk",
                     "country": "Poland",
                     "posts": [
-                        "Prime-minister"
+                        "Prime-minister",
+                        "Political/Agency Leader"
                     ]
                 }
             ],
@@ -292,7 +293,8 @@
                     "figure": "Jos\u00e9 Manuel Dur\u00e3o Barroso",
                     "country": "European Commission",
                     "posts": [
-                        "Political/Agency Leader"
+                        "Political/Agency Leader",
+                        "CEO/Executive"
                     ]
                 }
             ],
@@ -651,7 +653,17 @@
     {
         "year": "2008",
         "Overview": " - Partida para Lisboa (Portugal)\n - Chegada \u00e0 Base A\u00e9rea do Figo Maduro - Lisboa\n - Chegada ao Hotel Ritz\n - Sess\u00e3o de abertura da VII Confer\u00eancia de Chefes de Estado e de Governo da\n - Comunidade dos Pa\u00edses de L\u00edngua Portuguesa - CPLP\n - Foto Oficial\n - Sess\u00e3o privada da VII Confer\u00eancia de Chefes de Estado e de  Governo da CPLP\n - Almo\u00e7o em homenagem aos chefes de Estado e de Governo oferecido pelo primeiro-ministro de Portugal, Jos\u00e9 S\u00f3crates\n - Sess\u00e3o operativa\n - Debate tem\u00e1tico sobre L\u00edngua Portuguesa\n - Sess\u00e3o de encerramento da VII Confer\u00eancia de Chefes de Estado e de Governo da CPLP\n - Reuni\u00e3o com diretor-geral da FAO, Jacques Diouf\n - Cerim\u00f4nia de entrega do Pr\u00eamio Luiz de Cam\u00f5es 2007 ao escritor Ant\u00f3nio Lobo Antunes\n - Cerim\u00f4nia de acordo de investimentos da Empresa Brasileira de Aeron\u00e1utica (Embraer)\n - Entrevista concedida \u00e0 Rede de Televis\u00e3o Portuguesa - RTP em Portugal",
-        "Host": [],
+        "Host": [
+            [
+                {
+                    "figure": "Jacques Diouf",
+                    "country": "---FAO",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ]
+        ],
         "Period": "24 a 26 de Julho",
         "Country": "Portugal",
         "City/region": "Lisbon"

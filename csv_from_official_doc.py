@@ -138,11 +138,12 @@ def rearrange_state_visits(visits):
         else:
             father_visit["Overview"].append(" - [" + visit["City/region"] + "]")
             father_visit["Overview"] += (visit["Overview"])
-    append_visits(father_visit, rearranged)
+    append_visits(father_visit, rearranged) # Last one
     counter = 0
     previous = None  # avoid double host calculation
     all_inconsistent_posts = []
     for v in rearranged:
+        #print(v["Country"], v["Period"])
         if previous is None or (v["Period"].lower() != previous["Period"].lower()):
             # Looking for potential hosts...
             # enumeratedPoints = enumerate(v["Overview"])
@@ -171,7 +172,7 @@ def rearrange_state_visits(visits):
         # Translate overview now ?
         v["Period"] = format_location(v["Period"])
     print("Inconsistent posts:\n", list(OrderedDict.fromkeys(all_inconsistent_posts)))
-    print("Total state visits:", counter)
+    print("Total meetings:", counter)
     # print(app_statics.leaders_mapping)
     return rearranged, counter
 
@@ -193,7 +194,8 @@ def map_name(meeting, year):
                 entry_post = app_statics.posts_mapping[post_pre_split] if post_pre_split else app_statics.empty_post
             else:
                 entry_post = ''
-            if code_name not in app_statics.account_post_inconsistency[year] and entry_post not in indiv_mapped['posts']:
+            if code_name not in app_statics.account_post_inconsistency[year] and entry_post not in indiv_mapped[
+                'posts']:
                 print("Inconsistent post in:", code_name, '/', raw_name, '-->', entry_post, ' / ',
                       indiv_mapped['posts'])
                 inconsistent_posts.append(code_name)
@@ -204,9 +206,15 @@ def map_name(meeting, year):
         print("\n\tMissing in figure dict... Suggestion:")
         entry_post = app_statics.posts_mapping[meeting['Post']]
         new_entry = make_person_entry(meeting['Person'], meeting['Country'], entry_post)
-        code_key_sugg = meeting["Person"][0:2].upper() + "1"
+        person_upper = meeting["Person"][0:2].upper()
+        code_key_sugg = person_upper + "1"
         print('"' + code_key_sugg + '"', ":", new_entry, '--->', "'" + new_entry['figure'] + "'", ":",
               "'" + code_key_sugg + "'", ",")
+        existing_codes = [element for element in app_statics.leaders_mapping.keys() if
+                    element[0:2] == meeting["Person"][0:2].upper()]
+        print("Existing entries:")
+        for code in existing_codes:
+            print(code, app_statics.leaders_mapping[code]['figure'])
         raise KeyError("Missing key: " + meeting['Person'], meeting)
 
 
@@ -269,8 +277,8 @@ def brutal_replace_if_any(raw, year):  # Sadly, pdf too inconsistent
         'Paris (França) e Londres (Inglaterra)': ['Parislondres (France Eng)', '2009'],
         'San Salvador (El Salvador) e Cidade de Guatemala (Guatemala)': ["Salvadorguate (Salv Guate)", '2009'],
         'Lisboa (Portugal) e Kiev (Ucrânia)': ['Kiev (Ucrânia)', '2009'],
-        'Reunião com o presidente da Coreia do Sul, Lee Myung-bak' : ['- Reunião com o presidente da Coreia do Sul, '
-                                                                      'Lee Myung-bak', '2010'],
+        'Reunião com o presidente da Coreia do Sul, Lee Myung-bak': ['- Reunião com o presidente da Coreia do Sul, '
+                                                                     'Lee Myung-bak', '2010'],
         'Porto Príncipe (Haiti) e São Salvador (El Salvador)': ['Portsalv (HaitSalv)', "2008"],
         'Montevidéu (Uruguai) e Santiago (Chile)': ["Montiago (Uruchil)", "2010"],
         'Jerusalém (Israel), Belém (Palestina), Ramalá (Cisjordânia) e Amã (Jordânia)': ["Jerberama (Ispalcisjor)",
@@ -361,9 +369,10 @@ def visits_from_text(pdf_text, year):
         pdf_text = pdf_text.replace(missing_period, correct_missing_period)
     last_is_overview = False
     current_visit = blank_visit_entry(year)
-    force_overview = ['Encontro com a imprensa','Reunião com o presidente da Coreia do Sul, Lee Myung-bak',
-                      'Presidente da Huawei, Ren Zhengfei','Foto oficial da XIV Cúpula do G-1',
-                      'Sessão de abertura da XIV Cúpula do G-1', 'Partida para Madri', 'Inauguração de estátua em homenagem ao ex-Presidente da Nação Argentina e']
+    force_overview = ['Encontro com a imprensa', 'Reunião com o presidente da Coreia do Sul, Lee Myung-bak',
+                      'Presidente da Huawei, Ren Zhengfei', 'Foto oficial da XIV Cúpula do G-1',
+                      'Sessão de abertura da XIV Cúpula do G-1', 'Partida para Madri',
+                      'Inauguração de estátua em homenagem ao ex-Presidente da Nação Argentina e']
     # Iterate over the lines in the pdf text
     for line in pdf_text.split("\n"):
         line = basic_prepare_line(line, year)
@@ -438,6 +447,8 @@ def visits_from_text(pdf_text, year):
 
 def basic_prepare_line(line, year):
     prep_line = line.strip().rstrip("/ 2005")
+    if year == "2015":
+        prep_line = prep_line.split(";")[0]
     return prep_line.replace("Caribe - União Européia", "Caribe-União Européia") if year == "2008" else prep_line
 
 

@@ -404,7 +404,7 @@
             [
                 {
                     "figure": "Lothar Bisky",
-                    "country": "Linkspartei",
+                    "country": "---Linkspartei",
                     "posts": [
                         "Political/Agency Leader"
                     ]
@@ -538,6 +538,13 @@
             ],
             [
                 {
+                    "figure": "Daniel Ortega Saavedra",
+                    "country": "Nicaragua",
+                    "posts": [
+                        "President"
+                    ]
+                },
+                {
                     "figure": "Rosario Murillo",
                     "country": "Nicaragua",
                     "posts": [
@@ -555,6 +562,13 @@
                 }
             ],
             [
+                {
+                    "figure": "Daniel Ortega Saavedra",
+                    "country": "Nicaragua",
+                    "posts": [
+                        "President"
+                    ]
+                },
                 {
                     "figure": "Rosario Murillo",
                     "country": "Nicaragua",
@@ -583,6 +597,13 @@
             ],
             [
                 {
+                    "figure": "Daniel Ortega Saavedra",
+                    "country": "Nicaragua",
+                    "posts": [
+                        "President"
+                    ]
+                },
+                {
                     "figure": "Rosario Murillo",
                     "country": "Nicaragua",
                     "posts": [
@@ -600,6 +621,13 @@
                 }
             ],
             [
+                {
+                    "figure": "Daniel Ortega Saavedra",
+                    "country": "Nicaragua",
+                    "posts": [
+                        "President"
+                    ]
+                },
                 {
                     "figure": "Rosario Murillo",
                     "country": "Nicaragua",
@@ -635,6 +663,15 @@
         "year": "2007",
         "Overview": " - Partida para Madri (Espanha)\n - Escala T\u00e9cnica em Madri (Espanha)\n - Partida para Helsinque (Finl\u00e2ndia)\n - Chegada a Helsinque (Finl\u00e2ndia)\n - Cerim\u00f4nia Oficial de Boas-Vindas\n - Encontro com a presidente da Finl\u00e2ndia,Tarja Halonen\n - Reuni\u00e3o Ampliada\n - Assinatura de Atos e Declara\u00e7\u00e3o \u00e0 Imprensa\n - Encerramento do Semin\u00e1rio Empresarial Brasil-Finl\u00e2ndia sobre Oportunidades de Investimento no Brasil\n - Almo\u00e7o de trabalho com a presidente da Finl\u00e2ndia, Tarja Halonen, e participantes do Semin\u00e1rio Empresarial\n - Encontro com o primeiro-ministro Matti Vanhanen\n - Cerim\u00f4nia de Oferenda Floral\n - Visita ao Parlamento\n - Encontro com o presidente do Parlamento, Sauli Niinist\u00f6\n - Jantar oferecido pela presidente da Finl\u00e2ndia, Tarja Halonen",
         "Host": [
+            [
+                {
+                    "figure": "Tarja Halonen",
+                    "country": "Finland",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
             [
                 {
                     "figure": "Tarja Halonen",
