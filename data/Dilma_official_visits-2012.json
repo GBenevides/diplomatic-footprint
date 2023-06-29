@@ -45,7 +45,7 @@
                     "figure": "Angela Merkel",
                     "country": "Germany",
                     "posts": [
-                        "Chancellor"
+                        "Prime-minister"
                     ]
                 }
             ],
@@ -194,7 +194,7 @@
                     "figure": "Angela Merkel",
                     "country": "Germany",
                     "posts": [
-                        "Chancellor"
+                        "Prime-minister"
                     ]
                 }
             ],
@@ -213,7 +213,7 @@
                     "figure": "Angela Merkel",
                     "country": "Germany",
                     "posts": [
-                        "Chancellor"
+                        "Prime-minister"
                     ]
                 }
             ],
@@ -248,6 +248,7 @@
                     "figure": "David Cameron",
                     "country": "United Kingdom",
                     "posts": [
+                        "Political/Agency Leader",
                         "Prime-minister"
                     ]
                 }
@@ -399,7 +400,7 @@
                     "figure": "Bertrand Delanoe",
                     "country": "---Paris",
                     "posts": [
-                        "Mayor"
+                        "Regional Mayor/Governor"
                     ]
                 }
             ],

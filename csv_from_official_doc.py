@@ -138,12 +138,12 @@ def rearrange_state_visits(visits):
         else:
             father_visit["Overview"].append(" - [" + visit["City/region"] + "]")
             father_visit["Overview"] += (visit["Overview"])
-    append_visits(father_visit, rearranged) # Last one
+    append_visits(father_visit, rearranged)  # Last one
     counter = 0
     previous = None  # avoid double host calculation
     all_inconsistent_posts = []
     for v in rearranged:
-        #print(v["Country"], v["Period"])
+        # print(v["Country"], v["Period"])
         if previous is None or (v["Period"].lower() != previous["Period"].lower()):
             # Looking for potential hosts...
             # enumeratedPoints = enumerate(v["Overview"])
@@ -160,7 +160,7 @@ def rearrange_state_visits(visits):
                     if meeting_if_any:
                         mapped_meeting, incoming_inconsistent = map_name(meeting_if_any, v["year"])
                         if len(mapped_meeting) > 0:
-                            #print("Meeting --> ", mapped_meeting, "   ---   ", v["Period"], "   ---   ", next_point)
+                            # print("Meeting --> ", mapped_meeting, "   ---   ", v["Period"], "   ---   ", next_point)
                             v["Host"].append(mapped_meeting)
                             all_inconsistent_posts += incoming_inconsistent
                             counter += 1
@@ -174,10 +174,18 @@ def rearrange_state_visits(visits):
     print("Inconsistent posts:\n", list(OrderedDict.fromkeys(all_inconsistent_posts)))
     print("Total meetings:", counter)
     # print(app_statics.leaders_mapping)
+    if len(all_suggestions) > 0:
+        print("Remaining suggestions:")
+        for s in all_suggestions:
+            print(s)
     return rearranged, counter
 
 
+all_suggestions = []
+
+
 def map_name(meeting, year):
+    halt_if_exception = False
     try:
         # raw_name, country, post = entry['Person'], entry['Country'], entry['Post']
         raw_name = meeting['Person']
@@ -204,18 +212,24 @@ def map_name(meeting, year):
     except KeyError:
         print("Error in meeting:", meeting)
         print("\n\tMissing in figure dict... Suggestion:")
-        entry_post = app_statics.posts_mapping[meeting['Post']]
+        entry_post = app_statics.posts_mapping[meeting['Post']] if meeting['Post'] in app_statics.posts_mapping else ""
         new_entry = make_person_entry(meeting['Person'], meeting['Country'], entry_post)
         person_upper = meeting["Person"][0:2].upper()
-        code_key_sugg = person_upper + "1"
-        print('"' + code_key_sugg + '"', ":", new_entry, '--->', "'" + new_entry['figure'] + "'", ":",
-              "'" + code_key_sugg + "'", ",")
         existing_codes = [element for element in app_statics.leaders_mapping.keys() if
-                    element[0:2] == meeting["Person"][0:2].upper()]
+                          element[0:2] == person_upper]
+        code_key_sugg = person_upper + str(len(existing_codes) + 1)
+        suggestion = ['"' + code_key_sugg + '"', ":", new_entry, '--->', "'" + new_entry['figure'] + "'", ":",
+                      "'" + code_key_sugg + "'", ","]
+        suggestion = ' '.join(map(str, suggestion))
+        print(suggestion)
         print("Existing entries:")
         for code in existing_codes:
             print(code, app_statics.leaders_mapping[code]['figure'])
-        raise KeyError("Missing key: " + meeting['Person'], meeting)
+        all_suggestions.append(suggestion)
+        if not halt_if_exception:
+            return [], []
+        else:
+            raise KeyError("Missing key: " + meeting['Person'], meeting)
 
 
 def make_person_entry(name, country, post):

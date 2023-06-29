@@ -585,6 +585,7 @@
                     "figure": "Jacques Chirac",
                     "country": "France",
                     "posts": [
+                        "President",
                         "Ex-president"
                     ]
                 }
@@ -621,7 +622,7 @@
                     "figure": "Angela Merkel",
                     "country": "Germany",
                     "posts": [
-                        "Chancellor"
+                        "Prime-minister"
                     ]
                 }
             ],
@@ -1217,7 +1218,7 @@
                     "figure": "Angela Merkel",
                     "country": "Germany",
                     "posts": [
-                        "Chancellor"
+                        "Prime-minister"
                     ]
                 }
             ],
@@ -1226,7 +1227,7 @@
                     "figure": "Angela Merkel",
                     "country": "Germany",
                     "posts": [
-                        "Chancellor"
+                        "Prime-minister"
                     ]
                 }
             ],

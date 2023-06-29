@@ -422,6 +422,15 @@
             ],
             [
                 {
+                    "figure": "Abdelaziz Bouteflika",
+                    "country": "Algeria",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
                     "figure": "Stephen Harper",
                     "country": "Canada",
                     "posts": [
@@ -443,7 +452,7 @@
                     "figure": "Angela Merkel",
                     "country": "Germany",
                     "posts": [
-                        "Chancellor"
+                        "Prime-minister"
                     ]
                 }
             ]
@@ -674,15 +683,6 @@
             ],
             [
                 {
-                    "figure": "Tarja Halonen",
-                    "country": "Finland",
-                    "posts": [
-                        "President"
-                    ]
-                }
-            ],
-            [
-                {
                     "figure": "Matti Vanhanen",
                     "country": "Finland",
                     "posts": [
@@ -848,7 +848,7 @@
                     "figure": "Angela Merkel",
                     "country": "Germany",
                     "posts": [
-                        "Chancellor"
+                        "Prime-minister"
                     ]
                 }
             ],
@@ -956,6 +956,15 @@
                     "figure": "Manmohan Singh",
                     "country": "India",
                     "posts": "Prime-minister"
+                }
+            ],
+            [
+                {
+                    "figure": "Thabo Mbeki",
+                    "country": "South Africa",
+                    "posts": [
+                        "President"
+                    ]
                 }
             ]
         ],

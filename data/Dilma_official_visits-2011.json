@@ -232,6 +232,7 @@
                     "figure": "David Cameron",
                     "country": "United Kingdom",
                     "posts": [
+                        "Political/Agency Leader",
                         "Prime-minister"
                     ]
                 }
@@ -473,7 +474,7 @@
                     "figure": "Angela Merkel",
                     "country": "Germany",
                     "posts": [
-                        "Chancellor"
+                        "Prime-minister"
                     ]
                 }
             ],

@@ -4,6 +4,7 @@ lula = {"2004": 21, "2005": 29, "2006": 16, "2007": 36, "2008": 33, "2009": 40, 
 lula = {"2007": [36, 80], "2008": [33, 89], "2009": [40, 108], "2010": [35, 56]}
 dilma = {"2011": [17,44], "2012": [15,35], "2013": [18, 23], "2014" : [12, 19], "2015" : [16, 38], "2016" : [3, 3]}
 temer = {"2017": [9,26], "2018": [8,20]}
+lula = {"2005": [29,48], "2006": [16,35], "2007": [36, 81], "2008": [33, 89], "2009": [40, 108], "2010": [35, 56]}
 
 verbose = False
 
@@ -19,7 +20,6 @@ def generate_csv_by_year(name, years_visits, data_path_prefix, testMode=False):
                                               pdfMiner=use_pdf_miner, testMode=testMode)
         if nb_visits == expected_visits and nb_meetings == expected_meetings:
             print("Done!")
-            #print("--------------")
         else:
             raise Exception("Expected", str(expected_visits), "visits and", str(expected_meetings), "meetings, but "
                                                                                                     "actually found "

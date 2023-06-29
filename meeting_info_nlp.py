@@ -41,6 +41,8 @@ def find_last_post(line):
         tricky_post = 'líder religioso'
     if 'diretor executivo' in line.lower():
         tricky_post = 'ceo'
+    if 'chefe do governo' in line.lower():
+        tricky_post = "Ministro"
     if tricky_post:
         post_detected.append(tricky_post)
 
@@ -116,10 +118,10 @@ def monarchy(candidate):
 def rectify_person_false_negative(candidate):
     return any(f in candidate for f in
                ["Decker", "Benjamin Netanyahu", "Laurent Gbagbo", "Franco Frattini", "Hu Jintao", "Wen Jiabao",
-                "Hifikepunye Pohamba", "Cyril Ramaphosa", "Senhor Andrew Liveris",
+                "Hifikepunye Pohamba", "Cyril Ramaphosa", "Senhor Andrew Liveris", "Thabo Mbeki",
                 "Laurent Gbagbo", "Manmohan Singh", "Recep Erdogan", "José Mujica",
                 "Armando Guebuza", "Lee Myung-bak", "Maurício Funes", "Yasuo Fukuda", "Ban Ki-moon", "Nong Duch Manh",
-                "Hifikepunye Pohamba", "Laurent Gbagbo", "Massimo D'Alema", "Recep Tayyip",
+                "Hifikepunye Pohamba", "Laurent Gbagbo", "Massimo D'Alema", "Recep Tayyip", "Abdelaziz Bouteflika",
                 "Gabriele Galatere di Genola", "Presidente de Cabo Verde", "Enrique Peña Nieto"
                    , "Auul Pakir Jainulabdeen Abdul Kalam", "Pedro Pires", "Obiang Nguema Mbasogo"
                    , "Armando Guebuza", "Ren Zhengfei", 'Audiência com Sua Santidade o Papa Francisco', 'Durão Barroso',
@@ -153,10 +155,10 @@ def vet_bizarre_country(candidate):
                                         ["recepção", "audiência", "chanceler", "g-5", "brics", "secretário-geral",
                                          "posse", "estado", "estados associados", "mercosul", "conferência", "reunião",
                                          "armand", "encontro", "saudação", "aprobras", "cerimônia", "senado", "câmara",
-                                         "alto nível", "sua santidade",
+                                         "alto nível", "sua santidade", "vladimir",
                                          "governo da", "presidente da grande assembléia nacional da turquia", "jantar",
                                          "almoço", "finanças do", "agility", 'relações exteriores', "trabalho",
-                                         "américa", "chairman",
+                                         "américa", "chairman","governo", "erário", "áfrica ocidental",
                                          "indústrias", 'telefônica', "presidenta", 'diretor-geral', 'ex-presidente da república portuguesa'])
 
 
@@ -164,7 +166,8 @@ def vet_bizarre_person(candidate):
     suspect = candidate.lower()
     return len(suspect) > 2 and not any(f == suspect for f in ["suas majestades", "presidenta da república",'rainha da dinamarca',
                                                                "linkspartei", "dinamarca", "rei da bélgica", "presidente da siemens",
-                                                               "audiência", 'coca-cola',"emir do catar", "presidente de cuba"]) \
+                                                               "audiência", 'coca-cola',"emir do catar", "fundador do fórum econômico mundial",
+                                                               "chefe de governo da","presidente de cuba"]) \
            and suspect not in ["dra"]
 
 
