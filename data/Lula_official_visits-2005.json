@@ -83,7 +83,7 @@
     },
     {
         "year": "2005",
-        "Overview": " - Chegada a Caracas - cerim\u00f4nia de boas vindas Secretaria de Imprensa e Porta-Voz\n - Cerim\u00f4nia de chegada ao Pal\u00e1cio de Miraflores\n - Cerim\u00f4nia de abertura do Encontro Empresarial Brasil-Venezuela\n - Encontro de trabalho com o presidente da Rep\u00fablica Bolivariana da Venezuela, Hugo Ch\u00e1vez\n - Apresenta\u00e7\u00e3o de conclus\u00f5es do Encontro Empresarial Brasil-Venezuela pelo presidente da C\u00e2mara Venezuelana-Brasileira de Com\u00e9rcio e Ind\u00fastria, N\u00e9lson Quijada\n - Assinatura de Atos\n - Almo\u00e7o oferecido pelo Presidente da Venezuela em homenagem ao Presidente da Rep\u00fablica",
+        "Overview": " - Chegada a Caracas - cerim\u00f4nia de boas vindas\n - Cerim\u00f4nia de chegada ao Pal\u00e1cio de Miraflores\n - Cerim\u00f4nia de abertura do Encontro Empresarial Brasil-Venezuela\n - Encontro de trabalho com o presidente da Rep\u00fablica Bolivariana da Venezuela, Hugo Ch\u00e1vez\n - Apresenta\u00e7\u00e3o de conclus\u00f5es do Encontro Empresarial Brasil-Venezuela pelo presidente da C\u00e2mara Venezuelana-Brasileira de Com\u00e9rcio e Ind\u00fastria, N\u00e9lson Quijada\n - Assinatura de Atos\n - Almo\u00e7o oferecido pelo Presidente da Venezuela em homenagem ao Presidente da Rep\u00fablica",
         "Host": [
             [
                 {
@@ -146,7 +146,7 @@
     },
     {
         "year": "2005",
-        "Overview": " - Cerim\u00f4nia de Declara\u00e7\u00e3o de Fidelidade Constitucional do Presidente e do Vice-Presidente do Uruguai Secretaria de Imprensa e Porta-Voz\n - Cerim\u00f4nia de Transmiss\u00e3o do Cargo Presidencial\n - Cumprimentos dos Chefes de Delega\u00e7\u00f5es Estrangeiras e Convidados Especiais ao presidente Tabar\u00e9 V\u00e1squez\n - Desfile Militar\n - Encontro de trabalho com o presidente da Rep\u00fablica do Peru, Alejandro Toledo\n - Encontro de trabalho com o presidente da Rep\u00fablica Argentina, N\u00e9stor Kirchner, e o presidente da Rep\u00fablica Bolivariana da Venezuela, Hugo Ch\u00e1vez Paysand\u00fa\n - Visita \u00e0 f\u00e1brica da CYMPAY (Ambev)\n - Cerim\u00f4nia de inaugura\u00e7\u00e3o da f\u00e1brica de malte da CYMPAY (Ambev)",
+        "Overview": " - Cerim\u00f4nia de Declara\u00e7\u00e3o de Fidelidade Constitucional do Presidente e do Vice-Presidente do Uruguai\n - Cerim\u00f4nia de Transmiss\u00e3o do Cargo Presidencial\n - Cumprimentos dos Chefes de Delega\u00e7\u00f5es Estrangeiras e Convidados Especiais ao presidente Tabar\u00e9 V\u00e1squez\n - Desfile Militar\n - Encontro de trabalho com o presidente da Rep\u00fablica do Peru, Alejandro Toledo\n - Encontro de trabalho com o presidente da Rep\u00fablica Argentina, N\u00e9stor Kirchner, e o presidente da Rep\u00fablica Bolivariana da Venezuela, Hugo Ch\u00e1vez Paysand\u00fa\n - Visita \u00e0 f\u00e1brica da CYMPAY (Ambev)\n - Cerim\u00f4nia de inaugura\u00e7\u00e3o da f\u00e1brica de malte da CYMPAY (Ambev)",
         "Host": [
             [
                 {
@@ -181,14 +181,38 @@
     {
         "year": "2005",
         "Overview": " - Encontro de trabalho com os Presidentes da Col\u00f4mbia, Venezuela e Espanha\n - Assinatura de Comunicado Conjunto e palavras dos Presidentes",
-        "Host": [],
+        "Host": [
+            [
+                {
+                    "figure": "\u00c1lvaro Uribe V\u00e9lez",
+                    "country": "Colombia",
+                    "posts": [
+                        "President"
+                    ]
+                },
+                {
+                    "figure": "Hugo Chavez",
+                    "country": "Venezuela",
+                    "posts": [
+                        "President"
+                    ]
+                },
+                {
+                    "figure": "Jos\u00e9 Luis Zapatero",
+                    "country": "Spain",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
         "Period": "29 de Mar\u00e7o",
         "Country": "Venezuela",
         "City/region": "Ciudad Guyana"
     },
     {
         "year": "2005",
-        "Overview": " - Chegada a Roma - It\u00e1lia\n - Cerim\u00f4nia de ex\u00e9quias de Sua Santidade, o papa Jo\u00e3o Paulo II\n - Almo\u00e7o privado\n - Audi\u00eancia ao doutor Ricardo Alarc\u00f3n, presidente da Assembl\u00e9ia Nacional da Rep\u00fablica de Cuba\n - Encontro com o senhor Heinz Fischer, presidente federal da Rep\u00fablica da \u00c1ustria\n - Encontro com o senhor Armando Em\u00edlio Guebuza, presidente da Rep\u00fablica de Mo\u00e7ambique\n - Jantar privado\n - Visita a Assis/regi\u00e3o da \u00dambria\n - Visita a Perugia/regi\u00e3o da \u00dambria\n - Encontro e almo\u00e7o com os governadores das regi\u00f5es da Toscana, Em\u00edlia Romana e Marche Secretaria de Imprensa e Porta-Voz\n - Partida de Roma para Iaund\u00ea, Camar\u00f5es",
+        "Overview": " - Chegada a Roma - It\u00e1lia\n - Cerim\u00f4nia de ex\u00e9quias de Sua Santidade, o papa Jo\u00e3o Paulo II\n - Almo\u00e7o privado\n - Audi\u00eancia ao doutor Ricardo Alarc\u00f3n, presidente da Assembl\u00e9ia Nacional da Rep\u00fablica de Cuba\n - Encontro com o senhor Heinz Fischer, presidente federal da Rep\u00fablica da \u00c1ustria\n - Encontro com o senhor Armando Em\u00edlio Guebuza, presidente da Rep\u00fablica de Mo\u00e7ambique\n - Jantar privado\n - Visita a Assis/regi\u00e3o da \u00dambria\n - Visita a Perugia/regi\u00e3o da \u00dambria\n - Encontro e almo\u00e7o com os governadores das regi\u00f5es da Toscana, Em\u00edlia Romana e Marche\n - Partida de Roma para Iaund\u00ea, Camar\u00f5es",
         "Host": [
             [
                 {
@@ -269,7 +293,7 @@
     },
     {
         "year": "2005",
-        "Overview": " - Chegada a Acra, Gana\n - Encontro com o senhor John Agyekum Kufuor, presidente da Rep\u00fablica de Gana\n - Cerim\u00f4nia de Assinatura de Atos\n - \u201cDurbar\u201d (recep\u00e7\u00e3o) em homenagem ao Presidente da Rep\u00fablica, oferecido pela fam\u00edlia ganense-brasileira Tabom\n - Banquete de Estado em homenagem ao Presidente da Rep\u00fablica, oferecido pelo senhor John Agyekum Kufuor, presidente da Rep\u00fablica de Gana\n - Cerim\u00f4nia de inaugura\u00e7\u00e3o da C\u00e2mara de Com\u00e9rcio Brasil-Gana\n - Partida de Acra, Gana para Bissau, Guin\u00e9-Bissau Secretaria de Imprensa e Porta-Voz",
+        "Overview": " - Chegada a Acra, Gana\n - Encontro com o senhor John Agyekum Kufuor, presidente da Rep\u00fablica de Gana\n - Cerim\u00f4nia de Assinatura de Atos\n - \u201cDurbar\u201d (recep\u00e7\u00e3o) em homenagem ao Presidente da Rep\u00fablica, oferecido pela fam\u00edlia ganense-brasileira Tabom\n - Banquete de Estado em homenagem ao Presidente da Rep\u00fablica, oferecido pelo senhor John Agyekum Kufuor, presidente da Rep\u00fablica de Gana\n - Cerim\u00f4nia de inaugura\u00e7\u00e3o da C\u00e2mara de Com\u00e9rcio Brasil-Gana\n - Partida de Acra, Gana para Bissau, Guin\u00e9-Bissau",
         "Host": [
             [
                 {
@@ -324,15 +348,34 @@
     {
         "year": "2005",
         "Overview": " - Chegada a Dacar\n - Reuni\u00e3o privada com o presidente do Senegal, senhor Abdoulaye Wade\n - Jantar oficial oferecido pelo Presidente do Senegal em homenagem ao presidente Luiz In\u00e1cio Lula da Silva\n - Oferenda floral em homenagem aos soldados senegaleses mortos na Primeira e Segunda Guerras Mundiais\n - Visita \u00e0 Casa dos Escravos, na Ilha de Gor\u00e9e\n - Encontro com a comunidade brasileira residente no Senegal",
-        "Host": [],
+        "Host": [
+            [
+                {
+                    "figure": "Abdoulaye Wade",
+                    "country": "Senegal",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
         "Period": "13 de Abril",
         "Country": "Senegal",
         "City/region": "Dakar"
     },
     {
         "year": "2005",
-        "Overview": " - Partida para Seul / Cor\u00e9ia\n - Chegada a Seul / Cor\u00e9ia\n - Cerim\u00f4nia de abertura do VI F\u00f3rum Global sobre Reinven\u00e7\u00e3o do Governo\n - Abertura da Exposi\u00e7\u00e3o Internacional de Inova\u00e7\u00e3o\n - Audi\u00eancia com o senhor Lee Soo-Hoo, Presidente da Confedera\u00e7\u00e3o de Sindicatos Coreanos Secretaria de Imprensa e Porta-Voz\n - Cerim\u00f4nia de oferenda floral\n - Fotografia com o senhor Si-Bum Kim (respons\u00e1vel pela divulga\u00e7\u00e3o dos personagens da \u201cTurma da M\u00f4nica\u201d na Cor\u00e9ia)\n - Encerramento do Semin\u00e1rio Brasil-Cor\u00e9ia: Oportunidades de Com\u00e9rcio e Investimentos\n - Jantar oferecido pelo senhor Roh Moo-Hyun, Presidente da Rep\u00fablica da Cor\u00e9ia, aos principais participantes do VI F\u00f3rum Global sobre Reinven\u00e7\u00e3o do Governo\n - Caf\u00e9 da manh\u00e3 com lideran\u00e7as empresariais coreanas e brasileiras\n - Cerim\u00f4nia oficial de chegada\n - Reuni\u00e3o de trabalho com o senhor Roh Moo-Hyun, presidente da Rep\u00fablica da Cor\u00e9ia\n - Almo\u00e7o oferecido pela C\u00e2mara de Com\u00e9rcio e Ind\u00fastria, Federa\u00e7\u00e3o das Ind\u00fastrias Coreanas, Associa\u00e7\u00e3o de Com\u00e9rcio Internacional da Cor\u00e9ia e Federa\u00e7\u00e3o das Pequenas e M\u00e9dias Empresas\n - Visita \u00e0 Assembl\u00e9ia Nacional\n - Encontro com a comunidade brasileira na Cor\u00e9ia\n - Jantar oferecido pelo senhor Roh Moo-Hyun, presidente da Rep\u00fablica da Cor\u00e9ia",
+        "Overview": " - Partida para Seul / Cor\u00e9ia\n - Chegada a Seul / Cor\u00e9ia\n - Cerim\u00f4nia de abertura do VI F\u00f3rum Global sobre Reinven\u00e7\u00e3o do Governo\n - Abertura da Exposi\u00e7\u00e3o Internacional de Inova\u00e7\u00e3o\n - Audi\u00eancia com o senhor Lee Soo-Hoo, Presidente da Confedera\u00e7\u00e3o de Sindicatos Coreanos\n - Cerim\u00f4nia de oferenda floral\n - Fotografia com o senhor Si-Bum Kim (respons\u00e1vel pela divulga\u00e7\u00e3o dos personagens da \u201cTurma da M\u00f4nica\u201d na Cor\u00e9ia)\n - Encerramento do Semin\u00e1rio Brasil-Cor\u00e9ia: Oportunidades de Com\u00e9rcio e Investimentos\n - Jantar oferecido pelo senhor Roh Moo-Hyun, Presidente da Rep\u00fablica da Cor\u00e9ia, aos principais participantes do VI F\u00f3rum Global sobre Reinven\u00e7\u00e3o do Governo\n - Caf\u00e9 da manh\u00e3 com lideran\u00e7as empresariais coreanas e brasileiras\n - Cerim\u00f4nia oficial de chegada\n - Reuni\u00e3o de trabalho com o senhor Roh Moo-Hyun, presidente da Rep\u00fablica da Cor\u00e9ia\n - Almo\u00e7o oferecido pela C\u00e2mara de Com\u00e9rcio e Ind\u00fastria, Federa\u00e7\u00e3o das Ind\u00fastrias Coreanas, Associa\u00e7\u00e3o de Com\u00e9rcio Internacional da Cor\u00e9ia e Federa\u00e7\u00e3o das Pequenas e M\u00e9dias Empresas\n - Visita \u00e0 Assembl\u00e9ia Nacional\n - Encontro com a comunidade brasileira na Cor\u00e9ia\n - Jantar oferecido pelo senhor Roh Moo-Hyun, presidente da Rep\u00fablica da Cor\u00e9ia",
         "Host": [
+            [
+                {
+                    "figure": "Lee Soo-Hoo",
+                    "country": "South Korea",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
             [
                 {
                     "figure": "Roh Moo-Hyun",
@@ -358,7 +401,7 @@
     },
     {
         "year": "2005",
-        "Overview": " - Chegada a T\u00f3quio\n - Visita ao Parlamento\n - Encontro com o primeiro-ministro Koizumi\n - Jantar oferecido pelo primeiro-ministro Koizumi\n - Caf\u00e9 da manh\u00e3 com empres\u00e1rios japoneses\n - Encontro com a Liga Parlamentar de Amizade Brasil-Jap\u00e3o\n - Visita ao imperador Akihito\n - Almo\u00e7o oferecido pelo imperador Akihito\n - Encontro com o presidente da Rep\u00fablica Portuguesa, Jorge Sampaio\n - Visita \u00e0 esta\u00e7\u00e3o de metr\u00f4 de Shimbashi para conhecer programa de divulga\u00e7\u00e3o do Brasil em vag\u00e3o da linha Ginza\n - Visita \u00e0 exposi\u00e7\u00e3o sobre etanol\n - Encerramento da reuni\u00e3o conjunta do Comit\u00ea de Coopera\u00e7\u00e3o Econ\u00f4mica Brasil-Jap\u00e3o e Semin\u00e1rio Brasil-Jap\u00e3o: Oportunidades de Com\u00e9rcio e Investimentos Secretaria de Imprensa e Porta-Voz\n - [Nagoya]\n - Visita ao Consulado-Geral do Brasil em Nag\u00f3ia\n - Visita \u00e0 \u201cPra\u00e7a Brasil\u201d\n - Encontro com 35 diretores de escolas brasileiras no Jap\u00e3o\n - Almo\u00e7o em homenagem ao Presidente da Rep\u00fablica e \u00e0 senhora Marisa Let\u00edcia Lula da Silva oferecido pelo Conselho de Cidad\u00e3os Brasileiros em Nag\u00f3ia\n - Visita ao Centro de Ind\u00fastria e Com\u00e9rcio de Nag\u00f3ia\n - Encontro com representantes da comunidade brasileira\n - Visita a estandes da Feira\n - Apresenta\u00e7\u00e3o de m\u00fasica sertaneja, bai\u00e3o e xaxado e capoeira por grupos japoneses\n - Leitura da reda\u00e7\u00e3o vencedora do concurso sobre a visita presidencial ao Jap\u00e3o",
+        "Overview": " - Chegada a T\u00f3quio\n - Visita ao Parlamento\n - Encontro com o primeiro-ministro Koizumi\n - Jantar oferecido pelo primeiro-ministro Koizumi\n - Caf\u00e9 da manh\u00e3 com empres\u00e1rios japoneses\n - Encontro com a Liga Parlamentar de Amizade Brasil-Jap\u00e3o\n - Visita ao imperador Akihito\n - Almo\u00e7o oferecido pelo imperador Akihito\n - Encontro com o presidente da Rep\u00fablica Portuguesa, Jorge Sampaio\n - Visita \u00e0 esta\u00e7\u00e3o de metr\u00f4 de Shimbashi para conhecer programa de divulga\u00e7\u00e3o do Brasil em vag\u00e3o da linha Ginza\n - Visita \u00e0 exposi\u00e7\u00e3o sobre etanol\n - Encerramento da reuni\u00e3o conjunta do Comit\u00ea de Coopera\u00e7\u00e3o Econ\u00f4mica Brasil-Jap\u00e3o e Semin\u00e1rio Brasil-Jap\u00e3o: Oportunidades de Com\u00e9rcio e Investimentos\n - [Nagoya]\n - Visita ao Consulado-Geral do Brasil em Nag\u00f3ia\n - Visita \u00e0 \u201cPra\u00e7a Brasil\u201d\n - Encontro com 35 diretores de escolas brasileiras no Jap\u00e3o\n - Almo\u00e7o em homenagem ao Presidente da Rep\u00fablica e \u00e0 senhora Marisa Let\u00edcia Lula da Silva oferecido pelo Conselho de Cidad\u00e3os Brasileiros em Nag\u00f3ia\n - Visita ao Centro de Ind\u00fastria e Com\u00e9rcio de Nag\u00f3ia\n - Encontro com representantes da comunidade brasileira\n - Visita a estandes da Feira\n - Apresenta\u00e7\u00e3o de m\u00fasica sertaneja, bai\u00e3o e xaxado e capoeira por grupos japoneses\n - Leitura da reda\u00e7\u00e3o vencedora do concurso sobre a visita presidencial ao Jap\u00e3o",
         "Host": [
             [
                 {
@@ -412,7 +455,7 @@
     },
     {
         "year": "2005",
-        "Overview": " - Chegada a Glasgow\n - Reuni\u00e3o com Chefes de Estado ou de Governo da \u00c1frica do Sul, China, \u00cdndia e M\u00e9xico\n - Foto oficial - G-8 e os cinco pa\u00edses convidados Secretaria de Imprensa e Porta-Voz\n - Reuni\u00e3o do G-8 com os Chefes de Estado ou de Governo da \u00c1frica do Sul, Brasil, China, \u00cdndia e M\u00e9xico\n - Reuni\u00e3o do G-4 (Alemanha, Jap\u00e3o, \u00cdndia e Brasil)",
+        "Overview": " - Chegada a Glasgow\n - Reuni\u00e3o com Chefes de Estado ou de Governo da \u00c1frica do Sul, China, \u00cdndia e M\u00e9xico\n - Foto oficial - G-8 e os cinco pa\u00edses convidados\n - Reuni\u00e3o do G-8 com os Chefes de Estado ou de Governo da \u00c1frica do Sul, Brasil, China, \u00cdndia e M\u00e9xico\n - Reuni\u00e3o do G-4 (Alemanha, Jap\u00e3o, \u00cdndia e Brasil)",
         "Host": [],
         "Period": "07 de Julho",
         "Country": "United Kingdom",
@@ -422,6 +465,24 @@
         "year": "2005",
         "Overview": " - Partida para Paris - Fran\u00e7a\n - Chegada a Paris\n - Abertura do Col\u00f3quio \u201cBrasil: Ator Global\u201d\n - Almo\u00e7o com empres\u00e1rios franceses e brasileiros\n - Visita \u00e0 exposi\u00e7\u00e3o \u201cBrasil e a Unesco\u201d\n - Sess\u00e3o de encerramento do Foro Franco-Brasileiro da Sociedade Civil\n - Encontro com o prefeito de Paris, Bertrand Delano\u00eb\n - Recep\u00e7\u00e3o oferecida pelo prefeito de Paris, Bertrand Delano\u00eb\n - Baile da Cidade, com apresenta\u00e7\u00e3o de artistas brasileiros e franceses\n - Desfile em comemora\u00e7\u00e3o \u00e0 Data Nacional Francesa\n - Recep\u00e7\u00e3o oferecida pelo presidente da Rep\u00fablica Francesa, Jacques Chirac\n - Visita ao Espa\u00e7o Brasil, centro de arte brasileira\n - Audi\u00eancia a grupo de prefeitos franceses\n - Espet\u00e1culo de fogos de artif\u00edcios na Torre Eiffel\n - Caf\u00e9 da manh\u00e3 de trabalho com o primeiro-ministro franc\u00eas, Dominique de Villepin\n - Reuni\u00e3o de trabalho com o presidente da Rep\u00fablica Francesa, Jacques Chirac\n - Cerim\u00f4nia de Assinatura de Atos\n - Almo\u00e7o oferecido pelo presidente da Rep\u00fablica Francesa, Jacques Chirac, em homenagem ao Presidente da Rep\u00fablica\n - Visita \u00e0 r\u00e9plica do 14 Bis",
         "Host": [
+            [
+                {
+                    "figure": "Bertrand Delano\u00eb",
+                    "country": "---Paris",
+                    "posts": [
+                        "Regional Mayor/Governor"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Bertrand Delano\u00eb",
+                    "country": "---Paris",
+                    "posts": [
+                        "Regional Mayor/Governor"
+                    ]
+                }
+            ],
             [
                 {
                     "figure": "Jacques Chirac",
@@ -466,7 +527,7 @@
     },
     {
         "year": "2005",
-        "Overview": " - Cerim\u00f4nia oficial de chegada\n - Fotografia oficial\n - Reuni\u00e3o privada\n - Reuni\u00e3o ampliada\n - Encerramento da Confer\u00eancia Latino Americana contra a Fome Cr\u00f4nica no Marco das Metas do Mil\u00eanio\n - Cerim\u00f4nia de Assinatura de Atos e Confer\u00eancia de Imprensa\n - Jantar oferecido pelo presidente da Guatemala, Oscar Berger e senhora\n - Reuni\u00e3o Privada dos Chefes de Estado e de Governo e dos Chanceleres dos pa\u00edses do Sistema de Integra\u00e7\u00e3o Centro-Americana (SICA) e do Brasil\n - Inaugura\u00e7\u00e3o da Reuni\u00e3o dos Chefes de Estado e de Governo dos pa\u00edses do Sistema de Integra\u00e7\u00e3o Centro-Americana (SICA) e do Brasil, seguida de sess\u00e3o de trabalho\n - Encerramento da Reuni\u00e3o dos Chefes de Estado e de Governo dos pa\u00edses do Sistema de Integra\u00e7\u00e3o Centro-Americana (SICA) e do Brasil, seguido de declara\u00e7\u00e3o \u00e0 Imprensa\n - Mensagem aos participantes do Primeiro Encontro Empresarial Brasil- SICA\n - Almo\u00e7o oferecido pelo Presidente da Rep\u00fablica da Guatemala, Oscar Berger Perdomo, em homenagem aos Chefes de Estado e de Governo e Ministros de Rela\u00e7\u00f5es Exteriores presentes ao Primeiro Encontro Empresarial SICA-Brasil Secretaria de Imprensa e Porta-Voz Secretaria de Imprensa e Porta-Voz",
+        "Overview": " - Cerim\u00f4nia oficial de chegada\n - Fotografia oficial\n - Reuni\u00e3o privada\n - Reuni\u00e3o ampliada\n - Encerramento da Confer\u00eancia Latino Americana contra a Fome Cr\u00f4nica no Marco das Metas do Mil\u00eanio\n - Cerim\u00f4nia de Assinatura de Atos e Confer\u00eancia de Imprensa\n - Jantar oferecido pelo presidente da Guatemala, Oscar Berger e senhora\n - Reuni\u00e3o Privada dos Chefes de Estado e de Governo e dos Chanceleres dos pa\u00edses do Sistema de Integra\u00e7\u00e3o Centro-Americana (SICA) e do Brasil\n - Inaugura\u00e7\u00e3o da Reuni\u00e3o dos Chefes de Estado e de Governo dos pa\u00edses do Sistema de Integra\u00e7\u00e3o Centro-Americana (SICA) e do Brasil, seguida de sess\u00e3o de trabalho\n - Encerramento da Reuni\u00e3o dos Chefes de Estado e de Governo dos pa\u00edses do Sistema de Integra\u00e7\u00e3o Centro-Americana (SICA) e do Brasil, seguido de declara\u00e7\u00e3o \u00e0 Imprensa\n - Mensagem aos participantes do Primeiro Encontro Empresarial Brasil- SICA\n - Almo\u00e7o oferecido pelo Presidente da Rep\u00fablica da Guatemala, Oscar Berger Perdomo, em homenagem aos Chefes de Estado e de Governo e Ministros de Rela\u00e7\u00f5es Exteriores presentes ao Primeiro Encontro Empresarial SICA-Brasil",
         "Host": [
             [
                 {
@@ -502,7 +563,7 @@
     },
     {
         "year": "2005",
-        "Overview": " - Chegada do Presidente em Porto/Portugal\n - Sess\u00e3o de abertura do Semin\u00e1rio \u201cOportunidades de Novos Neg\u00f3cios entre Brasil e Portugal\u201d\n - Encontro privado com o primeiro-ministro de Portugal, Jos\u00e9 S\u00f3crates\n - Reuni\u00e3o Plen\u00e1ria da VIII C\u00fapula Luso Brasileira Secretaria de Imprensa e Porta-Voz\n - Assinatura de Atos\n - Confer\u00eancia de Imprensa\n - Almo\u00e7o oferecido pelo primeiro-ministro de Portugal, em homenagem ao Presidente da Rep\u00fablica\n - Entrega do Pr\u00eamio Lu\u00eds de Cam\u00f5es \u00e0 senhora Lygia Fagundes Telles\n - Encontro com representantes da comunidade brasileira",
+        "Overview": " - Chegada do Presidente em Porto/Portugal\n - Sess\u00e3o de abertura do Semin\u00e1rio \u201cOportunidades de Novos Neg\u00f3cios entre Brasil e Portugal\u201d\n - Encontro privado com o primeiro-ministro de Portugal, Jos\u00e9 S\u00f3crates\n - Reuni\u00e3o Plen\u00e1ria da VIII C\u00fapula Luso Brasileira\n - Assinatura de Atos\n - Confer\u00eancia de Imprensa\n - Almo\u00e7o oferecido pelo primeiro-ministro de Portugal, em homenagem ao Presidente da Rep\u00fablica\n - Entrega do Pr\u00eamio Lu\u00eds de Cam\u00f5es \u00e0 senhora Lygia Fagundes Telles\n - Encontro com representantes da comunidade brasileira",
         "Host": [
             [
                 {
@@ -520,7 +581,7 @@
     },
     {
         "year": "2005",
-        "Overview": " - Chegada a Salamanca\n - Assinatura de Memorando de Entendimento para a restaura\u00e7\u00e3o do Pal\u00e1cio Maldonado, futura sede da Funda\u00e7\u00e3o Cultural Hispano-Brasileira e  do Centro de Estudos Brasileiros\n - Cumprimentos de boas-vindas dos Reis da Espanha aos Chefes de Estado e de Governo e Senhoras\n - Recep\u00e7\u00e3o em homenagem aos Chefes de Estado e de Governo e ao Secret\u00e1rio-Geral Ibero-Americano oferecida pelos participantes do I Encontro C\u00edvico e do I Encontro Empresarial Ibero-Americanos\n - Cerim\u00f4nia de descerramento da placa comemorativa da XV C\u00fapula Ibero-Americana\n - Almo\u00e7o oferecido pelo Rei da Espanha, Juan Carlos I\n - Foto oficial\n - Cerim\u00f4nia de abertura da XV C\u00fapula Ibero-Americana\n - Primeira Sess\u00e3o de Trabalho dos Chefes de Estado e de Governo\n - Encontro com Luis Alberto Moreno, presidente do Banco Interamericano de\n - Desenvolvimento - BID\n - Jantar oferecido pelos Reis da Espanha\n - Encontro com Javier Solana, Alto Comiss\u00e1rio de Pol\u00edtica Exterior e de Seguran\u00e7a da Uni\u00e3o Europ\u00e9ia\n - Segunda Sess\u00e3o de Trabalho dos Chefes de Estado e de Governo\n - Encontro com Dur\u00e3o Barroso,  presidente da Comiss\u00e3o Europ\u00e9ia\n - Encontro com Kofi Annan,  secret\u00e1rio-geral da Organiza\u00e7\u00e3o das Na\u00e7\u00f5es Unidas\n - Terceira Sess\u00e3o de Trabalho dos Chefes de Estado e de Governo\n - Almo\u00e7o oferecido pelo Rei da Espanha\n - Encontro com Abel Pacheco,  presidente da Costa Rica\n - Quarta Sess\u00e3o de Trabalho dos Chefes de Estado e de Governo\n - Cerim\u00f4nia de Encerramento da XV C\u00fapula Ibero-Americana Secretaria de Imprensa e Porta-Voz",
+        "Overview": " - Chegada a Salamanca\n - Assinatura de Memorando de Entendimento para a restaura\u00e7\u00e3o do Pal\u00e1cio Maldonado, futura sede da Funda\u00e7\u00e3o Cultural Hispano-Brasileira e  do Centro de Estudos Brasileiros\n - Cumprimentos de boas-vindas dos Reis da Espanha aos Chefes de Estado e de Governo e Senhoras\n - Recep\u00e7\u00e3o em homenagem aos Chefes de Estado e de Governo e ao Secret\u00e1rio-Geral Ibero-Americano oferecida pelos participantes do I Encontro C\u00edvico e do I Encontro Empresarial Ibero-Americanos\n - Cerim\u00f4nia de descerramento da placa comemorativa da XV C\u00fapula Ibero-Americana\n - Almo\u00e7o oferecido pelo Rei da Espanha, Juan Carlos I\n - Foto oficial\n - Cerim\u00f4nia de abertura da XV C\u00fapula Ibero-Americana\n - Primeira Sess\u00e3o de Trabalho dos Chefes de Estado e de Governo\n - Encontro com Luis Alberto Moreno, presidente do Banco Interamericano de\n - Desenvolvimento - BID\n - Jantar oferecido pelos Reis da Espanha\n - Encontro com Javier Solana, Alto Comiss\u00e1rio de Pol\u00edtica Exterior e de Seguran\u00e7a da Uni\u00e3o Europ\u00e9ia\n - Segunda Sess\u00e3o de Trabalho dos Chefes de Estado e de Governo\n - Encontro com Dur\u00e3o Barroso,  presidente da Comiss\u00e3o Europ\u00e9ia\n - Encontro com Kofi Annan,  secret\u00e1rio-geral da Organiza\u00e7\u00e3o das Na\u00e7\u00f5es Unidas\n - Terceira Sess\u00e3o de Trabalho dos Chefes de Estado e de Governo\n - Almo\u00e7o oferecido pelo Rei da Espanha\n - Encontro com Abel Pacheco,  presidente da Costa Rica\n - Quarta Sess\u00e3o de Trabalho dos Chefes de Estado e de Governo\n - Cerim\u00f4nia de Encerramento da XV C\u00fapula Ibero-Americana",
         "Host": [
             [
                 {
@@ -583,7 +644,7 @@
     },
     {
         "year": "2005",
-        "Overview": " - Chegada  a Moscou/R\u00fassia\n - Cerim\u00f4nia de Oferenda Floral no T\u00famulo do Soldado Desconhecido\n - Encontro privado com o presidente da Federa\u00e7\u00e3o Russa, Vladimir Putin\n - Reuni\u00e3o Ampliada\n - Cerim\u00f4nia de Assinatura de Atos\n - Declara\u00e7\u00e3o \u00e0 Imprensa\n - Almo\u00e7o privado\n - Encontro com a comunidade brasileira em Moscou\n - Encontro privado com o presidente da Federa\u00e7\u00e3o Russa,Vladimir e senhora Lyudmila Putin\n - Jantar oferecido pelo presidente da Federa\u00e7\u00e3o Russa, Vladimir Putin Secretaria de Imprensa e Porta-Voz",
+        "Overview": " - Chegada  a Moscou/R\u00fassia\n - Cerim\u00f4nia de Oferenda Floral no T\u00famulo do Soldado Desconhecido\n - Encontro privado com o presidente da Federa\u00e7\u00e3o Russa, Vladimir Putin\n - Reuni\u00e3o Ampliada\n - Cerim\u00f4nia de Assinatura de Atos\n - Declara\u00e7\u00e3o \u00e0 Imprensa\n - Almo\u00e7o privado\n - Encontro com a comunidade brasileira em Moscou\n - Encontro privado com o presidente da Federa\u00e7\u00e3o Russa,Vladimir e senhora Lyudmila Putin\n - Jantar oferecido pelo presidente da Federa\u00e7\u00e3o Russa, Vladimir Putin",
         "Host": [
             [
                 {
@@ -601,6 +662,16 @@
                     "country": "Russia",
                     "posts": [
                         "First-spouse"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Vladimir Putin",
+                    "country": "Russia",
+                    "posts": [
+                        "Prime-minister",
+                        "President"
                     ]
                 }
             ]
@@ -655,7 +726,7 @@
     },
     {
         "year": "2005",
-        "Overview": " - Encontro com o presidente do Paraguai, Nicanor Duarte Frutos\n - Jantar oferecido pelo presidente do Uruguai, Tabar\u00e9 V\u00e1squez\n - Foto Oficial\n - Reuni\u00e3o de C\u00fapula do Mercosul\n - Encontro presidencial tripartite entre Brasil, Argentina e Venezuela Secretaria de Imprensa e Porta-Voz\n - Almo\u00e7o\n - Reuni\u00e3o Extraordin\u00e1ria da Comunidade Sul-Americana de Na\u00e7\u00f5es",
+        "Overview": " - Encontro com o presidente do Paraguai, Nicanor Duarte Frutos\n - Jantar oferecido pelo presidente do Uruguai, Tabar\u00e9 V\u00e1squez\n - Foto Oficial\n - Reuni\u00e3o de C\u00fapula do Mercosul\n - Encontro presidencial tripartite entre Brasil, Argentina e Venezuela\n - Almo\u00e7o\n - Reuni\u00e3o Extraordin\u00e1ria da Comunidade Sul-Americana de Na\u00e7\u00f5es",
         "Host": [
             [
                 {

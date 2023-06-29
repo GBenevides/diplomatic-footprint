@@ -91,7 +91,8 @@ unwanted_lines = ["", "Presidência da República", "Casa Civil", "Secretaria Es
                   '(Tanzânia), Lusaca (Zâmbia), Johannesburgo (África do Sul)',
                   'Johanesburgo (África do Sul) e Luanda (Angola)',
                   'Luanda / Angola', '- Chegada ao Aeroporto de Luanda / Angola',
-                  'Atualizado em 18/12/2007', 'Madri',
+                  'Atualizado em 18/12/2007', 'Madri', 'Secretaria de Imprensa e Divulgação',
+                    'Secretaria de Imprensa e Porta-Voz',
                   'Primeiro Secretário-Geral da Unasul, Néstor Carlos Kirchner']
 
 
@@ -144,7 +145,8 @@ def rearrange_state_visits(visits):
     all_inconsistent_posts = []
     for v in rearranged:
         # print(v["Country"], v["Period"])
-        if previous is None or (v["Period"].lower() != previous["Period"].lower()):
+        if previous is None or (v["Period"].lower() != previous["Period"].lower() or v["City/region"].lower() != previous["City/region"].lower()): # If they're same period, we
+            # don't double calculate meetings !
             # Looking for potential hosts...
             # enumeratedPoints = enumerate(v["Overview"])
             assert type(v["Overview"]) == list
@@ -160,7 +162,7 @@ def rearrange_state_visits(visits):
                     if meeting_if_any:
                         mapped_meeting, incoming_inconsistent = map_name(meeting_if_any, v["year"])
                         if len(mapped_meeting) > 0:
-                            # print("Meeting --> ", mapped_meeting, "   ---   ", v["Period"], "   ---   ", next_point)
+                            print("Meeting --> ", mapped_meeting, "   ---   ", v["Period"], "   ---   ", next_point)
                             v["Host"].append(mapped_meeting)
                             all_inconsistent_posts += incoming_inconsistent
                             counter += 1
@@ -175,17 +177,22 @@ def rearrange_state_visits(visits):
     print("Total meetings:", counter)
     # print(app_statics.leaders_mapping)
     if len(all_suggestions) > 0:
-        print("Remaining suggestions:")
+        print("\n\nRemaining suggestions:")
         for s in all_suggestions:
+            print(s)
+        print("\n\nCodes:")
+        for s in all_suggestions_codes:
             print(s)
     return rearranged, counter
 
 
 all_suggestions = []
+all_suggestions_codes = []
+
 
 
 def map_name(meeting, year):
-    halt_if_exception = False
+    halt_if_exception = True
     try:
         # raw_name, country, post = entry['Person'], entry['Country'], entry['Post']
         raw_name = meeting['Person']
@@ -218,14 +225,21 @@ def map_name(meeting, year):
         existing_codes = [element for element in app_statics.leaders_mapping.keys() if
                           element[0:2] == person_upper]
         code_key_sugg = person_upper + str(len(existing_codes) + 1)
-        suggestion = ['"' + code_key_sugg + '"', ":", new_entry, '--->', "'" + new_entry['figure'] + "'", ":",
+
+        suggestion_entry = ['"' + code_key_sugg + '"', ":", new_entry]
+        suggestion_code = ["'" + new_entry['figure'] + "'", ":",
                       "'" + code_key_sugg + "'", ","]
+        suggestion_entry = ' '.join(map(str, suggestion_entry))
+        suggestion_code = ' '.join(map(str, suggestion_code))
+
+        suggestion = [suggestion_entry, '--->',suggestion_code]
         suggestion = ' '.join(map(str, suggestion))
         print(suggestion)
         print("Existing entries:")
         for code in existing_codes:
             print(code, app_statics.leaders_mapping[code]['figure'])
-        all_suggestions.append(suggestion)
+        all_suggestions.append(suggestion_entry)
+        all_suggestions_codes.append(suggestion_code)
         if not halt_if_exception:
             return [], []
         else:
@@ -322,7 +336,12 @@ def brutal_replace_if_any(raw, year):  # Sadly, pdf too inconsistent
         "- Encontro com Sua Santidade o Papa Bento XVI": ["- Encontro com chefe do Vaticano, o Papa Bento XVI", "2008"],
         "- Encontro com a Presidenta da República Argentina, Cristina Fernández de Kirchner": [
             "- Encontro com a presidenta da Argentina, Cristina Fernández de Kirchner", "2008"],
-        "- Audiência ao senhor Massimo D'Alema": ["- Primeiro-ministro da Italia, Massimo D'Alema", "2008"]
+        "- Audiência ao senhor Massimo D'Alema": ["- Primeiro-ministro da Italia, Massimo D'Alema", "2008"],
+        '- Reunião de Trabalho com o Presidente da República da China' : ["- Reunião de Trabalho com o Presidente da República da China, Hu Jintao", "2004"],
+        '- Encontro com o senhor Jay Aseelan Naidoo, presidente do Banco de Secretaria de Imprensa e Divulgação Desenvolvimento da  África Austral':['- Encontro com o senhor Jay Aseelan Naidoo, presidente do Banco de Desenvolvimento da África Austral', '2004'],
+        '- Encontro com o Secretário-Geral das Nações Unidas' : ['- Encontro com o Secretário-Geral das Nações Unidas, Kofi Annan', '2004'],
+        '- Reunião com os presidentes da França, do Chile e do Governo Espanhol e com o Secretário-Geral da ONU' : ['- Reunião com os presidentes da França, Jacques Chirac, do Chile, Ricardo Lagos, e do Governo Espanhol, José Luis Rodríguez Zapatero e com o Secretário-Geral da ONU, Kofi Annan', '2004'],
+        '- Encontro de trabalho com os Presidentes da Colômbia, Venezuela e Espanha':['- Encontro de trabalho com os Presidentes da Colômbia, Álvaro Uribe, Venezuela, Hugo Chávez e da Espanha, José Luis Zapatero', "2005"]
     }
     if raw in replace_lines.keys() and replace_lines[raw][1] == year:
         replacement = replace_lines[raw][0]

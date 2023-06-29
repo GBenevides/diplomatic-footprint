@@ -1,0 +1,675 @@
+[
+    {
+        "year": "2004",
+        "Overview": " - C\u00fapula Extraordin\u00e1ria das Am\u00e9ricas",
+        "Host": [],
+        "Period": "12 e 13 de Janeiro",
+        "Country": "Mexico",
+        "City/region": "Monterrey"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Chegada a Nova Delhi\n - Cerim\u00f4nia oficial de chegada\n - Visita ao Memorial de Mahatma Gandhi - Oferenda Floral\n - Almo\u00e7o privado\n - Visita de Cortesia do sr. Yashwant Sinha, ministro de\n - Encontro com o sr. Atal Bihari Vajpayee, primeiro-ministro da \u00cdndia\n - Reuni\u00e3o ampliada entre as delega\u00e7\u00f5es brasileira e indiana\n - Encontro com o sr. Abdul Kalan, presidente da Rep\u00fablica da \u00cdndia\n - Jantar oferecido pelo Presidente da \u00cdndia\n - Desfile do Dia da Rep\u00fablica\n - Recep\u00e7\u00e3o oferecida pelo Presidente da Rep\u00fablica da \u00cdndia\n - Visita de cortesia do Senhor Milinda Morogoda, Ministro de  Ci\u00eancia e Tecnologia do Siri Lanka\n - Jantar Privado\n - Abertura  do  Encontro  \"Brasil-\u00cdndia  -  Desenvolvimento  Sustent\u00e1vel:    Perspectivas  e Possibilidades\"\n - Visita de cortesia do sr. Arun Jaitley, ministro de Com\u00e9rcio e   Ind\u00fastria da \u00cdndia\n - Encontro com lideran\u00e7as empresariais indianas, co-patrocinado pela  Confedera\u00e7\u00e3o das Ind\u00fastrias  Indianas  (CII)  e  pela  Federa\u00e7\u00e3o  das      C\u00e2maras  de  Com\u00e9rcio  e  Ind\u00fastria Indianas (FICCI)\n - Almo\u00e7o com as lideran\u00e7as empresarias indianas\n - Inaugura\u00e7\u00e3o da Exposi\u00e7\u00e3o de Arte Popular Brasileira da Cole\u00e7\u00e3o do  Museu da Casa Pontal\n - Recep\u00e7\u00e3o na Resid\u00eancia da Embaixada do Brasil\n - Partida de Agra  para Mumbai\n - Chegada a Mumbai\n - Lan\u00e7amento do F\u00f3rum Empresarial Brasil-India\n - Almo\u00e7o empresarial, por ocasi\u00e3o do encerramento do Semin\u00e1rio   sobre Oportunidades de Neg\u00f3cios, Investimentos e Turismo   Brasil-India\n - Partida de para Genebra",
+        "Host": [
+            [
+                {
+                    "figure": "Atal Bihari Vajpayee",
+                    "country": "India",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Abdul Kalan",
+                    "country": "India",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "25 a 28 de Janeiro",
+        "Country": "India",
+        "City/region": "New Deli, Agra and Bombay"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Chegada a Genebra\n - Jantar Privado\n - Encontro com dirigentes de grandes empresas estrangeiras\n - Encontro de Alto N\u00edvel para Investidores Estrangeiros\n - Entrevista coletiva sobre o Semin\u00e1rio para investidores estrangeiros   no Brasil\n - Recebe o Sr. Hans Joachim Nikolin, do Conselho de Dire\u00e7\u00e3o do Grupo Continental\n - Recebe o sr. Pascoale Pistorio, presidente da ST Microeletronics\n - Recebe o presidente Itamar Franco, embaixador do Brasil na It\u00e1lia\n - Visita ao Comit\u00ea Ol\u00edmpico Internacional\n - Encontro com o Sr. Jacques Chirac, presidente da Rep\u00fablica Francesa\n - Encontro com o sr. Ricardo Lagos, presidente da Rep\u00fablica do Chile, o Sr. Jacques Chirac, presidente da Rep\u00fablica Francesa, e o sr. Kofi Annan, secret\u00e1rio-geral das Na\u00e7\u00f5es Unidas\n - Encontro com o sr. Kofi Annan, secret\u00e1rio-geral das Na\u00e7\u00f5es Unidas\n - Confer\u00eancia de Imprensa\n - Partida para Bras\u00edlia",
+        "Host": [
+            [
+                {
+                    "figure": "Business Person",
+                    "country": "---capital",
+                    "posts": [
+                        "CEO/Executive"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Business Person",
+                    "country": "---capital",
+                    "posts": [
+                        "CEO/Executive"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Jacques Chirac",
+                    "country": "France",
+                    "posts": [
+                        "President",
+                        "Ex-president"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Ricardo Lagos",
+                    "country": "Chile",
+                    "posts": [
+                        "President"
+                    ]
+                },
+                {
+                    "figure": "Jacques Chirac",
+                    "country": "France",
+                    "posts": [
+                        "President",
+                        "Ex-president"
+                    ]
+                },
+                {
+                    "figure": "Kofi Annan",
+                    "country": "United Nations",
+                    "posts": [
+                        "Secretary-general"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Kofi Annan",
+                    "country": "United Nations",
+                    "posts": [
+                        "Secretary-general"
+                    ]
+                }
+            ]
+        ],
+        "Period": "28 a 30 de Janeiro",
+        "Country": "Switzerland",
+        "City/region": "Geneva"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Reuni\u00e3o tripartite com o presidente da Venezuela, Hugo Ch\u00e1vez Frias, e com o presidente da Argentina, Nestor Kirchner\n - Cerim\u00f4nia de Abertura da XII C\u00fapula do G-!\n - Primeira Sess\u00e3o Plen\u00e1ria dos Chefes de Estado e de Governo dos pa\u00edses membros do G-1\n - Encontro com o presidente do Ir\u00e3, Seyed Mohammed Khatami",
+        "Host": [
+            [
+                {
+                    "figure": "Hugo Chavez",
+                    "country": "Venezuela",
+                    "posts": [
+                        "President"
+                    ]
+                },
+                {
+                    "figure": "N\u00e9stor Kirchner",
+                    "country": "Argentina",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Seyed Mohammed Khatami",
+                    "country": "Iran",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "26 e 27 de Fevereiro",
+        "Country": "Venezuela",
+        "City/region": "Caracas"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Visita aos principais s\u00edtios arquitet\u00f4nicos e hist\u00f3ricos de Kiev\n - Caf\u00e9 da manh\u00e3 com o presidente da Ucr\u00e2nia, Leonid Kutchma\n - Partida para Pequim",
+        "Host": [
+            [
+                {
+                    "figure": "Leonid Kutchma",
+                    "country": "Ukraine",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "22 de Maio",
+        "Country": "Ukraine",
+        "City/region": "Kiev"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Chegada a Pequim\n - Almo\u00e7o privado\n - Visita ao Pal\u00e1cio de Ver\u00e3o dos Imperadores\n - Coquetel de inaugura\u00e7\u00e3o do escrit\u00f3rio da Petrobras em Pequim\n - Jantar oferecido pela Petrobras em homenagem ao Presidente da  Rep\u00fablica e \u00e0 senhora Marisa Let\u00edcia Lula da Silva\n - Encerramento do semin\u00e1rio \u201cBrasil-China: Com\u00e9rcio e Investimentos Perspectivas para o s\u00e9culo XXI\u201d\n - Almo\u00e7o de encerramento do semin\u00e1rio \u201cBrasil-China: Com\u00e9rcio e   Investimentos. Perspectivas para o S\u00e9culo XXI\u201d\n - Cerim\u00f4nia de boas-vindas\n - Reuni\u00e3o de Trabalho com o Presidente da Rep\u00fablica da China\n - Reuni\u00e3o de Trabalho ampliada\n - Assinatura de Atos\n - Banquete  de  Estado  oferecido  pelo  Presidente  da  China  e  senhora  Liu  Yongqing,  em homenagem ao senhor Presidente da Rep\u00fablica e \u00e0 senhora Marisa Let\u00edcia Lula da Silva Sal\u00e3o Oeste do Grande Pal\u00e1cio do Povo\n - Inaugura\u00e7\u00e3o do N\u00facleo de Cultura Brasileira na Universidade de Pequim\n - Confer\u00eancia do Presidente da Rep\u00fablica na Universidade de Pequim:  \u201cPol\u00edtica Externa Brasileira no S\u00e9culo XXI e o Papel da Parceria Estrat\u00e9gica Sino-Brasileira\u201d\n - Inaugura\u00e7\u00e3o da exposi\u00e7\u00e3o \u201cAmaz\u00f4nia: Tradi\u00e7\u00f5es Nativas\u201d\n - Partida para Xangai em v\u00f4o especial da For\u00e7a A\u00e9rea Brasileira Xangai\n - Chegada a Xangai\n - Audi\u00eancia concedida ao presidente do Banco Mundial, James Wolfensohn\n - Abertura da confer\u00eancia do Banco Mundial sobre Combate \u00e0 Pobreza\n - Encontro bilateral com o primeiro-ministro da Rep\u00fablica Popular da China, Wen Jiabao\n - Cerim\u00f4nia de encerramento do semin\u00e1rio \u201cBrasil-China: uma Parceria de Sucesso\u201d\n - Confer\u00eancia de imprensa\n - Audi\u00eancia concedida \u00e0 presidente da empresa Baosteel, sra. Xie Qihua\n - Audi\u00eancia concedida ao presidente da Tanz\u00e2nia, Benjamin Mkapa\n - Encontro com a comunidade brasileira\n - Jantar privado\n - Caf\u00e9 da manh\u00e3 com lideran\u00e7as empresariais\n - Audi\u00eancia concedida \u00e0 primeira-ministra da Rep\u00fablica Popular de Bangladesh, Begum Khaleda Zia\n - Encontro com o Prefeito de Xangai\n - Banquete oferecido pelo Prefeito de Xangai em homenagem ao presidente Luiz In\u00e1cio Lula da Silva\n - Partida para Guadalajara, M\u00e9xico",
+        "Host": [
+            [
+                {
+                    "figure": "Hu Jintao",
+                    "country": "China",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "James Wolfensohn",
+                    "country": "World Bank",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Wen Jiabao",
+                    "country": "China",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Benjamin Mkapa",
+                    "country": "Tanzania",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Begum Khaleda Zia",
+                    "country": "Bangladesh",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ]
+        ],
+        "Period": "25 a 27 de Maio",
+        "Country": "China",
+        "City/region": "Beijing and Shanghai"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Caf\u00e9 da manh\u00e3 de trabalho com o senhor Jos\u00e9 Luiz Rodriguez Zapatero,   presidente do governo da Espanha\n - Abertura da III Reuni\u00e3o de chefes de Estado e de Governo da Am\u00e9rica Latina e Caribe - Uni\u00e3o Europ\u00e9ia\n - Mesa de Trabalho sobre Multilateralismo\n - Encontro com o senhor Romano Prodi, presidente da Comiss\u00e3o Europ\u00e9ia\n - Encontro de trabalho com o senhor Oscar Berger, presidente da Guatemala\n - Reuni\u00e3o de trabalho com o senhor Jacques Chirac, presidente da Rep\u00fablica Francesa\n - Fotografia oficial dos chefes de Estado e de Governo\n - Almo\u00e7o oferecido pelo senhor Vicente Fox Quesada, presidente dos Estados Unidos Mexicanos, aos chefes das delega\u00e7\u00f5es participantes da III C\u00fapula Am\u00e9rica Latina e Caribe - Uni\u00e3o Europ\u00e9ia\n - Encontro de trabalho com o senhor Vicente Fox Quesada, presidente dos Estados Unidos Mexicanos\n - Reuni\u00e3o de trabalho sobre Coes\u00e3o Social\n - Encontro de trabalho com o senhor Gerhard Schr\u00f6der, chanceler Federal da Alemanha\n - Encontro de trabalho com o senhor Nicanor Duarte Frutos, presidente da Rep\u00fablica do Paraguai\n - Encontro de trabalho com o senhor Carlos Mesa, presidente da Rep\u00fablica da Bol\u00edvia\n - Sess\u00e3o plen\u00e1ria para apresenta\u00e7\u00e3o de relat\u00f3rios e encerramento\n - Encontro de trabalho com o senhor Aleksander Kwasniewski, presidente da Pol\u00f4nia\n - Partida, em v\u00f4o especial da For\u00e7a A\u00e9rea Brasileira,  para Bras\u00edlia",
+        "Host": [
+            [
+                {
+                    "figure": "Jos\u00e9 Luis Zapatero",
+                    "country": "Spain",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Romano Prodi",
+                    "country": "Italy",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Oscar Berger",
+                    "country": "Guatemala",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Jacques Chirac",
+                    "country": "France",
+                    "posts": [
+                        "President",
+                        "Ex-president"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Vicente Fox",
+                    "country": "Mexico",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Gerhard Schroeder",
+                    "country": "Germany",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Nicanor Duarte Frutos",
+                    "country": "Paraguay",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Carlos Mesa",
+                    "country": "Bolivia",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Aleksander Kwasniewski",
+                    "country": "Poland",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "27 a 28 de Maio",
+        "Country": "Mexico",
+        "City/region": "Guadalajara"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Encontro de Alto N\u00edvel com Investidores\n - Semin\u00e1rio \u201cBrazil meets markets\u201d\n - Encontro com o senhor John Snow, Secret\u00e1rio do Tesouro dos EUA\n - Encontro com dirigentes do Citigroup\n - Lan\u00e7amento do Servi\u00e7o \u201cCAIXA: Remessas de Recursos de Brasileiros Residentes no Exterior\u201d\n - Abertura do \u201cGlobal Compact Leaders Summit\u201d\n - Encontro com o senhor Jay Aseelan Naidoo, presidente do Banco de Desenvolvimento da  \u00c1frica Austral\n - Encontro com diretores do jornal The Wall Street Journal\n - Encontro com o senhor Juan Somavia, diretor-geral da Organiza\u00e7\u00e3o    Internacional do Trabalhador\n - Encontro com o Secret\u00e1rio-Geral das Na\u00e7\u00f5es Unidas",
+        "Host": [
+            [
+                {
+                    "figure": "John Snow",
+                    "country": "United States of America",
+                    "posts": [
+                        "Cabinet Member"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Jay Aseelan Naidoo",
+                    "country": "Southern Africa Development Bank",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Juan Somavia",
+                    "country": "International Labour Organization",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Kofi Annan",
+                    "country": "United Nations",
+                    "posts": [
+                        "Secretary-general"
+                    ]
+                }
+            ]
+        ],
+        "Period": "22 a 24 de Junho",
+        "Country": "United States of America",
+        "City/region": "New York"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Encontro com o presidente da Venezuela, Hugo Ch\u00e1ves Frias\n - Jantar oferecido pelo presidente da Argentina, N\u00e9stor Kirchner, em homenagem aos presidentes e ministros do Mercosul, Estados Associados e convidados especiais\n - Reuni\u00e3o de C\u00fapula dos chefes de Estados do Mercosul, Estados Associados e estados convidados",
+        "Host": [
+            [
+                {
+                    "figure": "Hugo Chavez",
+                    "country": "Venezuela",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "07 e 08 de Julho",
+        "Country": "Argentina",
+        "City/region": "Puerto Iguaz\u00fa"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Encontro de trabalho com Carlos Mesa, presidente da Rep\u00fablica da Bol\u00edvia\n - Cerim\u00f4nia de Assinatura de Atos\n - Cerim\u00f4nia de Comemora\u00e7\u00e3o dos 20 anos de relan\u00e7amento da C\u00e2mara Nacional de Com\u00e9rcio Brasileiro-Boliviana",
+        "Host": [
+            [
+                {
+                    "figure": "Carlos Mesa",
+                    "country": "Bolivia",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "08 de Julho",
+        "Country": "Bolivia",
+        "City/region": "Santa Cruz de la Sierra"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Sess\u00e3o Inaugural da V Confer\u00eancia dos Chefes de Estado e de Governo dos Pa\u00edses de L\u00edngua Portuguesa de L\u00edngua Portuguesa Transpar\u00eancia\u201d\n - Sess\u00e3o de Trabalho da V Confer\u00eancia dos Chefes de Estado e de Governo dos Pa\u00edses\n - Debate Geral: \u201cA Sociedade da Informa\u00e7\u00e3o como Contribui\u00e7\u00e3o para a Boa Governan\u00e7a e\n - Aprova\u00e7\u00e3o das recomenda\u00e7\u00f5es do Conselho de Ministros da CPLP\n - Elei\u00e7\u00e3o e posse do Secret\u00e1rio-Executivo  e do Secret\u00e1rio-Executivo Adjunto da CPLP\n - Ado\u00e7\u00e3o da Declara\u00e7\u00e3o de S\u00e3o Tom\u00e9\n - Assinatura de Atos\n - Encerramento da V Confer\u00eancia de Chefes de Estado e de Governo da Comunidade dos Pa\u00edses de L\u00edngua Portuguesa",
+        "Host": [],
+        "Period": "26 e 27 de Julho",
+        "Country": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+        "City/region": "S\u00e3o Tom\u00e9"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Cerim\u00f4nia de entrega da chave da cidade pelo Prefeito de Libreville\n - Encontro com o Presidente do Gab\u00e3o, Omar Bongo Ondimba\n - Assinatura de Atos\n - Leitura de Comunicado Conjunto",
+        "Host": [
+            [
+                {
+                    "figure": "Omar Bongo Ondimba",
+                    "country": "Gabon",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "27 e 28 de Julho",
+        "Country": "Gabon",
+        "City/region": "Libreville"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Encontro  com  o  Presidente  da  Rep\u00fablica  de  Cabo  Verde,  Pedro  Verona    Rodrigues Pires\n - Cerim\u00f4nia de Condecora\u00e7\u00e3o do Presidente da Rep\u00fablica com a Ordem Am\u00edlcar Cabral\n - Audi\u00eancia concedida ao l\u00edder da oposi\u00e7\u00e3o, deputado Agostinho Lopes\n - Abertura do Semin\u00e1rio Empresarial com a participa\u00e7\u00e3o do primeiro-ministro de Cabo Verde, Jos\u00e9 Maria Pereira Neves\n - Visita \u00e0 C\u00e2mara Municipal de Praia\n - Encontro com o  Presidente da C\u00e2mara Municipal e recebimento de placa alusiva \u00e0 visita\n - Encontro com o Presidente da Assembl\u00e9ia Nacional de Cabo Verde\n - Sess\u00e3o solene na Assembl\u00e9ia Nacional de Cabo Verde por ocasi\u00e3o da Visita de Estado do senhor Presidente da Rep\u00fablica\n - Visita \u00e0 Biblioteca Nacional\n - Cerim\u00f4nia de descerramento de placa alusiva \u00e0 doa\u00e7\u00e3o do Brasil de computadores, por ocasi\u00e3o da Visita de Estado a Cabo Verde\n - Breve encontro com a comunidade brasileira\n - Encontro com o primeiro-ministro de Cabo Verde, Jos\u00e9 Maria Neves\n - Reuni\u00e3o Ampliada de Trabalho\n - Cerim\u00f4nia de Assinatura de Atos",
+        "Host": [
+            [
+                {
+                    "figure": "Pedro Verona Rodrigues Pires",
+                    "country": "Gabon",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Agostinho Lopes",
+                    "country": "Gabon",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Jos\u00e9 Maria Neves",
+                    "country": "Cape Verde",
+                    "posts": [
+                        "Prime-minister"
+                    ]
+                }
+            ]
+        ],
+        "Period": "28 e 29  de Julho",
+        "Country": "Cape Verde",
+        "City/region": "Sal"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Cerim\u00f4nia de inaugura\u00e7\u00e3o do Pal\u00e1cio da Justi\u00e7a de Cobija\n - Solenidade de inaugura\u00e7\u00e3o da ponte \u201cWilson Pinheiro\u201d - Integra\u00e7\u00e3o Brasil/Bol\u00edvia",
+        "Host": [],
+        "Period": "11 de Agosto",
+        "Country": "Bolivia",
+        "City/region": "Cobija"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Cerim\u00f4nia de instala\u00e7\u00e3o do Tribunal Permanente de Revis\u00e3o do Mercosul",
+        "Host": [],
+        "Period": "13 de Agosto",
+        "Country": "Paraguay",
+        "City/region": "Asuncion"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Cerim\u00f4nia de juramento do presidente e vice-presidente eleitos da Rep\u00fablica Dominicana\n - Encontro com o presidente da Rep\u00fablica da Guatemala, Oscar Berger\n - Encontro com empres\u00e1rios da C\u00e2mara de Com\u00e9rcio dominicano-brasileira\n - Reuni\u00e3o de Chefes de Estado e de Governo Latino-Americanos e Caribenhos\n - Encontro com o presidente da Rep\u00fablica da Costa Rica, Abel Pacheco de la Espriella\n - Encontro com a comunidade brasileira em Santo Domingo\n - Encontro com a delega\u00e7\u00e3o da Confedera\u00e7\u00e3o Brasileira de Futebol - CBF que joga no Haiti em 18 de agosto",
+        "Host": [
+            [
+                {
+                    "figure": "Oscar Berger",
+                    "country": "Guatemala",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Abel Pacheco de la Espriella",
+                    "country": "Costa Rica",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "15 a 18 de Agosto",
+        "Country": "Dominican Rep.",
+        "City/region": "Santo Domingo"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Visita \u00e0 Brigada Haiti\n - Cerim\u00f4nia de Oferenda Floral aos her\u00f3is haitianos\n - Cerim\u00f4nia de chegada ao Pal\u00e1cio Presidencial\n - Encontro com o presidente do Haiti, Boniface Alexandre\n - Encontro de Trabalho com o primeiro-ministro do Haiti, Gerard Latortue, e assinatura de Memorando de Entendimento entre os Ministros do Esporte do Brasil e do Haiti\n - Assinatura de Comunicado Conjunto e declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o oferecido pelo Presidente do Haiti\n - Jogo da Paz entre as sele\u00e7\u00f5es do Brasil e do Haiti\n - Audi\u00eancia a lideran\u00e7as pol\u00edticas e sociais haitianas",
+        "Host": [
+            [
+                {
+                    "figure": "Boniface Alexandre",
+                    "country": "Haiti",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "18 de Agosto",
+        "Country": "Haiti",
+        "City/region": "Port-au-Prince"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Caf\u00e9 da manh\u00e3 com o presidente da Rep\u00fablica do Chile, Senhor Ricardo Lagos\n - Cerim\u00f4nia de oferenda floral\n - Encontro privado dos Presidentes\n - Reuni\u00e3o ampliada das delega\u00e7\u00f5es do Brasil e Chile\n - Cerim\u00f4nia de Assinatura de Acordos e Declara\u00e7\u00e3o \u00e0 Imprensa\n - Encontro privado com os Presidentes do Senado e da C\u00e2mara dos Deputados do Chile\n - Almo\u00e7o oferecido pelo Presidente do Senado e pelo Presidente da C\u00e2mara dos Deputados\n - Audi\u00eancia com o presidente da Corte Suprema, senhor Marcos Libedinsky\n - Encontro privado com o prefeito de Santiago, senhor Joaqu\u00edn Lav\u00edn\n - Cerim\u00f4nia de Declara\u00e7\u00e3o de H\u00f3spedes Ilustres\n - Audi\u00eancia concedida ao presidente da Central \u00danica dos Trabalhadores do Chile, senhor Arturo Mart\u00ednez\n - Encontro com integrantes da comunidade brasileira residente em Santiago\n - Jantar oferecido pelo senhor Ricardo Lagos, presidente da Rep\u00fablica do Chile, e senhora Maria Luisa Dur\u00e1n de Lagos, em homenagem ao presidente da Rep\u00fablica e \u00e0 senhora Marisa Let\u00edcia Lula da Silva\n - Caf\u00e9 da manh\u00e3 com empres\u00e1rios\n - Cerim\u00f4nia de inaugura\u00e7\u00e3o do Semin\u00e1rio \u201cComo Fazer Neg\u00f3cios com o Brasil\u201d\n - Encontro de fam\u00edlias do Programa Chile Solid\u00e1rio com os Presidentes do Brasil e Chile",
+        "Host": [
+            [
+                {
+                    "figure": "Ricardo Lagos",
+                    "country": "Chile",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Marcos Libedinsky",
+                    "country": "Chile",
+                    "posts": [
+                        "Supreme Court Justice"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Joaqu\u00edn Lav\u00edn",
+                    "country": "---Santiago",
+                    "posts": [
+                        "Regional Mayor/Governor"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Arturo Mart\u00ednez",
+                    "country": "Chile",
+                    "posts": [
+                        "Political/Agency Leader"
+                    ]
+                }
+            ]
+        ],
+        "Period": "22 a 24 de Agosto",
+        "Country": "Chile",
+        "City/region": "Santiago"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Reuni\u00e3o de trabalho com o presidente do Equador, Lucio Gutierrez\n - Reuni\u00e3o Ministerial\n - Reuni\u00e3o Ampliada\n - Cerim\u00f4nia de imposi\u00e7\u00e3o da condecora\u00e7\u00e3o da Ordem Nacional do M\u00e9rito do Equador no grau de Grande Colar\n - Jantar em homenagem ao presidente Luiz In\u00e1cio Lula da Silva, oferecido pelo presidente do Equador, Lucio Gutierrez\n - Sess\u00e3o solene Extraordin\u00e1ria do Congresso Nacional em homenagem ao Presidente da Rep\u00fablica\n - Visita ao Centro Hist\u00f3rico de Quito\n - Cerim\u00f4nia de Assinatura de Atos e Declara\u00e7\u00e3o Conjunta \u00e0 imprensa\n - Almo\u00e7o empresarial oferecido pelo Presidente do Equador\n - Encontro com lideran\u00e7as sindicais",
+        "Host": [
+            [
+                {
+                    "figure": "Lucio Gutierrez",
+                    "country": "Ecuador",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "24 e 25 de Agosto",
+        "Country": "Ecuador",
+        "City/region": "Quito"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Caf\u00e9 da manh\u00e3 oferecido ao presidente da Argentina, Nestor Kirchner\n - Chegada \u00e0 sede das Na\u00e7\u00f5es Unidas\n - Encontro com o primeiro-ministro da Su\u00e9cia, G\u00f6ran Persson\n - Reuni\u00e3o da Comiss\u00e3o Mundial sobre a Dimens\u00e3o Social da Globaliza\u00e7\u00e3o\n - Encontro com o presidente da Fran\u00e7a, Jacques Chirac\n - Reuni\u00e3o com os presidentes da Fran\u00e7a, do Chile e do Governo Espanhol e com o Secret\u00e1rio-Geral da ONU\n - Oportunidade de foto com os presidentes da Fran\u00e7a, do Chile e do governo Espanhol e com o Secret\u00e1rio-Geral da ONU\n - Reuni\u00e3o de L\u00edderes Mundiais para a A\u00e7\u00e3o contra a Fome e a Pobreza\n - Entrevista coletiva \u00e0 imprensa\n - Encontro com o secret\u00e1rio-geral das Na\u00e7\u00f5es Unidas, Kofi Annan\n - Encontro com o presidente da 59\u00aa Assembl\u00e9ia-Geral das Na\u00e7\u00f5es Unidas, Jean Ping\n - Abertura do debate geral da 59\u00aa Assembl\u00e9ia Geral das Na\u00e7\u00f5es Unidas\n - Almo\u00e7o oferecido pelo secret\u00e1rio-geral da ONU, Kofi Annan, aos Chefes de Estado e de Governo presentes \u00e0 59\u00aa Assembl\u00e9ia-Geral das Na\u00e7\u00f5es Unidas\n - Reuni\u00e3o do G-4 (Brasil, Alemanha, \u00cdndia e Jap\u00e3o)",
+        "Host": [
+            [
+                {
+                    "figure": "N\u00e9stor Kirchner",
+                    "country": "Argentina",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "G\u00f6ran Persson",
+                    "country": "Sweden",
+                    "posts": [
+                        "Ex-Prime-minister"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Jacques Chirac",
+                    "country": "France",
+                    "posts": [
+                        "President",
+                        "Ex-president"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Jacques Chirac",
+                    "country": "France",
+                    "posts": [
+                        "President",
+                        "Ex-president"
+                    ]
+                },
+                {
+                    "figure": "Ricardo Lagos",
+                    "country": "Chile",
+                    "posts": [
+                        "President"
+                    ]
+                },
+                {
+                    "figure": "Jos\u00e9 Luis Zapatero",
+                    "country": "Spain",
+                    "posts": [
+                        "President"
+                    ]
+                },
+                {
+                    "figure": "Kofi Annan",
+                    "country": "United Nations",
+                    "posts": [
+                        "Secretary-general"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Kofi Annan",
+                    "country": "United Nations",
+                    "posts": [
+                        "Secretary-general"
+                    ]
+                }
+            ],
+            [
+                {
+                    "figure": "Jean Ping",
+                    "country": "Gabon",
+                    "posts": [
+                        "Chancellor"
+                    ]
+                }
+            ]
+        ],
+        "Period": "20 e 21 de Setembro",
+        "Country": "United States of America",
+        "City/region": "New York"
+    },
+    {
+        "year": "2004",
+        "Overview": " - Cerim\u00f4nia de inaugura\u00e7\u00e3o da III Reuni\u00e3o de Presidentes da Am\u00e9rica do Sul\n - Cerim\u00f4nia de assinatura de atos\n - Almo\u00e7o oferecido aos Presidentes da III Reuni\u00e3o de Presidentes da Am\u00e9rica do Sul\n - Sess\u00e3o de trabalho da III Reuni\u00e3o de Presidentes da Am\u00e9rica do Sul\n - Cerim\u00f4nia de encerramento da III Reuni\u00e3o de Presidentes da Am\u00e9rica do Sul\n - Reuni\u00e3o de trabalho com Alejandro Toledo, presidente da Rep\u00fablica do Peru\n - Concerto Andino\n - Recep\u00e7\u00e3o Oficial",
+        "Host": [
+            [
+                {
+                    "figure": "Alejandro Toledo",
+                    "country": "Peru",
+                    "posts": [
+                        "President"
+                    ]
+                }
+            ]
+        ],
+        "Period": "08 de Dezembro",
+        "Country": "Peru",
+        "City/region": "Cuzco"
+    }
+]

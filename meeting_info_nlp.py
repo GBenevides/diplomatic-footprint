@@ -118,18 +118,19 @@ def monarchy(candidate):
 def rectify_person_false_negative(candidate):
     return any(f in candidate for f in
                ["Decker", "Benjamin Netanyahu", "Laurent Gbagbo", "Franco Frattini", "Hu Jintao", "Wen Jiabao",
-                "Hifikepunye Pohamba", "Cyril Ramaphosa", "Senhor Andrew Liveris", "Thabo Mbeki",
-                "Laurent Gbagbo", "Manmohan Singh", "Recep Erdogan", "José Mujica",
+                "Hifikepunye Pohamba", "Cyril Ramaphosa", "Senhor Andrew Liveris", "Thabo Mbeki", "Bertrand Delanoë",
+                "Laurent Gbagbo", "Manmohan Singh", "Recep Erdogan", "José Mujica", "Boniface Alexandre",
                 "Armando Guebuza", "Lee Myung-bak", "Maurício Funes", "Yasuo Fukuda", "Ban Ki-moon", "Nong Duch Manh",
                 "Hifikepunye Pohamba", "Laurent Gbagbo", "Massimo D'Alema", "Recep Tayyip", "Abdelaziz Bouteflika",
-                "Gabriele Galatere di Genola", "Presidente de Cabo Verde", "Enrique Peña Nieto"
-                   , "Auul Pakir Jainulabdeen Abdul Kalam", "Pedro Pires", "Obiang Nguema Mbasogo"
+                "Gabriele Galatere di Genola", "Presidente de Cabo Verde", "Enrique Peña Nieto", "Pedro  Verona"
+                   , "Auul Pakir Jainulabdeen Abdul Kalam", "Pedro Pires", "Obiang Nguema Mbasogo", "Begum Khaleda Zia"
                    , "Armando Guebuza", "Ren Zhengfei", 'Audiência com Sua Santidade o Papa Francisco', 'Durão Barroso',
                 "Emir do Catar  Xeque Tamin bin", "Senadora Lucia Topolansky", "Ban Ki-Moon", "Erick Schmidt"])
 
 
 # armand de decker
-force_names = ["Rupert Murdoch", "Henry Kissinger", "Condoleezza Rice", "Madeleine Albright", "Bill Gates"]
+force_names = ["Rupert Murdoch", "Henry Kissinger", "Condoleezza Rice", "Madeleine Albright",
+               "Bill Gates", "Sr. Hans Joachim Nikolin"]
 
 
 def findCountryInStatics(line):
@@ -155,7 +156,7 @@ def vet_bizarre_country(candidate):
                                         ["recepção", "audiência", "chanceler", "g-5", "brics", "secretário-geral",
                                          "posse", "estado", "estados associados", "mercosul", "conferência", "reunião",
                                          "armand", "encontro", "saudação", "aprobras", "cerimônia", "senado", "câmara",
-                                         "alto nível", "sua santidade", "vladimir",
+                                         "alto nível", "sua santidade", "vladimir", "federal",'corte', 'suprema',
                                          "governo da", "presidente da grande assembléia nacional da turquia", "jantar",
                                          "almoço", "finanças do", "agility", 'relações exteriores', "trabalho",
                                          "américa", "chairman","governo", "erário", "áfrica ocidental",
