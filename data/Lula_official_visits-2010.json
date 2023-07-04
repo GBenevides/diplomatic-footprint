@@ -4,22 +4,10 @@
         "Overview": " - Partida para Canc\u00fan\n - Chegada a Canc\u00fan\n - Jantar oferecido pelo presidente do M\u00e9xico, Felipe Calder\u00f3n\n - Cerim\u00f4nia de abertura da XXI C\u00fapula do Grupo do Rio e da II C\u00fapula da Am\u00e9rica Latina e do Caribe (CALC)\n - Primeira sess\u00e3o plen\u00e1ria\n - Encerramento da primeira sess\u00e3o plen\u00e1ria\n - Fotografia oficial\n - Almo\u00e7o oferecido pelo presidente do M\u00e9xico, Felipe Calder\u00f3n, aos chefes de Estado e de Governo\n - Segunda sess\u00e3o plen\u00e1ria\n - Encerramento da segunda sess\u00e3o plen\u00e1ria\n - Jantar oficial\n - Continua\u00e7\u00e3o da segunda sess\u00e3o plen\u00e1ria\n - Sess\u00e3o de encerramento da XXI C\u00fapula do Grupo do Rio e da II C\u00fapula da Am\u00e9rica Latina e do Caribe (CALC)\n - Confer\u00eancia de imprensa\n - Almo\u00e7o de trabalho com o presidente do M\u00e9xico, Felipe Calder\u00f3n\n - Encontro com empres\u00e1rios brasileiros e mexicanos no contexto do Foro Estrat\u00e9gico Empresarial\n - Cerim\u00f4nia de assinatura de atos e comunicado \u00e0 imprensa\n - Partida para Havana",
         "Host": [
             [
-                {
-                    "figure": "Felipe Calder\u00f3n",
-                    "country": "Mexico",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "FC1"
             ],
             [
-                {
-                    "figure": "Felipe Calder\u00f3n",
-                    "country": "Mexico",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "FC1"
             ]
         ],
         "Period": "21, 22 e 23 de Fevereiro",
@@ -31,33 +19,13 @@
         "Overview": " - Chegada a Havana\n - Almo\u00e7o livre\n - Encontro com o comandante Fidel Castro\n - Cerim\u00f4nia  de  encerramento  do  grupo  de  Trabalho  Brasil-Cuba  para  Assuntos Econ\u00f4micos e Comerciais\n - Encontro com o presidente de Cuba, Ra\u00fal Castro\n - Jantar oferecido pelo presidente de Cuba, Ra\u00fal Castro\n - Partida para Porto Pr\u00edncipe (Haiti)",
         "Host": [
             [
-                {
-                    "figure": "Fidel Castro",
-                    "country": "Cuba",
-                    "posts": [
-                        "Cabinet Member"
-                    ]
-                }
+                "FI1"
             ],
             [
-                {
-                    "figure": "Raul Castro",
-                    "country": "Cuba",
-                    "posts": [
-                        "Vice-president",
-                        "President"
-                    ]
-                }
+                "RC1"
             ],
             [
-                {
-                    "figure": "Raul Castro",
-                    "country": "Cuba",
-                    "posts": [
-                        "Vice-president",
-                        "President"
-                    ]
-                }
+                "RC1"
             ]
         ],
         "Period": "23, 24 e 25 de Fevereiro",
@@ -69,20 +37,8 @@
         "Overview": " - Chegada a Porto Pr\u00edncipe\n - Sobrevoo, em helic\u00f3ptero, sobre a cidade de Porto Pr\u00edncipe\n - Cerim\u00f4nia de formatura das tropas brasileiras da Miss\u00e3o da   ONU (Minustah)\n - Almo\u00e7o com as tropas brasileiras da Minustah\n - Visita \u00e0s instala\u00e7\u00f5es do Contingente Brasileiro de For\u00e7a de Paz: Base Acad\u00eamica Rachel de Queiroz - Grupamento Operativo dos Fuzileiros Navais (Bramar), da Base da Companhia de Engenharia do Ex\u00e9rcito Brasileiro (BRAENGCOY) e do Hospital de Campo da For\u00e7a\n - Encontro com o presidente do Haiti, Ren\u00e9 Pr\u00e9val, e com o primeiro-ministro, Jean-Max Bellerive\n - Partida para S\u00e3o Salvador",
         "Host": [
             [
-                {
-                    "figure": "Ren\u00e9 Pr\u00e9val",
-                    "country": "Haiti",
-                    "posts": [
-                        "President"
-                    ]
-                },
-                {
-                    "figure": "Jean-Max Bellerive",
-                    "country": "Haiti",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "RP1",
+                "JE1"
             ]
         ],
         "Period": "25 de Fevereiro",
@@ -94,38 +50,14 @@
         "Overview": " - Chegada a S\u00e3o Salvador\n - Jantar com o presidente de El Salvador, Maur\u00edcio Funes\n - Encontro com empres\u00e1rios salvadorenhos\n - Visita \u00e0 cripta do Monse\u00f1or Oscar Romero, deposi\u00e7\u00e3o de coroa de flores\n - Reuni\u00e3o privada com o presidente de El Salvador, Maur\u00edcio Funes\n - Cerim\u00f4nia de assinatura de atos\n - Cerim\u00f4nia de condecora\u00e7\u00e3o do presidente Luiz In\u00e1cio Lula da Silva com a ordem \"Jos\u00e9 Matias Delgado\" na Gr\u00e3-Cruz Placa de Ouro e de condecora\u00e7\u00e3o do presidente de El Salvador, Maur\u00edcio Funes, com o Grande Colar da Ordem Nacional do Cruzeiro do Sul\n - Entrevista coletiva\n - Almo\u00e7o oferecido pelo presidente de El Salvador, Maur\u00edcio Funes, e pela primeira- dama, Vanda Pignato",
         "Host": [
             [
-                {
-                    "figure": "Maur\u00edcio Funes",
-                    "country": "El Salvador",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MA6"
             ],
             [
-                {
-                    "figure": "Maur\u00edcio Funes",
-                    "country": "El Salvador",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MA6"
             ],
             [
-                {
-                    "figure": "Maur\u00edcio Funes",
-                    "country": "El Salvador",
-                    "posts": [
-                        "President"
-                    ]
-                },
-                {
-                    "figure": "Vanda Pignato",
-                    "country": "El Salvador",
-                    "posts": [
-                        "First-spouse"
-                    ]
-                }
+                "MA6",
+                "VA1"
             ]
         ],
         "Period": "25 e 26 de Fevereiro",
@@ -137,13 +69,7 @@
         "Overview": " - Cerim\u00f4nia de Declara\u00e7\u00e3o de Fidelidade Constitucional do presidente eleito do Uruguai, Jos\u00e9 Mujica\n - Partida para Santiago\n - Chegada a Santiago\n - Encontro com a presidente do Chile, Michelle Bachelet",
         "Host": [
             [
-                {
-                    "figure": "Michele Bachelet",
-                    "country": "Chile",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MI2"
             ]
         ],
         "Period": "1\u00ba de Mar\u00e7o",
@@ -155,13 +81,7 @@
         "Overview": " - Cerim\u00f4nia de Declara\u00e7\u00e3o de Fidelidade Constitucional do presidente eleito do Uruguai, Jos\u00e9 Mujica\n - Partida para Santiago\n - Chegada a Santiago\n - Encontro com a presidente do Chile, Michelle Bachelet",
         "Host": [
             [
-                {
-                    "figure": "Michele Bachelet",
-                    "country": "Chile",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MI2"
             ]
         ],
         "Period": "1\u00ba de Mar\u00e7o",
@@ -173,124 +93,40 @@
         "Overview": " - Chegada a Tel Aviv\n - Partida para Jerusal\u00e9m\n - Chegada a Jerusal\u00e9m\n - Cerim\u00f4nia oficial de chegada\n - Encontro com o presidente do Estado de Israel, Shimon Peres\n - Participa\u00e7\u00e3o no Semin\u00e1rio Empresarial \u201cBrasil-Israel: Livre Com\u00e9rcio e Oportunidades de Neg\u00f3cios\u201d\n - Audi\u00eancia \u00e0 l\u00edder da oposi\u00e7\u00e3o, Tzipi Livni\n - Almo\u00e7o privado\n - Encontro com a delega\u00e7\u00e3o da Universidade Hebraica\n - Cerim\u00f4nia oficial de chegada ao parlamento israelense (Knesset)\n - Encontro com o presidente do parlamento israelense (Knesset), deputado Reuven Rivlin\n - Sess\u00e3o plen\u00e1ria especial da Knesset\n - Encontro com o primeiro-ministro de Israel, Benjamin Netanyahu\n - Jantar oferecido pelo presidente de Israel, Shimon Peres\n - [Jerusalem]\n - Visita ao Museu do Holocausto (Yad Vashem)\n - Cerim\u00f4nia de plantio de \u00e1rvore no Bosque de Jerusal\u00e9m\n - Representantes da sociedade civil israelense e palestina em Jerusal\u00e9m (Geneva Initiative, F\u00f3rum Circle of Parents-Families e Passia)\n - Almo\u00e7o privado (ANP)\n - [Bethlehem]\n - Cerim\u00f4nia oficial de chegada ao pal\u00e1cio presidencial da Autoridade Nacional Palestina\n - Encontro com o presidente da ANP, Mahmoud Abbas\n - Cerim\u00f4nia de encerramento do encontro empresarial Brasil-Palestina\n - Jantar oferecido pelo presidente da ANP, Mahmoud Abbas, com a presen\u00e7a do primeiro-ministro, Salam Fayaad\n - [Ramallah]\n - Cerim\u00f4nia de inaugura\u00e7\u00e3o da Rua Brasil\n - Cerim\u00f4nia de deposi\u00e7\u00e3o floral no mausol\u00e9u de Yasser Arafat Sede da presid\u00eancia da Autoridade Nacional Palestina (ANP), Muqata\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - [Amman]\n - Encontro privado com o rei Abdullah II e a rainha Rania, da Jord\u00e2nia\n - Reuni\u00e3o de trabalho\n - Jantar oferecido pelo rei Abdullah II e pela rainha Rania\n - [Amman]\n - Encontro com o pr\u00edncipe Hassan ibn Talal\n - Visita de cortesia do presidente do Senado jordaniano, Taher Masri\n - Reuni\u00e3o com o primeiro-ministro da Jord\u00e2nia, Samir Rifai\n - Participa\u00e7\u00e3o no encontro empresarial Brasil-Jord\u00e2nia",
         "Host": [
             [
-                {
-                    "figure": "Shimon Peres",
-                    "country": "Israel",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "SH2"
             ],
             [
-                {
-                    "figure": "Tzipi Livni",
-                    "country": "Israel",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "TZ1"
             ],
             [
-                {
-                    "figure": "Reuven Rivlin",
-                    "country": "Israel",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "RE2"
             ],
             [
-                {
-                    "figure": "Benjamin Netanyahu",
-                    "country": "Israel",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "BE1"
             ],
             [
-                {
-                    "figure": "Shimon Peres",
-                    "country": "Israel",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "SH2"
             ],
             [
-                {
-                    "figure": "Mahmoud Abbas",
-                    "country": "Palestine",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MA2"
             ],
             [
-                {
-                    "figure": "Mahmoud Abbas",
-                    "country": "Palestine",
-                    "posts": [
-                        "President"
-                    ]
-                },
-                {
-                    "figure": "Salam Fayaad",
-                    "country": "Palestine",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "MA2",
+                "SA2"
             ],
             [
-                {
-                    "figure": "King Abdullah II",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                },
-                {
-                    "figure": "Queen Rania",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "RA2",
+                "RA3"
             ],
             [
-                {
-                    "figure": "King Abdullah II",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                },
-                {
-                    "figure": "Queen Rania",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "RA2",
+                "RA3"
             ],
             [
-                {
-                    "figure": "Prince Hassan ibn Talal",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "PR1"
             ],
             [
-                {
-                    "figure": "Samir Rifai",
-                    "country": "Jordan",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "SA3"
             ]
         ],
         "Period": "14, 15, 16, 17 e 18 de Mar\u00e7o",
@@ -302,124 +138,40 @@
         "Overview": " - Chegada a Tel Aviv\n - Partida para Jerusal\u00e9m\n - Chegada a Jerusal\u00e9m\n - Cerim\u00f4nia oficial de chegada\n - Encontro com o presidente do Estado de Israel, Shimon Peres\n - Participa\u00e7\u00e3o no Semin\u00e1rio Empresarial \u201cBrasil-Israel: Livre Com\u00e9rcio e Oportunidades de Neg\u00f3cios\u201d\n - Audi\u00eancia \u00e0 l\u00edder da oposi\u00e7\u00e3o, Tzipi Livni\n - Almo\u00e7o privado\n - Encontro com a delega\u00e7\u00e3o da Universidade Hebraica\n - Cerim\u00f4nia oficial de chegada ao parlamento israelense (Knesset)\n - Encontro com o presidente do parlamento israelense (Knesset), deputado Reuven Rivlin\n - Sess\u00e3o plen\u00e1ria especial da Knesset\n - Encontro com o primeiro-ministro de Israel, Benjamin Netanyahu\n - Jantar oferecido pelo presidente de Israel, Shimon Peres\n - [Jerusalem]\n - Visita ao Museu do Holocausto (Yad Vashem)\n - Cerim\u00f4nia de plantio de \u00e1rvore no Bosque de Jerusal\u00e9m\n - Representantes da sociedade civil israelense e palestina em Jerusal\u00e9m (Geneva Initiative, F\u00f3rum Circle of Parents-Families e Passia)\n - Almo\u00e7o privado (ANP)\n - [Bethlehem]\n - Cerim\u00f4nia oficial de chegada ao pal\u00e1cio presidencial da Autoridade Nacional Palestina\n - Encontro com o presidente da ANP, Mahmoud Abbas\n - Cerim\u00f4nia de encerramento do encontro empresarial Brasil-Palestina\n - Jantar oferecido pelo presidente da ANP, Mahmoud Abbas, com a presen\u00e7a do primeiro-ministro, Salam Fayaad\n - [Ramallah]\n - Cerim\u00f4nia de inaugura\u00e7\u00e3o da Rua Brasil\n - Cerim\u00f4nia de deposi\u00e7\u00e3o floral no mausol\u00e9u de Yasser Arafat Sede da presid\u00eancia da Autoridade Nacional Palestina (ANP), Muqata\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - [Amman]\n - Encontro privado com o rei Abdullah II e a rainha Rania, da Jord\u00e2nia\n - Reuni\u00e3o de trabalho\n - Jantar oferecido pelo rei Abdullah II e pela rainha Rania\n - [Amman]\n - Encontro com o pr\u00edncipe Hassan ibn Talal\n - Visita de cortesia do presidente do Senado jordaniano, Taher Masri\n - Reuni\u00e3o com o primeiro-ministro da Jord\u00e2nia, Samir Rifai\n - Participa\u00e7\u00e3o no encontro empresarial Brasil-Jord\u00e2nia",
         "Host": [
             [
-                {
-                    "figure": "Shimon Peres",
-                    "country": "Israel",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "SH2"
             ],
             [
-                {
-                    "figure": "Tzipi Livni",
-                    "country": "Israel",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "TZ1"
             ],
             [
-                {
-                    "figure": "Reuven Rivlin",
-                    "country": "Israel",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "RE2"
             ],
             [
-                {
-                    "figure": "Benjamin Netanyahu",
-                    "country": "Israel",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "BE1"
             ],
             [
-                {
-                    "figure": "Shimon Peres",
-                    "country": "Israel",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "SH2"
             ],
             [
-                {
-                    "figure": "Mahmoud Abbas",
-                    "country": "Palestine",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MA2"
             ],
             [
-                {
-                    "figure": "Mahmoud Abbas",
-                    "country": "Palestine",
-                    "posts": [
-                        "President"
-                    ]
-                },
-                {
-                    "figure": "Salam Fayaad",
-                    "country": "Palestine",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "MA2",
+                "SA2"
             ],
             [
-                {
-                    "figure": "King Abdullah II",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                },
-                {
-                    "figure": "Queen Rania",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "RA2",
+                "RA3"
             ],
             [
-                {
-                    "figure": "King Abdullah II",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                },
-                {
-                    "figure": "Queen Rania",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "RA2",
+                "RA3"
             ],
             [
-                {
-                    "figure": "Prince Hassan ibn Talal",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "PR1"
             ],
             [
-                {
-                    "figure": "Samir Rifai",
-                    "country": "Jordan",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "SA3"
             ]
         ],
         "Period": "14, 15, 16, 17 e 18 de Mar\u00e7o",
@@ -431,124 +183,40 @@
         "Overview": " - Chegada a Tel Aviv\n - Partida para Jerusal\u00e9m\n - Chegada a Jerusal\u00e9m\n - Cerim\u00f4nia oficial de chegada\n - Encontro com o presidente do Estado de Israel, Shimon Peres\n - Participa\u00e7\u00e3o no Semin\u00e1rio Empresarial \u201cBrasil-Israel: Livre Com\u00e9rcio e Oportunidades de Neg\u00f3cios\u201d\n - Audi\u00eancia \u00e0 l\u00edder da oposi\u00e7\u00e3o, Tzipi Livni\n - Almo\u00e7o privado\n - Encontro com a delega\u00e7\u00e3o da Universidade Hebraica\n - Cerim\u00f4nia oficial de chegada ao parlamento israelense (Knesset)\n - Encontro com o presidente do parlamento israelense (Knesset), deputado Reuven Rivlin\n - Sess\u00e3o plen\u00e1ria especial da Knesset\n - Encontro com o primeiro-ministro de Israel, Benjamin Netanyahu\n - Jantar oferecido pelo presidente de Israel, Shimon Peres\n - [Jerusalem]\n - Visita ao Museu do Holocausto (Yad Vashem)\n - Cerim\u00f4nia de plantio de \u00e1rvore no Bosque de Jerusal\u00e9m\n - Representantes da sociedade civil israelense e palestina em Jerusal\u00e9m (Geneva Initiative, F\u00f3rum Circle of Parents-Families e Passia)\n - Almo\u00e7o privado (ANP)\n - [Bethlehem]\n - Cerim\u00f4nia oficial de chegada ao pal\u00e1cio presidencial da Autoridade Nacional Palestina\n - Encontro com o presidente da ANP, Mahmoud Abbas\n - Cerim\u00f4nia de encerramento do encontro empresarial Brasil-Palestina\n - Jantar oferecido pelo presidente da ANP, Mahmoud Abbas, com a presen\u00e7a do primeiro-ministro, Salam Fayaad\n - [Ramallah]\n - Cerim\u00f4nia de inaugura\u00e7\u00e3o da Rua Brasil\n - Cerim\u00f4nia de deposi\u00e7\u00e3o floral no mausol\u00e9u de Yasser Arafat Sede da presid\u00eancia da Autoridade Nacional Palestina (ANP), Muqata\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - [Amman]\n - Encontro privado com o rei Abdullah II e a rainha Rania, da Jord\u00e2nia\n - Reuni\u00e3o de trabalho\n - Jantar oferecido pelo rei Abdullah II e pela rainha Rania\n - [Amman]\n - Encontro com o pr\u00edncipe Hassan ibn Talal\n - Visita de cortesia do presidente do Senado jordaniano, Taher Masri\n - Reuni\u00e3o com o primeiro-ministro da Jord\u00e2nia, Samir Rifai\n - Participa\u00e7\u00e3o no encontro empresarial Brasil-Jord\u00e2nia",
         "Host": [
             [
-                {
-                    "figure": "Shimon Peres",
-                    "country": "Israel",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "SH2"
             ],
             [
-                {
-                    "figure": "Tzipi Livni",
-                    "country": "Israel",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "TZ1"
             ],
             [
-                {
-                    "figure": "Reuven Rivlin",
-                    "country": "Israel",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "RE2"
             ],
             [
-                {
-                    "figure": "Benjamin Netanyahu",
-                    "country": "Israel",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "BE1"
             ],
             [
-                {
-                    "figure": "Shimon Peres",
-                    "country": "Israel",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "SH2"
             ],
             [
-                {
-                    "figure": "Mahmoud Abbas",
-                    "country": "Palestine",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MA2"
             ],
             [
-                {
-                    "figure": "Mahmoud Abbas",
-                    "country": "Palestine",
-                    "posts": [
-                        "President"
-                    ]
-                },
-                {
-                    "figure": "Salam Fayaad",
-                    "country": "Palestine",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "MA2",
+                "SA2"
             ],
             [
-                {
-                    "figure": "King Abdullah II",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                },
-                {
-                    "figure": "Queen Rania",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "RA2",
+                "RA3"
             ],
             [
-                {
-                    "figure": "King Abdullah II",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                },
-                {
-                    "figure": "Queen Rania",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "RA2",
+                "RA3"
             ],
             [
-                {
-                    "figure": "Prince Hassan ibn Talal",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "PR1"
             ],
             [
-                {
-                    "figure": "Samir Rifai",
-                    "country": "Jordan",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "SA3"
             ]
         ],
         "Period": "14, 15, 16, 17 e 18 de Mar\u00e7o",
@@ -560,124 +228,40 @@
         "Overview": " - Chegada a Tel Aviv\n - Partida para Jerusal\u00e9m\n - Chegada a Jerusal\u00e9m\n - Cerim\u00f4nia oficial de chegada\n - Encontro com o presidente do Estado de Israel, Shimon Peres\n - Participa\u00e7\u00e3o no Semin\u00e1rio Empresarial \u201cBrasil-Israel: Livre Com\u00e9rcio e Oportunidades de Neg\u00f3cios\u201d\n - Audi\u00eancia \u00e0 l\u00edder da oposi\u00e7\u00e3o, Tzipi Livni\n - Almo\u00e7o privado\n - Encontro com a delega\u00e7\u00e3o da Universidade Hebraica\n - Cerim\u00f4nia oficial de chegada ao parlamento israelense (Knesset)\n - Encontro com o presidente do parlamento israelense (Knesset), deputado Reuven Rivlin\n - Sess\u00e3o plen\u00e1ria especial da Knesset\n - Encontro com o primeiro-ministro de Israel, Benjamin Netanyahu\n - Jantar oferecido pelo presidente de Israel, Shimon Peres\n - [Jerusalem]\n - Visita ao Museu do Holocausto (Yad Vashem)\n - Cerim\u00f4nia de plantio de \u00e1rvore no Bosque de Jerusal\u00e9m\n - Representantes da sociedade civil israelense e palestina em Jerusal\u00e9m (Geneva Initiative, F\u00f3rum Circle of Parents-Families e Passia)\n - Almo\u00e7o privado (ANP)\n - [Bethlehem]\n - Cerim\u00f4nia oficial de chegada ao pal\u00e1cio presidencial da Autoridade Nacional Palestina\n - Encontro com o presidente da ANP, Mahmoud Abbas\n - Cerim\u00f4nia de encerramento do encontro empresarial Brasil-Palestina\n - Jantar oferecido pelo presidente da ANP, Mahmoud Abbas, com a presen\u00e7a do primeiro-ministro, Salam Fayaad\n - [Ramallah]\n - Cerim\u00f4nia de inaugura\u00e7\u00e3o da Rua Brasil\n - Cerim\u00f4nia de deposi\u00e7\u00e3o floral no mausol\u00e9u de Yasser Arafat Sede da presid\u00eancia da Autoridade Nacional Palestina (ANP), Muqata\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - [Amman]\n - Encontro privado com o rei Abdullah II e a rainha Rania, da Jord\u00e2nia\n - Reuni\u00e3o de trabalho\n - Jantar oferecido pelo rei Abdullah II e pela rainha Rania\n - [Amman]\n - Encontro com o pr\u00edncipe Hassan ibn Talal\n - Visita de cortesia do presidente do Senado jordaniano, Taher Masri\n - Reuni\u00e3o com o primeiro-ministro da Jord\u00e2nia, Samir Rifai\n - Participa\u00e7\u00e3o no encontro empresarial Brasil-Jord\u00e2nia",
         "Host": [
             [
-                {
-                    "figure": "Shimon Peres",
-                    "country": "Israel",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "SH2"
             ],
             [
-                {
-                    "figure": "Tzipi Livni",
-                    "country": "Israel",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "TZ1"
             ],
             [
-                {
-                    "figure": "Reuven Rivlin",
-                    "country": "Israel",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "RE2"
             ],
             [
-                {
-                    "figure": "Benjamin Netanyahu",
-                    "country": "Israel",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "BE1"
             ],
             [
-                {
-                    "figure": "Shimon Peres",
-                    "country": "Israel",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "SH2"
             ],
             [
-                {
-                    "figure": "Mahmoud Abbas",
-                    "country": "Palestine",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MA2"
             ],
             [
-                {
-                    "figure": "Mahmoud Abbas",
-                    "country": "Palestine",
-                    "posts": [
-                        "President"
-                    ]
-                },
-                {
-                    "figure": "Salam Fayaad",
-                    "country": "Palestine",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "MA2",
+                "SA2"
             ],
             [
-                {
-                    "figure": "King Abdullah II",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                },
-                {
-                    "figure": "Queen Rania",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "RA2",
+                "RA3"
             ],
             [
-                {
-                    "figure": "King Abdullah II",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                },
-                {
-                    "figure": "Queen Rania",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "RA2",
+                "RA3"
             ],
             [
-                {
-                    "figure": "Prince Hassan ibn Talal",
-                    "country": "Jordan",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "PR1"
             ],
             [
-                {
-                    "figure": "Samir Rifai",
-                    "country": "Jordan",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "SA3"
             ]
         ],
         "Period": "14, 15, 16, 17 e 18 de Mar\u00e7o",
@@ -689,41 +273,16 @@
         "Overview": " - Partida para Washington\n - Chegada a Washington\n - Almo\u00e7o privado\n - Encontro com o Primeiro-Ministro da It\u00e1lia, Silvio Berlusconi\n - Assinatura de ato\n - Encontro com Primeiro-Ministro do Jap\u00e3o, Yukio Hatoyama\n - Encontro com o Primeiro-Ministro da Turquia, Recep Erdogan\n - Recep\u00e7\u00e3o  oferecida  aos  membros  da  C\u00fapula  de  Seguran\u00e7a  Nuclear  pelo  Presidente dos Estados Unidos, Barack Obama\n - Jantar de trabalho oferecido pelo Presidente dos Estados Unidos, Barack Obama, aos membros da C\u00fapula de Seguran\u00e7a Nuclear\n - Foto oficial dos chefes de delega\u00e7\u00e3o\n - Primeira Sess\u00e3o Plen\u00e1ria da C\u00fapula de Seguran\u00e7a Nuclear\n - Almo\u00e7o de trabalho oferecido pelo Presidente dos Estados Unidos, Barack Obama\n - Segunda Sess\u00e3o Plen\u00e1ria da C\u00fapula de Seguran\u00e7a Nuclear",
         "Host": [
             [
-                {
-                    "figure": "Silvio Berlusconi",
-                    "country": "Italy",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "SB1"
             ],
             [
-                {
-                    "figure": "Yukio Hatoyama",
-                    "country": "Japan",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "YU1"
             ],
             [
-                {
-                    "figure": "Recep Tayyip Erdogan",
-                    "country": "Turkey",
-                    "posts": [
-                        "Prime-minister",
-                        "President"
-                    ]
-                }
+                "RE1"
             ],
             [
-                {
-                    "figure": "Barack Obama",
-                    "country": "United States of America",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "BO1"
             ]
         ],
         "Period": "11, 12 e 13 de Abril",
@@ -735,31 +294,13 @@
         "Overview": " - Partida para Buenos Aires/Argentina\n - [Buenos Aires]\n - Reuni\u00e3o do Conselho de Chefes de Estado e de Governo da Uni\u00e3o de Na\u00e7\u00f5es Sul- Americanas (Unasul)\n - Foto oficial\n - Almo\u00e7o oferecido pela presidente da Argentina, Cristina Kirchner\n - [Montevideo]\n - Encontro privado com o presidente do Uruguai, Jos\u00e9 Mujica\n - Reuni\u00e3o ampliada\n - Entrevista coletiva\n - Jantar oferecido pelo presidente do Uruguai, Jos\u00e9 Mujica",
         "Host": [
             [
-                {
-                    "figure": "Cristina Kirchner",
-                    "country": "Argentina",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "CK1"
             ],
             [
-                {
-                    "figure": "Jos\u00e9 Mujica",
-                    "country": "Uruguay",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JO5"
             ],
             [
-                {
-                    "figure": "Jos\u00e9 Mujica",
-                    "country": "Uruguay",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JO5"
             ]
         ],
         "Period": "03 e 04 de Maio",
@@ -771,31 +312,13 @@
         "Overview": " - Partida para Buenos Aires/Argentina\n - [Buenos Aires]\n - Reuni\u00e3o do Conselho de Chefes de Estado e de Governo da Uni\u00e3o de Na\u00e7\u00f5es Sul- Americanas (Unasul)\n - Foto oficial\n - Almo\u00e7o oferecido pela presidente da Argentina, Cristina Kirchner\n - [Montevideo]\n - Encontro privado com o presidente do Uruguai, Jos\u00e9 Mujica\n - Reuni\u00e3o ampliada\n - Entrevista coletiva\n - Jantar oferecido pelo presidente do Uruguai, Jos\u00e9 Mujica",
         "Host": [
             [
-                {
-                    "figure": "Cristina Kirchner",
-                    "country": "Argentina",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "CK1"
             ],
             [
-                {
-                    "figure": "Jos\u00e9 Mujica",
-                    "country": "Uruguay",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JO5"
             ],
             [
-                {
-                    "figure": "Jos\u00e9 Mujica",
-                    "country": "Uruguay",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JO5"
             ]
         ],
         "Period": "03 e 04 de Maio",
@@ -807,34 +330,13 @@
         "Overview": " - Partida para Moscou/R\u00fassia\n - Chegada a Moscou\n - Cerim\u00f4nia de deposi\u00e7\u00e3o de oferenda floral em mem\u00f3ria \u00e0s v\u00edtimas da II Guerra Mundial\n - F\u00f3rum Empresarial Brasil-R\u00fassia\n - Encontro com o presidente da R\u00fassia, Dmitri Medvedev\n - Cerim\u00f4nia de assinatura de atos\n - Almo\u00e7o oferecido pelo presidente da R\u00fassia, Dmitri Medvedev\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Encontro com o primeiro-ministro da R\u00fassia, Vladimir Putin\n - Partida para Doha/Catar",
         "Host": [
             [
-                {
-                    "figure": "Dmitri Medvedev",
-                    "country": "Russia",
-                    "posts": [
-                        "President",
-                        "Prime-minister"
-                    ]
-                }
+                "DM1"
             ],
             [
-                {
-                    "figure": "Dmitri Medvedev",
-                    "country": "Russia",
-                    "posts": [
-                        "President",
-                        "Prime-minister"
-                    ]
-                }
+                "DM1"
             ],
             [
-                {
-                    "figure": "Vladimir Putin",
-                    "country": "Russia",
-                    "posts": [
-                        "Prime-minister",
-                        "President"
-                    ]
-                }
+                "VL1"
             ]
         ],
         "Period": "12, 13 e 14 de Maio",
@@ -846,22 +348,10 @@
         "Overview": " - Chegada a Doha (Catar)\n - Entrevista \u00e0 rede de televis\u00e3o Al Jazeera\n - Cerim\u00f4nia de encerramento do Semin\u00e1rio Empresarial Brasil-Catar\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o Emir do Catar, Hamad bin Khalifa Al Thani\n - Encontro ampliado\n - Cerim\u00f4nia de assinatura de atos\n - Almo\u00e7o oferecido pelo Emir do Catar, Hamad bin Khalifa Al Thani\n - Partida final da Copa do Emir, disputada pelos clubes Al-Rayyan e Umm-Salal\n - Partida para Teer\u00e3",
         "Host": [
             [
-                {
-                    "figure": "Hamad bin Khalifa Al Thani",
-                    "country": "Qatar",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "HA5"
             ],
             [
-                {
-                    "figure": "Hamad bin Khalifa Al Thani",
-                    "country": "Qatar",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "HA5"
             ]
         ],
         "Period": "14 e 15 de Maio",
@@ -873,41 +363,16 @@
         "Overview": " - Chegada a Teer\u00e3\n - Reuni\u00e3o privada com o presidente do Ir\u00e3, Mahmoud Ahmadinejad\n - Reuni\u00e3o ampliada entre as delega\u00e7\u00f5es brasileira e iraniana\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Encontro com o L\u00edder Supremo do Ir\u00e3, Aiatol\u00e1 Ali Khamenei\n - Almo\u00e7o privado\n - Encontro com o presidente da Assembl\u00e9ia Consultiva Isl\u00e2mica (Parlamento Iraniano), Ali Larijani\n - Cerim\u00f4nia de encerramento do IV Encontro Empresarial Brasil - Ir\u00e3\n - Jantar oferecido pelo presidente do Ir\u00e3, Mahmoud Ahmadinejad\n - Foto oficial da XIV C\u00fapula do G-1\n - Sess\u00e3o de abertura da XIV C\u00fapula do G-1\n - Partida para Madri",
         "Host": [
             [
-                {
-                    "figure": "Mahmoud Ahmadinejad",
-                    "country": "Iran",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MA1"
             ],
             [
-                {
-                    "figure": "Aiatol\u00e1 Ali Khamenei",
-                    "country": "Iran",
-                    "posts": [
-                        "Political/Agency Leader",
-                        "Religious Leader"
-                    ]
-                }
+                "AI1"
             ],
             [
-                {
-                    "figure": "Ali Larijani",
-                    "country": "Iran",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "AL2"
             ],
             [
-                {
-                    "figure": "Mahmoud Ahmadinejad",
-                    "country": "Iran",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MA1"
             ]
         ],
         "Period": "15, 16 e 17 de Maio",
@@ -919,14 +384,7 @@
         "Overview": " - Chegada a Madri\n - C\u00fapula Mercosul - Uni\u00e3o Europeia\n - Sess\u00e3o inaugural da VI C\u00fapula Am\u00e9rica Latina, Caribe e Uni\u00e3o Europeia\n - Foto oficial da VI C\u00fapula Am\u00e9rica Latina, Caribe e Uni\u00e3o Europeia\n - Reuni\u00e3o Plen\u00e1ria da VI C\u00fapula Am\u00e9rica Latina, Caribe e Uni\u00e3o Europeia\n - Almo\u00e7o de trabalho oferecido pelo presidente do Governo da Espanha, Jos\u00e9 Luis Zapatero, aos chefes de Estado e de Governo participantes da VI C\u00fapula Am\u00e9rica Latina, Caribe e Uni\u00e3o Europeia\n - Sess\u00e3o de encerramento da VI C\u00fapula Am\u00e9rica Latina, Caribe e Uni\u00e3o Europeia\n - Encontro bilateral com o primeiro-ministro da Turquia, Recep Tayyip Erdogan\n - Cerim\u00f4nia  de  entrega,  ao  presidente  Luiz  In\u00e1cio  Lula  da  Silva,  do  pr\u00eamio  \u201cNova Economia F\u00f3rum 2010\u201d\n - Caf\u00e9 da manh\u00e3 com a diretoria do Grupo Prisa\n - Abertura do semin\u00e1rio \"Brasil: Parceria para uma Nova Economia Global\"\n - Primeiro painel: \u201cOportunidades de Investimento\u201d\n - Segundo painel: \u201cFontes de financiamento e marco institucional\u201d\n - Almo\u00e7o-confer\u00eancia\n - Partida para Lisboa",
         "Host": [
             [
-                {
-                    "figure": "Recep Tayyip Erdogan",
-                    "country": "Turkey",
-                    "posts": [
-                        "Prime-minister",
-                        "President"
-                    ]
-                }
+                "RE1"
             ]
         ],
         "Period": "17, 18 e 19 de Maio",
@@ -938,31 +396,13 @@
         "Overview": " - Chegada a Lisboa\n - Encontro privado com o presidente de Portugal, Cavaco Silva\n - Cerim\u00f4nia de entrega do Pr\u00eamio Cam\u00f5es\n - Encontro privado com o primeiro-ministro de Portugal, Jos\u00e9 S\u00f3crates\n - Foto oficial\n - Sess\u00e3o Plen\u00e1ria da X Cimeira Luso-Brasileira\n - Cerim\u00f4nia de assinatura de atos e entrevista coletiva\n - Jantar oferecido pelo primeiro-ministro de Portugal, Jos\u00e9 S\u00f3crates",
         "Host": [
             [
-                {
-                    "figure": "An\u00edbal Cavaco Silva",
-                    "country": "Portugal",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "AS1"
             ],
             [
-                {
-                    "figure": "Jos\u00e9 S\u00f3crates",
-                    "country": "Portugal",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "JS3"
             ],
             [
-                {
-                    "figure": "Jos\u00e9 S\u00f3crates",
-                    "country": "Portugal",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "JS3"
             ]
         ],
         "Period": "19 de Maio",
@@ -982,85 +422,31 @@
         "Overview": " - [Sal]\n - Partida para a Ilha do Sal\n - Chegada \u00e0 Ilha do Sal\n - Sess\u00e3o de abertura da C\u00fapula Brasil - Comunidade Econ\u00f4mica dos Estados da \u00c1frica Ocidental (Cedeao)\n - Foto oficial\n - Sess\u00e3o de trabalho\n - Cerim\u00f4nia de encerramento e ado\u00e7\u00e3o da Declara\u00e7\u00e3o Conjunta Brasil - Cedeao\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o dos chefes de Estado e de Governo\n - Encontro com o presidente de Cabo Verde, Pedro Pires\n - Encontro com o primeiro-ministro de Cabo Verde, Jos\u00e9 Brito\n - Entrevista coletiva\n - [Malabo]\n - Partida para Malabo\n - Chegada a Malabo\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente da Guin\u00e9 Equatorial, Obiang Nguema Mbasogo\n - Cerim\u00f4nia de assinatura de atos\n - Almo\u00e7o em homenagem ao Presidente da Rep\u00fablica\n - Partida para Nair\u00f3bi/Qu\u00eania\n - Chegada a Nair\u00f3bi\n - [Nairobi]\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente do Qu\u00eania, Mwai Kibaki\n - Reuni\u00e3o ampliada com o presidente do Qu\u00eania, Mwai Kibaki\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Sess\u00e3o de encerramento do Semin\u00e1rio Empresarial Brasil-Qu\u00eania\n - Almo\u00e7o oferecido ao presidente da Rep\u00fablica, Luiz In\u00e1cio Lula da Silva\n - Partida para Dar es Salaam\n - Chegada a Dar es Salaam\n - [Dar es Salaam]\n - Entrevista para document\u00e1rio sobre o programa Cozinha Brasil-Sesi\n - Cerim\u00f4nia de abertura do Encontro Empresarial Brasil-Tanz\u00e2nia\n - Visita \u00e0 Feira Internacional de Com\u00e9rcio de Dar es Salaam\n - Reuni\u00e3o privada com o presidente da Tanz\u00e2nia, Jakaya Mrisho Kikwete\n - Reuni\u00e3o ampliada com o presidente da Tanz\u00e2nia, Jakaya Mrisho Kikwete\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o  em  homenagem  ao  presidente  da  Rep\u00fablica,  Luiz  In\u00e1cio  Lula  da  Silva, oferecido pelo presidente da Tanz\u00e2nia, Jakaya  Mrisho Kikwete\n - Partida para Lusaca\n - [Lusaka]\n - Chegada a Lusaca\n - Jantar oferecido pelo presidente da Z\u00e2mbia, Rupiah Bwezani Banda\n - Encontro privado com o presidente da Z\u00e2mbia, Rupiah Bwezani Banda\n - Encontro ampliado entre as comitivas brasileira e zambiana\n - Cerim\u00f4nia de assinatura de atos\n - Cerim\u00f4nia de condecora\u00e7\u00e3o\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Cerim\u00f4nia de encerramento do Semin\u00e1rio Empresarial  Brasil-Z\u00e2mbia\n - Partida para Pret\u00f3ria/\u00c1frica do Sul\n - [Johannesburg]\n - Chegada a Pret\u00f3ria\n - Cerim\u00f4nia de in\u00edcio da jornada para a Copa do Mundo da Fifa  Brasil 2014\n - [Pretoria]\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente da \u00c1frica do Sul, Jacob Zuma\n - Reuni\u00e3o ampliada com o presidente da \u00c1frica do Sul, Jacob Zuma\n - Cerim\u00f4nia de assinatura de atos\n - Entrevista coletiva\n - Deslocamento para o Freedom Park, em Johannesburgo\n - [Johannesburg]\n - Visita ao Freedom Park\n - Encerramento do F\u00f3rum Empresarial Brasil-\u00c1frica do Sul\n - Visita \u00e0 Casa Brasil\n - Cerim\u00f4nia de lan\u00e7amento da Campanha Internacional Tur\u00edstica para o Brasil 2014\n - Deslocamento para o Presidential Guesthouse, em Pret\u00f3ria\n - [Pretoria]\n - Jantar oferecido pelo presidente da \u00c1frica do Sul, Jacob Zuma",
         "Host": [
             [
-                {
-                    "figure": "Pedro Pires",
-                    "country": "Cape Verde",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "PE2"
             ],
             [
-                {
-                    "figure": "Jos\u00e9 Brito",
-                    "country": "Cape Verde",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "JO4"
             ],
             [
-                {
-                    "figure": "Obiang Nguema Mbasogo",
-                    "country": "Eq. Guinea",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "OB2"
             ],
             [
-                {
-                    "figure": "Mwai Kibaki",
-                    "country": "Kenya",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MW1"
             ],
             [
-                {
-                    "figure": "Jakata Kikwete",
-                    "country": "Tanzania",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA1"
             ],
             [
-                {
-                    "figure": "Rupiah Bwezani Banda",
-                    "country": "Zambia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "RU1"
             ],
             [
-                {
-                    "figure": "Rupiah Bwezani Banda",
-                    "country": "Zambia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "RU1"
             ],
             [
-                {
-                    "figure": "Jacob Zuma",
-                    "country": "South Africa",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA3"
             ],
             [
-                {
-                    "figure": "Jacob Zuma",
-                    "country": "South Africa",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA3"
             ]
         ],
         "Period": "De 02 a 09 de Julho",
@@ -1072,85 +458,31 @@
         "Overview": " - [Sal]\n - Partida para a Ilha do Sal\n - Chegada \u00e0 Ilha do Sal\n - Sess\u00e3o de abertura da C\u00fapula Brasil - Comunidade Econ\u00f4mica dos Estados da \u00c1frica Ocidental (Cedeao)\n - Foto oficial\n - Sess\u00e3o de trabalho\n - Cerim\u00f4nia de encerramento e ado\u00e7\u00e3o da Declara\u00e7\u00e3o Conjunta Brasil - Cedeao\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o dos chefes de Estado e de Governo\n - Encontro com o presidente de Cabo Verde, Pedro Pires\n - Encontro com o primeiro-ministro de Cabo Verde, Jos\u00e9 Brito\n - Entrevista coletiva\n - [Malabo]\n - Partida para Malabo\n - Chegada a Malabo\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente da Guin\u00e9 Equatorial, Obiang Nguema Mbasogo\n - Cerim\u00f4nia de assinatura de atos\n - Almo\u00e7o em homenagem ao Presidente da Rep\u00fablica\n - Partida para Nair\u00f3bi/Qu\u00eania\n - Chegada a Nair\u00f3bi\n - [Nairobi]\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente do Qu\u00eania, Mwai Kibaki\n - Reuni\u00e3o ampliada com o presidente do Qu\u00eania, Mwai Kibaki\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Sess\u00e3o de encerramento do Semin\u00e1rio Empresarial Brasil-Qu\u00eania\n - Almo\u00e7o oferecido ao presidente da Rep\u00fablica, Luiz In\u00e1cio Lula da Silva\n - Partida para Dar es Salaam\n - Chegada a Dar es Salaam\n - [Dar es Salaam]\n - Entrevista para document\u00e1rio sobre o programa Cozinha Brasil-Sesi\n - Cerim\u00f4nia de abertura do Encontro Empresarial Brasil-Tanz\u00e2nia\n - Visita \u00e0 Feira Internacional de Com\u00e9rcio de Dar es Salaam\n - Reuni\u00e3o privada com o presidente da Tanz\u00e2nia, Jakaya Mrisho Kikwete\n - Reuni\u00e3o ampliada com o presidente da Tanz\u00e2nia, Jakaya Mrisho Kikwete\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o  em  homenagem  ao  presidente  da  Rep\u00fablica,  Luiz  In\u00e1cio  Lula  da  Silva, oferecido pelo presidente da Tanz\u00e2nia, Jakaya  Mrisho Kikwete\n - Partida para Lusaca\n - [Lusaka]\n - Chegada a Lusaca\n - Jantar oferecido pelo presidente da Z\u00e2mbia, Rupiah Bwezani Banda\n - Encontro privado com o presidente da Z\u00e2mbia, Rupiah Bwezani Banda\n - Encontro ampliado entre as comitivas brasileira e zambiana\n - Cerim\u00f4nia de assinatura de atos\n - Cerim\u00f4nia de condecora\u00e7\u00e3o\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Cerim\u00f4nia de encerramento do Semin\u00e1rio Empresarial  Brasil-Z\u00e2mbia\n - Partida para Pret\u00f3ria/\u00c1frica do Sul\n - [Johannesburg]\n - Chegada a Pret\u00f3ria\n - Cerim\u00f4nia de in\u00edcio da jornada para a Copa do Mundo da Fifa  Brasil 2014\n - [Pretoria]\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente da \u00c1frica do Sul, Jacob Zuma\n - Reuni\u00e3o ampliada com o presidente da \u00c1frica do Sul, Jacob Zuma\n - Cerim\u00f4nia de assinatura de atos\n - Entrevista coletiva\n - Deslocamento para o Freedom Park, em Johannesburgo\n - [Johannesburg]\n - Visita ao Freedom Park\n - Encerramento do F\u00f3rum Empresarial Brasil-\u00c1frica do Sul\n - Visita \u00e0 Casa Brasil\n - Cerim\u00f4nia de lan\u00e7amento da Campanha Internacional Tur\u00edstica para o Brasil 2014\n - Deslocamento para o Presidential Guesthouse, em Pret\u00f3ria\n - [Pretoria]\n - Jantar oferecido pelo presidente da \u00c1frica do Sul, Jacob Zuma",
         "Host": [
             [
-                {
-                    "figure": "Pedro Pires",
-                    "country": "Cape Verde",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "PE2"
             ],
             [
-                {
-                    "figure": "Jos\u00e9 Brito",
-                    "country": "Cape Verde",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "JO4"
             ],
             [
-                {
-                    "figure": "Obiang Nguema Mbasogo",
-                    "country": "Eq. Guinea",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "OB2"
             ],
             [
-                {
-                    "figure": "Mwai Kibaki",
-                    "country": "Kenya",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MW1"
             ],
             [
-                {
-                    "figure": "Jakata Kikwete",
-                    "country": "Tanzania",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA1"
             ],
             [
-                {
-                    "figure": "Rupiah Bwezani Banda",
-                    "country": "Zambia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "RU1"
             ],
             [
-                {
-                    "figure": "Rupiah Bwezani Banda",
-                    "country": "Zambia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "RU1"
             ],
             [
-                {
-                    "figure": "Jacob Zuma",
-                    "country": "South Africa",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA3"
             ],
             [
-                {
-                    "figure": "Jacob Zuma",
-                    "country": "South Africa",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA3"
             ]
         ],
         "Period": "De 02 a 09 de Julho",
@@ -1162,85 +494,31 @@
         "Overview": " - [Sal]\n - Partida para a Ilha do Sal\n - Chegada \u00e0 Ilha do Sal\n - Sess\u00e3o de abertura da C\u00fapula Brasil - Comunidade Econ\u00f4mica dos Estados da \u00c1frica Ocidental (Cedeao)\n - Foto oficial\n - Sess\u00e3o de trabalho\n - Cerim\u00f4nia de encerramento e ado\u00e7\u00e3o da Declara\u00e7\u00e3o Conjunta Brasil - Cedeao\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o dos chefes de Estado e de Governo\n - Encontro com o presidente de Cabo Verde, Pedro Pires\n - Encontro com o primeiro-ministro de Cabo Verde, Jos\u00e9 Brito\n - Entrevista coletiva\n - [Malabo]\n - Partida para Malabo\n - Chegada a Malabo\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente da Guin\u00e9 Equatorial, Obiang Nguema Mbasogo\n - Cerim\u00f4nia de assinatura de atos\n - Almo\u00e7o em homenagem ao Presidente da Rep\u00fablica\n - Partida para Nair\u00f3bi/Qu\u00eania\n - Chegada a Nair\u00f3bi\n - [Nairobi]\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente do Qu\u00eania, Mwai Kibaki\n - Reuni\u00e3o ampliada com o presidente do Qu\u00eania, Mwai Kibaki\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Sess\u00e3o de encerramento do Semin\u00e1rio Empresarial Brasil-Qu\u00eania\n - Almo\u00e7o oferecido ao presidente da Rep\u00fablica, Luiz In\u00e1cio Lula da Silva\n - Partida para Dar es Salaam\n - Chegada a Dar es Salaam\n - [Dar es Salaam]\n - Entrevista para document\u00e1rio sobre o programa Cozinha Brasil-Sesi\n - Cerim\u00f4nia de abertura do Encontro Empresarial Brasil-Tanz\u00e2nia\n - Visita \u00e0 Feira Internacional de Com\u00e9rcio de Dar es Salaam\n - Reuni\u00e3o privada com o presidente da Tanz\u00e2nia, Jakaya Mrisho Kikwete\n - Reuni\u00e3o ampliada com o presidente da Tanz\u00e2nia, Jakaya Mrisho Kikwete\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o  em  homenagem  ao  presidente  da  Rep\u00fablica,  Luiz  In\u00e1cio  Lula  da  Silva, oferecido pelo presidente da Tanz\u00e2nia, Jakaya  Mrisho Kikwete\n - Partida para Lusaca\n - [Lusaka]\n - Chegada a Lusaca\n - Jantar oferecido pelo presidente da Z\u00e2mbia, Rupiah Bwezani Banda\n - Encontro privado com o presidente da Z\u00e2mbia, Rupiah Bwezani Banda\n - Encontro ampliado entre as comitivas brasileira e zambiana\n - Cerim\u00f4nia de assinatura de atos\n - Cerim\u00f4nia de condecora\u00e7\u00e3o\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Cerim\u00f4nia de encerramento do Semin\u00e1rio Empresarial  Brasil-Z\u00e2mbia\n - Partida para Pret\u00f3ria/\u00c1frica do Sul\n - [Johannesburg]\n - Chegada a Pret\u00f3ria\n - Cerim\u00f4nia de in\u00edcio da jornada para a Copa do Mundo da Fifa  Brasil 2014\n - [Pretoria]\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente da \u00c1frica do Sul, Jacob Zuma\n - Reuni\u00e3o ampliada com o presidente da \u00c1frica do Sul, Jacob Zuma\n - Cerim\u00f4nia de assinatura de atos\n - Entrevista coletiva\n - Deslocamento para o Freedom Park, em Johannesburgo\n - [Johannesburg]\n - Visita ao Freedom Park\n - Encerramento do F\u00f3rum Empresarial Brasil-\u00c1frica do Sul\n - Visita \u00e0 Casa Brasil\n - Cerim\u00f4nia de lan\u00e7amento da Campanha Internacional Tur\u00edstica para o Brasil 2014\n - Deslocamento para o Presidential Guesthouse, em Pret\u00f3ria\n - [Pretoria]\n - Jantar oferecido pelo presidente da \u00c1frica do Sul, Jacob Zuma",
         "Host": [
             [
-                {
-                    "figure": "Pedro Pires",
-                    "country": "Cape Verde",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "PE2"
             ],
             [
-                {
-                    "figure": "Jos\u00e9 Brito",
-                    "country": "Cape Verde",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "JO4"
             ],
             [
-                {
-                    "figure": "Obiang Nguema Mbasogo",
-                    "country": "Eq. Guinea",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "OB2"
             ],
             [
-                {
-                    "figure": "Mwai Kibaki",
-                    "country": "Kenya",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MW1"
             ],
             [
-                {
-                    "figure": "Jakata Kikwete",
-                    "country": "Tanzania",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA1"
             ],
             [
-                {
-                    "figure": "Rupiah Bwezani Banda",
-                    "country": "Zambia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "RU1"
             ],
             [
-                {
-                    "figure": "Rupiah Bwezani Banda",
-                    "country": "Zambia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "RU1"
             ],
             [
-                {
-                    "figure": "Jacob Zuma",
-                    "country": "South Africa",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA3"
             ],
             [
-                {
-                    "figure": "Jacob Zuma",
-                    "country": "South Africa",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA3"
             ]
         ],
         "Period": "De 02 a 09 de Julho",
@@ -1252,85 +530,31 @@
         "Overview": " - [Sal]\n - Partida para a Ilha do Sal\n - Chegada \u00e0 Ilha do Sal\n - Sess\u00e3o de abertura da C\u00fapula Brasil - Comunidade Econ\u00f4mica dos Estados da \u00c1frica Ocidental (Cedeao)\n - Foto oficial\n - Sess\u00e3o de trabalho\n - Cerim\u00f4nia de encerramento e ado\u00e7\u00e3o da Declara\u00e7\u00e3o Conjunta Brasil - Cedeao\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o dos chefes de Estado e de Governo\n - Encontro com o presidente de Cabo Verde, Pedro Pires\n - Encontro com o primeiro-ministro de Cabo Verde, Jos\u00e9 Brito\n - Entrevista coletiva\n - [Malabo]\n - Partida para Malabo\n - Chegada a Malabo\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente da Guin\u00e9 Equatorial, Obiang Nguema Mbasogo\n - Cerim\u00f4nia de assinatura de atos\n - Almo\u00e7o em homenagem ao Presidente da Rep\u00fablica\n - Partida para Nair\u00f3bi/Qu\u00eania\n - Chegada a Nair\u00f3bi\n - [Nairobi]\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente do Qu\u00eania, Mwai Kibaki\n - Reuni\u00e3o ampliada com o presidente do Qu\u00eania, Mwai Kibaki\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Sess\u00e3o de encerramento do Semin\u00e1rio Empresarial Brasil-Qu\u00eania\n - Almo\u00e7o oferecido ao presidente da Rep\u00fablica, Luiz In\u00e1cio Lula da Silva\n - Partida para Dar es Salaam\n - Chegada a Dar es Salaam\n - [Dar es Salaam]\n - Entrevista para document\u00e1rio sobre o programa Cozinha Brasil-Sesi\n - Cerim\u00f4nia de abertura do Encontro Empresarial Brasil-Tanz\u00e2nia\n - Visita \u00e0 Feira Internacional de Com\u00e9rcio de Dar es Salaam\n - Reuni\u00e3o privada com o presidente da Tanz\u00e2nia, Jakaya Mrisho Kikwete\n - Reuni\u00e3o ampliada com o presidente da Tanz\u00e2nia, Jakaya Mrisho Kikwete\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o  em  homenagem  ao  presidente  da  Rep\u00fablica,  Luiz  In\u00e1cio  Lula  da  Silva, oferecido pelo presidente da Tanz\u00e2nia, Jakaya  Mrisho Kikwete\n - Partida para Lusaca\n - [Lusaka]\n - Chegada a Lusaca\n - Jantar oferecido pelo presidente da Z\u00e2mbia, Rupiah Bwezani Banda\n - Encontro privado com o presidente da Z\u00e2mbia, Rupiah Bwezani Banda\n - Encontro ampliado entre as comitivas brasileira e zambiana\n - Cerim\u00f4nia de assinatura de atos\n - Cerim\u00f4nia de condecora\u00e7\u00e3o\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Cerim\u00f4nia de encerramento do Semin\u00e1rio Empresarial  Brasil-Z\u00e2mbia\n - Partida para Pret\u00f3ria/\u00c1frica do Sul\n - [Johannesburg]\n - Chegada a Pret\u00f3ria\n - Cerim\u00f4nia de in\u00edcio da jornada para a Copa do Mundo da Fifa  Brasil 2014\n - [Pretoria]\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente da \u00c1frica do Sul, Jacob Zuma\n - Reuni\u00e3o ampliada com o presidente da \u00c1frica do Sul, Jacob Zuma\n - Cerim\u00f4nia de assinatura de atos\n - Entrevista coletiva\n - Deslocamento para o Freedom Park, em Johannesburgo\n - [Johannesburg]\n - Visita ao Freedom Park\n - Encerramento do F\u00f3rum Empresarial Brasil-\u00c1frica do Sul\n - Visita \u00e0 Casa Brasil\n - Cerim\u00f4nia de lan\u00e7amento da Campanha Internacional Tur\u00edstica para o Brasil 2014\n - Deslocamento para o Presidential Guesthouse, em Pret\u00f3ria\n - [Pretoria]\n - Jantar oferecido pelo presidente da \u00c1frica do Sul, Jacob Zuma",
         "Host": [
             [
-                {
-                    "figure": "Pedro Pires",
-                    "country": "Cape Verde",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "PE2"
             ],
             [
-                {
-                    "figure": "Jos\u00e9 Brito",
-                    "country": "Cape Verde",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "JO4"
             ],
             [
-                {
-                    "figure": "Obiang Nguema Mbasogo",
-                    "country": "Eq. Guinea",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "OB2"
             ],
             [
-                {
-                    "figure": "Mwai Kibaki",
-                    "country": "Kenya",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MW1"
             ],
             [
-                {
-                    "figure": "Jakata Kikwete",
-                    "country": "Tanzania",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA1"
             ],
             [
-                {
-                    "figure": "Rupiah Bwezani Banda",
-                    "country": "Zambia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "RU1"
             ],
             [
-                {
-                    "figure": "Rupiah Bwezani Banda",
-                    "country": "Zambia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "RU1"
             ],
             [
-                {
-                    "figure": "Jacob Zuma",
-                    "country": "South Africa",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA3"
             ],
             [
-                {
-                    "figure": "Jacob Zuma",
-                    "country": "South Africa",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA3"
             ]
         ],
         "Period": "De 02 a 09 de Julho",
@@ -1342,85 +566,31 @@
         "Overview": " - [Sal]\n - Partida para a Ilha do Sal\n - Chegada \u00e0 Ilha do Sal\n - Sess\u00e3o de abertura da C\u00fapula Brasil - Comunidade Econ\u00f4mica dos Estados da \u00c1frica Ocidental (Cedeao)\n - Foto oficial\n - Sess\u00e3o de trabalho\n - Cerim\u00f4nia de encerramento e ado\u00e7\u00e3o da Declara\u00e7\u00e3o Conjunta Brasil - Cedeao\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o dos chefes de Estado e de Governo\n - Encontro com o presidente de Cabo Verde, Pedro Pires\n - Encontro com o primeiro-ministro de Cabo Verde, Jos\u00e9 Brito\n - Entrevista coletiva\n - [Malabo]\n - Partida para Malabo\n - Chegada a Malabo\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente da Guin\u00e9 Equatorial, Obiang Nguema Mbasogo\n - Cerim\u00f4nia de assinatura de atos\n - Almo\u00e7o em homenagem ao Presidente da Rep\u00fablica\n - Partida para Nair\u00f3bi/Qu\u00eania\n - Chegada a Nair\u00f3bi\n - [Nairobi]\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente do Qu\u00eania, Mwai Kibaki\n - Reuni\u00e3o ampliada com o presidente do Qu\u00eania, Mwai Kibaki\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Sess\u00e3o de encerramento do Semin\u00e1rio Empresarial Brasil-Qu\u00eania\n - Almo\u00e7o oferecido ao presidente da Rep\u00fablica, Luiz In\u00e1cio Lula da Silva\n - Partida para Dar es Salaam\n - Chegada a Dar es Salaam\n - [Dar es Salaam]\n - Entrevista para document\u00e1rio sobre o programa Cozinha Brasil-Sesi\n - Cerim\u00f4nia de abertura do Encontro Empresarial Brasil-Tanz\u00e2nia\n - Visita \u00e0 Feira Internacional de Com\u00e9rcio de Dar es Salaam\n - Reuni\u00e3o privada com o presidente da Tanz\u00e2nia, Jakaya Mrisho Kikwete\n - Reuni\u00e3o ampliada com o presidente da Tanz\u00e2nia, Jakaya Mrisho Kikwete\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o  em  homenagem  ao  presidente  da  Rep\u00fablica,  Luiz  In\u00e1cio  Lula  da  Silva, oferecido pelo presidente da Tanz\u00e2nia, Jakaya  Mrisho Kikwete\n - Partida para Lusaca\n - [Lusaka]\n - Chegada a Lusaca\n - Jantar oferecido pelo presidente da Z\u00e2mbia, Rupiah Bwezani Banda\n - Encontro privado com o presidente da Z\u00e2mbia, Rupiah Bwezani Banda\n - Encontro ampliado entre as comitivas brasileira e zambiana\n - Cerim\u00f4nia de assinatura de atos\n - Cerim\u00f4nia de condecora\u00e7\u00e3o\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Cerim\u00f4nia de encerramento do Semin\u00e1rio Empresarial  Brasil-Z\u00e2mbia\n - Partida para Pret\u00f3ria/\u00c1frica do Sul\n - [Johannesburg]\n - Chegada a Pret\u00f3ria\n - Cerim\u00f4nia de in\u00edcio da jornada para a Copa do Mundo da Fifa  Brasil 2014\n - [Pretoria]\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente da \u00c1frica do Sul, Jacob Zuma\n - Reuni\u00e3o ampliada com o presidente da \u00c1frica do Sul, Jacob Zuma\n - Cerim\u00f4nia de assinatura de atos\n - Entrevista coletiva\n - Deslocamento para o Freedom Park, em Johannesburgo\n - [Johannesburg]\n - Visita ao Freedom Park\n - Encerramento do F\u00f3rum Empresarial Brasil-\u00c1frica do Sul\n - Visita \u00e0 Casa Brasil\n - Cerim\u00f4nia de lan\u00e7amento da Campanha Internacional Tur\u00edstica para o Brasil 2014\n - Deslocamento para o Presidential Guesthouse, em Pret\u00f3ria\n - [Pretoria]\n - Jantar oferecido pelo presidente da \u00c1frica do Sul, Jacob Zuma",
         "Host": [
             [
-                {
-                    "figure": "Pedro Pires",
-                    "country": "Cape Verde",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "PE2"
             ],
             [
-                {
-                    "figure": "Jos\u00e9 Brito",
-                    "country": "Cape Verde",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "JO4"
             ],
             [
-                {
-                    "figure": "Obiang Nguema Mbasogo",
-                    "country": "Eq. Guinea",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "OB2"
             ],
             [
-                {
-                    "figure": "Mwai Kibaki",
-                    "country": "Kenya",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MW1"
             ],
             [
-                {
-                    "figure": "Jakata Kikwete",
-                    "country": "Tanzania",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA1"
             ],
             [
-                {
-                    "figure": "Rupiah Bwezani Banda",
-                    "country": "Zambia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "RU1"
             ],
             [
-                {
-                    "figure": "Rupiah Bwezani Banda",
-                    "country": "Zambia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "RU1"
             ],
             [
-                {
-                    "figure": "Jacob Zuma",
-                    "country": "South Africa",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA3"
             ],
             [
-                {
-                    "figure": "Jacob Zuma",
-                    "country": "South Africa",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA3"
             ]
         ],
         "Period": "De 02 a 09 de Julho",
@@ -1432,85 +602,31 @@
         "Overview": " - [Sal]\n - Partida para a Ilha do Sal\n - Chegada \u00e0 Ilha do Sal\n - Sess\u00e3o de abertura da C\u00fapula Brasil - Comunidade Econ\u00f4mica dos Estados da \u00c1frica Ocidental (Cedeao)\n - Foto oficial\n - Sess\u00e3o de trabalho\n - Cerim\u00f4nia de encerramento e ado\u00e7\u00e3o da Declara\u00e7\u00e3o Conjunta Brasil - Cedeao\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o dos chefes de Estado e de Governo\n - Encontro com o presidente de Cabo Verde, Pedro Pires\n - Encontro com o primeiro-ministro de Cabo Verde, Jos\u00e9 Brito\n - Entrevista coletiva\n - [Malabo]\n - Partida para Malabo\n - Chegada a Malabo\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente da Guin\u00e9 Equatorial, Obiang Nguema Mbasogo\n - Cerim\u00f4nia de assinatura de atos\n - Almo\u00e7o em homenagem ao Presidente da Rep\u00fablica\n - Partida para Nair\u00f3bi/Qu\u00eania\n - Chegada a Nair\u00f3bi\n - [Nairobi]\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente do Qu\u00eania, Mwai Kibaki\n - Reuni\u00e3o ampliada com o presidente do Qu\u00eania, Mwai Kibaki\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Sess\u00e3o de encerramento do Semin\u00e1rio Empresarial Brasil-Qu\u00eania\n - Almo\u00e7o oferecido ao presidente da Rep\u00fablica, Luiz In\u00e1cio Lula da Silva\n - Partida para Dar es Salaam\n - Chegada a Dar es Salaam\n - [Dar es Salaam]\n - Entrevista para document\u00e1rio sobre o programa Cozinha Brasil-Sesi\n - Cerim\u00f4nia de abertura do Encontro Empresarial Brasil-Tanz\u00e2nia\n - Visita \u00e0 Feira Internacional de Com\u00e9rcio de Dar es Salaam\n - Reuni\u00e3o privada com o presidente da Tanz\u00e2nia, Jakaya Mrisho Kikwete\n - Reuni\u00e3o ampliada com o presidente da Tanz\u00e2nia, Jakaya Mrisho Kikwete\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o  em  homenagem  ao  presidente  da  Rep\u00fablica,  Luiz  In\u00e1cio  Lula  da  Silva, oferecido pelo presidente da Tanz\u00e2nia, Jakaya  Mrisho Kikwete\n - Partida para Lusaca\n - [Lusaka]\n - Chegada a Lusaca\n - Jantar oferecido pelo presidente da Z\u00e2mbia, Rupiah Bwezani Banda\n - Encontro privado com o presidente da Z\u00e2mbia, Rupiah Bwezani Banda\n - Encontro ampliado entre as comitivas brasileira e zambiana\n - Cerim\u00f4nia de assinatura de atos\n - Cerim\u00f4nia de condecora\u00e7\u00e3o\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Cerim\u00f4nia de encerramento do Semin\u00e1rio Empresarial  Brasil-Z\u00e2mbia\n - Partida para Pret\u00f3ria/\u00c1frica do Sul\n - [Johannesburg]\n - Chegada a Pret\u00f3ria\n - Cerim\u00f4nia de in\u00edcio da jornada para a Copa do Mundo da Fifa  Brasil 2014\n - [Pretoria]\n - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o presidente da \u00c1frica do Sul, Jacob Zuma\n - Reuni\u00e3o ampliada com o presidente da \u00c1frica do Sul, Jacob Zuma\n - Cerim\u00f4nia de assinatura de atos\n - Entrevista coletiva\n - Deslocamento para o Freedom Park, em Johannesburgo\n - [Johannesburg]\n - Visita ao Freedom Park\n - Encerramento do F\u00f3rum Empresarial Brasil-\u00c1frica do Sul\n - Visita \u00e0 Casa Brasil\n - Cerim\u00f4nia de lan\u00e7amento da Campanha Internacional Tur\u00edstica para o Brasil 2014\n - Deslocamento para o Presidential Guesthouse, em Pret\u00f3ria\n - [Pretoria]\n - Jantar oferecido pelo presidente da \u00c1frica do Sul, Jacob Zuma",
         "Host": [
             [
-                {
-                    "figure": "Pedro Pires",
-                    "country": "Cape Verde",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "PE2"
             ],
             [
-                {
-                    "figure": "Jos\u00e9 Brito",
-                    "country": "Cape Verde",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "JO4"
             ],
             [
-                {
-                    "figure": "Obiang Nguema Mbasogo",
-                    "country": "Eq. Guinea",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "OB2"
             ],
             [
-                {
-                    "figure": "Mwai Kibaki",
-                    "country": "Kenya",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MW1"
             ],
             [
-                {
-                    "figure": "Jakata Kikwete",
-                    "country": "Tanzania",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA1"
             ],
             [
-                {
-                    "figure": "Rupiah Bwezani Banda",
-                    "country": "Zambia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "RU1"
             ],
             [
-                {
-                    "figure": "Rupiah Bwezani Banda",
-                    "country": "Zambia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "RU1"
             ],
             [
-                {
-                    "figure": "Jacob Zuma",
-                    "country": "South Africa",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA3"
             ],
             [
-                {
-                    "figure": "Jacob Zuma",
-                    "country": "South Africa",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA3"
             ]
         ],
         "Period": "De 02 a 09 de Julho",
@@ -1522,13 +638,7 @@
         "Overview": " - [Rivera]\n - Descerramento  de  placas  alusivas  ao  encontro  de  fronteira  entre  o  presidente  Luiz In\u00e1cio Lula da Silva e o presidente do Uruguai, Jos\u00e9 Mujica\n - Reuni\u00e3o ampliada com o presidente do Uruguai, Jos\u00e9 Mujica\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - [Asuncion]\n - Encontro com o presidente do Paraguai, Fernando Lugo\n - Visita \u00e0s obras de terraplanagem da subesta\u00e7\u00e3o de Villa Hayes da linha de transmiss\u00e3o de Itaipu\n - Coletiva de imprensa\n - Visita ao local da futura f\u00e1brica de Cimentos Yguaz\u00fa",
         "Host": [
             [
-                {
-                    "figure": "Fernando Lugo",
-                    "country": "Paraguay",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "FL1"
             ]
         ],
         "Period": "30 de Julho",
@@ -1540,13 +650,7 @@
         "Overview": " - [Rivera]\n - Descerramento  de  placas  alusivas  ao  encontro  de  fronteira  entre  o  presidente  Luiz In\u00e1cio Lula da Silva e o presidente do Uruguai, Jos\u00e9 Mujica\n - Reuni\u00e3o ampliada com o presidente do Uruguai, Jos\u00e9 Mujica\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - [Asuncion]\n - Encontro com o presidente do Paraguai, Fernando Lugo\n - Visita \u00e0s obras de terraplanagem da subesta\u00e7\u00e3o de Villa Hayes da linha de transmiss\u00e3o de Itaipu\n - Coletiva de imprensa\n - Visita ao local da futura f\u00e1brica de Cimentos Yguaz\u00fa",
         "Host": [
             [
-                {
-                    "figure": "Fernando Lugo",
-                    "country": "Paraguay",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "FL1"
             ]
         ],
         "Period": "30 de Julho",
@@ -1558,13 +662,7 @@
         "Overview": " - Partida para San Juan\n - Chegada a San Juan\n - Sess\u00e3o de abertura da XXXIX Reuni\u00e3o de C\u00fapula do Mercosul e sess\u00e3o de trabalho\n - Foto oficial\n - Almo\u00e7o privado\n - Encontro com a presidente da Argentina, Cristina Kirchner",
         "Host": [
             [
-                {
-                    "figure": "Cristina Kirchner",
-                    "country": "Argentina",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "CK1"
             ]
         ],
         "Period": "02 e 03 de Agosto",
@@ -1600,22 +698,10 @@
         "Overview": " - Partida para Maputo\n - Chegada a Maputo\n - Visita \u00e0s instala\u00e7\u00f5es do Instituto Nacional de Educa\u00e7\u00e3o a Dist\u00e2ncia (INED)\n - Aula inaugural por ocasi\u00e3o da instala\u00e7\u00e3o do Polo da Universidade Aberta do Brasil, no INED\n - Almo\u00e7o privado\n - Encontro com empres\u00e1rios brasileiros que atuam em Mo\u00e7ambique\n - Encontro com o presidente de Mo\u00e7ambique, Armando Guebuza\n - Assinatura de atos\n - Jantar oficial em homenagem ao Presidente da Rep\u00fablica, oferecido pelo presidente de Mo\u00e7ambique, Armando Guebuza Chegada a Seul\n - Reuni\u00e3o com o presidente da Coreia do Sul, Lee Myung-bak\n - Encontro com a imprensa Jantar de trabalho dos chefes de Estado e de Governo do G-\n - Visita \u00e0s instala\u00e7\u00f5es da futura f\u00e1brica de antirretrovirais\n - Cerim\u00f4nia alusiva \u00e0 visita \u00e0s instala\u00e7\u00f5es da futura f\u00e1brica de antirretrovirais\n - Partida para Seul, Coreia do Sul",
         "Host": [
             [
-                {
-                    "figure": "Armando Guebuza",
-                    "country": "Mozambique",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "AR1"
             ],
             [
-                {
-                    "figure": "Lee Myung-bak",
-                    "country": "South Korea",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "LM2"
             ]
         ],
         "Period": "08 a 10 de Novembro",
@@ -1643,22 +729,10 @@
         "Overview": " - Chegada a Mar del Plata\n - Encontro com o presidente do M\u00e9xico, Felipe Calder\u00f3n\n - Encontro com o rei da Espanha, Juan Carlos\n - Sess\u00e3o inaugural da XX C\u00fapula Ibero-Americana Inaugura\u00e7\u00e3o da exposi\u00e7\u00e3o \u201c200x200 - Rostos Ibero-Americanos\u201d do fot\u00f3grafo argentino Daniel Mordzinski, seguida de  apresenta\u00e7\u00e3o da Orquestra Juvenil Ibero- Americana Jantar oferecido pela presidente da Argentina, Cristina Kirchner, aos chefes de Estado e de Governo e convidados especiais\n - Sess\u00e3o em homenagem ao ex-presidente da Argentina N\u00e9stor  Kirchner e I Sess\u00e3o Plen\u00e1ria da XX C\u00fapula Ibero-Americana\n - Partida para S\u00e3o Paulo (SP)",
         "Host": [
             [
-                {
-                    "figure": "Felipe Calder\u00f3n",
-                    "country": "Mexico",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "FC1"
             ],
             [
-                {
-                    "figure": "Juan Carlos",
-                    "country": "Spain",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "JU1"
             ]
         ],
         "Period": "03 e 04 de Dezembro",

@@ -4,22 +4,7 @@
         "Overview": " - Encontro com o Presidente da Rep\u00fablica Portuguesa, Marcelo Rebelo de Sousa\n - Ex\u00e9quias do ex-Presidente da Rep\u00fablica Portuguesa, M\u00e1rio Soares",
         "Host": [
             [
-                {
-                    "figure": "Marcelo Rebelo de Sousa",
-                    "country": "Portugal",
-                    "posts": [
-                        "President"
-                    ]
-                }
-            ],
-            [
-                {
-                    "figure": "M\u00e1rio Soares",
-                    "country": "Portugal",
-                    "posts": [
-                        "Ex-president"
-                    ]
-                }
+                "MA13"
             ]
         ],
         "Period": "10 de Janeiro",
@@ -31,42 +16,16 @@
         "Overview": " - Chegada a Moscou/R\u00fassia\n - Encontro com o Presidente da Duma de Estado, Deputado Vyacheslav Volodin\n - Semin\u00e1rio de Capta\u00e7\u00e3o de Investimentos Russos no Brasil\n - XIII Cerim\u00f4nia de Encerramento do Concurso Internacional de Ballet do Teatro Bolshoi\n - Cerim\u00f4nia de Aposi\u00e7\u00e3o de Flores no T\u00famulo do Soldado Desconhecido\n - Encontro com a Senadora Valentina Matvienko, Presidente do Conselho da Federa\u00e7\u00e3o da R\u00fassia\n - Encontro com o senhor Dmitry Medvedev, Primeiro-Ministro da Federa\u00e7\u00e3o da R\u00fassia\n - Encontro com o senhor Vladimir Putin, Presidente da Federa\u00e7\u00e3o da R\u00fassia\n - Reuni\u00e3o Ampliada\n - Cerim\u00f4nia de Assinatura de Atos Partida de Moscou para Oslo/Noruega",
         "Host": [
             [
-                {
-                    "figure": "Vyacheslav Volodin",
-                    "country": "Russia",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "DE3"
             ],
             [
-                {
-                    "figure": "Valentina Matvienko",
-                    "country": "Russia",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "VA2"
             ],
             [
-                {
-                    "figure": "Dmitri Medvedev",
-                    "country": "Russia",
-                    "posts": [
-                        "President",
-                        "Prime-minister"
-                    ]
-                }
+                "DM1"
             ],
             [
-                {
-                    "figure": "Vladimir Putin",
-                    "country": "Russia",
-                    "posts": [
-                        "Prime-minister",
-                        "President"
-                    ]
-                }
+                "VL1"
             ]
         ],
         "Period": "20, 21 e 22 de Junho",
@@ -78,31 +37,13 @@
         "Overview": " - Chegada a Oslo (Noruega)\n - Encontro com investidores noruegueses\n - Encontro com a Primeira-Ministra da Noruega, Erna Solberg\n - Confer\u00eancia de Imprensa\n - Encontro com o Presidente do Parlamento da Noruega, Olemic Thommessen\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Encontro com o Rei Harald V da Noruega\n - Almo\u00e7o em homenagem ao Presidente da Rep\u00fablica oferecido pelo Rei Harald V da Noruega\n - Partida para o Brasil",
         "Host": [
             [
-                {
-                    "figure": "Erna Solberg",
-                    "country": "Norway",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "ER2"
             ],
             [
-                {
-                    "figure": "Olemic Thommessen",
-                    "country": "Norway",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "OL1"
             ],
             [
-                {
-                    "figure": "King Harald V",
-                    "country": "Norway",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "RE4"
             ]
         ],
         "Period": "22 e 23 de Junho",
@@ -130,13 +71,7 @@
         "Overview": " - Chegada a Lisboa/Portugal\n - Encontro com o Presidente da Rep\u00fablica Portuguesa, Marcelo Rebelo de Sousa\n - Partida de Lisboa para Astana/Cazaquist\u00e3o",
         "Host": [
             [
-                {
-                    "figure": "Marcelo Rebelo de Sousa",
-                    "country": "Portugal",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MA13"
             ]
         ],
         "Period": "29 e 30 Agosto",
@@ -148,77 +83,28 @@
         "Overview": " - Partida de Astana/Cazaquist\u00e3o para Pequim/China\n - Encontro com o senhor Shu Yinbiao, Presidente da State Grid Corporate of China\n - Encontro com o senhor Sun Yafang, Presidente do Conselho Huawei\n - Encontro com o senhor Chen Feng, Presidente do grupo empresarial HNA\n - Encontro com o senhor Lu Shun, Presidente da China Three Gorges Corporation\n - Oferenda floral\n - Encontro com o senhor Yu Zhengsheng, Presidente da Confer\u00eancia Consultiva Pol\u00edtica do Povo Chin\u00eas (CPPCC)\n - Encontro com o senhor Li Keqiang, Primeiro-Ministro da Rep\u00fablica Popular da China\n - Cerim\u00f4nia oficial de chegada\n - Encontro com o Senhor Xi Jinping, Presidente da Rep\u00fablica Popular da China\n - Cerim\u00f4nia de assinatura de atos\n - Jantar em homenagem ao Senhor Presidente da Rep\u00fablica, oferecido pelo Senhor Xi Jinping, Presidente da Rep\u00fablica Popular da China\n - Cerim\u00f4nia de Encerramento do Semin\u00e1rio sobre Oportunidades de Investimento\n - Almo\u00e7o de Encerramento do Semin\u00e1rio sobre Oportunidades de Investimento\n - [Xiamen]\n - Chegada ao Aeroporto Internacional de Xiamen\n - Encontro com os cinco empres\u00e1rios brasileiros do Conselho Empresarial do BRICS\n - Cerim\u00f4nia de abertura do F\u00f3rum Empresarial do BRICS\n - Cerim\u00f4nia de boas-vindas e foto de fam\u00edlia dos Chefes de Estado e de Governo da IX C\u00fapula do Brics\n - Reuni\u00e3o reduzida dos Chefes de Estado e de Governo do Brics\n - Reuni\u00e3o ampliada dos Chefes de Estado e de Governo do Brics\n - Encontro com o Senhor Narendra Modi, Primeiro-Ministro da Rep\u00fablica da \u00cdndia\n - Cerim\u00f4nia de Abertura do Festival Cultural do Brics e Exposi\u00e7\u00e3o de Fotografias\n - Di\u00e1logo dos Chefes de Estado e de Governo do Brics com o Conselho Empresarial do Brics\n - Cerim\u00f4nia de Assinatura de Atos\n - Cerim\u00f4nia de boas-vindas e foto de fam\u00edlia dos Chefes de Estado e de Governo e c\u00f4njuges do Di\u00e1logo de Economias Emergentes e Pa\u00edses em Desenvolvimento\n - Jantar oficial oferecido pelo senhor Xi Jinping, Presidente da Rep\u00fablica Popular da China, e pela senhora Peng Liyuan, em homenagem aos Chefes de Estado e de Governo e c\u00f4njuges do Di\u00e1logo de Economias Emergentes e Pa\u00edses em Desenvolvimento\n - Foto de Fam\u00edlia dos Chefes de Estado e de Governo do Brics e do Di\u00e1logo de Economias Emergentes e Pa\u00edses em Desenvolvimento\n - Di\u00e1logo dos Chefes de Estado e de Governo do Brics e das Economias Emergentes e Pa\u00edses em Desenvolvimento\n - Partida de Xiamen para Astana/Cazaquist\u00e3o\n - Partida de Astana para Lisboa/Portugal\n - Partida para Bras\u00edlia",
         "Host": [
             [
-                {
-                    "figure": "Shu Yinbiao",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                }
+                "SH3"
             ],
             [
-                {
-                    "figure": "Sun Yafang",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                }
+                "SU3"
             ],
             [
-                {
-                    "figure": "Business Person",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                }
+                "GBP"
             ],
             [
-                {
-                    "figure": "Business Person",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                }
+                "GBP"
             ],
             [
-                {
-                    "figure": "Yu Zhengsheng",
-                    "country": "China",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "YU2"
             ],
             [
-                {
-                    "figure": "Li Keqiang",
-                    "country": "China",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "LI1"
             ],
             [
-                {
-                    "figure": "Xi Jinping",
-                    "country": "China",
-                    "posts": [
-                        "Vice-president",
-                        "President"
-                    ]
-                }
+                "XJ1"
             ],
             [
-                {
-                    "figure": "Narendra Modi",
-                    "country": "India",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "NA1"
             ]
         ],
         "Period": "31 de Agosto e 1\u00ba de Setembro",
@@ -230,76 +116,28 @@
         "Overview": " - Jantar oferecido pelo Presidente dos Estados Unidos da Am\u00e9rica, Donald Trump\n - Encontro com o senhor Ant\u00f3nio Guterres, Secret\u00e1rio-Geral das Na\u00e7\u00f5es Unidas\n - Abertura do Debate Geral da 72\u00aa Sess\u00e3o da Assembleia Geral da ONU\n - Encontro com o senhor Mahmoud Abbas, Presidente do Estado da Palestina\n - Entrevista \u00e0 ONU News\n - Encontro com o senhor Abdel Fattah El-Sisi, Presidente da Rep\u00fablica \u00c1rabe do Egito\n - Almo\u00e7o de trabalho em homenagem ao senhor Michel Temer, Presidente da Rep\u00fablica, oferecido pelo Embaixador Mauro Vieira, Representante Permanente do Brasil junto \u00e0s Na\u00e7\u00f5es Unidas\n - Encontro com o senhor Benjamin Netanyahu, Primeiro-Ministro de Israel\n - Encontro com o senhor Klaus Schwab, Presidente do F\u00f3rum Econ\u00f4mico Mundial\n - Encontro com os Chefes de Delega\u00e7\u00f5es dos Pa\u00edses-membros da Comunidade dos Pa\u00edses de L\u00edngua Portuguesa\n - Encontro com investidores, organizado pelo Conselho das Am\u00e9ricas\n - Cerim\u00f4nia de Assinatura do Tratado para a Proibi\u00e7\u00e3o de Armas Nucleares\n - Encontro com o senhor David Granger, Presidente da Rep\u00fablica Cooperativa da Guiana\n - Encontro com o senhor Hassan Houhani, Presidente da Rep\u00fablica Isl\u00e2mica do Ir\u00e3\n - Cerim\u00f4nia de Encerramento do Semin\u00e1rio de Oportunidades de Investimento no Brasil, promovido pelo Financial Times\n - Entrevista \u00e0 Ag\u00eancia de Not\u00edcias Reuters\n - Partida de Nova York para Bras\u00edlia/DF",
         "Host": [
             [
-                {
-                    "figure": "Donald Trump",
-                    "country": "United States of America",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "DO2"
             ],
             [
-                {
-                    "figure": "Ant\u00f3nio Guterres",
-                    "country": "United Nations",
-                    "posts": [
-                        "Secretary-general"
-                    ]
-                }
+                "AN3"
             ],
             [
-                {
-                    "figure": "Mahmoud Abbas",
-                    "country": "Palestine",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MA2"
             ],
             [
-                {
-                    "figure": "Abdel Fattah El-Sisi",
-                    "country": "Egypt",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "AB2"
             ],
             [
-                {
-                    "figure": "Benjamin Netanyahu",
-                    "country": "Israel",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "BE1"
             ],
             [
-                {
-                    "figure": "Klaus Schwab",
-                    "country": "World Economic Forum",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "KL1"
             ],
             [
-                {
-                    "figure": "David Granger",
-                    "country": "Guyana",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "DA3"
             ],
             [
-                {
-                    "figure": "Hassan Rohani",
-                    "country": "Iran",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "HA7"
             ]
         ],
         "Period": "18 a 20 de Setembro",

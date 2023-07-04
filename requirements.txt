@@ -9,6 +9,6 @@ PyPDF2~=3.0.1
 regex
 streamlit-folium
 altair<5
-streamlit~=1.17.0
+streamlit>=1.17.0
 folium~=0.14.0
 spacy~=3.5.0

@@ -4,14 +4,7 @@
         "Overview": " - Chegada a Havana/Cuba\n - Cerim\u00f4nia de oferenda floral ao monumento de Jos\u00e9 Mart\u00ed\n - Visita ao Memorial Jos\u00e9 Mart\u00ed\n - Cerim\u00f4nia oficial de chegada\n - Reuni\u00e3o com o presidente de Cuba, Ra\u00fal Castro\n - Cerim\u00f4nia de assinatura de atos\n - Almo\u00e7o oficial em homenagem \u00e0 Presidenta da Rep\u00fablica oferecido pelo presidente de Cuba, Ra\u00fal Castro\n - Visita \u00e0s obras do Porto de Mariel\n - [Havana]\n - Partida para Porto Pr\u00edncipe/Haiti",
         "Host": [
             [
-                {
-                    "figure": "Raul Castro",
-                    "country": "Cuba",
-                    "posts": [
-                        "Vice-president",
-                        "President"
-                    ]
-                }
+                "RC1"
             ]
         ],
         "Period": "30 e 31 de Janeiro",
@@ -23,13 +16,7 @@
         "Overview": " - Chegada a Porto Pr\u00edncipe\n - Encontro privado com o Presidente do Haiti, Michel Martelly\n - Reuni\u00e3o ampliada\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o em homenagem \u00e0 Presidenta da Rep\u00fablica oferecido pelo Presidente do Haiti\n - Cerim\u00f4nia de apresenta\u00e7\u00e3o do Contingente brasileiro da Miss\u00e3o das Na\u00e7\u00f5es Unidas\n - Encontro com representantes empresariais e da sociedade civil brasileira que atuam no\n - para a Estabiliza\u00e7\u00e3o do Haiti - Minustah Haiti\n - Visita \u00e0s instala\u00e7\u00f5es da Base General Bacellar\n - Partida para Bras\u00edlia (hor\u00e1rio local)",
         "Host": [
             [
-                {
-                    "figure": "Michel Martelly",
-                    "country": "Haiti",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MI4"
             ]
         ],
         "Period": "1\u00ba de Fevereiro",
@@ -41,22 +28,10 @@
         "Overview": " - Cerim\u00f4nia de abertura da Feira Internacional das Tecnologias da Informa\u00e7\u00e3o e das\n - Comunica\u00e7\u00f5es - CeBIT 201\n - Jantar oferecido pela Chanceler Angela Merkel a senhora Presidenta da Rep\u00fablica, Dilma Rousseff\n - Encontro privado com a Chanceler, Angela Merkel\n - Visita ao Pavilh\u00e3o do Brasil na Feira Internacional de Tecnologias da Informa\u00e7\u00e3o e das Comunica\u00e7\u00f5es (CEBIT 2012) na companhia da Chanceler Angela Merkel\n - Visita  \u00e0  Feira  Internacional  de  Tecnologias  da  Informa\u00e7\u00e3o  e  das  Comunica\u00e7\u00f5es (CEBIT 2012)\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o oferecido pelo Presidente do Brazil Board da Federa\u00e7\u00e3o Alem\u00e3 de Ind\u00fastrias, Stefan Zoller\n - Partida para Bras\u00edlia (DF)",
         "Host": [
             [
-                {
-                    "figure": "Angela Merkel",
-                    "country": "Germany",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "AM1"
             ],
             [
-                {
-                    "figure": "Stefan Zoller",
-                    "country": "---Federation of German Industries",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "ST1"
             ]
         ],
         "Period": "05 e 06 de Mar\u00e7o",
@@ -68,46 +43,19 @@
         "Overview": " - Chegada em Nova D\u00e9lhi\n - Cerim\u00f4nia de outorga do t\u00edtulo de Doutora \"Honoris Causa\" pela Universidade de D\u00e9lhi\n - Encontro com o Presidente da \u00c1frica do Sul, Jacob Zuma\n - Apresenta\u00e7\u00e3o de m\u00fasica e dan\u00e7as t\u00edpicas\n - Jantar oficial em homenagem aos chefes de Estado do Brasil, da R\u00fassia, da China e da \u00c1frica do Sul\n - Fotografia oficial\n - Sess\u00e3o restrita da C\u00fapula do BRICS\n - Sess\u00e3o ampliada da C\u00fapula do BRICS\n - Cerim\u00f4nia de assinatura de atos\n - Apresenta\u00e7\u00e3o do relat\u00f3rio de Estudo Econ\u00f4mico do BRICS\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o oferecido pelo Primeiro-Ministro da \u00cdndia, Manmohan Singh\n - Encontro com o Presidente da Federa\u00e7\u00e3o Russa, Dmitri Medvedev\n - Encontro com o Presidente da China, Hu Jintao\n - Cerim\u00f4nia oficial de chegada\n - Visita ao memorial de Mahatma Gandhi\n - Encontro com o Primeiro-Ministro da \u00cdndia, Manmohan Singh\n - Cerim\u00f4nia de assinatura de atos e declara\u00e7\u00e3o \u00e0 imprensa\n - Cerim\u00f4nia de encerramento do Semin\u00e1rio Empresarial Brasil - \u00cdndia: uma nova fronteira para oportunidade de neg\u00f3cios\n - Reuni\u00e3o privada com a Presidente da Rep\u00fablica da \u00cdndia, Pratibha Patil\n - Cumprimentos \u00e0s senhoras presidentas do Brasil e da \u00cdndia\n - Banquete oferecido pela Presidente da Rep\u00fablica da \u00cdndia, Pratibha Patil\n - Partida para Bras\u00edlia",
         "Host": [
             [
-                {
-                    "figure": "Jacob Zuma",
-                    "country": "South Africa",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA3"
             ],
             [
-                {
-                    "figure": "Manmohan Singh",
-                    "country": "India",
-                    "posts": "Prime-minister"
-                }
+                "MA3"
             ],
             [
-                {
-                    "figure": "Dmitri Medvedev",
-                    "country": "Russia",
-                    "posts": [
-                        "President",
-                        "Prime-minister"
-                    ]
-                }
+                "DM1"
             ],
             [
-                {
-                    "figure": "Hu Jintao",
-                    "country": "China",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "HJ1"
             ],
             [
-                {
-                    "figure": "Manmohan Singh",
-                    "country": "India",
-                    "posts": "Prime-minister"
-                }
+                "MA3"
             ]
         ],
         "Period": "27, 28,  29 e 30 de Mar\u00e7o",
@@ -119,49 +67,19 @@
         "Overview": " - Chegada a Washington\n - Reuni\u00e3o com o presidente dos Estados Unidos da Am\u00e9rica, Barack Obama\n - Almo\u00e7o oferecido pelo presidente dos Estados Unidos da Am\u00e9rica, Barack Obama\n - Encerramento do Foro de Altos Executivos\n - Encerramento do Semin\u00e1rio \"Brasil-EUA: Parcerias para o S\u00e9culo XXI\"\n - Encontro com empres\u00e1rios norte-americanos\n - [Boston]\n - Partida para Boston/EUA\n - Chegada a Boston\n - Visita ao Massachusetts Institute of Technology Media Lab\n - Susan Hockfield -  Presidenta do MIT\n - Mesa redonda com a comunidade acad\u00eamica e cient\u00edfica\n - Cerim\u00f4nia de assinatura de atos\n - Cerim\u00f4nia oficial de chegada\n - Almo\u00e7o oferecido pelo Governador de Massachussetts, Deval Patrick\n - Dra. Drew Faust - Presidenta da Universidade de Harvad\n - Cerim\u00f4nia de assinatura de atos\n - Fotografia com estudantes brasileiros\n - Palestra na Harvard Kennedy School of Government\n - Partida para Bras\u00edlia",
         "Host": [
             [
-                {
-                    "figure": "Barack Obama",
-                    "country": "United States of America",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "BO1"
             ],
             [
-                {
-                    "figure": "Barack Obama",
-                    "country": "United States of America",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "BO1"
             ],
             [
-                {
-                    "figure": "Susan Hockfield",
-                    "country": "---MIT",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "SU2"
             ],
             [
-                {
-                    "figure": "Deval Patrick",
-                    "country": "---Massachussetts",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "DE2"
             ],
             [
-                {
-                    "figure": "Drew Faust",
-                    "country": "---Harvard",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "DR1"
             ]
         ],
         "Period": "08 e 09 de Abril",
@@ -181,50 +99,19 @@
         "Overview": " - Partida para San Jos\u00e9 Del Cabo / M\u00e9xico\n - Reuni\u00e3o dos Chefes de Estado e de Governo dos BRICS (Brasil, R\u00fassia, \u00cdndia China e \u00c1frica do Sul)\n - Encontro com o Presidente do Conselho de Ministros da Rep\u00fablica Italiana, Mario Monti\n - Encontro com a Chanceler Alem\u00e3, Angela Merkel\n - Primeira Sess\u00e3o de Trabalho do G\n - Encontro com o Presidente da Federa\u00e7\u00e3o Russa, Vladimir Putin\n - Jantar de trabalho oferecido pelo Presidente do M\u00e9xico, Felipe Calder\u00f3n, aos Chefes de Estado e de Governo do G\n - Encontro com a chanceler alem\u00e3 Angela Merkel\n - Segunda Sess\u00e3o de Trabalho do G-\n - Encontro com o presidente do governo espanhol Mariano Rajoy\n - Terceira Sess\u00e3o de Trabalho do G\n - Cerim\u00f4nia de encerramento e ado\u00e7\u00e3o da Declara\u00e7\u00e3o de Los Cabos pelos chefes de Estado e de Governo do G\n - Partida para o Rio de Janeiro (RJ)",
         "Host": [
             [
-                {
-                    "figure": "Mahmoud Ahmadinejad",
-                    "country": "Iran",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MA1"
             ],
             [
-                {
-                    "figure": "Angela Merkel",
-                    "country": "Germany",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "AM1"
             ],
             [
-                {
-                    "figure": "Vladimir Putin",
-                    "country": "Russia",
-                    "posts": [
-                        "Prime-minister",
-                        "President"
-                    ]
-                }
+                "VL1"
             ],
             [
-                {
-                    "figure": "Angela Merkel",
-                    "country": "Germany",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "AM1"
             ],
             [
-                {
-                    "figure": "Mariano Rajoy",
-                    "country": "Spain",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MA8"
             ]
         ],
         "Period": "17, 18 e 19 de Junho",
@@ -244,32 +131,13 @@
         "Overview": " - Chegada ao Aeroporto de Farnborough\n - Encontro com o Primeiro-Ministro do Reino Unido, David Cameron\n - Cerim\u00f4nia de lan\u00e7amento da Campanha de Promo\u00e7\u00e3o Tur\u00edstica do Brasil no Exterior\n - Apresenta\u00e7\u00e3o do musical \u201cOperalia\u201d\n - Visita ao Centro de M\u00eddia da Record\n - Presidente da Fifa, Joseph Blatter\n - Visita inaugural \u00e0 exibi\u00e7\u00e3o sobre Ci\u00eancia e Tecnologia na \u00c1rea de Esportes\n - Visita ao Museu de Ci\u00eancias\n - Encontro com empres\u00e1rios brit\u00e2nicos\n - Visita \u00e0 Casa Brasil\n - L\u00edder do Partido Trabalhista e da Oposi\u00e7\u00e3o,  Ed Miliband\n - Almo\u00e7o com atletas brasileiros\n - Recep\u00e7\u00e3o oferecida pela Rainha Elisabeth II\n - Cerim\u00f4nia de abertura dos Jogos Ol\u00edmpicos\n - Partida para Bras\u00edlia",
         "Host": [
             [
-                {
-                    "figure": "David Cameron",
-                    "country": "United Kingdom",
-                    "posts": [
-                        "Political/Agency Leader",
-                        "Prime-minister"
-                    ]
-                }
+                "DA2"
             ],
             [
-                {
-                    "figure": "Joseph Blatter",
-                    "country": "---FIFA",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "JO6"
             ],
             [
-                {
-                    "figure": "Queen Elizabeth II",
-                    "country": "United Kingdom",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "REII"
             ]
         ],
         "Period": "25, 26 e 27 e 28 de Julho",
@@ -281,23 +149,10 @@
         "Overview": " - Chegada a Nova Iorque\n - Presidente da Comiss\u00e3o Europ\u00e9ia, Jos\u00e9 Manuel Dur\u00e3o Barroso\n - Secret\u00e1rio-Geral das Na\u00e7\u00f5es Unidas, Ban Ki-moon\n - Abertura da 67\u00aa Assembleia Geral das Na\u00e7\u00f5es Unidas\n - Partida para Bras\u00edlia",
         "Host": [
             [
-                {
-                    "figure": "Jos\u00e9 Manuel Dur\u00e3o Barroso",
-                    "country": "European Commission",
-                    "posts": [
-                        "Political/Agency Leader",
-                        "CEO/Executive"
-                    ]
-                }
+                "JB1"
             ],
             [
-                {
-                    "figure": "Ban Ki-moon",
-                    "country": "United Nations",
-                    "posts": [
-                        "Secretary-general"
-                    ]
-                }
+                "BK1"
             ]
         ],
         "Period": "23 a 26 de Setembro",
@@ -317,47 +172,17 @@
         "Overview": " - Chegada a Jerez de la Frontera / Espanha\n - Reuni\u00e3o bilateral com o Presidente do Haiti, Michel Martelly\n - Visita ao Orat\u00f3rio de San Felipe Neri\n - Cerim\u00f4nia de inaugura\u00e7\u00e3o da XXII C\u00fapula Ibero-Americana\n - Recep\u00e7\u00e3o em homenagem aos Chefes de Estado e de Governo ibero-americanos oferecida por Sua Majestade, Rei Juan Carlos I da Espanha\n - [Seville]\n - Primeira Sess\u00e3o Plen\u00e1ria da C\u00fapula Ibero-Americana\n - Fotografia oficial\n - Almo\u00e7o oferecido por Sua Majestade, Rei Juan Carlos I da Espanha\n - Segunda Sess\u00e3o Plen\u00e1ria e encerramento da C\u00fapula Ibero-Americana\n - Confer\u00eancia de imprensa\n - Partida para Madri\n - [Madrid]\n - Estudantes brasileiros do programa \u201cCi\u00eancia sem Fronteiras\u201d e do ProUni\n - Encontro bilateral com o Presidente de Governo espanhol, Mariano Rajoy\n - Reuni\u00e3o ampliada\n - Fotografia oficial\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o oferecido por Suas Majestades, Rei Juan Carlos I e Rainha Sofia da Espanha\n - Cerim\u00f4nia de abertura do Semin\u00e1rio \u201cBrasil en la Senda del Crecimiento\u201d\n - Partida para Bras\u00edlia/DF",
         "Host": [
             [
-                {
-                    "figure": "Michel Martelly",
-                    "country": "Haiti",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MI4"
             ],
             [
-                {
-                    "figure": "Juan Carlos",
-                    "country": "Spain",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "JU1"
             ],
             [
-                {
-                    "figure": "Mariano Rajoy",
-                    "country": "Spain",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MA8"
             ],
             [
-                {
-                    "figure": "Juan Carlos",
-                    "country": "Spain",
-                    "posts": [
-                        "Monarch"
-                    ]
-                },
-                {
-                    "figure": "Queen Sofia",
-                    "country": "Spain",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "JU1",
+                "SO2"
             ]
         ],
         "Period": "15 e 16 de Novembro",
@@ -369,13 +194,7 @@
         "Overview": " - Encontro com a Presidenta da Argentina, Cristina Fern\u00e1ndez de Kirchner\n - Cerim\u00f4nia de encerramento da 18\u00aa Confer\u00eancia Industrial Argentina\n - Almo\u00e7o de encerramento da 18\u00aa Confer\u00eancia Industrial Argentina",
         "Host": [
             [
-                {
-                    "figure": "Cristina Kirchner",
-                    "country": "Argentina",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "CK1"
             ]
         ],
         "Period": "28 de Novembro",
@@ -387,31 +206,13 @@
         "Overview": " - Chegada a Paris/Fran\u00e7a\n - Cerim\u00f4nia oficial de chegada\n - Reuni\u00e3o com o Presidente da Assembleia Nacional \u201cF\u00f3rum pelo progresso social: o crescimento como sa\u00edda da crise\u201d, coorganizado pelo Instituto Lula e pela Funda\u00e7\u00e3o Jean Jaur\u00e8s\n - Encontro privado com o Presidente da Rep\u00fablica francesa, Fran\u00e7ois Hollande\n - Reuni\u00e3o ampliada\n - Cerim\u00f4nia de troca de condecora\u00e7\u00f5es\n - Cerim\u00f4nia de assinatura de atos\n - Entrevista coletiva \u00e0 imprensa\n - Jantar de Estado em homenagem \u00e0 Presidenta da Rep\u00fablica,  oferecido pelo Presidente da Rep\u00fablica francesa e senhora\n - Sess\u00e3o de abertura da 81\u00aa Assembleia Geral da UIC (Uni\u00e3o Internacional de Ferrovias\n - Semin\u00e1rio Empresarial: Desafios e Oportunidades de uma Parceria Estrat\u00e9gica\n - Reuni\u00e3o com o Prefeito de Paris, Bertrand Delanoe\n - Cerim\u00f4nia de boas vindas a Paris\n - Chegada ao Pal\u00e1cio de Luxemburgo\n - Reuni\u00e3o com o Presidente do Senado, senador Jean-Pierre Bel\n - Partida para Moscou / R\u00fassia",
         "Host": [
             [
-                {
-                    "figure": "Fran\u00e7ois Hollande",
-                    "country": "France",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "FR4"
             ],
             [
-                {
-                    "figure": "Bertrand Delanoe",
-                    "country": "---Paris",
-                    "posts": [
-                        "Regional Mayor/Governor"
-                    ]
-                }
+                "BE2"
             ],
             [
-                {
-                    "figure": "Jean-Pierre Bel",
-                    "country": "France",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "JE2"
             ]
         ],
         "Period": "10 a 12 de Dezembro",
@@ -423,34 +224,13 @@
         "Overview": " - Chegada a Moscou\n - Encontro com o Primeiro-Ministro da Federa\u00e7\u00e3o Russa, Dmitri Medvedev\n - Oferenda floral no t\u00famulo do soldado desconhecido\n - Cerim\u00f4nia de encerramento do F\u00f3rum Empresarial Brasil-R\u00fassia\n - Encontro privado com o Presidente da Federa\u00e7\u00e3o Russa, Vladimir Putin\n - Almo\u00e7o de trabalho com o Presidente da Federa\u00e7\u00e3o Russa, Vladimir Putin\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Partida para Fortaleza/CE",
         "Host": [
             [
-                {
-                    "figure": "Dmitri Medvedev",
-                    "country": "Russia",
-                    "posts": [
-                        "President",
-                        "Prime-minister"
-                    ]
-                }
+                "DM1"
             ],
             [
-                {
-                    "figure": "Vladimir Putin",
-                    "country": "Russia",
-                    "posts": [
-                        "Prime-minister",
-                        "President"
-                    ]
-                }
+                "VL1"
             ],
             [
-                {
-                    "figure": "Vladimir Putin",
-                    "country": "Russia",
-                    "posts": [
-                        "Prime-minister",
-                        "President"
-                    ]
-                }
+                "VL1"
             ]
         ],
         "Period": "12 a 15 de Dezembro",

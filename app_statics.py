@@ -470,7 +470,7 @@ negative_triggers = ["cerimônia", "encontro empresarial brasil-Argentina, com a
                      "painel", "escola-tipo", "visita", "entrevista", "cumprimentos", "chegada", "metalúrgicos",
                      "passeio", "coquetel", "furacões", "encontro empresarial", "abertura", "portinari", "deposição",
                      "chute", "membros", "descerramento", "velório", "posse", "pós-201",
-                     "mudança do clima", "seminário"]  # recepção
+                     "mudança do clima", "seminário", "exéquias"]  # recepção
 
 leaders_mapping = {
     "leader": {"figure": "polished_name", "country": "polished_countryOrInstitution", "posts": []},
@@ -592,7 +592,7 @@ leaders_mapping = {
     "JU1": {'figure': 'Juan Carlos', 'country': 'Spain', 'posts': [monarch]},
     "JO1": {'figure': 'José Maria Barreda', 'country': 'Spain', 'posts': [political_agency_leader]},
     "KG1": {'figure': 'Kgalema Motlanthe', 'country': 'South Africa', 'posts': [president]},
-    "MA3": {'figure': 'Manmohan Singh', 'country': 'India', 'posts': prime_minister},
+    "MA3": {'figure': 'Manmohan Singh', 'country': 'India', 'posts': [prime_minister]},
     "AR1": {'figure': 'Armando Guebuza', 'country': 'Mozambique', 'posts': [president]},
     "GI1": {'figure': 'Gianfranco Fini', 'country': 'Italy', 'posts': [political_agency_leader]},
     "LU1": {'figure': 'Luca Cordero di Montezemolo', 'country': capital, 'posts': [ceo]},
@@ -743,7 +743,7 @@ leaders_mapping = {
     "TH2": {'figure': 'Thomas J. Donohue', 'country': 'Chamber of Commerce of the United States',
             'posts': [political_agency_leader]},
     "JU6": {'figure': 'Juan Orlando Hernández Alvarado', 'country': 'Honduras', 'posts': [president]},
-    "PA5": {'figure': 'Paul Cook', 'country': '', 'posts': [political_agency_leader]},
+    "PA5": {'figure': 'Paul Cook', 'country': 'United States of America', 'posts': [political_agency_leader]},
     "JO10": {'figure': 'Jorge Carlos Fonseca', 'country': 'Cape Verde', 'posts': [president]},
     "CY1": {'figure': 'Cyril Ramaphosa', 'country': 'South Africa', 'posts': [president]},
     "AB3": {'figure': 'Abdelkader Bensalah', 'country': 'Algeria', 'posts': [political_agency_leader]},
@@ -779,7 +779,7 @@ leaders_mapping = {
     "RO5": {'figure': 'Roh Moo-Hyun', 'country': 'South Korea', 'posts': [president]},
     "KO1": {'figure': 'Koizumi', 'country': 'Japan', 'posts': [prime_minister]},
     "JO12": {'figure': 'Jorge Sampaio', 'country': 'Portugal', 'posts': [president]},
-    "DO3": {'figure': 'Dominique de Villepin', 'country': '', 'posts': [prime_minister]},
+    "DO3": {'figure': 'Dominique de Villepin', 'country': 'France', 'posts': [prime_minister]},
     "OS1": {'figure': 'Oscar Berger', 'country': 'Guatemala', 'posts': [president]},
     "KO2": {'figure': 'Kofi Annan', 'country': 'United Nations', 'posts': [secretary_general]},
     "AB5": {'figure': 'Abel Pacheco', 'country': 'Costa Rica', 'posts': [president]},

@@ -4,31 +4,13 @@
         "Overview": " - Fotografia oficial\n - Caf\u00e9 da manh\u00e3 de trabalho com o Presidente da Rep\u00fablica do Chile, Sebasti\u00e1n Pi\u00f1era\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Encontro bilateral com o Presidente do M\u00e9xico, Enrique Pe\u00f1a Nieto\n - Encontro com a chanceler da Rep\u00fablica Federal da Alemanha, Angela Merkel\n - Cerim\u00f4nia de abertura da I C\u00fapula CELAC-Uni\u00e3o Europeia\n - Primeiro retiro dos chefes de delega\u00e7\u00e3o da I C\u00fapula CELAC-Uni\u00e3o Europeia",
         "Host": [
             [
-                {
-                    "figure": "Sebasti\u00e1n Pi\u00f1era",
-                    "country": "Chile",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "SE1"
             ],
             [
-                {
-                    "figure": "Enrique Pe\u00f1a Nieto",
-                    "country": "Mexico",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "EN1"
             ],
             [
-                {
-                    "figure": "Angela Merkel",
-                    "country": "Germany",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "AM1"
             ]
         ],
         "Period": "26 de Janeiro",
@@ -48,22 +30,10 @@
         "Overview": " - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o Presidente da Rep\u00fablica Federal da Nig\u00e9ria, Goodluck Ebele Jonathan\n - Reuni\u00e3o ampliada entre a delega\u00e7\u00e3o brasileira e a delega\u00e7\u00e3o nigeriana\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o oferecido pelo Presidente da Rep\u00fablica Federal da Nig\u00e9ria, Goodluck Ebele Jonathan\n - Cerim\u00f4nia de encerramento do Encontro Empresarial Brasil/Nig\u00e9ria\n - Partida para Bras\u00edlia (DF)",
         "Host": [
             [
-                {
-                    "figure": "Goodluck Ebele Jonathan",
-                    "country": "Nigeria",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "GO2"
             ],
             [
-                {
-                    "figure": "Goodluck Ebele Jonathan",
-                    "country": "Nigeria",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "GO2"
             ]
         ],
         "Period": "23 de Fevereiro",
@@ -83,31 +53,11 @@
         "Overview": " - Chegada em Roma / It\u00e1lia\n - Visita \u00e0 sede da  Organiza\u00e7\u00e3o das Na\u00e7\u00f5es Unidas para Alimenta\u00e7\u00e3o e\n - Agricultura - FAO\n - Presidente da It\u00e1lia,  Giorgio Napolitano Missa inaugural do Pontificado de Sua Santidade, Papa Francisco\n - Encontro com Sua Santidade, Papa Francisco\n - Partida para Bras\u00edlia/DF",
         "Host": [
             [
-                {
-                    "figure": "Giorgio Napolitano",
-                    "country": "Italy",
-                    "posts": [
-                        "President"
-                    ]
-                },
-                {
-                    "figure": "Pope Francis",
-                    "country": "Vatican",
-                    "posts": [
-                        "Political/Agency Leader",
-                        "Religious Leader"
-                    ]
-                }
+                "GN1",
+                "PA3"
             ],
             [
-                {
-                    "figure": "Pope Francis",
-                    "country": "Vatican",
-                    "posts": [
-                        "Political/Agency Leader",
-                        "Religious Leader"
-                    ]
-                }
+                "PA3"
             ]
         ],
         "Period": "17, 18, 19 e 20 de Mar\u00e7o",
@@ -119,23 +69,10 @@
         "Overview": " - Chegada a Durban\n - Reuni\u00e3o com o Presidente da \u00c1frica do Sul, Jacob Zuma\n - Cerim\u00f4nia de abertura da V C\u00fapula de Chefes de Estado e de Governo dos BRICS\n - Jantar em homenagem aos Chefes de Estado e de Governo dos BRICS e da \u00c1frica oferecido pelo Presidente da Rep\u00fablica da \u00c1frica do Sul, Jacob Zuma\n - Caf\u00e9 da manh\u00e3 oferecido pelo Presidente da Rep\u00fablica da \u00c1frica do Sul, Jacob Zuma, aos Chefes de Estado e de Governo e empres\u00e1rios dos BRICS, oferecido pelo Presidente da Rep\u00fablica da \u00c1frica do Sul, Jacob Zuma In\u00edcio do Retiro dos Chefes de Estado e de Governo dos BRICS e da \u00c1frica\n - Fotografia oficial\n - Sess\u00f5es de trabalho\n - Sess\u00e3o I - Promo\u00e7\u00e3o do Crescimento e Governan\u00e7a Global\n - Sess\u00e3o II - Parcerias para o Desenvolvimento, Integra\u00e7\u00e3o e Industrializa\u00e7\u00e3o\n - Sess\u00e3o Plen\u00e1ria - \u201cBRICS e \u00c1frica: Parceria para o Desenvolvimento, Integra\u00e7\u00e3o e Industrializa\u00e7\u00e3o\u201d\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o oferecido pelo Presidente da Rep\u00fablica da \u00c1frica do Sul, Jacob Zuma, aos Chefes de Estado e de Governo dos BRICS\n - F\u00f3rum de Di\u00e1logo BRICS/\u00c1frica\n - Fotografia oficial\n - Coquetel oferecido pelo Presidente da Rep\u00fablica da \u00c1frica do Sul, Jacob Zuma, aos Chefes de Estado e de Governo dos BRICS e convidados especiais\n - Encontro com o Presidente da China, Xi Jinping\n - Partida para Bras\u00edlia/DF",
         "Host": [
             [
-                {
-                    "figure": "Jacob Zuma",
-                    "country": "South Africa",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JA3"
             ],
             [
-                {
-                    "figure": "Xi Jinping",
-                    "country": "China",
-                    "posts": [
-                        "Vice-president",
-                        "President"
-                    ]
-                }
+                "XJ1"
             ]
         ],
         "Period": "26 e 27 de Mar\u00e7o",
@@ -171,13 +108,7 @@
         "Overview": " - Chegada a Adis Abeba / Eti\u00f3pia\n - Encontro com o Primeiro-Ministro da Rep\u00fablica da Eti\u00f3pia, Hailemariam Desalegn\n - Sess\u00e3o Tem\u00e1tica do Cinquenten\u00e1rio da Organiza\u00e7\u00e3o da Unidade Africana (OUA) - Uni\u00e3o Africana\n - Fotografia oficial dos Chefes de Estado e de Governo\n - Almo\u00e7o em homenagem aos Chefes de Estado e de Governo oferecido pelo -Primeiro- Ministro da Eti\u00f3pia e pela Presidenta da Comiss\u00e3o da Uni\u00e3o Africana\n - Cerim\u00f4nia de comemora\u00e7\u00e3o do Cinquenten\u00e1rio da Unidade Africana (OUA) - Uni\u00e3o Africana\n - Partida para Bras\u00edlia/DF",
         "Host": [
             [
-                {
-                    "figure": "Hailemariam Desalegn",
-                    "country": "Ethiopia",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "HA6"
             ]
         ],
         "Period": "24 e 25 de Maio",
@@ -189,40 +120,16 @@
         "Overview": " - Chegada a Portugal\n - Ant\u00f3nio Jos\u00e9 Seguro, Secret\u00e1rio-Geral do Partido Socialista de Portugal\n - M\u00e1rio Soares, Ex-presidente de Portugal\n - Encontro com o Presidente da Rep\u00fablica de Portugal, An\u00edbal Cavaco Silva\n - Reuni\u00e3o de trabalho com o Primeiro-Ministro de Portugal, Paulo Passos Coelho\n - Cerim\u00f4nia de entrega do Pr\u00eamio Cam\u00f5es\n - Jantar oferecido pelo Presidente da Rep\u00fablica de Portugal e senhora, Maria Cavaco Silva Declara\u00e7\u00e3o \u00e0 imprensa",
         "Host": [
             [
-                {
-                    "figure": "Ant\u00f3nio Jos\u00e9 Seguro",
-                    "country": "Portugal",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "AN2"
             ],
             [
-                {
-                    "figure": "M\u00e1rio Soares",
-                    "country": "Portugal",
-                    "posts": [
-                        "Ex-president"
-                    ]
-                }
+                "MA9"
             ],
             [
-                {
-                    "figure": "An\u00edbal Cavaco Silva",
-                    "country": "Portugal",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "AS1"
             ],
             [
-                {
-                    "figure": "Paulo Passos Coelho",
-                    "country": "Portugal",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "PA4"
             ]
         ],
         "Period": "09 e 10 de Junho",
@@ -242,13 +149,7 @@
         "Overview": " - Partida para Assun\u00e7\u00e3o/Paraguai\n - Encontro bilateral com o presidente eleito da Rep\u00fablica do Paraguai, Hor\u00e1cio Cartes\n - Cerim\u00f4nia de Juramento do Presidente da Rep\u00fablica eleito, Hor\u00e1cio Cartes, e do Vice-Presidente da Rep\u00fablica eleito,Juan Afara\n - Cerim\u00f4nia de Declara\u00e7\u00e3o de h\u00f3spedes ilustres da cidade de Assun\u00e7\u00e3o e de entrega da chave da cidade aos Chefes de Estado, Pr\u00edncipes herdeiros, Chefe de Governo e Vice-Presidentes\n - Celebra\u00e7\u00e3o do \"Te Deum\" por um novo per\u00edodo constitucional e em Comemora\u00e7\u00e3o aos 476\u00ba Anivers\u00e1rio da Funda\u00e7\u00e3o da cidade de Assun\u00e7\u00e3o\n - Cumprimentos ao Presidente da Rep\u00fablica do Paraguai, Hor\u00e1cio Cartes, e ao Vice-Presidente da Rep\u00fablica do Paraguai, Juan Afara\n - Partida para Bras\u00edlia",
         "Host": [
             [
-                {
-                    "figure": "Hor\u00e1cio Cartes",
-                    "country": "Paraguay",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "HO1"
             ]
         ],
         "Period": "14 e 15 Agosto",
@@ -268,23 +169,10 @@
         "Overview": " - Chegada a S\u00e3o Petersburgo\n - Sem compromissos oficiais\n - Encontro bilateral com o Presidente da Rep\u00fablica Popular da China, Xi Jinping\n - Encontro bilateral com o Primeiro-Ministro do Jap\u00e3o, Shinzo Abe\n - Reuni\u00e3o dos Chefes de Estado do BRICS\n - Cerim\u00f4nia oficial de boas-vindas\n - Reuni\u00e3o de trabalho do G-20 - Primeira Sess\u00e3o\n - Jantar de trabalho em homenagem aos Chefes de Estado e de Delega\u00e7\u00e3o do G-20, oferecido pelo Presidente da Federa\u00e7\u00e3o da R\u00fassia, Vladimir Putin\n - Apresenta\u00e7\u00e3o art\u00edstica\n - Encontro bilateral com o Primeiro-Ministro de Cingapura, Lee Hsien\n - Reuni\u00e3o de trabalho do G-20 - Segunda Sess\u00e3o\n - Fotografia oficial\n - Partida para Bras\u00edlia",
         "Host": [
             [
-                {
-                    "figure": "Xi Jinping",
-                    "country": "China",
-                    "posts": [
-                        "Vice-president",
-                        "President"
-                    ]
-                }
+                "XJ1"
             ],
             [
-                {
-                    "figure": "Lee Hsien Loong",
-                    "country": "Singapore",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "LE2"
             ]
         ],
         "Period": "03 a 06 de Setembro",
@@ -296,40 +184,16 @@
         "Overview": " - Chegada a Nova Iorque/EUA\n - Ex-presidente dos Estados Unidos da Am\u00e9rica, Bill Clinton\n - Presidente da Rep\u00fablica Argentina, Cristina Kirchner\n - Secret\u00e1rio-geral das Na\u00e7\u00f5es Unidas, Ban Ki-moon\n - Abertura do Debate Geral da 68\u00aa Assembleia-geral das Na\u00e7\u00f5es  Unidas\n - Mesa de abertura do Foro Pol\u00edtico de Alto N\u00edvel sobre Desenvolvimento Sustent\u00e1vel \u201cBuilding the future we want: from Rio+20 to the Post-2015 Development Agenda\u201d\n - Presidente da Telef\u00f4nica, Cesar Alierta\n - Encerramento do Semin\u00e1rio Empresarial \u201cOportunidades em Infraestrutura no Brasil\u201d\n - Partida para Bras\u00edlia",
         "Host": [
             [
-                {
-                    "figure": "Bill Clinton",
-                    "country": "United States of America",
-                    "posts": [
-                        "Ex-president"
-                    ]
-                }
+                "BI1"
             ],
             [
-                {
-                    "figure": "Cristina Kirchner",
-                    "country": "Argentina",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "CK1"
             ],
             [
-                {
-                    "figure": "Ban Ki-moon",
-                    "country": "United Nations",
-                    "posts": [
-                        "Secretary-general"
-                    ]
-                }
+                "BK1"
             ],
             [
-                {
-                    "figure": "Business Person",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                }
+                "GBP"
             ]
         ],
         "Period": "23 a 25 de Setembro",
@@ -341,24 +205,10 @@
         "Overview": " - Cerim\u00f4nia oficial de chegada\n - Encontro privado com o Presidente da Rep\u00fablica do Peru, Ollanta Humala\n - Reuni\u00e3o ampliada\n - Cerim\u00f4nia de assinatura de atos\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o oferecido pelo Presidente da Rep\u00fablica do Peru, Ollanta Humala\n - Susana Villar\u00e1n Prefeita da cidade de Lima\n - Cerim\u00f4nia de entrega das chaves da cidade de Lima\n - Cerim\u00f4nia de abertura do Semin\u00e1rio Empresarial Brasil-Peru, com a participa\u00e7\u00e3o do Presidente da Rep\u00fablica do Peru, Ollanta Humala",
         "Host": [
             [
-                {
-                    "figure": "Ollanta Humala",
-                    "country": "Peru",
-                    "posts": [
-                        "Political/Agency Leader",
-                        "President"
-                    ]
-                }
+                "OH1"
             ],
             [
-                {
-                    "figure": "Ollanta Humala",
-                    "country": "Peru",
-                    "posts": [
-                        "Political/Agency Leader",
-                        "President"
-                    ]
-                }
+                "OH1"
             ]
         ],
         "Period": "11 de Novembro",

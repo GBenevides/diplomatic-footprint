@@ -4,13 +4,7 @@
         "Overview": " - Encontro de Trabalho com o senhor \u00c1lvaro Uribe, presidente da Rep\u00fablica da Col\u00f4mbia\n - Reuni\u00e3o Ampliada",
         "Host": [
             [
-                {
-                    "figure": "\u00c1lvaro Uribe V\u00e9lez",
-                    "country": "Colombia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "AV1"
             ]
         ],
         "Period": "19 de Janeiro",
@@ -22,59 +16,22 @@
         "Overview": " - Decolagem para Davos, Su\u00ed\u00e7a, para participar do F\u00f3rum Econ\u00f4mico Mundial\n - Almo\u00e7o de trabalho com o senhor Jos\u00e9 Manuel Dur\u00e3o Barroso, Presidente da Comiss\u00e3o Europ\u00e9ia\n - Encontro de trabalho com o chanceler Gerhard Schroeder, Chefe de Governo da Alemanha\n - Sess\u00e3o especial \u201cFinanciando a Guerra contra a Pobreza\u201d\n - Mensagem do Presidente da Rep\u00fablica ao F\u00f3rum Econ\u00f4mico Mundial\n - Encontro de trabalho com o senhor Samuel Schmid, Presidente da Confedera\u00e7\u00e3o Helv\u00e9tica\n - Encontro de trabalho com o senhor Thabo Mbeki, Presidente da \u00c1frica do Sul\n - Encontro reservado com investidores\n - Sess\u00e3o plen\u00e1ria com investidores\n - Encontro com o Senhor Kjell Magne Bondevik, primeiro-ministro da Noruega\n - Almo\u00e7o com investidores\n - Encontro com o Senhor Klaus Schwab, Fundador do F\u00f3rum Econ\u00f4mico Mundial",
         "Host": [
             [
-                {
-                    "figure": "Jos\u00e9 Manuel Dur\u00e3o Barroso",
-                    "country": "European Commission",
-                    "posts": [
-                        "Political/Agency Leader",
-                        "CEO/Executive"
-                    ]
-                }
+                "JB1"
             ],
             [
-                {
-                    "figure": "Gerhard Schroeder",
-                    "country": "Germany",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "GE1"
             ],
             [
-                {
-                    "figure": "Samuel Schmid",
-                    "country": "Switzerland",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "SA6"
             ],
             [
-                {
-                    "figure": "Thabo Mbeki",
-                    "country": "South Africa",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "TH3"
             ],
             [
-                {
-                    "figure": "Kjell Magne Bondevik",
-                    "country": "Norway",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "KJ1"
             ],
             [
-                {
-                    "figure": "Klaus Schwab",
-                    "country": "World Economic Forum",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "KL1"
             ]
         ],
         "Period": "27, 28 e 29 de Janeiro",
@@ -86,13 +43,7 @@
         "Overview": " - Chegada a Caracas - cerim\u00f4nia de boas vindas\n - Cerim\u00f4nia de chegada ao Pal\u00e1cio de Miraflores\n - Cerim\u00f4nia de abertura do Encontro Empresarial Brasil-Venezuela\n - Encontro de trabalho com o presidente da Rep\u00fablica Bolivariana da Venezuela, Hugo Ch\u00e1vez\n - Apresenta\u00e7\u00e3o de conclus\u00f5es do Encontro Empresarial Brasil-Venezuela pelo presidente da C\u00e2mara Venezuelana-Brasileira de Com\u00e9rcio e Ind\u00fastria, N\u00e9lson Quijada\n - Assinatura de Atos\n - Almo\u00e7o oferecido pelo Presidente da Venezuela em homenagem ao Presidente da Rep\u00fablica",
         "Host": [
             [
-                {
-                    "figure": "Hugo Chavez",
-                    "country": "Venezuela",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "HC1"
             ]
         ],
         "Period": "13 e 14 de Fevereiro",
@@ -104,22 +55,10 @@
         "Overview": " - Chegada em Georgetown\n - Cerim\u00f4nia de entrega das chaves da cidade de Georgetown\n - Reuni\u00e3o privada com o presidente da Rep\u00fablica da Guiana, Bharrat Jagdeo\n - Assinatura de Atos\n - Declara\u00e7\u00e3o conjunta \u00e0 imprensa\n - Encontro com o l\u00edder da oposi\u00e7\u00e3o, Robert Corbin\n - Almo\u00e7o oferecido pelo Presidente da Rep\u00fablica da Guiana em homenagem ao Presidente da Rep\u00fablica\n - Sess\u00e3o Especial da Assembl\u00e9ia Nacional\n - Encontro com a comunidade brasileira",
         "Host": [
             [
-                {
-                    "figure": "Bharrat Jagdeo",
-                    "country": "Guyana",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "BH1"
             ],
             [
-                {
-                    "figure": "Robert Corbin",
-                    "country": "Guyana",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "RO4"
             ]
         ],
         "Period": "14 e 15 de Fevereiro",
@@ -131,13 +70,7 @@
         "Overview": " - Chegada a Paramaribo\n - Encontro seguido de jantar com o presidente do Suriname, Runaldo Venetiaan\n - Sess\u00e3o de abertura da XVI Confer\u00eancia de Chefes de Governo da Comunidade do Caribe (Caricom)\n - Primeira Sess\u00e3o Plen\u00e1ria com os Chefes de Governo da Caricom",
         "Host": [
             [
-                {
-                    "figure": "Runaldo Venetiaan",
-                    "country": "Suriname",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "RU3"
             ]
         ],
         "Period": "15 e 16 de Fevereiro",
@@ -149,29 +82,11 @@
         "Overview": " - Cerim\u00f4nia de Declara\u00e7\u00e3o de Fidelidade Constitucional do Presidente e do Vice-Presidente do Uruguai\n - Cerim\u00f4nia de Transmiss\u00e3o do Cargo Presidencial\n - Cumprimentos dos Chefes de Delega\u00e7\u00f5es Estrangeiras e Convidados Especiais ao presidente Tabar\u00e9 V\u00e1squez\n - Desfile Militar\n - Encontro de trabalho com o presidente da Rep\u00fablica do Peru, Alejandro Toledo\n - Encontro de trabalho com o presidente da Rep\u00fablica Argentina, N\u00e9stor Kirchner, e o presidente da Rep\u00fablica Bolivariana da Venezuela, Hugo Ch\u00e1vez Paysand\u00fa\n - Visita \u00e0 f\u00e1brica da CYMPAY (Ambev)\n - Cerim\u00f4nia de inaugura\u00e7\u00e3o da f\u00e1brica de malte da CYMPAY (Ambev)",
         "Host": [
             [
-                {
-                    "figure": "Alejandro Toledo",
-                    "country": "Peru",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "AL4"
             ],
             [
-                {
-                    "figure": "N\u00e9stor Kirchner",
-                    "country": "Argentina",
-                    "posts": [
-                        "President"
-                    ]
-                },
-                {
-                    "figure": "Hugo Chavez",
-                    "country": "Venezuela",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "NE1",
+                "HC1"
             ]
         ],
         "Period": "01 e 02 de Mar\u00e7o",
@@ -183,27 +98,9 @@
         "Overview": " - Encontro de trabalho com os Presidentes da Col\u00f4mbia, Venezuela e Espanha\n - Assinatura de Comunicado Conjunto e palavras dos Presidentes",
         "Host": [
             [
-                {
-                    "figure": "\u00c1lvaro Uribe V\u00e9lez",
-                    "country": "Colombia",
-                    "posts": [
-                        "President"
-                    ]
-                },
-                {
-                    "figure": "Hugo Chavez",
-                    "country": "Venezuela",
-                    "posts": [
-                        "President"
-                    ]
-                },
-                {
-                    "figure": "Jos\u00e9 Luis Zapatero",
-                    "country": "Spain",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "AV1",
+                "HC1",
+                "JZ1"
             ]
         ],
         "Period": "29 de Mar\u00e7o",
@@ -215,31 +112,13 @@
         "Overview": " - Chegada a Roma - It\u00e1lia\n - Cerim\u00f4nia de ex\u00e9quias de Sua Santidade, o papa Jo\u00e3o Paulo II\n - Almo\u00e7o privado\n - Audi\u00eancia ao doutor Ricardo Alarc\u00f3n, presidente da Assembl\u00e9ia Nacional da Rep\u00fablica de Cuba\n - Encontro com o senhor Heinz Fischer, presidente federal da Rep\u00fablica da \u00c1ustria\n - Encontro com o senhor Armando Em\u00edlio Guebuza, presidente da Rep\u00fablica de Mo\u00e7ambique\n - Jantar privado\n - Visita a Assis/regi\u00e3o da \u00dambria\n - Visita a Perugia/regi\u00e3o da \u00dambria\n - Encontro e almo\u00e7o com os governadores das regi\u00f5es da Toscana, Em\u00edlia Romana e Marche\n - Partida de Roma para Iaund\u00ea, Camar\u00f5es",
         "Host": [
             [
-                {
-                    "figure": "Ricardo Alarc\u00f3n",
-                    "country": "Cuba",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "RA1"
             ],
             [
-                {
-                    "figure": "Heinz Fischer",
-                    "country": "Austria",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "HE6"
             ],
             [
-                {
-                    "figure": "Armando Em\u00edlio Guebuza",
-                    "country": "Mozambique",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "AR2"
             ]
         ],
         "Period": "07 de Abril",
@@ -251,13 +130,7 @@
         "Overview": " - Jantar oferecido pelo senhor Paul Biya, presidente da Rep\u00fablica de Camar\u00f5es, em homenagem ao presidente Luiz In\u00e1cio Lula da Silva\n - Reuni\u00e3o de trabalho com o presidente de Camar\u00f5es, senhor Paul Biya\n - Cerim\u00f4nia de assinatura de atos",
         "Host": [
             [
-                {
-                    "figure": "Paul Biya",
-                    "country": "Cameroon",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "PA6"
             ]
         ],
         "Period": "10 de Abril",
@@ -269,22 +142,10 @@
         "Overview": " - Cerim\u00f4nia oficial de chegada\n - Reuni\u00e3o reservada com o presidente da Nig\u00e9ria, Olusegun Obasanjo\n - Reuni\u00e3o ampliada\n - Banquete de Estado em homenagem ao Presidente da Rep\u00fablica oferecido pelo presidente da Nig\u00e9ria, Olusegun Obasanjo\n - Audi\u00eancia com o secret\u00e1rio-executivo da Comunidade Econ\u00f4mica dos Estados da \u00c1frica Ocidental (Ecowas), Mohamed Ibn Chambas\n - Segunda rodada de conversas bilaterais\n - Cerim\u00f4nia de Assinatura de Atos e Declara\u00e7\u00e3o \u00e0 Imprensa\n - Cerim\u00f4nia oficial de partida para Acra, Gana",
         "Host": [
             [
-                {
-                    "figure": "Olusegun Obasanjo",
-                    "country": "Nigeria",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "OL2"
             ],
             [
-                {
-                    "figure": "Mohamed Ibn Chambas",
-                    "country": "Economic Community of West African States",
-                    "posts": [
-                        "Secretary-general"
-                    ]
-                }
+                "MO1"
             ]
         ],
         "Period": "11 de Abril",
@@ -296,13 +157,7 @@
         "Overview": " - Chegada a Acra, Gana\n - Encontro com o senhor John Agyekum Kufuor, presidente da Rep\u00fablica de Gana\n - Cerim\u00f4nia de Assinatura de Atos\n - \u201cDurbar\u201d (recep\u00e7\u00e3o) em homenagem ao Presidente da Rep\u00fablica, oferecido pela fam\u00edlia ganense-brasileira Tabom\n - Banquete de Estado em homenagem ao Presidente da Rep\u00fablica, oferecido pelo senhor John Agyekum Kufuor, presidente da Rep\u00fablica de Gana\n - Cerim\u00f4nia de inaugura\u00e7\u00e3o da C\u00e2mara de Com\u00e9rcio Brasil-Gana\n - Partida de Acra, Gana para Bissau, Guin\u00e9-Bissau",
         "Host": [
             [
-                {
-                    "figure": "John Agyekum Kufuor",
-                    "country": "Ghana",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JO11"
             ]
         ],
         "Period": "12 de Abril",
@@ -314,31 +169,13 @@
         "Overview": " - Chegada a Guin\u00e9-Bissau\n - Reuni\u00e3o privada com o presidente da Guin\u00e9-Bissau, Henrique Rosa\n - Reuni\u00e3o ampliada\n - Cerim\u00f4nia de oferenda floral em homenagem a Am\u00edlcar Cabral e aos Her\u00f3is Nacionais\n - Reuni\u00e3o com o primeiro-ministro da Guin\u00e9-Bissau, Carlos Gomes J\u00fanior\n - Encontro com o presidente da Assembl\u00e9ia Nacional Popular, deputado Francisco Benante\n - Leitura do Comunicado Conjunto e Declara\u00e7\u00e3o \u00e0 Imprensa\n - Partida para Dacar, Senegal",
         "Host": [
             [
-                {
-                    "figure": "Henrique Rosa",
-                    "country": "Guinea-Bissau",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "HE7"
             ],
             [
-                {
-                    "figure": "Carlos Gomes J\u00fanior",
-                    "country": "Guinea-Bissau",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "CA2"
             ],
             [
-                {
-                    "figure": "Francisco Benante",
-                    "country": "Guinea-Bissau",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "FR5"
             ]
         ],
         "Period": "13 de Abril",
@@ -350,13 +187,7 @@
         "Overview": " - Chegada a Dacar\n - Reuni\u00e3o privada com o presidente do Senegal, senhor Abdoulaye Wade\n - Jantar oficial oferecido pelo Presidente do Senegal em homenagem ao presidente Luiz In\u00e1cio Lula da Silva\n - Oferenda floral em homenagem aos soldados senegaleses mortos na Primeira e Segunda Guerras Mundiais\n - Visita \u00e0 Casa dos Escravos, na Ilha de Gor\u00e9e\n - Encontro com a comunidade brasileira residente no Senegal",
         "Host": [
             [
-                {
-                    "figure": "Abdoulaye Wade",
-                    "country": "Senegal",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "AB8"
             ]
         ],
         "Period": "13 de Abril",
@@ -368,31 +199,13 @@
         "Overview": " - Partida para Seul / Cor\u00e9ia\n - Chegada a Seul / Cor\u00e9ia\n - Cerim\u00f4nia de abertura do VI F\u00f3rum Global sobre Reinven\u00e7\u00e3o do Governo\n - Abertura da Exposi\u00e7\u00e3o Internacional de Inova\u00e7\u00e3o\n - Audi\u00eancia com o senhor Lee Soo-Hoo, Presidente da Confedera\u00e7\u00e3o de Sindicatos Coreanos\n - Cerim\u00f4nia de oferenda floral\n - Fotografia com o senhor Si-Bum Kim (respons\u00e1vel pela divulga\u00e7\u00e3o dos personagens da \u201cTurma da M\u00f4nica\u201d na Cor\u00e9ia)\n - Encerramento do Semin\u00e1rio Brasil-Cor\u00e9ia: Oportunidades de Com\u00e9rcio e Investimentos\n - Jantar oferecido pelo senhor Roh Moo-Hyun, Presidente da Rep\u00fablica da Cor\u00e9ia, aos principais participantes do VI F\u00f3rum Global sobre Reinven\u00e7\u00e3o do Governo\n - Caf\u00e9 da manh\u00e3 com lideran\u00e7as empresariais coreanas e brasileiras\n - Cerim\u00f4nia oficial de chegada\n - Reuni\u00e3o de trabalho com o senhor Roh Moo-Hyun, presidente da Rep\u00fablica da Cor\u00e9ia\n - Almo\u00e7o oferecido pela C\u00e2mara de Com\u00e9rcio e Ind\u00fastria, Federa\u00e7\u00e3o das Ind\u00fastrias Coreanas, Associa\u00e7\u00e3o de Com\u00e9rcio Internacional da Cor\u00e9ia e Federa\u00e7\u00e3o das Pequenas e M\u00e9dias Empresas\n - Visita \u00e0 Assembl\u00e9ia Nacional\n - Encontro com a comunidade brasileira na Cor\u00e9ia\n - Jantar oferecido pelo senhor Roh Moo-Hyun, presidente da Rep\u00fablica da Cor\u00e9ia",
         "Host": [
             [
-                {
-                    "figure": "Lee Soo-Hoo",
-                    "country": "South Korea",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "LE4"
             ],
             [
-                {
-                    "figure": "Roh Moo-Hyun",
-                    "country": "South Korea",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "RO5"
             ],
             [
-                {
-                    "figure": "Roh Moo-Hyun",
-                    "country": "South Korea",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "RO5"
             ]
         ],
         "Period": "22 a 25 de Maio",
@@ -404,31 +217,13 @@
         "Overview": " - Chegada a T\u00f3quio\n - Visita ao Parlamento\n - Encontro com o primeiro-ministro Koizumi\n - Jantar oferecido pelo primeiro-ministro Koizumi\n - Caf\u00e9 da manh\u00e3 com empres\u00e1rios japoneses\n - Encontro com a Liga Parlamentar de Amizade Brasil-Jap\u00e3o\n - Visita ao imperador Akihito\n - Almo\u00e7o oferecido pelo imperador Akihito\n - Encontro com o presidente da Rep\u00fablica Portuguesa, Jorge Sampaio\n - Visita \u00e0 esta\u00e7\u00e3o de metr\u00f4 de Shimbashi para conhecer programa de divulga\u00e7\u00e3o do Brasil em vag\u00e3o da linha Ginza\n - Visita \u00e0 exposi\u00e7\u00e3o sobre etanol\n - Encerramento da reuni\u00e3o conjunta do Comit\u00ea de Coopera\u00e7\u00e3o Econ\u00f4mica Brasil-Jap\u00e3o e Semin\u00e1rio Brasil-Jap\u00e3o: Oportunidades de Com\u00e9rcio e Investimentos\n - [Nagoya]\n - Visita ao Consulado-Geral do Brasil em Nag\u00f3ia\n - Visita \u00e0 \u201cPra\u00e7a Brasil\u201d\n - Encontro com 35 diretores de escolas brasileiras no Jap\u00e3o\n - Almo\u00e7o em homenagem ao Presidente da Rep\u00fablica e \u00e0 senhora Marisa Let\u00edcia Lula da Silva oferecido pelo Conselho de Cidad\u00e3os Brasileiros em Nag\u00f3ia\n - Visita ao Centro de Ind\u00fastria e Com\u00e9rcio de Nag\u00f3ia\n - Encontro com representantes da comunidade brasileira\n - Visita a estandes da Feira\n - Apresenta\u00e7\u00e3o de m\u00fasica sertaneja, bai\u00e3o e xaxado e capoeira por grupos japoneses\n - Leitura da reda\u00e7\u00e3o vencedora do concurso sobre a visita presidencial ao Jap\u00e3o",
         "Host": [
             [
-                {
-                    "figure": "Koizumi",
-                    "country": "Japan",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "KO1"
             ],
             [
-                {
-                    "figure": "Koizumi",
-                    "country": "Japan",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "KO1"
             ],
             [
-                {
-                    "figure": "Jorge Sampaio",
-                    "country": "Portugal",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JO12"
             ]
         ],
         "Period": "26 a 28 de Maio",
@@ -440,13 +235,7 @@
         "Overview": " - Partida de S\u00e3o Paulo para Assun\u00e7\u00e3o / Paraguai\n - Reuni\u00e3o dos chefes de Estado dos Estados-Parte do Mercosul\n - Foto oficial dos chefes de Estado presentes \u00e0 reuni\u00e3o do Conselho do Mercado Comum\n - Jantar em homenagem aos presidentes dos Estados-Parte do Mercosul e dos Estados Associados\n - Caf\u00e9 da manh\u00e3 de trabalho com o senhor Nicanor Duarte Frutos, presidente da Rep\u00fablica do Paraguai\n - Reuni\u00e3o do Conselho do Mercado Comum, na presen\u00e7a dos chefes de Estado dos Estados- Parte do Mercosul e dos Estados Associados, al\u00e9m de convidados especiais",
         "Host": [
             [
-                {
-                    "figure": "Nicanor Duarte Frutos",
-                    "country": "Paraguay",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "NI1"
             ]
         ],
         "Period": "19 a 20 de Junho",
@@ -466,51 +255,19 @@
         "Overview": " - Partida para Paris - Fran\u00e7a\n - Chegada a Paris\n - Abertura do Col\u00f3quio \u201cBrasil: Ator Global\u201d\n - Almo\u00e7o com empres\u00e1rios franceses e brasileiros\n - Visita \u00e0 exposi\u00e7\u00e3o \u201cBrasil e a Unesco\u201d\n - Sess\u00e3o de encerramento do Foro Franco-Brasileiro da Sociedade Civil\n - Encontro com o prefeito de Paris, Bertrand Delano\u00eb\n - Recep\u00e7\u00e3o oferecida pelo prefeito de Paris, Bertrand Delano\u00eb\n - Baile da Cidade, com apresenta\u00e7\u00e3o de artistas brasileiros e franceses\n - Desfile em comemora\u00e7\u00e3o \u00e0 Data Nacional Francesa\n - Recep\u00e7\u00e3o oferecida pelo presidente da Rep\u00fablica Francesa, Jacques Chirac\n - Visita ao Espa\u00e7o Brasil, centro de arte brasileira\n - Audi\u00eancia a grupo de prefeitos franceses\n - Espet\u00e1culo de fogos de artif\u00edcios na Torre Eiffel\n - Caf\u00e9 da manh\u00e3 de trabalho com o primeiro-ministro franc\u00eas, Dominique de Villepin\n - Reuni\u00e3o de trabalho com o presidente da Rep\u00fablica Francesa, Jacques Chirac\n - Cerim\u00f4nia de Assinatura de Atos\n - Almo\u00e7o oferecido pelo presidente da Rep\u00fablica Francesa, Jacques Chirac, em homenagem ao Presidente da Rep\u00fablica\n - Visita \u00e0 r\u00e9plica do 14 Bis",
         "Host": [
             [
-                {
-                    "figure": "Bertrand Delano\u00eb",
-                    "country": "---Paris",
-                    "posts": [
-                        "Regional Mayor/Governor"
-                    ]
-                }
+                "BE5"
             ],
             [
-                {
-                    "figure": "Bertrand Delano\u00eb",
-                    "country": "---Paris",
-                    "posts": [
-                        "Regional Mayor/Governor"
-                    ]
-                }
+                "BE5"
             ],
             [
-                {
-                    "figure": "Jacques Chirac",
-                    "country": "France",
-                    "posts": [
-                        "President",
-                        "Ex-president"
-                    ]
-                }
+                "JC1"
             ],
             [
-                {
-                    "figure": "Dominique de Villepin",
-                    "country": "",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "DO3"
             ],
             [
-                {
-                    "figure": "Jacques Chirac",
-                    "country": "France",
-                    "posts": [
-                        "President",
-                        "Ex-president"
-                    ]
-                }
+                "JC1"
             ]
         ],
         "Period": "12 a 15 de Julho",
@@ -530,13 +287,7 @@
         "Overview": " - Cerim\u00f4nia oficial de chegada\n - Fotografia oficial\n - Reuni\u00e3o privada\n - Reuni\u00e3o ampliada\n - Encerramento da Confer\u00eancia Latino Americana contra a Fome Cr\u00f4nica no Marco das Metas do Mil\u00eanio\n - Cerim\u00f4nia de Assinatura de Atos e Confer\u00eancia de Imprensa\n - Jantar oferecido pelo presidente da Guatemala, Oscar Berger e senhora\n - Reuni\u00e3o Privada dos Chefes de Estado e de Governo e dos Chanceleres dos pa\u00edses do Sistema de Integra\u00e7\u00e3o Centro-Americana (SICA) e do Brasil\n - Inaugura\u00e7\u00e3o da Reuni\u00e3o dos Chefes de Estado e de Governo dos pa\u00edses do Sistema de Integra\u00e7\u00e3o Centro-Americana (SICA) e do Brasil, seguida de sess\u00e3o de trabalho\n - Encerramento da Reuni\u00e3o dos Chefes de Estado e de Governo dos pa\u00edses do Sistema de Integra\u00e7\u00e3o Centro-Americana (SICA) e do Brasil, seguido de declara\u00e7\u00e3o \u00e0 Imprensa\n - Mensagem aos participantes do Primeiro Encontro Empresarial Brasil- SICA\n - Almo\u00e7o oferecido pelo Presidente da Rep\u00fablica da Guatemala, Oscar Berger Perdomo, em homenagem aos Chefes de Estado e de Governo e Ministros de Rela\u00e7\u00f5es Exteriores presentes ao Primeiro Encontro Empresarial SICA-Brasil",
         "Host": [
             [
-                {
-                    "figure": "Oscar Berger",
-                    "country": "Guatemala",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "OS1"
             ]
         ],
         "Period": "12 e 13 de Setembro",
@@ -548,13 +299,7 @@
         "Overview": " - Chegada a Nova Iorque\n - Reuni\u00e3o de Alto N\u00edvel da Assembl\u00e9ia Geral das Na\u00e7\u00f5es Unidas (Metas do Mil\u00eanio)\n - Reuni\u00e3o Paralela sobre Financiamento para o Desenvolvimento\n - Discurso do Presidente da Rep\u00fablica no Plen\u00e1rio das Na\u00e7\u00f5es Unidas\n - Reuni\u00e3o dos Presidentes dos Pa\u00edses Membros do Conselho de Seguran\u00e7a das Na\u00e7\u00f5es Unidas\n - Almo\u00e7o oferecido pelo senhor Kofi Annan, secret\u00e1rio-geral das Na\u00e7\u00f5es Unidas, aos Chefes de Estado e de Governo\n - Foto Oficial\n - Apresenta\u00e7\u00e3o da Declara\u00e7\u00e3o de Nova Iorque de 2005 sobre a \u201cA\u00e7\u00e3o contra a Fome e a Pobreza\u201d\n - Reuni\u00e3o de Chefes de Estado e de Governo do IBAS\n - Encontro com o senhor Kofi Annan , secret\u00e1rio-geral das Na\u00e7\u00f5es Unidas,\n - Jantar oferecido pelo Representante Permanente do Brasil junto \u00e0 ONU\n - Caf\u00e9 da manh\u00e3 do Council of the Americas com investidores\n - Interven\u00e7\u00e3o do Presidente da Rep\u00fablica na Reuni\u00e3o de Alto N\u00edvel da Assembl\u00e9ia Geral das Na\u00e7\u00f5es Unidas (Metas do Mil\u00eanio)",
         "Host": [
             [
-                {
-                    "figure": "Kofi Annan",
-                    "country": "United Nations",
-                    "posts": [
-                        "Secretary-general"
-                    ]
-                }
+                "KO2"
             ]
         ],
         "Period": "13, 14 e 15 de Setembro",
@@ -566,13 +311,7 @@
         "Overview": " - Chegada do Presidente em Porto/Portugal\n - Sess\u00e3o de abertura do Semin\u00e1rio \u201cOportunidades de Novos Neg\u00f3cios entre Brasil e Portugal\u201d\n - Encontro privado com o primeiro-ministro de Portugal, Jos\u00e9 S\u00f3crates\n - Reuni\u00e3o Plen\u00e1ria da VIII C\u00fapula Luso Brasileira\n - Assinatura de Atos\n - Confer\u00eancia de Imprensa\n - Almo\u00e7o oferecido pelo primeiro-ministro de Portugal, em homenagem ao Presidente da Rep\u00fablica\n - Entrega do Pr\u00eamio Lu\u00eds de Cam\u00f5es \u00e0 senhora Lygia Fagundes Telles\n - Encontro com representantes da comunidade brasileira",
         "Host": [
             [
-                {
-                    "figure": "Jos\u00e9 S\u00f3crates",
-                    "country": "Portugal",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "JS3"
             ]
         ],
         "Period": "12 e 13 de Outubro",
@@ -584,50 +323,19 @@
         "Overview": " - Chegada a Salamanca\n - Assinatura de Memorando de Entendimento para a restaura\u00e7\u00e3o do Pal\u00e1cio Maldonado, futura sede da Funda\u00e7\u00e3o Cultural Hispano-Brasileira e  do Centro de Estudos Brasileiros\n - Cumprimentos de boas-vindas dos Reis da Espanha aos Chefes de Estado e de Governo e Senhoras\n - Recep\u00e7\u00e3o em homenagem aos Chefes de Estado e de Governo e ao Secret\u00e1rio-Geral Ibero-Americano oferecida pelos participantes do I Encontro C\u00edvico e do I Encontro Empresarial Ibero-Americanos\n - Cerim\u00f4nia de descerramento da placa comemorativa da XV C\u00fapula Ibero-Americana\n - Almo\u00e7o oferecido pelo Rei da Espanha, Juan Carlos I\n - Foto oficial\n - Cerim\u00f4nia de abertura da XV C\u00fapula Ibero-Americana\n - Primeira Sess\u00e3o de Trabalho dos Chefes de Estado e de Governo\n - Encontro com Luis Alberto Moreno, presidente do Banco Interamericano de\n - Desenvolvimento - BID\n - Jantar oferecido pelos Reis da Espanha\n - Encontro com Javier Solana, Alto Comiss\u00e1rio de Pol\u00edtica Exterior e de Seguran\u00e7a da Uni\u00e3o Europ\u00e9ia\n - Segunda Sess\u00e3o de Trabalho dos Chefes de Estado e de Governo\n - Encontro com Dur\u00e3o Barroso,  presidente da Comiss\u00e3o Europ\u00e9ia\n - Encontro com Kofi Annan,  secret\u00e1rio-geral da Organiza\u00e7\u00e3o das Na\u00e7\u00f5es Unidas\n - Terceira Sess\u00e3o de Trabalho dos Chefes de Estado e de Governo\n - Almo\u00e7o oferecido pelo Rei da Espanha\n - Encontro com Abel Pacheco,  presidente da Costa Rica\n - Quarta Sess\u00e3o de Trabalho dos Chefes de Estado e de Governo\n - Cerim\u00f4nia de Encerramento da XV C\u00fapula Ibero-Americana",
         "Host": [
             [
-                {
-                    "figure": "Juan Carlos",
-                    "country": "Spain",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "JU1"
             ],
             [
-                {
-                    "figure": "Luis Alberto Moreno",
-                    "country": "---entity",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "LM1"
             ],
             [
-                {
-                    "figure": "Jos\u00e9 Manuel Dur\u00e3o Barroso",
-                    "country": "European Commission",
-                    "posts": [
-                        "Political/Agency Leader",
-                        "CEO/Executive"
-                    ]
-                }
+                "JB1"
             ],
             [
-                {
-                    "figure": "Kofi Annan",
-                    "country": "United Nations",
-                    "posts": [
-                        "Secretary-general"
-                    ]
-                }
+                "KO2"
             ],
             [
-                {
-                    "figure": "Abel Pacheco",
-                    "country": "Costa Rica",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "AB5"
             ]
         ],
         "Period": "13, 14 e 15 de Outubro",
@@ -647,33 +355,13 @@
         "Overview": " - Chegada  a Moscou/R\u00fassia\n - Cerim\u00f4nia de Oferenda Floral no T\u00famulo do Soldado Desconhecido\n - Encontro privado com o presidente da Federa\u00e7\u00e3o Russa, Vladimir Putin\n - Reuni\u00e3o Ampliada\n - Cerim\u00f4nia de Assinatura de Atos\n - Declara\u00e7\u00e3o \u00e0 Imprensa\n - Almo\u00e7o privado\n - Encontro com a comunidade brasileira em Moscou\n - Encontro privado com o presidente da Federa\u00e7\u00e3o Russa,Vladimir e senhora Lyudmila Putin\n - Jantar oferecido pelo presidente da Federa\u00e7\u00e3o Russa, Vladimir Putin",
         "Host": [
             [
-                {
-                    "figure": "Vladimir Putin",
-                    "country": "Russia",
-                    "posts": [
-                        "Prime-minister",
-                        "President"
-                    ]
-                }
+                "VL1"
             ],
             [
-                {
-                    "figure": "Lyudmila Putin",
-                    "country": "Russia",
-                    "posts": [
-                        "First-spouse"
-                    ]
-                }
+                "LY1"
             ],
             [
-                {
-                    "figure": "Vladimir Putin",
-                    "country": "Russia",
-                    "posts": [
-                        "Prime-minister",
-                        "President"
-                    ]
-                }
+                "VL1"
             ]
         ],
         "Period": "17 e 18 Outubro",
@@ -685,31 +373,13 @@
         "Overview": " - Cerim\u00f4nia de abertura da IV C\u00fapula das Am\u00e9ricas\n - Ato Cultural\n - I Sess\u00e3o Plen\u00e1ria \"Crear Trabajo Decente\"\n - Encontro com Vicente Fox, presidente dos Estados Unidos Mexicanos\n - Jantar oferecido pelo presidente da Rep\u00fablica Argentina, N\u00e9stor Kirchner, aos Chefes de Estado e de Governo\n - Audi\u00eancia ao senhor Alfredo Palacio, presidente da Rep\u00fablica do Equador\n - II Sess\u00e3o Plen\u00e1ria  \"Crear Trabajo para Enfrentar la Pobreza\"\n - Audi\u00eancia ao senhor Paul Martin, primeiro-Ministro do Canad\u00e1\n - III Sess\u00e3o Plen\u00e1ria \"Crear Trabajo para Fortalecer la Governabilidade Democr\u00e1tica\"\n - Cerim\u00f4nia de encerramento da IV C\u00fapula das Am\u00e9ricas e Cerim\u00f4nia de Ado\u00e7\u00e3o da Declara\u00e7\u00e3o de Mar del Plata",
         "Host": [
             [
-                {
-                    "figure": "Vicente Fox",
-                    "country": "Mexico",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "VI1"
             ],
             [
-                {
-                    "figure": "Alfredo Palacio",
-                    "country": "Ecuador",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "AL5"
             ],
             [
-                {
-                    "figure": "Paul Martin",
-                    "country": "Canada",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "PA7"
             ]
         ],
         "Period": "04 e 05 Novembro",
@@ -729,22 +399,10 @@
         "Overview": " - Encontro com o presidente do Paraguai, Nicanor Duarte Frutos\n - Jantar oferecido pelo presidente do Uruguai, Tabar\u00e9 V\u00e1squez\n - Foto Oficial\n - Reuni\u00e3o de C\u00fapula do Mercosul\n - Encontro presidencial tripartite entre Brasil, Argentina e Venezuela\n - Almo\u00e7o\n - Reuni\u00e3o Extraordin\u00e1ria da Comunidade Sul-Americana de Na\u00e7\u00f5es",
         "Host": [
             [
-                {
-                    "figure": "Nicanor Duarte Frutos",
-                    "country": "Paraguay",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "NI1"
             ],
             [
-                {
-                    "figure": "Tabar\u00e9 V\u00e1zquez",
-                    "country": "Uruguay",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "TA2"
             ]
         ],
         "Period": "08 e 09 Dezembro",
@@ -756,13 +414,7 @@
         "Overview": " - Chegada a Bogot\u00e1\n - Cerim\u00f4nia oficial de chegada\n - Visita \u00e0 Quinta de Bol\u00edvar\n - Visita \u00e0 Prefeitura de Bogot\u00e1\n - Encontro privado com o Presidente da Rep\u00fablica da Col\u00f4mbia, \u00c1lvaro Uribe\n - Cerim\u00f4nia de Assinatura de Atos\n - Almo\u00e7o em homenagem ao Presidente da Rep\u00fablica, oferecido pelo Presidente da Rep\u00fablica da Col\u00f4mbia, seguido de condecora\u00e7\u00e3o do presidente Lula com a \u201cOrden de Boyac\u00e1 en el Grado de Gran Collar\u201d\n - Declara\u00e7\u00e3o conjunta \u00e0 imprensa\n - Cerim\u00f4nia de Despedida\n - Visita \u00e0 Corte Suprema\n - Visita ao Congresso Nacional da Col\u00f4mbia",
         "Host": [
             [
-                {
-                    "figure": "\u00c1lvaro Uribe V\u00e9lez",
-                    "country": "Colombia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "AV1"
             ]
         ],
         "Period": "13 e 14 Dezembro",

@@ -3,11 +3,13 @@ import pandas as pd
 from streamlit_folium import st_folium
 import folium
 import json
+import app_statics
 import codecs
 import logging
 import os
+from collections import Counter
 
-logging.info('Viz Log Start')
+logging.debug('Viz Log Start')
 
 TITLE = 'Diplomatic Footprint'
 SUB_TITLE = "Visualizing Brazilian presidential trips and bilateral meetings over time"
@@ -68,7 +70,7 @@ def create_map(data, pres, geo_data):
         line_opacity=1.0,
         legend_name='Number of visits',
         highlight=True,
-        #bins=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        # bins=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     ).add_to(m)
 
     colormap = layer.color_scale
@@ -86,14 +88,15 @@ def create_map(data, pres, geo_data):
     return active_country, df_filtered
 
 
-def stats_from_pres(df_visits, term):
+def trip_stats_from_pres(df_visits, term):
     df_president = df_visits[df_visits["president"] == term]
     num_distinct_countries = df_president["Country"].nunique()
     president_groupby_year = df_president.groupby(["year"])
     visits_per_year = president_groupby_year.size()
     most_visits_year = visits_per_year.idxmax()
     most_visits = visits_per_year.max()
-    return "{:.2f}".format(president_groupby_year.size().mean()), str(most_visits_year) + " [" + str(most_visits) + "]", str(
+    return "{:.1f}".format(president_groupby_year.size().mean()), str(most_visits_year) + " [" + str(
+        most_visits) + "]", str(
         num_distinct_countries)
 
 
@@ -103,18 +106,36 @@ def display_presidential_sidebar(df_visits):
         'Select a Presidential term and click on a country to visualize the details of each state visit.',
         presidents_info, 0)
     logging.info(f'President filter: {term_selected} ')
+    # st.sidebar.markdown("---")
+    # st.sidebar.markdown("### Party : {party}".format(party=presidents_info[term_selected]["party"]))
+    # for position in presidents_info[term_selected]["political position"]:
+    #    st.sidebar.markdown("- [{text}]({url})".format(text=position[0], url=position[1]))
     st.sidebar.markdown("---")
-    st.sidebar.markdown("### Party : {party}".format(party=presidents_info[term_selected]["party"]))
-    for position in presidents_info[term_selected]["political position"]:
-        st.sidebar.markdown("- [{text}]({url})".format(text=position[0], url=position[1]))
-    st.sidebar.markdown("---")
-    visits_per_year, most_visits_year, distinct_countries = stats_from_pres(df_visits, term_selected)
+    visits_per_year, most_visits_year, distinct_countries = trip_stats_from_pres(df_visits, term_selected)
     st.sidebar.subheader("Overview of International Trips")
     st.sidebar.metric(label="Average Visits per Year", value=visits_per_year)
     st.sidebar.metric(label="Busiest Year [Countries Visited]", value=most_visits_year)
     st.sidebar.metric(label="Total Countries Visited", value=distinct_countries)
     st.sidebar.markdown("---")
-    st.sidebar.markdown("Author: [{text}]({url})".format(text="Gabriel Benevides", url="https://www.linkedin.com/in/gabriel-benevides/"))
+    combined_counts, avg_meetings_year = meeting_stats_from_pres(df_visits, term_selected)
+    st.sidebar.subheader("Overview of Bilateral Meetings and Encounters")
+    st.sidebar.metric(label="Average Meetings per Year", value=round(avg_meetings_year, 1))
+    st.sidebar.metric(label="Average Meetings per Visit", value=0)
+    st.sidebar.markdown("Most Frequent Encounters")
+    combined_counts = {entry: count for entry, count in combined_counts.items() if count > 1}
+    top_entries = Counter(combined_counts).most_common(5)
+    transform_for_table = {
+        app_statics.leaders_mapping[key]['figure']: [app_statics.leaders_mapping[key]['country'], value] for key, value
+        in top_entries}
+    table_data = []
+    for leader, data in transform_for_table.items():
+        table_data.append([leader, data[0], data[1]])
+    df = pd.DataFrame(table_data, columns=["Name", "Country / Institution", "Frequency"])
+    st.sidebar.dataframe(df, hide_index=True, use_container_width=False)
+
+    st.sidebar.markdown("---")
+    st.sidebar.markdown("Author: [{text}]({url})".format(text="Gabriel Benevides",
+                                                         url="https://www.linkedin.com/in/gabriel-benevides/"))
     return term_selected
 
 
@@ -132,10 +153,76 @@ def on_country_click(country, df):
                 region = str(row["City/region"])
                 year = str(row['year'])
                 expander = st.expander(year + ": " + region + " - " + period)
+                # overview_col, meetings_col = expander.columns([2, 1])
+                agenda_tab, meetings_summary_tab = expander.tabs(['Agenda', 'Meetings Summary'])
+
                 overview_of_trip = row['Overview'].lstrip('\n\r').replace("", '"').replace("", '"')
+                meetings_in_visit_set = {}
                 for line in overview_of_trip.splitlines():  # Normalize newline breaks !
-                    expander.write(line)
-                # expander.write(clean_overview_of_trip)
+                    agenda_tab.write(line)
+                    for instance in row["Host"]:
+                        for key in instance:
+                            leader = app_statics.leaders_mapping[key]
+                            meetings_in_visit_set[leader['figure']] = [leader['country'], leader["posts"]]
+                if len(meetings_in_visit_set) > 0:
+                    df = pd.DataFrame([[key, value[1], value[0]] for key, value in meetings_in_visit_set.items()],
+                                      columns=["Name", "Post", "Country / Institution"])
+                    print("data:", df)
+                    meetings_summary_tab.dataframe(df, hide_index=True, use_container_width=False)
+                else:
+                    meetings_summary_tab.write("No bilateral meetings / private encounters.")
+                # TODO Unit test Russia
+
+
+def load_data(data_path, start_year, end_year, name_prefix):
+    years_data = []
+    data_extension = '.json'  # json / csv
+    encoding = "utf-8"  # utf-8 / unicode_escape
+    for i in range(start_year, end_year):
+        path = data_path + "/" + name_prefix + '_official_visits-' + str(i) + data_extension
+        years_data.append(pd.read_json(path, encoding=encoding))
+    return pd.concat(years_data)
+
+
+def meeting_stats_from_pres(df, term, distinct_hosts_by_entry=True):
+    df_president = df[df["president"] == term]
+    ranges = {
+        LULA_KEY: range(2004, 2011),
+        DILMA_KEY: range(2011, 2017),
+        TEMER_KEY: range(2017, 2019)
+    }
+    total_meetings = 0
+    combined_counts = Counter()
+    for year in ranges[term]:
+        df_year = df_president[df_president["year"] == year]
+        meetings_in_trip, sorted_host_code_counts, codes_with_max_count = meetings_stats_by_year(df_year,
+                                                                                                 distinct_hosts_by_entry)
+        total_meetings += meetings_in_trip
+        combined_counts += Counter(sorted_host_code_counts)
+    avg_meetings_year = total_meetings / len(ranges[term])
+    return combined_counts, avg_meetings_year
+
+
+def meetings_stats_by_year(df, distinct_hosts_by_entry=True):
+    # Distinct hosts and Individual hosts
+    # We want distinct hosts by visit
+    # Iterate over each row in the DataFrame
+    host_code_counts = {}
+    meetings_in_trip = 0
+    for c, row in df.iterrows():
+        hosts = row['Host']
+        hosts_by_entry = sum(hosts, [])
+        if distinct_hosts_by_entry:
+            hosts_by_entry = set(hosts_by_entry)  # Flatten the host list and remove duplicates
+        # Increment the count for each host code
+        meetings_in_trip += len(hosts_by_entry)
+        for host_code in hosts_by_entry:
+            host_code_counts[host_code] = host_code_counts.get(host_code, 0) + 1
+    sorted_host_code_counts = dict(sorted(host_code_counts.items(), key=lambda x: x[1], reverse=True))
+    max_count = max(sorted_host_code_counts.values())
+    codes_with_max_count = [code for code, count in sorted_host_code_counts.items() if count == max_count]
+
+    return meetings_in_trip, sorted_host_code_counts, codes_with_max_count
 
 
 def main():
@@ -153,31 +240,18 @@ def main():
                 </style>
                 ''', unsafe_allow_html=True)
 
-    # Load Data - Lula
-    df_visits_lula_2004 = pd.read_csv('data/Lula_official_visits-2004.csv', encoding='unicode_escape')
-    df_visits_lula_2005 = pd.read_csv('data/Lula_official_visits-2005.csv', encoding='unicode_escape')
-    df_visits_lula_2006 = pd.read_csv('data/Lula_official_visits-2006.csv', encoding='unicode_escape')
-    df_visits_lula_2007 = pd.read_csv('data/Lula_official_visits-2007.csv', encoding='unicode_escape')
-    df_visits_lula_2008 = pd.read_csv('data/Lula_official_visits-2008.csv', encoding='unicode_escape')
-    df_visits_lula_2009 = pd.read_csv('data/Lula_official_visits-2009.csv', encoding='unicode_escape')
-    df_visits_lula_2010 = pd.read_csv('data/Lula_official_visits-2010.csv', encoding='unicode_escape')
-    df_visits_lula = pd.concat([df_visits_lula_2004,df_visits_lula_2005, df_visits_lula_2006, df_visits_lula_2007, df_visits_lula_2008, df_visits_lula_2009, df_visits_lula_2010])
+    # Load Data
+    data_path = 'data'
+    # Lula
+    df_visits_lula = load_data(data_path, 2004, 2011, "Lula")
     df_visits_lula["president"] = LULA_KEY
 
-    # Load Data - Dilma
-    df_dilma11 = pd.read_csv('data/Dilma_official_visits-2011.csv', encoding='unicode_escape')
-    df_dilma12 = pd.read_csv('data/Dilma_official_visits-2012.csv', encoding='unicode_escape')
-    df_dilma13 = pd.read_csv('data/Dilma_official_visits-2013.csv', encoding='unicode_escape')
-    df_dilma14 = pd.read_csv('data/Dilma_official_visits-2014.csv', encoding='unicode_escape')
-    df_dilma15 = pd.read_csv('data/Dilma_official_visits-2015.csv', encoding='unicode_escape')
-    df_dilma16 = pd.read_csv('data/Dilma_official_visits-2016.csv', encoding='unicode_escape')
-    df_dilma = pd.concat([df_dilma11, df_dilma12, df_dilma13, df_dilma14, df_dilma15, df_dilma16])
+    # Dilma
+    df_dilma = load_data(data_path, 2011, 2017, "Dilma")
     df_dilma["president"] = DILMA_KEY
 
-    # Load Data - Temer
-    df_visits_temer_2017 = pd.read_csv('data/Temer_official_visits-2017.csv', encoding='unicode_escape')
-    df_visits_temer_2018 = pd.read_csv('data/Temer_official_visits-2018.csv', encoding='unicode_escape')
-    df_visits_temer = pd.concat([df_visits_temer_2017, df_visits_temer_2018])
+    # Temer
+    df_visits_temer = load_data(data_path, 2017, 2019, "Temer")
     df_visits_temer["president"] = TEMER_KEY
 
     # Join Data
@@ -204,7 +278,7 @@ def main():
 
 if __name__ == "__main__":
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    #logging.info('Cwd: ' + dir_path)
-    #logging.info('List dir: ')
-    #for s in os.listdir(): logging.info(s)
+    logging.info('Cwd: ' + dir_path)
+    # logging.info('List dir: ')
+    # for s in os.listdir(): logging.info(s)
     main()

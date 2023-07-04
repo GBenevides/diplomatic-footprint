@@ -12,22 +12,10 @@
         "Overview": " - 2\u00aa Sess\u00e3o Plen\u00e1ria da III C\u00fapula da Comunidade de Estados Latino-Americanos e Caribenhos (CELAC)\n - Encontro com o Presidente da Rep\u00fablica da  Col\u00f4mbia, Juan Manoel Santos\n - Encontro com o Presidente da Rep\u00fablica do  Panam\u00e1, Juan Carlos Varela\n - Jantar em homenagem aos Chefes de Estado e de  Governo da CELAC, oferecido pelo  Presidente da  Rep\u00fablica da Costa Rica, Luis Guillermo Solis Rivera\n - Retiro dos Chefes de Estado, de Governo e Chanceleres da III C\u00fapula da Comunidade de Estados Latino-Americanos e Caribenhos (CELAC)",
         "Host": [
             [
-                {
-                    "figure": "Juan Manuel Santos",
-                    "country": "Colombia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JU2"
             ],
             [
-                {
-                    "figure": "Juan Carlos Varela",
-                    "country": "Panama",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JU4"
             ]
         ],
         "Period": "28 e 29 de Janeiro",
@@ -39,20 +27,8 @@
         "Overview": " - Cerim\u00f4nia de Inaugura\u00e7\u00e3o do Parque E\u00f3lico Artilleros\n - Almo\u00e7o oferecido pelo Presidente do Uruguai, Jos\u00e9 Mujica, e pela Senadora Lucia Topolansky\n - [Montevideo]\n - Sess\u00e3o Solene de Compromisso de Honra e Declara\u00e7\u00e3o de Fidelidade Constitucional\n - Cerim\u00f4nia de Transmiss\u00e3o de Mandato Presidencial",
         "Host": [
             [
-                {
-                    "figure": "Jos\u00e9 Mujica",
-                    "country": "Uruguay",
-                    "posts": [
-                        "President"
-                    ]
-                },
-                {
-                    "figure": "Lucia Topolansky",
-                    "country": "Uruguay",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "JO5",
+                "LU2"
             ]
         ],
         "Period": "28 de Fevereiro",
@@ -64,49 +40,19 @@
         "Overview": " - Encontro bilateral com o Presidente do M\u00e9xico, Enrique Pe\u00f1a Nieto\n - Painel do Foro Empresarial das Am\u00e9ricas - Unindo as Am\u00e9ricas: Integra\u00e7\u00e3o Produtiva para o Desenvolvimento Inclusivo\n - Presidente do Facebook, Mark Zuckerberg\n - Secret\u00e1rio-Geral da ONU, Ban Ki-moon\n - Encontro bilateral com o Presidente da Col\u00f4mbia, Juan Manuel Santos\n - Cerim\u00f4nia Inaugural da VII C\u00fapula das Am\u00e9ricas\n - Jantar oferecido aos Chefes de Estado e de Governo da C\u00fapula das Am\u00e9ricas pelo Presidente do Panam\u00e1, Juan Carlos Varela Rodrigues, e Senhora Lorena Castillo de Varela\n - Encontro bilateral com a Presidenta da Rep\u00fablica da Argentina, Cristina Fern\u00e1ndez de Kirchner",
         "Host": [
             [
-                {
-                    "figure": "Enrique Pe\u00f1a Nieto",
-                    "country": "Mexico",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "EN1"
             ],
             [
-                {
-                    "figure": "Mark Zuckerberg",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                }
+                "MA10"
             ],
             [
-                {
-                    "figure": "Ban Ki-moon",
-                    "country": "United Nations",
-                    "posts": [
-                        "Secretary-general"
-                    ]
-                }
+                "BK1"
             ],
             [
-                {
-                    "figure": "Juan Manuel Santos",
-                    "country": "Colombia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "JU2"
             ],
             [
-                {
-                    "figure": "Cristina Kirchner",
-                    "country": "Argentina",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "CK1"
             ]
         ],
         "Period": "10 de Abril",
@@ -118,13 +64,7 @@
         "Overview": " - Reuni\u00e3o com empres\u00e1rios brasileiros\n - Cerim\u00f4nia de deposi\u00e7\u00e3o de oferenda floral\n - Cerim\u00f4nia oficial de chegada\n - Reuni\u00e3o privada\n - Fotografia oficial\n - Reuni\u00e3o ampliada\n - Cerim\u00f4nia de assinatura de atos e declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o oferecido pelo presidente do M\u00e9xico, Enrique Pe\u00f1a Nieto\n - Encerramento do Encontro Empresarial Brasil-M\u00e9xico\n - Entrevista \u00e0 Ag\u00eancia de Not\u00edcias do Estado Mexicano - Notimex\n - Entrevista coletiva\n - Sess\u00e3o solene da Comiss\u00e3o Permanente do Congresso da Uni\u00e3o em homenagem \u00e0 Presidenta da Rep\u00fablica",
         "Host": [
             [
-                {
-                    "figure": "Enrique Pe\u00f1a Nieto",
-                    "country": "Mexico",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "EN1"
             ]
         ],
         "Period": "26 e 27 de Maio",
@@ -144,85 +84,31 @@
         "Overview": " - Chegada a Nova Iorque\n - Encontro com empres\u00e1rios brasileiros\n - Reuni\u00e3o com Rupert Murdoch e diretores da News Corporation The Wall Street Journal\n - Encontro com investidores do setor financeiro\n - Encontro com empres\u00e1rios do setor produtivo\n - Audi\u00eancia concedida a Henry Kissinger\n - Encerramento de Encontro Empresarial sobre Oportunidades de Investimento em Infraestrutura no Brasil\n - Partida de Nova Iorque para Washington\n - [Washington]\n - Reuni\u00e3o de trabalho com o presidente dos Estados Unidos da Am\u00e9rica, Barack Obama\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o oferecido pelo vice-presidente dos Estados Unidos da Am\u00e9rica, Joseph Biden\n - Encontro com a ex-secret\u00e1ria de Estado, Madeleine Albright\n - Encerramento da C\u00fapula Empresarial Brasil-Estados Unidos\n - Partida de Washington para S\u00e3o Francisco\n - [San Francisco]\n - Encontro com a Presidente da Universidade da Calif\u00f3rnia, Janet Napolitano\n - Reuni\u00e3o com o Presidente Executivo do Google, Erick Schmidt\n - Visita ao Complexo Google\n - Encontro com a senhora Condoleezza Rice\n - Almo\u00e7o em homenagem \u00e0 Presidenta da Rep\u00fablica, oferecido pela senhora Condoleezza Rice Partida de S\u00e3o Francisco para Bras\u00edlia\n - Reuni\u00e3o com o presidente do SRI International, Bill Jeffrey\n - Reuni\u00e3o com empres\u00e1rios do setor aeroespacial\n - Visita ao Centro de Pesquisas da NASA",
         "Host": [
             [
-                {
-                    "figure": "Rupert Murdoch",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                }
+                "RU2"
             ],
             [
-                {
-                    "figure": "Henry Kissinger",
-                    "country": "United States of America",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "HE3"
             ],
             [
-                {
-                    "figure": "Barack Obama",
-                    "country": "United States of America",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "BO1"
             ],
             [
-                {
-                    "figure": "Joseph Biden",
-                    "country": "United States of America",
-                    "posts": [
-                        "Vice-president"
-                    ]
-                }
+                "JO7"
             ],
             [
-                {
-                    "figure": "Madeleine Albright",
-                    "country": "United States of America",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "MA12"
             ],
             [
-                {
-                    "figure": "Janet Napolitano",
-                    "country": "---University of California",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "JA4"
             ],
             [
-                {
-                    "figure": "Erick Schmidt",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                }
+                "ER3"
             ],
             [
-                {
-                    "figure": "Condoleezza Rice",
-                    "country": "United States of America",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "CO1"
             ],
             [
-                {
-                    "figure": "Bill Jeffrey",
-                    "country": "---SRI International",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "BI2"
             ]
         ],
         "Period": "27, 28 e 29 de Junho",
@@ -234,51 +120,19 @@
         "Overview": " - Partida para a R\u00fassia\n - Chegada a Ufa/R\u00fassia\n - Jantar oferecido pelo presidente da Federa\u00e7\u00e3o da   R\u00fassia, Vladimir Putin, em homenagem aos Chefes   de Estado e de Governo do BRICS\n - Encontro com o presidente da Federa\u00e7\u00e3o da   R\u00fassia, Vladimir Putin\n - Encontro com o senhor Nursultan Nazarbayev,   Presidente da Rep\u00fablica do Cazaquist\u00e3o\n - Encontro com o senhor Alexander Lukashenko,   Presidente da Rep\u00fablica de Belarus\n - Encontro dos Chefes de Estado e de Governo do   BRICS com o Conselho Empresarial do BRICS\n - Fotografia oficial\n - Encontro privado dos Chefes de Estado e de Governo   do BRICS\n - Almo\u00e7o de trabalho dos Chefes de Estado e de   Governo do BRICS - Sess\u00e3o Plen\u00e1ria dos Chefes de Estado e de Governo   do BRICS\n - Cerim\u00f4nia de Assinatura de Atos\n - Encontro bilateral com o Presidente da Rep\u00fablica   Popular da China, Xi Jinping\n - Encontro bilateral com o primeiro-ministro da   \u00cdndia, Narendra Modri - Fotografia oficial\n - Reuni\u00e3o dos Chefes de Estado e de Governo do   BRICS com os pa\u00edses convidados - Concerto-jantar oferecido pelo presidente da Federa\u00e7\u00e3o   da R\u00fassia, Vladimir Putin, em homenagem aos Chefes de Estado e de Governo do BRICS e da Organiza\u00e7\u00e3o de Coopera\u00e7\u00e3o de Xangai",
         "Host": [
             [
-                {
-                    "figure": "Vladimir Putin",
-                    "country": "Russia",
-                    "posts": [
-                        "Prime-minister",
-                        "President"
-                    ]
-                }
+                "VL1"
             ],
             [
-                {
-                    "figure": "Nursultan Nazarbayev",
-                    "country": "Kazakhstan",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "NN1"
             ],
             [
-                {
-                    "figure": "Alexander Lukashenko",
-                    "country": "Belarus",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "AL3"
             ],
             [
-                {
-                    "figure": "Xi Jinping",
-                    "country": "China",
-                    "posts": [
-                        "Vice-president",
-                        "President"
-                    ]
-                }
+                "XJ1"
             ],
             [
-                {
-                    "figure": "Narendra Modi",
-                    "country": "India",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "NA1"
             ]
         ],
         "Period": "07 \u00c0 09 de Julho",
@@ -290,40 +144,16 @@
         "Overview": " - [Rome]\n - Encontro com o Presidente da Rep\u00fablica Italiana, Sergio Mattarella\n - Almo\u00e7o oferecido pelo Presidente da Rep\u00fablica Italiana, Sergio Mattarella\n - Audi\u00eancia concedida ao Diretor-Geral da FAO,  Jos\u00e9 Graziano\n - Reuni\u00e3o de trabalho com o Primeiro-Ministro da Rep\u00fablica Italiana, Matteo Renzi\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - [Milan]\n - Visita ao Pavilh\u00e3o do Brasil na Expo Mil\u00e3o 201\n - Visita ao Pavilh\u00e3o Zero, Divinus habilitus terrae, da Expo Mil\u00e3o 201\n - Partida de Mil\u00e3o para Bras\u00edlia",
         "Host": [
             [
-                {
-                    "figure": "Sergio Mattarella",
-                    "country": "Italy",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "SE2"
             ],
             [
-                {
-                    "figure": "Sergio Mattarella",
-                    "country": "Italy",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "SE2"
             ],
             [
-                {
-                    "figure": "Jos\u00e9 Graziano",
-                    "country": "---FAO",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                }
+                "JO8"
             ],
             [
-                {
-                    "figure": "Matteo Renzi",
-                    "country": "Italy",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "MA11"
             ]
         ],
         "Period": "10 e 11 de Julho",
@@ -335,38 +165,14 @@
         "Overview": " - Discurso do Papa Francisco nas Na\u00e7\u00f5es Unidas\n - Abertura da Confer\u00eancia das Na\u00e7\u00f5es Unidas para a Agenda  de Desenvolvimento P\u00f3s- 201\n - Entrevista \u00e0 CNN\n - Encontro com o presidente da Rep\u00fablica Isl\u00e2mica do Ir\u00e3, Hassan Rohani\n - Recep\u00e7\u00e3o oferecida pelo Primeiro-Ministro do Reino da Su\u00e9cia,  Stefan L\u00f6fven, em apoio \u00e0 implementa\u00e7\u00e3o da Agenda de Desenvolvimento P\u00f3s-201\n - Reuni\u00e3o de C\u00fapula do G4\n - Sess\u00e3o Plen\u00e1ria da Confer\u00eancia das Na\u00e7\u00f5es Unidas  para a Agenda de Desenvolvimento P\u00f3s-201\n - Encontro de l\u00edderes globais sobre igualdade de  g\u00eanero e empoderamento das mulheres: um  compromisso para a a\u00e7\u00e3o\n - Almo\u00e7o de trabalho sobre Mudan\u00e7a do Clima,   promovido pelo presidente da Rep\u00fablica Francesa, Fran\u00e7ois Hollande, pelo presidente  da Rep\u00fablica do Peru, Ollanta Humala, e pelo  Secret\u00e1rio-Geral das Na\u00e7\u00f5es Unidas, Ban  Ki-moon\n - Audi\u00eancia concedida ao senhor Bill Gates e  \u00e0 senhora Melinda Gates, da Bill & Melinda Gates Foundation\n - Encontro com o Secret\u00e1rio-Geral das Na\u00e7\u00f5es Unidas, Ban Ki-Moon\n - Abertura do Debate de Alto N\u00edvel da 70\u00aa Assembleia-Geral das Na\u00e7\u00f5es Unidas\n - Partida para Bras\u00edlia",
         "Host": [
             [
-                {
-                    "figure": "Hassan Rohani",
-                    "country": "Iran",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "HA7"
             ],
             [
-                {
-                    "figure": "Bill Gates",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                },
-                {
-                    "figure": "Melinda Gates",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                }
+                "BI3",
+                "ME1"
             ],
             [
-                {
-                    "figure": "Ban Ki-moon",
-                    "country": "United Nations",
-                    "posts": [
-                        "Secretary-general"
-                    ]
-                }
+                "BK1"
             ]
         ],
         "Period": "25 a 28 de Setembro",
@@ -386,29 +192,11 @@
         "Overview": " - Encontro com Suas Majestades o Rei Carlos XVI Gustavo e a Rainha S\u00edlvia\n - Encontro com empres\u00e1rios brasileiros\n - Encontro com o primeiro-ministro da Su\u00e9cia, Stefan L\u00f6fven\n - Reuni\u00e3o com o Conselho Empresarial Brasil-Su\u00e9cia\n - Cerim\u00f4nia de abertura do Semin\u00e1rio Empresarial\n - Reuni\u00e3o ampliada\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Almo\u00e7o oferecido pela presidente do Conselho da Cidade e pela prefeita de Estocolmo\n - Visita ao Instituto Real de Tecnologia (KTH)\n - Visita \u00e0 sede da Ericson\n - Partida de Estocolmo para Link\u00f6ping\n - [Link\u00f6ping]\n - Visita \u00e0 SAAB",
         "Host": [
             [
-                {
-                    "figure": "Carl Gustaf",
-                    "country": "Sweden",
-                    "posts": [
-                        "Monarch"
-                    ]
-                },
-                {
-                    "figure": "Queen Silvia",
-                    "country": "Sweden",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "CG1",
+                "SI1"
             ],
             [
-                {
-                    "figure": "Stefan L\u00f6fven",
-                    "country": "Sweden",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "ST2"
             ]
         ],
         "Period": "18 e 19 de Outubro",
@@ -428,40 +216,14 @@
         "Overview": " - Jantar oferecido pelo Presidente da Rep\u00fablica da Turquia, Recep Tayyip Erdogan e senhora Emine Erdogan, em homenagem aos Chefes de Estado e de Governo participantes da C\u00fapula do G\n - Reuni\u00e3o de L\u00edderes dos Brics\n - Cerim\u00f4nia de Boas Vindas \u00e0 C\u00fapula do G\n - Fotografia oficial do G\n - Almo\u00e7o de trabalho oferecido pelo Presidente da Rep\u00fablica da Turquia, Recep Tayyip Erdogan\n - Primeira Sess\u00e3o de Trabalho da C\u00fapula do G\n - Recep\u00e7\u00e3o oferecida pelo Primeiro-Ministro da Rep\u00fablica da Turquia, Ahmet Davutoglu e senhora Sare Davutoglu\n - Jantar de trabalho oferecido pelo Presidente da Rep\u00fablica da Turquia, Recep Tayyip Erdogan\n - Segunda Sess\u00e3o de Trabalho da C\u00fapula do G\n - Partida para Bras\u00edlia",
         "Host": [
             [
-                {
-                    "figure": "Recep Tayyip Erdogan",
-                    "country": "Turkey",
-                    "posts": [
-                        "Prime-minister",
-                        "President"
-                    ]
-                }
+                "RE1"
             ],
             [
-                {
-                    "figure": "Ahmet Davutoglu",
-                    "country": "Turkey",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                },
-                {
-                    "figure": "Sare Davutoglu",
-                    "country": "Turkey",
-                    "posts": [
-                        "First-spouse"
-                    ]
-                }
+                "AH1",
+                "SA4"
             ],
             [
-                {
-                    "figure": "Recep Tayyip Erdogan",
-                    "country": "Turkey",
-                    "posts": [
-                        "Prime-minister",
-                        "President"
-                    ]
-                }
+                "RE1"
             ]
         ],
         "Period": "14 a 16 de Novembro",
@@ -473,39 +235,14 @@
         "Overview": " - Chegada a Paris\n - Encontro bilateral com a primeira-ministra do Reino da Noruega, Erna Solberg\n - Encontro bilateral com o presidente da Bol\u00edvia, Evo Morales\n - Reuni\u00e3o com Jean-Claude Junker, presidente da Comiss\u00e3o Europeia, e com Donald Tusk, Presidente do Conselho Europeu\n - Sess\u00e3o de Abertura da 21\u00ba Confer\u00eancia das Partes da Conven\u00e7\u00e3o-Quadro das Na\u00e7\u00f5es Unidas sobre a Mudan\u00e7a do Clima - COP21\n - Fotografia oficial da COP21\n - Sess\u00e3o de trabalho da COP21\n - Almo\u00e7o em homenagem aos Chefes de Estado e de Governo, oferecido pelo Presidente da Fran\u00e7a, Fran\u00e7ois Hollande\n - Sess\u00e3o de trabalho da COP21\n - Partida de Paris para Bras\u00edlia",
         "Host": [
             [
-                {
-                    "figure": "Erna Solberg",
-                    "country": "Norway",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "ER2"
             ],
             [
-                {
-                    "figure": "Evo Morales",
-                    "country": "Bolivia",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "EM1"
             ],
             [
-                {
-                    "figure": "Jean-Claude Junker",
-                    "country": "European Commission",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                },
-                {
-                    "figure": "Donald Tusk",
-                    "country": "Poland",
-                    "posts": [
-                        "Prime-minister",
-                        "Political/Agency Leader"
-                    ]
-                }
+                "JE3",
+                "DO1"
             ]
         ],
         "Period": "28 a 30 de Novembro",

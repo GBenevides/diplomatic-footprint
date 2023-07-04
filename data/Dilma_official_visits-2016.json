@@ -4,13 +4,7 @@
         "Overview": " - Cerim\u00f4nia oficial de chegada\n - Encontro com o senhor Rafael Correa, Presidente da Rep\u00fablica do Equador\n - Reuni\u00e3o ampliada\n - Declara\u00e7\u00e3o \u00e0 imprensa\n - Jantar oferecido pelo senhor Rafael Correa, presidente da Rep\u00fablica do Equador, em homenagem \u00e0 Presidenta da Rep\u00fablica\n - Sess\u00e3o de abertura da IV C\u00fapula de Chefes de Estado e de Governo da Comunidade de\n - Estados Latino-Americanos e Caribenhos - CELAC\n - Fotografia Oficial\n - Retiro dos Chefes de Estado e de Governo\n - Almo\u00e7o oferecido pelo presidente do Equador, Rafael Correa, em homenagem aos Chefes de Estado e de Governo da Celac\n - Partida para Bras\u00edlia",
         "Host": [
             [
-                {
-                    "figure": "Rafael Correa",
-                    "country": "Ecuador",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "RA4"
             ]
         ],
         "Period": "26 e 27 de Janeiro",
@@ -22,22 +16,10 @@
         "Overview": " - Oferenda floral\n - Cerim\u00f4nia Oficial de Chegada\n - Coquetel\n - Almo\u00e7o oferecido pela Presidenta do Chile, Michelle Bachelet, em homenagem \u00e0 Presidenta da Rep\u00fablica\n - Reuni\u00e3o Privada\n - Declara\u00e7\u00e3o \u00e0 Imprensa\n - Encontro com Representantes de Empresas Brasileiras\n - Henrique Cueto, CEO da LATAM\n - Gonzalo Garc\u00eda Balmaceda, Secret\u00e1rio-Geral das Empresas CMPC\n - Visita \u00e0 Comiss\u00e3o Econ\u00f4mica para a Am\u00e9rica Latina e o Caribe-CEPAL\n - Encontro com Economistas da CEPAL",
         "Host": [
             [
-                {
-                    "figure": "Henrique Cueto",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                }
+                "HE4"
             ],
             [
-                {
-                    "figure": "Gonzalo Garc\u00eda Balmaceda",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                }
+                "GO3"
             ]
         ],
         "Period": "26 e 27 de Fevereiro",

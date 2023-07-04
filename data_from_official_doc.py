@@ -23,12 +23,12 @@ def mk_degenerate_cases(year):
         jamaica["City/region"] = "Kingston"
         jamaica["Overview"] = jamaica_visit_2007_overview
         jamaica["Period"] = "9 de Agosto"
-        jamaica["Host"] = ["Host"]
+        jamaica["Host"] = [["TODOTODOTODO"]]
         cases.append(jamaica)
     return cases
 
 
-def generate_csv(path, year, csv_prefix, verbose=False, pdfMiner=False, rearrange=True, testMode=False):
+def generate_csv(path, year, data_path_prefix, verbose=False, pdfMiner=False, rearrange=True, testMode=False):
     pdf_text = convert_pdf_to_txt_pdfminer(path) if pdfMiner else convert_pdf_to_txt_pypdf2(path)
     raw_visits = visits_from_text(pdf_text, year)
     if verbose:
@@ -49,7 +49,7 @@ def generate_csv(path, year, csv_prefix, verbose=False, pdfMiner=False, rearrang
     #         if verbose: print("Writing to csv: ", visit["City/region"], ",", visit["Country"])
     #         writer.writerow(visit)
     if not testMode:
-        with open('data/' + csv_prefix + "-" + year + '.json', 'w') as jsonFile:
+        with open('data/' + data_path_prefix + "-" + year + '.json', 'w') as jsonFile:
             json.dump(visits, jsonFile, indent=4)
     return nb_visits, nb_meetings
 
@@ -162,7 +162,7 @@ def rearrange_state_visits(visits):
                     if meeting_if_any:
                         mapped_meeting, incoming_inconsistent = map_name(meeting_if_any, v["year"])
                         if len(mapped_meeting) > 0:
-                            print("Meeting --> ", mapped_meeting, "   ---   ", v["Period"], "   ---   ", next_point)
+                            #print("Meeting --> ", mapped_meeting, "   ---   ", v["Period"], "   ---   ", next_point)
                             v["Host"].append(mapped_meeting)
                             all_inconsistent_posts += incoming_inconsistent
                             counter += 1
@@ -209,12 +209,11 @@ def map_name(meeting, year):
                 entry_post = app_statics.posts_mapping[post_pre_split] if post_pre_split else app_statics.empty_post
             else:
                 entry_post = ''
-            if code_name not in app_statics.account_post_inconsistency[year] and entry_post not in indiv_mapped[
-                'posts']:
+            if code_name not in app_statics.account_post_inconsistency[year] and entry_post not in indiv_mapped['posts']:
                 print("Inconsistent post in:", code_name, '/', raw_name, '-->', entry_post, ' / ',
                       indiv_mapped['posts'])
                 inconsistent_posts.append(code_name)
-            mapped.append(indiv_mapped)
+            mapped.append(code_name) # code_name or indiv_mapped
         return mapped, inconsistent_posts
     except KeyError:
         print("Error in meeting:", meeting)

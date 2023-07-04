@@ -4,49 +4,19 @@
         "Overview": " - Chegada a Zurique/Su\u00ed\u00e7a\n - Visita \u00e0 sede da Fifa\n - [Davos]\n - Hakan Buskhe,  Presidente da Saab\n - Discurso na Sess\u00e3o Plen\u00e1ria do F\u00f3rum Econ\u00f4mico Mundial 2014\n - Conselho Internacional de M\u00eddia\n - Representantes do grupo de intera\u00e7\u00e3o empresarial sobre o Brasil\n - Carlos Brito, CEO da AB InBev\n - Thomas Montag, CEO do Bank of America Merrill Lynch\n - Paul Polman,  Diretor Executivo da Unilever\n - Joseph Jimenez,  CEO da Novartis\n - Deslocamento de Davos para Zurique\n - [Zurich]\n - Partida de Zurique/Su\u00ed\u00e7a\n - Chegada a Lisboa/Portugal",
         "Host": [
             [
-                {
-                    "figure": "Business Person",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                }
+                "GBP"
             ],
             [
-                {
-                    "figure": "Business Person",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                }
+                "GBP"
             ],
             [
-                {
-                    "figure": "Business Person",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                }
+                "GBP"
             ],
             [
-                {
-                    "figure": "Business Person",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                }
+                "GBP"
             ],
             [
-                {
-                    "figure": "Business Person",
-                    "country": "---capital",
-                    "posts": [
-                        "CEO/Executive"
-                    ]
-                }
+                "GBP"
             ]
         ],
         "Period": "23 de Janeiro",
@@ -66,24 +36,10 @@
         "Overview": " - Cerim\u00f4nia de inaugura\u00e7\u00e3o do Porto de Mariel\n - Cerim\u00f4nia oficial de chegada\n - Ra\u00fal Castro, Presidente de Cuba\n - Almo\u00e7o oficial oferecido pelo Presidente de Cuba, Ra\u00fal Castro\n - [Havana]\n - Sess\u00e3o inaugural da II C\u00fapula da Comunidade dos Estados Latino-Americanos e Caribenhos - CELAC\n - Sess\u00e3o privada dos Chefes de Estado e de Governo e Chanceleres I Sess\u00e3o de trabalho da II C\u00fapula da Comunidade dos Estados Latino-Americanos e Caribenhos - CELAC\n - Partida para Bras\u00edlia/DF",
         "Host": [
             [
-                {
-                    "figure": "Raul Castro",
-                    "country": "Cuba",
-                    "posts": [
-                        "Vice-president",
-                        "President"
-                    ]
-                }
+                "RC1"
             ],
             [
-                {
-                    "figure": "Raul Castro",
-                    "country": "Cuba",
-                    "posts": [
-                        "Vice-president",
-                        "President"
-                    ]
-                }
+                "RC1"
             ]
         ],
         "Period": "27 de Janeiro",
@@ -95,14 +51,7 @@
         "Overview": " - Chegada a Roma/It\u00e1lia\n - Audi\u00eancia com Sua Santidade o Papa Francisco\n - Celebra\u00e7\u00e3o do Consist\u00f3rio para a cria\u00e7\u00e3o de novos Cardeais",
         "Host": [
             [
-                {
-                    "figure": "Pope Francis",
-                    "country": "Vatican",
-                    "posts": [
-                        "Political/Agency Leader",
-                        "Religious Leader"
-                    ]
-                }
+                "PA3"
             ]
         ],
         "Period": "21 e 22 de Fevereiro",
@@ -114,31 +63,11 @@
         "Overview": " - Jantar com lideran\u00e7as empresariais do Brasil\n - Reuni\u00e3o com o senhor Herman Van Rompuy, presidente do Conselho Europeu, e com o senhor Jos\u00e9 Manuel Dur\u00e3o Barroso, presidente da Comiss\u00e3o Europeia\n - Reuni\u00e3o Plen\u00e1ria\n - Almo\u00e7o em homenagem \u00e0 senhora Presidenta da Rep\u00fablica, Dilma Rousseff, oferecido pelo senhor Herman Van Rompuy, presidente do Conselho Europeu, e pelo senhor Jos\u00e9 Manuel\n - Dur\u00e3o Barroso, presidente da Comiss\u00e3o Europeia\n - Abertura do VII Encontro Empresarial Brasil-Uni\u00e3o Europeia\n - Partida para Bras\u00edlia",
         "Host": [
             [
-                {
-                    "figure": "Herman Van Rompuy",
-                    "country": "European Council",
-                    "posts": [
-                        "Political/Agency Leader"
-                    ]
-                },
-                {
-                    "figure": "Jos\u00e9 Manuel Dur\u00e3o Barroso",
-                    "country": "European Commission",
-                    "posts": [
-                        "Political/Agency Leader",
-                        "CEO/Executive"
-                    ]
-                }
+                "HE2",
+                "JB1"
             ],
             [
-                {
-                    "figure": "Jos\u00e9 Manuel Dur\u00e3o Barroso",
-                    "country": "European Commission",
-                    "posts": [
-                        "Political/Agency Leader",
-                        "CEO/Executive"
-                    ]
-                }
+                "JB1"
             ]
         ],
         "Period": "23 e 24 de Fevereiro",
@@ -150,13 +79,7 @@
         "Overview": " - Encontro com a Delega\u00e7\u00e3o Brasileira nos Jogos Sul-Americanos\n - Encontro com a Presidenta eleita do Chile, Michelle Bachelet\n - Cerim\u00f4nia de posse da Presidenta Michelle Bachelet\n - Cumprimentos dos Chefes de Estado e de Governo \u00e0 senhora Michelle Bachelet, Presidenta da Rep\u00fablica do Chile\n - Almo\u00e7o oferecido pela Presidenta do Chile, Michelle Bachelet, em homenagem aos Chefes de Estado, de Governo e Pr\u00edncipe Herdeiro\n - Fotografia oficial por ocasi\u00e3o da posse da Presidenta Michelle Bachelet",
         "Host": [
             [
-                {
-                    "figure": "Michele Bachelet",
-                    "country": "Chile",
-                    "posts": [
-                        "President"
-                    ]
-                }
+                "MI2"
             ]
         ],
         "Period": "11 de Mar\u00e7o",
@@ -176,13 +99,7 @@
         "Overview": " - Discurso na C\u00fapula do Clima da Organiza\u00e7\u00e3o das Na\u00e7\u00f5es Unidas (ONU)\n - Encontro com o Secret\u00e1rio-Geral das Na\u00e7\u00f5es Unidas, Ban Ki-moon\n - Abertura do Debate de Alto N\u00edvel da 69\u00aa Assembleia Geral das Na\u00e7\u00f5es Unidas (ONU)",
         "Host": [
             [
-                {
-                    "figure": "Ban Ki-moon",
-                    "country": "United Nations",
-                    "posts": [
-                        "Secretary-general"
-                    ]
-                }
+                "BK1"
             ]
         ],
         "Period": "23 e 24 de Setembro",
@@ -194,22 +111,10 @@
         "Overview": " - Chegada a Doha\n - Encontro com o Emir do Catar  Xeque Tamin bin Hamad Al Thani\n - Encontro com a Xeica Mozah bint Nasser\n - Visita ao Museu de Arte Isl\u00e2mica\n - Partida de Doha para Cingapura",
         "Host": [
             [
-                {
-                    "figure": "Sheikh Tamim bin Hamad Al Thani",
-                    "country": "Qatar",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "EM2"
             ],
             [
-                {
-                    "figure": "Sheikha Moza bint Nasser Al-Missned",
-                    "country": "Qatar",
-                    "posts": [
-                        "Monarch"
-                    ]
-                }
+                "XE1"
             ]
         ],
         "Period": "11 e 12 de Novembro",
@@ -221,50 +126,19 @@
         "Overview": " - Chegada a Brisbane\n - Encontro com o Primeiro-Ministro da Turquia, Ahmet Davutoglu\n - Reuni\u00e3o com Chefes de Estado do BRICS\n - Retiro dos Chefes de Estado e/ou Governo do G\n - Almo\u00e7o de boas-vindas oferecido pelo Primeiro-Ministro da Comunidade da Austr\u00e1lia, Tony Abbott\n - Cerim\u00f4nia Abor\u00edgene de boas-vindas \u00e0 Austr\u00e1lia\n - 1\u00aa Sess\u00e3o Plen\u00e1ria da C\u00fapula do G\n - Fotografia Oficial\n - Recep\u00e7\u00e3o oferecida pelo Primeiro-Ministro da Comunidade da Austr\u00e1lia, Tony Abbott\n - Jantar de trabalho\n - Apresenta\u00e7\u00e3o Cultural\n - Encontro com a Chanceler da Rep\u00fablica Federal da Alemanha, Angela Merkel\n - Encontro com o Presidente da Rep\u00fablica Popular da China, Xi Jinping\n - 2\u00aa Sess\u00e3o Plen\u00e1ria da C\u00fapula do G\n - 3\u00aa Sess\u00e3o Plen\u00e1ria da C\u00fapula do G\n - Almo\u00e7o de Trabalho\n - Partida de Brisbane para Bras\u00edlia\n - Embarque para Bras\u00edlia",
         "Host": [
             [
-                {
-                    "figure": "Ahmet Davutoglu",
-                    "country": "Turkey",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "AH1"
             ],
             [
-                {
-                    "figure": "Tony Abbott",
-                    "country": "Australia",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "TO2"
             ],
             [
-                {
-                    "figure": "Tony Abbott",
-                    "country": "Australia",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "TO2"
             ],
             [
-                {
-                    "figure": "Angela Merkel",
-                    "country": "Germany",
-                    "posts": [
-                        "Prime-minister"
-                    ]
-                }
+                "AM1"
             ],
             [
-                {
-                    "figure": "Xi Jinping",
-                    "country": "China",
-                    "posts": [
-                        "Vice-president",
-                        "President"
-                    ]
-                }
+                "XJ1"
             ]
         ],
         "Period": "13, 14, 15 e 16 e 17 de Novembro",
