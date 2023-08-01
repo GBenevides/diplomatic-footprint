@@ -122,15 +122,49 @@ def display_presidential_sidebar(df_visits):
     st.sidebar.metric(label="Average Meetings per Year", value=round(avg_meetings_year, 1))
     st.sidebar.metric(label="Average Meetings per Visit", value=0)
     st.sidebar.markdown("Most Frequent Encounters")
-    combined_counts = {entry: count for entry, count in combined_counts.items() if count > 1}
-    top_entries = Counter(combined_counts).most_common(5)
-    transform_for_table = {
-        app_statics.leaders_mapping[key]['figure']: [app_statics.leaders_mapping[key]['country'], value] for key, value
-        in top_entries}
+
+    # Top meetings table with filter
+    # Post filter
+    pre_filter_list = [p for p in app_statics.posts_mapping.values() if p not in app_statics.dirty_posts]
+    seen = set()
+    filtered_list = [e for e in pre_filter_list if not (e in seen or seen.add(e))]
+    display_threshold = False
+    threshold = None
+    st.sidebar.markdown("Filter by post:")
+    selections_post = []
+    show_on_left_side = True
+    post_col1, post_col2 = st.sidebar.columns(2)
+    for possible_post in filtered_list:
+        if show_on_left_side:
+            include_post = post_col1.checkbox(possible_post, value=True)
+        else:
+            include_post = post_col2.checkbox(possible_post, value=True)
+        if include_post:
+            selections_post.append(possible_post)
+        show_on_left_side = not show_on_left_side
+
+    # Country filter
+    pre_filter_list_country = [p for p in app_statics.country_mapping.values() if
+                               p not in app_statics.dirty_countries and ";" not in p]
+    seen_country = set()
+    distinct_list_country = [e for e in pre_filter_list_country if not (e in seen or seen.add(e))]
+    # No filter : all countries
+    selections_country = st.sidebar.multiselect("Filter by post/country/institution :", distinct_list_country, [])
+    if not selections_country or len(selections_country) == 0:
+        selections_country = distinct_list_country
+    combined_counts = {entry: count for entry, count in combined_counts.items() if
+                       any(s in app_statics.leaders_mapping[entry]['posts'] for s in selections_post)
+                       and any(s in app_statics.leaders_mapping[entry]['country'] for s in selections_country)}
+    if display_threshold:
+        threshold = st.sidebar.slider('Cut entries', 1, 300, 3)
+    top_entries = Counter(combined_counts).most_common(threshold)
+
+    transform_for_table = {app_statics.leaders_mapping[key]['figure']: [app_statics.leaders_mapping[key]['country'],
+                                                                        app_statics.leaders_mapping[key]['posts'], value] for key, value in top_entries}
     table_data = []
     for leader, data in transform_for_table.items():
-        table_data.append([leader, data[0], data[1]])
-    df = pd.DataFrame(table_data, columns=["Name", "Country / Institution", "Frequency"])
+        table_data.append([leader, data[0], data[1], data[2]])
+    df = pd.DataFrame(table_data, columns=["Name", "Country / Institution", "Post(s)", "#"])
     st.sidebar.dataframe(df, hide_index=True, use_container_width=False)
 
     st.sidebar.markdown("---")

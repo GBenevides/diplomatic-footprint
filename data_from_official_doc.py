@@ -23,7 +23,7 @@ def mk_degenerate_cases(year):
         jamaica["City/region"] = "Kingston"
         jamaica["Overview"] = jamaica_visit_2007_overview
         jamaica["Period"] = "9 de Agosto"
-        jamaica["Host"] = [["TODOTODOTODO"]]
+        jamaica["Host"] = [["KE2", "PO2", "PO2", "BR1"]]
         cases.append(jamaica)
     return cases
 

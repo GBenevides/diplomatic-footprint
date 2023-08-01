@@ -209,6 +209,9 @@ country_mapping = {
 
 }
 
+dirty_countries = []
+
+
 city_mapping = {
     "Carabogo": "Caracas and Bogota",
     "Bissau": "Bissau",
@@ -418,6 +421,9 @@ religious_leader = "Religious Leader"
 regional_official = "Regional Mayor/Governor"
 chancellor = "Chancellor"
 secretary_general = 'Secretary-general'
+vice_president = 'Vice-president'
+ex_president = "Ex-president"
+ex_prime_minister = "Ex-Prime-minister"
 
 posts_mapping = {
     'presidente': president,
@@ -426,26 +432,26 @@ posts_mapping = {
     'primeira-ministra': prime_minister,
     'chanceler': chancellor,
     'presidentes': 'Presidents',
-    'vice-presidente': 'Vice-president',
-    'vice-presidenta': 'Vice-president',
     'secretário-geral': secretary_general,
-    'diretor-geral': political_agency_leader,
-    'diretora-geral': political_agency_leader,
-    'fundador': political_agency_leader,
-    'diretor-executivo': ceo,
-    'diretor executivo': ceo,
-    'ceo': ceo,
     'rei': monarch,
     'rainha': monarch,
     'emir': monarch,
     monarch: monarch,
-    "conselho de direção": ceo,
+    'vice-presidente': vice_president,
+    'vice-presidenta': vice_president,
+    'Ministro': cabinet_member,
     'líder religioso': religious_leader,
+    'diretor-executivo': ceo,
+    'diretor executivo': ceo,
+    'ceo': ceo,
+    'diretor-geral': political_agency_leader,
+    'diretora-geral': political_agency_leader,
+    'fundador': political_agency_leader,
+    "conselho de direção": ceo,
     'presidente;presidente': 'president;president',
     'first-spouse': first_spouse,
     'presidente da assembléia': political_agency_leader,
     'presidente  da  câmara': political_agency_leader,
-    'Ministro': cabinet_member,
     "comandante": cabinet_member,
     'líder da oposição': political_agency_leader,
     "prefeito": regional_official,
@@ -453,9 +459,9 @@ posts_mapping = {
     "senador": political_agency_leader,
     "chairman": ceo,
     "congressista": political_agency_leader
-
 }
-
+dirty_posts = ['Presidents','president;president' ]
+#posts_filter = [president, prime_minister, ex_president, ex_prime_minister, monarch, secretary_general, vice_president, cabinet_member, religious_leader, ceo ]
 empty_post = 'UNKNOWN'
 
 royals = ["rei", "príncipe", "rainha", "princesa", "principe", "emir", "xeica"]
@@ -475,7 +481,7 @@ negative_triggers = ["cerimônia", "encontro empresarial brasil-Argentina, com a
 leaders_mapping = {
     "leader": {"figure": "polished_name", "country": "polished_countryOrInstitution", "posts": []},
     "HC1": {"figure": "Hugo Chavez", "country": "Venezuela", "posts": [president]},
-    "JS1": {"figure": "John Sweeney", "country": "--entity", "posts": [political_agency_leader]},
+    "JS1": {"figure": "John Sweeney", "country": entity, "posts": [political_agency_leader]},
     "BO1": {"figure": "Barack Obama", "country": "United States of America", "posts": [president]},
     "JS2": {"figure": "Jens Stoltenberg", "country": "Norway", "posts": [prime_minister]},
     "NS1": {"figure": "Nicolas Sarkozy", "country": "France", "posts": [president]},
@@ -515,14 +521,14 @@ leaders_mapping = {
     "RT1": {'figure': 'Rex Tillerson', 'country': capital, 'posts': [ceo]},
     "EB1": {'figure': 'Eike Batista', 'country': capital, 'posts': [ceo]},
     "JZ1": {'figure': 'José Luis Zapatero', 'country': 'Spain', 'posts': [president]},
-    "DK1": {'figure': 'Donald Kaberuka', 'country': '---entity', 'posts': [political_agency_leader]},
+    "DK1": {'figure': 'Donald Kaberuka', 'country': entity, 'posts': [political_agency_leader]},
     "JK1": {'figure': 'John Key', 'country': 'New Zealand', 'posts': [prime_minister]},
-    "LM1": {'figure': 'Luis Alberto Moreno', 'country': '---entity', 'posts': [political_agency_leader]},
+    "LM1": {'figure': 'Luis Alberto Moreno', 'country': entity, 'posts': [political_agency_leader]},
     "GB2": {'figure': 'Gordon Bejnai', 'country': 'Hungary', 'posts': [prime_minister]},
     "BK1": {'figure': 'Ban Ki-moon', 'country': 'United Nations', 'posts': [secretary_general]},
     "MA1": {'figure': 'Mahmoud Ahmadinejad', 'country': 'Iran', 'posts': [president]},
-    "PB1": {'figure': 'Paulo Nogueira Batista', 'country': '---entity', 'posts': [political_agency_leader]},
-    "JR1": {'figure': 'Jacques Rogge', 'country': '---entity', 'posts': [political_agency_leader]},
+    "PB1": {'figure': 'Paulo Nogueira Batista', 'country': entity, 'posts': [political_agency_leader]},
+    "JR1": {'figure': 'Jacques Rogge', 'country':entity, 'posts': [political_agency_leader]},
     "MII": {'figure': 'Margareth II', 'country': 'Denmark', 'posts': [monarch]},
     "LR1": {'figure': 'Lars Lokke Rasmussen', 'country': 'Denmark', 'posts': [prime_minister]},
     "HR1": {'figure': 'Hermann von Rompuy', 'country': 'Belgium', 'posts': [prime_minister]},
@@ -541,18 +547,18 @@ leaders_mapping = {
     "AS1": {'figure': 'Aníbal Cavaco Silva', 'country': 'Portugal', 'posts': [president]},
     "HK1": {'figure': 'Horst Köhler', 'country': 'Germany', 'posts': [president]},
     "FS1": {'figure': 'Frank-Walter Steinmeier', 'country': 'Germany', 'posts': [political_agency_leader]},
-    "AF1": {'figure': 'Anke Fuchs', 'country': '--entity', 'posts': [political_agency_leader]},
-    "MS1": {'figure': 'Michael Sommer', 'country': '--entity', 'posts': [political_agency_leader]},
-    "PL1": {'figure': 'Peter Löscher', 'country': '---capital', 'posts': [ceo]},
-    "HA1": {'figure': 'Hans-Christoph Atzpodien', 'country': '--entity', 'posts': [ceo]},
-    "OB1": {'figure': 'Ole von Beust', 'country': '---Hamburgo', 'posts': [political_agency_leader]},
+    "AF1": {'figure': 'Anke Fuchs', 'country': entity, 'posts': [political_agency_leader]},
+    "MS1": {'figure': 'Michael Sommer', 'country':entity, 'posts': [political_agency_leader]},
+    "PL1": {'figure': 'Peter Löscher', 'country': entity, 'posts': [ceo]},
+    "HA1": {'figure': 'Hans-Christoph Atzpodien', 'country':entity, 'posts': [ceo]},
+    "OB1": {'figure': 'Ole von Beust', 'country': '---Hamburgo', 'posts': [regional_official]},
     "AG2": {'figure': 'Alan García', 'country': 'Peru', 'posts': [president]},
     "LL1": {'figure': 'Luis Castañeda Lossio', 'country': '---Lima', 'posts': [political_agency_leader]},
     "OH1": {'figure': 'Ollanta Humala', 'country': 'Peru', 'posts': [political_agency_leader, president]},
     "RV1": {'figure': 'Ronald Venetiaan', 'country': 'Suriname', 'posts': [president]},
     "MA2": {'figure': 'Mahmoud Abbas', 'country': 'Palestine', 'posts': [president]},
     "MZ1": {'figure': 'Meles Zenawi', 'country': 'Ethiopia', 'posts': [prime_minister]},
-    "RC1": {'figure': 'Raul Castro', 'country': 'Cuba', 'posts': ['Vice-president', president]},
+    "RC1": {'figure': 'Raul Castro', 'country': 'Cuba', 'posts': [vice_president, president]},
     "p1": {'figure': 'Person One', 'country': 'SomeCountry', 'posts': [president]},
     "p2": {'figure': 'Person Two', 'country': 'SomeCountry', 'posts': [first_spouse]},
     "RA1": {'figure': 'Ricardo Alarcón', 'country': 'Cuba', 'posts': [political_agency_leader]},
@@ -564,7 +570,7 @@ leaders_mapping = {
     "DO1": {'figure': 'Donald Tusk', 'country': 'Poland', 'posts': [prime_minister, political_agency_leader]},
     "ND1": {'figure': 'Nicanor Duarte', 'country': 'Paraguay', 'posts': [president]},
     "BG1": {'figure': 'Bruce Golding', 'country': 'Jamaica', 'posts': [prime_minister]},
-    "FF2": {'figure': 'Franco Frattini', 'country': 'Italy', 'posts': ['Chancellor', cabinet_member]},
+    "FF2": {'figure': 'Franco Frattini', 'country': 'Italy', 'posts': [chancellor, cabinet_member]},
     "MT1": {'figure': 'Mirek Topolanek', 'country': 'Czech Republic', 'posts': [prime_minister]},
     "GP1": {'figure': 'Georgi Parvanov', 'country': 'Bulgaria', 'posts': [president]},
     "JR2": {'figure': 'José Manuel Zelaya Rosales', 'country': 'Honduras', 'posts': [president]},
@@ -633,7 +639,7 @@ leaders_mapping = {
     "BL1": {'figure': 'Blaise Compaoré', 'country': 'Burkina Faso', 'posts': [president]},
     "JO3": {'figure': 'José Eduardo dos Santos', 'country': 'Angola', 'posts': [president]},
     "MI3": {'figure': 'Micheline Calmy-Rey', 'country': 'Switzerland', 'posts': [president]},
-    "CA1": {'figure': 'Carlos Lage', 'country': 'Cuba', 'posts': ['Vice-president']},
+    "CA1": {'figure': 'Carlos Lage', 'country': 'Cuba', 'posts': [vice_president]},
     "FR3": {'figure': 'François Fillon', 'country': 'France', 'posts': [prime_minister]},
     "FI1": {'figure': 'Fidel Castro', 'country': 'Cuba', 'posts': [cabinet_member]},
     "MA6": {'figure': 'Maurício Funes', 'country': 'El Salvador', 'posts': [president]},
@@ -699,7 +705,7 @@ leaders_mapping = {
     "XE1": {'figure': 'Sheikha Moza bint Nasser Al-Missned', 'country': 'Qatar', 'posts': [monarch]},
     "JU4": {'figure': 'Juan Carlos Varela', 'country': 'Panama', 'posts': [president]},
     "MA10": {'figure': 'Mark Zuckerberg', 'country': capital, 'posts': [ceo]},
-    "JO7": {'figure': 'Joseph Biden', 'country': 'United States of America', 'posts': ['Vice-president']},
+    "JO7": {'figure': 'Joseph Biden', 'country': 'United States of America', 'posts': [vice_president]},
     "JA4": {'figure': 'Janet Napolitano', 'country': '---University of California', 'posts': [political_agency_leader]},
     "BI2": {'figure': 'Bill Jeffrey', 'country': '---SRI International', 'posts': [political_agency_leader]},
     "AL3": {'figure': 'Alexander Lukashenko', 'country': 'Belarus', 'posts': [president]},
@@ -814,7 +820,10 @@ leaders_mapping = {
     "BO3" : {'figure': 'Boniface Alexandre', 'country': 'Haiti', 'posts': [president]},
     "AB8" : {'figure': 'Abdoulaye Wade', 'country': 'Senegal', 'posts': [president]},
     "LE4" : {'figure': 'Lee Soo-Hoo', 'country': 'South Korea', 'posts': [political_agency_leader]},
-    "BE5" : {'figure': 'Bertrand Delanoë', 'country': '---Paris', 'posts': [regional_official]}
+    "BE5" : {'figure': 'Bertrand Delanoë', 'country': '---Paris', 'posts': [regional_official]},
+    "KE2" : {'figure': 'Kenneth O. Hall', 'country': 'Jamaica', 'posts': [political_agency_leader]},
+    "PO2" : {'figure': 'Portia Simpson Miller', 'country': 'Jamaica', 'posts': [prime_minister]},
+    "BR1" : {'figure': 'Bruce Golding', 'country': 'Jamaica', 'posts': [political_agency_leader]},
 
 }
 
