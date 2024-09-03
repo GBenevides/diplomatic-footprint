@@ -8,6 +8,10 @@ import codecs
 import logging
 import os
 from collections import Counter
+import warnings
+warnings.filterwarnings("ignore", message="numpy.dtype size changed")
+warnings.filterwarnings("ignore", message="numpy.ufunc size changed")
+
 
 logging.debug('Viz Log Start')
 
@@ -80,7 +84,8 @@ def create_map(data, pres, geo_data):
 
     layer.geojson.add_child(folium.features.GeoJsonTooltip(['name', 'name_pt'], labels=False))
 
-    st_map = st_folium(m, width=MAP_WIDTH, height=MAP_HEIGHT, returned_objects=["last_active_drawing"], key="testKey")
+    st_map = st_folium(m, width=MAP_WIDTH, height=MAP_HEIGHT, returned_objects=["last_active_drawing"], key="testKey",
+                       use_container_width=False)
 
     active_country = ''
     if st_map['last_active_drawing']:
