@@ -82,7 +82,7 @@ def create_map(data, pres, geo_data):
     colormap.max_labels = 10
     colormap.width = 500
 
-    layer.geojson.add_child(folium.features.GeoJsonTooltip(['name', 'name_pt'], labels=False))
+    #layer.geojson.add_child(folium.features.GeoJsonTooltip(['name', 'name_pt'], labels=False,))
 
     st_map = st_folium(m, width=MAP_WIDTH, height=MAP_HEIGHT, returned_objects=["last_active_drawing"], key="testKey",
                        use_container_width=False)
@@ -90,6 +90,7 @@ def create_map(data, pres, geo_data):
     active_country = ''
     if st_map['last_active_drawing']:
         active_country = st_map['last_active_drawing']['properties']['name']
+        #print("Map interaction details:", st_map)
     return active_country, df_filtered
 
 
@@ -206,7 +207,7 @@ def on_country_click(country, df):
                 if len(meetings_in_visit_set) > 0:
                     df = pd.DataFrame([[key, value[1], value[0]] for key, value in meetings_in_visit_set.items()],
                                       columns=["Name", "Post", "Country / Institution"])
-                    print("data:", df)
+                    #print("data:", df)
                     meetings_summary_tab.dataframe(df, hide_index=True, use_container_width=False)
                 else:
                     meetings_summary_tab.write("No bilateral meetings / private encounters.")
