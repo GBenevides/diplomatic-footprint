@@ -27,6 +27,7 @@ abstract = "This project aims to observe the frequency and nature of high-level 
            "valuable " \
            "information from it. Also, different sources of data, such as political/economical freedom indicators," \
            "will be included."
+abstract = "WIP"
 MAP_WIDTH = "80%"
 MAP_HEIGHT = 400
 
